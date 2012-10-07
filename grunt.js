@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
       mincss: {
         dist: {
-          src: ['css/normalize.css', 'css/pygments.css'],
+          src: ['css/normalize.css', 'css/pygments.css', 'css/blog.css'],
           dest: 'css/common.css'
         },
       }
