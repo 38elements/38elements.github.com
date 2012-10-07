@@ -2,7 +2,7 @@
 layout: common
 title: Main Page
 ---
-<div class="c">
+<div class="cnt" id="main_page">
   <h1>Posts</h1>
   <ul>
     {% for post in site.posts %}

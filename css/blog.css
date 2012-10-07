@@ -2,8 +2,22 @@ body {
     font-family: 'メイリオ',Meiryo,Verdana,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
 }
 
-.c {
+.cnt {
     margin-left:auto;
     margin-right:auto;
     text-align:center;
+}
+
+#main_page {
+    color: #408080;
+    font-style: italic;
+    width:480px;
+}
+
+#main_page li {
+    width: 420px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
 }
