@@ -21,3 +21,11 @@ body {
     white-space: nowrap;
     overflow:hidden;
 }
+
+#container {
+    width:480px;
+}
+
+.tal {
+    text-align:left;
+}

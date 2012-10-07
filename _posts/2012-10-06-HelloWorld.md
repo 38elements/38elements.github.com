@@ -1,5 +1,5 @@
 ---
-layout: common
+layout: posts
 title: Hello World 
 ---
 
