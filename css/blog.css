@@ -23,9 +23,31 @@ body {
 }
 
 #container {
-    width:480px;
+    width:640px;
 }
 
 .tal {
     text-align:left;
+}
+
+article {
+    font-size: 12px;
+}
+
+code {
+     font-size: 12px;
+     line-height: 1.5em;
+}
+
+blockquote {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+pre {
+background-color: #EEE;
+border-color: #BBB;
+border-style: solid;
+border-width: 1px;
+padding: 1em;
 }
