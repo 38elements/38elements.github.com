@@ -1,15 +1,17 @@
 ---
 layout: posts
-title: Quicksort 
+title: 3行クイックソート 
 ---
+Pythonクックブックの元サイトには3行のクイックソートがある。
 {% highlight python %}
 def qsort(L):
     if len(L) <= 1: return L
     return qsort( [ lt for lt in L[1:] if lt < L[0] ] ) + [ L[0] ] + qsort( [ ge for ge in L[1:] if ge >= L[0] ] )
 {% endhighlight %}
-via [Quicksort in 3 Lines](http://code.activestate.com/recipes/66473-just-for-fun-quicksort-in-3-lines/)
+via [Quicksort in 3 Lines](http://code.activestate.com/recipes/66473-just-for-fun-quicksort-in-3-lines/)<br/>
+
 <br/>
-<br/>
+同じような処理をJavaScriptで書くと以下のようになる。
 {% highlight javascript %}
 function qsort(L) {
    if (L.length <= 1) { return L }
@@ -17,7 +19,8 @@ function qsort(L) {
 }
 {% endhighlight %}
 <br/>
-<br/>
+ES6にはリスト内包とfor...ofがある。<br/>
+これを使用すると以下のようになる。
 {% highlight javascript %}
 function qsort(L) {
    if (L.length <= 1) { return L }
