@@ -9,7 +9,7 @@ Array.prototype.concat.apply([], [ 1, [2], [[3]], [[[4]]] ])
 {% endhighlight %}
 
 <br/>
-underscore.jsのflattenメソッドは再起で実装されている。
+underscore.jsのflattenメソッドは再帰で実装されている。
 {% highlight javascript %}
 // Internal implementation of a recursive `flatten` function.
 var flatten = function(input, shallow, output) {
