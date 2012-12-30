@@ -2,6 +2,15 @@ body {
     font-family: 'メイリオ',Meiryo,Verdana,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
 }
 
+article h1,
+article h2,
+article h3,
+article h4,
+article h5 {
+    margin: 14px 5px 0px 0px;
+}
+
+
 .cnt {
     margin-left:auto;
     margin-right:auto;
