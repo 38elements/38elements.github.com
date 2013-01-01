@@ -1,3 +1,23 @@
+#nav_container {
+    width: 100%;  
+    display: -webkit-box;  
+    display: -moz-box;
+    display: box;
+}
+
+.nav_side {
+    width: 240px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+#nav_main {
+    -webkit-box-flex: 1;  
+    -moz-box-flex: 1;
+    box-flex: 1;  
+}
+
 body {
     font-family: 'メイリオ',Meiryo,Verdana,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
 }
@@ -39,7 +59,11 @@ article h5 {
     text-align:left;
 }
 
-article {
+.tar {
+    text-align:right;
+}
+
+article, nav {
     font-size: 12px;
 }
 
