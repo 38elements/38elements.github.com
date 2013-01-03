@@ -1,10 +1,10 @@
 ---
 layout: posts
-title: DOM Enlightenmentを読んだ際のメモ
+title: DOM Enlightenmentメモ
 ---
 
 ### outerHTML
-outerHTMLはouterHTMLを所有している要素を指定した文字列の内容に<span style="color:red;">置き換える</span>。<br/> 
+outerHTMLはouterHTMLを所有している要素を指定した文字列の内容に置き換える。<br/> 
 [DEMO](http://jsdo.it/38elements/orze)<br/>
 <br/>
 
@@ -40,3 +40,48 @@ firstChildは第1子Node(TextNodeを含む)を返す。<br/>
 firstChildElementは第1子Elementを返す。<br/>
 [DEMO](http://jsdo.it/38elements/hkas)<br/>
 <br/>
+
+### node.isEqualNode(someNode)
+ノードの種類や属性が同じ時trueを返す。<br/>
+[DEMO](http://jsdo.it/38elements/o0f8)<br/>
+<br/>
+
+### node.isEqualNode(someNode)
+ノードの種類や属性が同じ時trueを返す。<br/>
+[DEMO](http://jsdo.it/38elements/o0f8)<br/>
+<br/>
+
+### document.activeElement
+document.activeElementはフォーカスがあたっている要素を返す。<br/>
+document.hasFocus()はフォーカスがあたっている要素がある場合はtrueを返す。<br/>
+<br/>
+
+### elem.classList
+classListリストは要素のclassを編集する際に利用する。<br/>
+[DOMTokenList](https://developer.mozilla.org/en-US/docs/DOM/DOMTokenList)の一種である。<br/>
+elem.classList.add(class_name)#class_nameを追加<br/>
+elem.classList.remove(class_name)#class_nameを削除<br/>
+elem.classList.toggle(class_name)#class_nameをドグル<br/>
+elem.classList.contains(class_name)#class_nameがclassListに含まれるか<br/>
+elem.classList.length#classListの長さ<br/>
+<br/>
+
+### elem.matchesSelector(selector)
+要素が指定したセレクタの対象か判定する。<br />
+<br />
+
+### elem.scrollIntoView()
+要素が画面に出てくるまでスクロールする<br/>
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
