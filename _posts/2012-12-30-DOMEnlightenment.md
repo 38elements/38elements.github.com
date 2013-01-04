@@ -74,6 +74,24 @@ elem.classList.length#classListの長さ<br/>
 要素が画面に出てくるまでスクロールする<br/>
 <br/>
 
+### CSSStyleSheet
+スタイルシートの内容を動的に変更する。
+{% highlight javascript %}
+document.querySelector('#styleElement').sheet.insertRule('p{color:red}',1);
+
+var styleElm = document.createElement('style');
+styleElm.innerHTML = 'body{color:red}';
+{% endhighlight %}
+
+CSSを無効にする
+{% highlight javascript %}
+document.querySelector('#linkElement').disabled = true;
+{% endhighlight %}
+[DEMO](http://jsdo.it/38elements/vImp)<br/>
+
+
+
+
 
 
 
