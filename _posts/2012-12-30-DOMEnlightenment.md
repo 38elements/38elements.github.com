@@ -46,11 +46,6 @@ firstChildElementは第1子Elementを返す。<br/>
 [DEMO](http://jsdo.it/38elements/o0f8)<br/>
 <br/>
 
-### node.isEqualNode(someNode)
-ノードの種類や属性が同じ時trueを返す。<br/>
-[DEMO](http://jsdo.it/38elements/o0f8)<br/>
-<br/>
-
 ### document.activeElement
 document.activeElementはフォーカスがあたっている要素を返す。<br/>
 document.hasFocus()はフォーカスがあたっている要素がある場合はtrueを返す。<br/>
