@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>JSON VIEWER</title>
+<meta name="description" content="38elements" />
+ <link href="/atom.xml" rel="alternate" title="38elements" type="application/atom+xml" />
+<link rel="stylesheet" href="/css/json_viewer.css" type="text/css" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36127289-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        <script type="text/template" id="_put_object">
+            <div data-state="1" parent_id="{{ "{{parent_id" }}}}" id="{{ "{{id" }}}}" style="left: {{ "{{left" }}}}px;" data_type="Object" ><div class="mark">+</div><span class="key_value" >{{ "{{ key" }}}}:{}</span></div>
+        </script>
+        <script type="text/template" id="_put_array">
+            <div data-state="1"  parent_id="{{ "{{parent_id" }}}}" id="{{ "{{id" }}}}" style="left:{{ "{{left" }}}}px;" data_type="Array" ><div class="mark">+</div><span class="key_value">{{ "{{key" }}}}:&nbsp;[]</span></div>
+        </script>
+        <script type="text/template" id="_put_string">
+            <div parent_id="{{ "{{parent_id" }}}}" id="{{ "{{id" }}}}" style="left:{{ "{{left" }}}}px;" data_type="String" ><span class="key_value" >{{ "{{key" }}}}:&nbsp;{{ "{{data" }}}}</span></div>
+        </script>
+        <script type="text/template" id="_put_number">
+            <div parent_id="{{ "{{parent_id" }}}}" id="{{ "{{id" }}}}" style="left:{{ "{{left" }}}}px;" data_type="Number" ><span class="key_value" >{{ "{{key" }}}}:&nbsp;{{ "{{data" }}}}</span></div>
+        </script>
+    </head>
+</head>
+<body>
+        JSON<br/>
+        <textarea id="input" rows="4" cols="40" ></textarea><br/>
+        <input type="button" id="display" value="display" />
+        <div id="output"></div>
+        <script src="http://twitter.github.com/hogan.js/builds/2.0.0/hogan-2.0.0.js"></script>
+        <script src="/js/json_viewer.js"></script>
+</body>
+</html>
