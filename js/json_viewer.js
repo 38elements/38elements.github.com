@@ -3,6 +3,7 @@ json_viewer._indent_width = 20;
 json_viewer._id = 0;
 json_viewer.root = 'root';
 json_viewer.output = document.getElementById('output');
+json_viewer.search_key_elem = document.getElementById('search_key');
 
 json_viewer._put_object_template = Hogan.compile(document.getElementById('_put_object').innerText);
 json_viewer._put_array_template = Hogan.compile(document.getElementById('_put_array').innerText);
@@ -43,11 +44,14 @@ json_viewer._put = function(data, indent, key, parent_id) {
     key = key === undefined ? '': key;
     parent_id = parent_id === undefined ? this.root: parent_id;
     var left = this._indent_width * indent;
-    if (data.toString() === '[object Object]') {
-        this._put_object(data, parent_id, left, key, indent);
+    if (data === null) {
+        this._put_number("null", parent_id, left, key);
     }
     else if (Array.isArray(data)) {
         this._put_array(data, parent_id, left, key, indent);
+    }
+    else if (data.toString() === '[object Object]') {
+        this._put_object(data, parent_id, left, key, indent);
     }
     else if (data.constructor === String) {
         this._put_string(data, parent_id, left, key);
@@ -108,4 +112,25 @@ json_viewer.display = function() {
     });
 }
 
+json_viewer._open_parent = function(elem) {
+    var parent_id = elem.getAttribute("parent_id");
+    var parent_elem = document.getElementById(parent_id);
+    this._open.call(parent_elem);
+    if (parent_elem.getAttribute("parent_id") == "root") {
+        return
+    }
+    this._open_parent(parent_elem);
+}
+
+json_viewer.search = function() {
+    var key = this.search_key_elem.value;
+    var child_list = document.querySelectorAll('[key="' + key + '"]');
+    var children = Array.prototype.slice.call(child_list);
+    this.close_all();
+    children.map(function(elem) {
+        json_viewer._open_parent(elem);
+    });
+}
+
 document.getElementById('display').addEventListener('click', json_viewer.display.bind(json_viewer), false);
+document.getElementById('search_key_button').addEventListener('click', json_viewer.search.bind(json_viewer), false);
