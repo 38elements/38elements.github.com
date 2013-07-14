@@ -19,22 +19,40 @@
   })();
 
 </script>
-        <script type="text/template" id="_put_object">
-            <div data-state="1" parent_id="{{ "{{parent_id" }}}}" id="{{ "{{id" }}}}" style="left: {{ "{{left" }}}}px;" data_type="Object"   key={{ "{{key" }}}} ><div class="mark">+</div><span class="key_value" >{{ "{{ key" }}}}:{}</span></div>
+        <script type="text/template" id="opened_inner_put_object">
+            <img src="/images/minus.gif" class="mark" /> <span class="key_value object_or_array" >{{ "{{key" }}}}{{ "{{#is_not_root" }}}}:{{ "{{/is_not_root" }}}}{</span>
         </script>
-        <script type="text/template" id="_put_array">
-            <div data-state="1"  parent_id="{{ "{{parent_id" }}}}" id="{{ "{{id" }}}}" style="left:{{ "{{left" }}}}px;" data_type="Array"  key={{ "{{key" }}}} ><div class="mark">+</div><span class="key_value">{{ "{{key" }}}}:&nbsp;[]</span></div>
+        <script type="text/template" id="closed_inner_put_object">
+            <img src="/images/plus.gif" class="mark" /> <span class="key_value object_or_array" >{{ "{{key" }}}}{{ "{{#is_not_root" }}}}:{{ "{{/is_not_root" }}}}{...}</span>
+        </script>
+        <script type="text/template" id="before_put_object">
+            <div data-state="1" data-key="{{ "{{key" }}}}" parent_id="{{ "{{parent_id" }}}}" id="{{ "{{id" }}}}" style="left: {{ "{{left" }}}}px;" data_type="Object" key="{{ "{{key" }}}}" >{{ "{{> inner " }}}}</div>
+        </script>
+        <script type="text/template" id="after_put_object">
+            <div data-state="1" parent_id="{{ "{{parent_id" }}}}" id="{{ "{{id" }}}}" style="left: {{ "{{left" }}}}px;"  key="{{ "{{key" }}}}" ><span class="key_value" >}</span></div>
+        </script>
+        <script type="text/template" id="opened_inner_put_array">
+          <img src="/images/minus.gif" class="mark" />  <span class="key_value object_or_array" >{{ "{{key" }}}}{{ "{{#is_not_root" }}}}:{{ "{{/is_not_root" }}}}[</span>
+        </script>
+        <script type="text/template" id="closed_inner_put_array">
+           <img src="/images/plus.gif" class="mark" /> <span class="key_value object_or_array" >{{ "{{key" }}}}{{ "{{#is_not_root" }}}}:{{ "{{/is_not_root" }}}}[...]</span>
+        </script>
+        <script type="text/template" id="before_put_array">
+            <div data-state="1" data-key="{{ "{{key" }}}}"  parent_id="{{ "{{parent_id" }}}}" id="{{ "{{id" }}}}" style="left:{{ "{{left" }}}}px;" data_type="Array" key="{{ "{{key" }}}}"  >{{ "{{> inner " }}}}</div>
+        </script>
+        <script type="text/template" id="after_put_array">
+            <div data-state="1" data-key="{{ "{{key" }}}}"  parent_id="{{ "{{parent_id" }}}}" id="{{ "{{id" }}}}" style="left:{{ "{{left" }}}}px;" key="{{ "{{key" }}}}"  ><span class="key_value">]</span></div>
         </script>
         <script type="text/template" id="_put_string">
-            <div parent_id="{{ "{{parent_id" }}}}" id="{{ "{{id" }}}}" style="left:{{ "{{left" }}}}px;" data_type="String"  key={{ "{{key" }}}} ><span class="key_value" >{{ "{{key" }}}}:&nbsp;&quot;{{ "{{data" }}}}&quot;</span></div>
+            <div parent_id="{{ "{{parent_id" }}}}" data-key="{{ "{{key" }}}}" id="{{ "{{id" }}}}" style="left:{{ "{{left" }}}}px;" data_type="String" key="{{ "{{key" }}}}"  ><span class="key_value" >{{ "{{key" }}}}:&nbsp;&quot;{{ "{{data" }}}}&quot;</span></div>
         </script>
         <script type="text/template" id="_put_number">
-            <div parent_id="{{ "{{parent_id" }}}}" id="{{ "{{id" }}}}" style="left:{{ "{{left" }}}}px;" data_type="Number"  key={{ "{{key" }}}} ><span class="key_value" >{{ "{{key" }}}}:&nbsp;{{ "{{data" }}}}</span></div>
+            <div parent_id="{{ "{{parent_id" }}}}" data-key="{{ "{{key" }}}}" id="{{ "{{id" }}}}" style="left:{{ "{{left" }}}}px;" data_type="Number" key="{{ "{{key" }}}}"  ><span class="key_value" >{{ "{{key" }}}}:&nbsp;{{ "{{data" }}}}</span></div>
         </script>
     </head>
 </head>
 <body>
-        JSON<br/>
+        JSONを入力する<br/>
         <textarea id="input" rows="8" cols="80" >
         {
    &quot;results&quot; : [
@@ -101,16 +119,20 @@
 }
         </textarea><br/>
         <input type="button" id="display" value="display" />
-         <br/>
-         <br/>
+        <br/>
         キーで検索<br/>
-        <input type="text" value="location" id="search_key" />
+        <input type="text" value="" id="search_key" /><br/>
+        <input type="radio" name="search_type" value="" class"search_type"  checked />全体一致<br/>
+        <input type="radio" name="search_type" value="*" class"search_type" />部分一致<br/>
+        <input type="radio" name="search_type" value="^" class"search_type" />前方一致<br/>
+        <input type="radio" name="search_type" value="$" class"search_type" />後方一致<br/>
         <input type="button" id="search_key_button" value="search" /><br/>
         <div id="output"></div>
         <script src="http://twitter.github.com/hogan.js/builds/2.0.0/hogan-2.0.0.js"></script>
-        <script src="json_viewer.js"></script>
-
-        <script src="http://twitter.github.com/hogan.js/builds/2.0.0/hogan-2.0.0.js"></script>
         <script src="/js/json_viewer.js"></script>
+        <script>
+            json_viewer.set_display('display', 'input', 'output');
+            json_viewer.set_search('search_key_button', 'search_key', 'search_type');
+        </script>
 </body>
 </html>

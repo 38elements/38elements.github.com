@@ -1,37 +1,28 @@
-
 div {
     position: relative;
-    border: solid black 1px;
     margin-top: -1px;
     padding-top:3px;
     padding-bottom:2px;
     padding-left:4px;
     height: 20px;
-    width: 200px;
+    width: 800px;
     font-size: 16px;
     vertical-align: middle;
 }
 
-[data_type="Array"][data-state="1"], [data_type="Object"][data-state="1"]{
-    background-color: #FFE4E1;
+.object_or_array {
+    left: -14px;
 }
 
-[data_type="Array"][data-state="0"], [data_type="Object"][data-state="0"]{
-    background-color: #90EE90;
-}
-
-div.mark {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: 20px;
-    height: 12px;
-    width: 12px;
-    padding:2px;
-    float: left;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 10px;
+.red {
+    color: red;
     font-weight: bold;
+}
+
+.mark {
+    position: relative;
+    left: -17px;
+    top: 1px;
 }
 
 span.key_value {
@@ -42,4 +33,6 @@ span.key_value {
 #output {
     margin-top: 30px;
     border: none;
+    position : relative;
+    left: 50px;
 }
