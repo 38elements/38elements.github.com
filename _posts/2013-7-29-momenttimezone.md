@@ -2,7 +2,7 @@
 layout: posts
 title: MomentTimezoneメモ
 ---
-[Moment Timezone](http://momentjs.com/timezone/)はMoment.jsでtimezoneを切り替えるためのライブラリです。  
+[Moment Timezone](http://momentjs.com/timezone/)はMoment.jsでtimezoneを切り替えるためのライブラリ  
   
 利用する手順は以下のとおり  
   
@@ -14,6 +14,8 @@ timezone dataは[Timezone Data Builder](http://momentjs.com/timezone/data/)の�
 右側にあるOutputの内容をtimezone dataとして利用する。  
   
 timezoneの切り替えはtz(&lt;timezone名&gt;)で行なう。  
+
+linksでtimezone名にエイリアスをつけることが出来る。  
   
 {% highlight html %}
 <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
@@ -41,7 +43,8 @@ moment.tz.add({
        ]
    },
    "rules": {},
-   "links": {}
+    //Asia/BangkokをBにリンクする。
+   "links": {"B": "Asia/Bangkok"}
 });
 </script>
 <script>
@@ -50,5 +53,7 @@ var m = moment();
 console.log(m.tz("Asia/Bangkok").format());
 //シンガポールの現地時間
 console.log(m.tz("Asia/Singapore").format());
+//バンコクの現地時間
+console.log(m.tz("B").format());
 </script>
 {% endhighlight %}
