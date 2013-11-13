@@ -19,7 +19,7 @@ linksでtimezone名にエイリアスをつけることが出来る。
   
 {% highlight html %}
 <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
-<script src="https://rawgithub.com/timrwood/moment-timezone/0.0.1/min/moment-timezone.min.js"></script>
+<script src="https://raw.github.com/timrwood/moment-timezone/0.0.1/min/moment-timezone.min.js"></script>
 <script>
 //バンコクとシンガポールを選択
 moment.tz.add({
