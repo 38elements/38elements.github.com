@@ -3,4 +3,5 @@ lsi: false
 pygments: true
 exclude: [README.md, .gitignore, grunt.js, node_modules]
 permalink: date
+markdown: rdiscount
 
