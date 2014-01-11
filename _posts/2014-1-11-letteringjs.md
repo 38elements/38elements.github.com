@@ -67,4 +67,5 @@ title: Lettering.jsメモ
     </span>
 </p>
 {% endhighlight %}
-[サンプル](http://jsrun.it/38elements/letteringjs2?t=1389417007317)
+[サンプル](http://jsrun.it/38elements/letteringjs2?t=1389417007317)      
+サンプルでは3の倍数文字目の文字を赤色にするCSSを設定している。
