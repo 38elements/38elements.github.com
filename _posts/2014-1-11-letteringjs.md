@@ -2,42 +2,69 @@
 layout: posts
 title: Lettering.jsメモ
 ---
-[Lettering.js](https://github.com/davatron5000/Lettering.js)はHTML上にある文字列を行や単語、文字に      
-分割してspanタグでラップする。その際、span要素のclass属性はそれぞれline、word、charの後ろに連番がある
-文字列になる。（例:ward1）
- 
-利用する手順は以下のとおり  
-  
-* echo.jsの読み込み
-* 対象画像のimgタグの設定
-* 関数の設定
+[Lettering.js](https://github.com/davatron5000/Lettering.js)はHTML上にある文字列を行や単語、文字に分割してspanタグでラップするライブラリである。       
+その際、span要素のclass属性はそれぞれline、word、charの後ろに連番がある文字列になる。（例:ward1）      
+利用にはjQueryが必要である。     
   
 <br/>
-対象画像のimgタグの設定  
+対象HTML  
 {% highlight html %}
-<img src="ロードされる前に表示する画像のurl" data-echo="遅延ロードする対象のurl" >
+<p id="target">foo bar 123456789</p>
 {% endhighlight %}
 <br/>
- 関数の設定
+実行するJavaScript
 {% highlight javascript %}
-  Echo.init({
-      //遅延ロードが開始される画像の上部の範囲(px)
-      offset: 100,
-      //スクロールした際に画像の位置などを計算して遅延ロードを実行するか判断する関数の実行間隔(ms)
-      throttle: 250
-  });
+    $("#target").lettering('words');
 {% endhighlight %}
+<br/>
+実行結果  
+{% highlight html %}
+<p id="target">
+    <span class="word1">foo</span>
+    <span class="word2">bar</span>
+    <span class="word3">123456789</span>
+</p>
+{% endhighlight %}
+[サンプル](http://jsrun.it/38elements/letteringjs1?t=1389417007317)
     
 <br/>
-例       
-[echo.jsでoffsetが0のときのデモ](http://jsrun.it/38elements/flqz)  
-画像の最上部の領域が表示された際にロードが始まる。
-    
-   
-[echo.jsでoffsetが1000のときのデモ](http://jsrun.it/38elements/bF6Y)  
-ページが表示された際にロードが始まる。
-
-
 <br/>
-Echo.jsの[デモページ](http://toddmotto.com/labs/echo/)のローディング画像はcssのbackgroundプロパティを利用して実装されている。  
-[サンプル](http://jsrun.it/38elements/5Wtm)
+メソッドチェインをつなげて細かく分割することもできる。   
+<br/>
+対象HTML  
+{% highlight html %}
+<p id="target">foo bar 123456789</p>
+{% endhighlight %}
+<br/>
+実行するJavaScript
+{% highlight javascript %}
+    $("#target").lettering('words').children('span').lettering();
+{% endhighlight %}
+<br/>
+実行結果  
+{% highlight html %}
+<p id="target">
+    <span class="word1">
+        <span class="char1">f</span>
+        <span class="char2">o</span>
+        <span class="char3">o</span>
+    </span>
+    <span class="word2">
+        <span class="char1">b</span>
+        <span class="char2">a</span>
+        <span class="char3">r</span>
+    </span>
+    <span class="word3">
+        <span class="char1">1</span>
+        <span class="char2">2</span>
+        <span class="char3">3</span>
+        <span class="char4">4</span>
+        <span class="char5">5</span>
+        <span class="char6">6</span>
+        <span class="char7">7</span>
+        <span class="char8">8</span>
+        <span class="char9">9</span>
+    </span>
+</p>
+{% endhighlight %}
+[サンプル](http://jsrun.it/38elements/letteringjs2?t=1389417007317)
