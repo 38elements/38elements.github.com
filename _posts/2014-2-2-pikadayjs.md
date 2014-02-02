@@ -64,5 +64,5 @@ title: PikaDay.jsメモ
         showMonthAfterYear: true,
     });
 {% endhighlight %}
-[デモ](http://jsrun.it/38elements/headroomjs?t=1389618253932)
+[デモ](http://jsrun.it/38elements/pikadayjs2?t=1391318459741)
     
