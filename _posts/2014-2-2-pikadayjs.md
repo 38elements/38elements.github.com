@@ -91,8 +91,6 @@ title: PikaDay.jsメモ
     <dd>今日の日付をカレンダーに表示する。</dd>
     <dt>picker.gotoMonth(月)</dt>
     <dd>指定した月を表示する。（1月は0）</dd>
-    <dt>picker.gotoMonth(月)</dt>
-    <dd>指定した月を表示する。（1月は0）</dd>
     <dt>picker.nextMonth(),picker.prevMonth()</dt>
     <dd>先月、翌月を表示する。</dd>
     <dt>picker.gotoYear(年)</dt>
@@ -106,7 +104,7 @@ title: PikaDay.jsメモ
     <dt>picker.hide() </dt>
     <dd>カレンダーを非表示にする。</dd>
     <dt>picker.adjustPosition() </dt>
-    <dd>カレンダーの表示する場所を調整して表示する。</dd>
+    <dd>カレンダーの表示する場所を調整する。</dd>
     <dt>picker.destroy()  </dt>
     <dd>カレンダーのDOMを削除する。</dd>
 </dl>
