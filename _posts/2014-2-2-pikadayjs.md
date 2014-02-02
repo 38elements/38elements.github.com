@@ -73,4 +73,46 @@ title: PikaDay.jsメモ
     });
 {% endhighlight %}
 [デモ](http://jsrun.it/38elements/pikadayjs2?t=1391318459741)
-    
+     
+<br/>
+メソッド  
+<dl>
+    <dt>picker.toString(フォーマット)</dt>
+    <dd>選択されている日付をMoment.jsのスタイルの日付フォーマットを指定して、それに沿った文字列を返す。</dd>
+    <dt>picker.getDate()</dt>
+    <dd>選択されている日付のDateオブジェクトを返す。</dd>
+    <dt>picker.setDate(日付の文字列)</dt>
+    <dd>指定した日付の文字列の日付を選択する。</dd>
+    <dt>picker.getMoment()</dt>
+    <dd>選択されている日付のMomentオブジェクトを取得する。</dd>
+    <dt>picker.setMoment(Momentオブジェクト)</dt>
+    <dd>指定したMomentオブジェクトの日付を選択する。</dd>
+    <dt>picker.gotoToday()</dt>
+    <dd>今日の日付をカレンダーに表示する。</dd>
+    <dt>picker.gotoMonth(月)</dt>
+    <dd>指定した月を表示する。（1月は0）</dd>
+    <dt>picker.gotoMonth(月)</dt>
+    <dd>指定した月を表示する。（1月は0）</dd>
+    <dt>picker.nextMonth(),picker.prevMonth()</dt>
+    <dd>先月、翌月を表示する。</dd>
+    <dt>picker.gotoYear(年)</dt>
+    <dd>指定した年を表示する。</dd>
+    <dt>picker.setMinDate(Dateオブジェクト), picker.setMaxDate(Dateオブジェクト) </dt>
+    <dd>指定したDateオブジェクトの日付を選択可能な日付の最小、最大にする。</dd>
+    <dt>picker.isVisible() </dt>
+    <dd>カレンダーが表示されているか</dd>
+    <dt>picker.show() </dt>
+    <dd>カレンダーを表示する。</dd>
+    <dt>picker.hide() </dt>
+    <dd>カレンダーを非表示にする。</dd>
+    <dt>picker.adjustPosition() </dt>
+    <dd>カレンダーの表示する場所を調整して表示する。</dd>
+    <dt>picker.destroy()  </dt>
+    <dd>カレンダーのDOMを削除する。</dd>
+</dl>
+
+
+
+
+
+
