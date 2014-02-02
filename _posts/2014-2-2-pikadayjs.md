@@ -62,6 +62,14 @@ title: PikaDay.jsメモ
         yearSuffix: '年',
         //年の後に月を表示するか
         showMonthAfterYear: true,
+        //日付を選択したときの処理
+        onSelect: function() {alert("onSelect"); console.dir(this);},
+        //カレンダーを表示したときの処理
+        onOpen: function() {alert("onOpen"); console.dir(this);},
+        //カレンダーを閉じたときの処理
+        onClose: function() {alert("onClose"); console.dir(this);},
+        //月を変更したときの処理
+        onDraw: function() {alert("onDraw"); console.dir(this);},
     });
 {% endhighlight %}
 [デモ](http://jsrun.it/38elements/pikadayjs2?t=1391318459741)
