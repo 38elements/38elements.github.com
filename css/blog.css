@@ -40,11 +40,11 @@ article h5 {
 #main_page {
     color: #408080;
     font-style: italic;
-    width:480px;
+    width:640px;
 }
 
 #main_page li {
-    width: 420px;
+    width: 600px;
     text-align: left;
     text-overflow: ellipsis;
     white-space: nowrap;
