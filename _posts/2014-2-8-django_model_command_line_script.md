@@ -20,3 +20,8 @@ FooModel.objects.all()
 django manage.py sql appname  
 インデックスを表示  
 python manage.py sqlindexes appname   
+<br/>
+  
+データベースのデータをjson形式で整形して出力する     
+python manage.py dumpdata foo --indent 4 &gt; foo.json  
+[ dumpdata &lt;appname appname appname.Model ...&gt;](https://docs.djangoproject.com/en/1.6/ref/django-admin/#dumpdata-appname-appname-appname-modelx)
