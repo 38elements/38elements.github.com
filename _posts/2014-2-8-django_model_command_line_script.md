@@ -28,6 +28,8 @@ python manage.py dumpdata foo --indent 4 &gt; foo.json
 <br/>
   
 pythonで長い文字列を作成する  
+{% highlight python  %}
 a = "111111111111111" \  
     "222222222222222" \  
     "333333333333333"   
+{% endhighlight %}
