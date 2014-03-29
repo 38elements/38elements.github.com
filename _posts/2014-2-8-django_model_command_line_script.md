@@ -24,7 +24,7 @@ python manage.py sqlindexes appname
   
 データベースのデータをjson形式で整形して出力する     
 python manage.py dumpdata foo --indent 4 &gt; foo.json  
-[ dumpdata &lt;appname appname appname.Model ...&gt;](https://docs.djangoproject.com/en/1.6/ref/django-admin/#dumpdata-appname-appname-appname-modelx)  
+[dumpdata &lt;appname appname appname.Model ...&gt;](https://docs.djangoproject.com/en/1.6/ref/django-admin/#dumpdata-appname-appname-appname-model)  
 <br/>
   
 pythonで長い文字列を作成する  
@@ -32,4 +32,8 @@ pythonで長い文字列を作成する
 a = "111111111111111" \  
     "222222222222222" \  
     "333333333333333"   
-{% endhighlight %}
+{% endhighlight %}  
+<br/>
+    
+pythonでは値の最後に,があるとjsonのパースでエラーになる。
+
