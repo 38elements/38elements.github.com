@@ -36,4 +36,9 @@ a = "111111111111111" \
 <br/>
     
 pythonでは値の最後に,があるとjsonのパースでエラーになる。
-
+<br/>
+   
+SimpleHTTPServerで何も出力しない。
+{% highlight bach  %}
+python -m SimpleHTTPServer > /dev/null 2>&1
+{% endhighlight %}  
