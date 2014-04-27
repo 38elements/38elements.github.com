@@ -9,8 +9,8 @@ title: DevToolsメモ
 
 * Ctrl+[, Ctrl+], Ctrl+[1-9]:パネルの移動    
 * Esc: コンソールの表示・非表示     
-* Ctrl+F: 現在開いているファイルやパネルを対象に検索  
-* Ctrl+Shift+F: すべてのファイルを検索   
+* Ctrl+f: 現在開いているファイルやパネルを対象に検索  
+* Ctrl+Shift+f: すべてのファイルを検索   
 * Ctrl+o: ファイル名でファイルを検索   
 <br/>
       
@@ -26,6 +26,18 @@ title: DevToolsメモ
 
 * Ctrl+クリック:該当するスタイルを定義している場所を表示する   
 * Tab, Tab+shift:CSSのproperty,valueの移動    
+<br/>
+      
+#### Sourceパネル 
+
+* Ctrl+o:ファイル名を検索  
+* Ctri+Shift+o:選択しているファイル内の関数を検索    
+* Ctrl+Shift+e:選択しているコードをconsoleで実行する    
+* Ctrl+g:行移動   
+* Ctrl+Enter:snippetの実行   
+
+
+
 
 
 
