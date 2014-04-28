@@ -36,6 +36,9 @@ title: DevToolsメモ
 * Ctrl+g:行移動   
 * Ctrl+Enter:snippetの実行   
 
+[Console API Reference](https://developers.google.com/chrome-developer-tools/docs/console-api)   
+[Command Line API Reference](https://developers.google.com/chrome-developer-tools/docs/console-api)   
+
 
 
 
