@@ -35,9 +35,21 @@ title: DevToolsメモ
 * Ctrl+Shift+e:選択しているコードをconsoleで実行する    
 * Ctrl+g:行移動   
 * Ctrl+Enter:snippetの実行   
+<br/>
 
 [Console API Reference](https://developers.google.com/chrome-developer-tools/docs/console-api)   
-[Command Line API Reference](https://developers.google.com/chrome-developer-tools/docs/console-api)   
+
+* [console.log()](https://developers.google.com/chrome-developer-tools/docs/console-api#consolelogobject_object)の第1引数に%s, %d, %f, %o, %O, %cを指定することができる。   
+%s:は文字列   
+%d:はinteger     
+%f:はfloat     
+%o:はdom   
+%O:はobject   
+%c:は第2引数のstyleを文字列に適用する   
+console.log("%cfoo bar %d", "color:green; background:black; font-size: 16pt", 100);       
+<br/>
+
+[Command Line API Reference](https://developers.google.com/chrome-developer-tools/docs/commandline-api)   
 
 
 
