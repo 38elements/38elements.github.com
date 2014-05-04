@@ -11,3 +11,14 @@ title: JavaScriptメモ
 var func = function(a,b,c) {};  
 func.length;  
 =>3  
+  
+* jQueryで要素の作成
+{% highlight javascript %}
+var $foo = $("<div/>", {
+    class: "bar",
+    on: {
+        click: function() { alert("foo") }
+    },
+    text: "bar"
+});
+{% endhighlight %}
