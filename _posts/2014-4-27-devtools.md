@@ -40,20 +40,30 @@ title: DevToolsメモ
 [Console API Reference](https://developers.google.com/chrome-developer-tools/docs/console-api)   
 
 * [console.log()](https://developers.google.com/chrome-developer-tools/docs/console-api#consolelogobject_object)の第1引数に%s, %d, %f, %o, %O, %cを指定することができる。   
-%s:は文字列   
-%d:はinteger     
-%f:はfloat     
-%o:はdom   
-%O:はobject   
-%c:は第2引数のstyleを文字列に適用する   
+%sは文字列   
+%dはinteger     
+%fはfloat     
+%oはdom   
+%Oはobject   
+%cは第2引数のstyleを文字列に適用する   
 console.log("%cfoo bar %d", "color:green; background:black; font-size: 16pt", 100);       
 <br/>
 
 [Command Line API Reference](https://developers.google.com/chrome-developer-tools/docs/commandline-api)   
 
-
-
-
+* $_: 最後に評価された値  
+* $0-$4: Elementsパネルでクリックした要素($0が最後にクリックした要素、$1は最後から2番目)  
+* $(selector): document.querySelector()  
+* $$(selector): document.querySelectorAll()  
+* $x(path): XPathで要素を取得  
+* clear(): 履歴をクリア  
+* copy(object): オブジェクトを文字列にしてクリップボードにコピーする。  
+* inspect(object): objectがdomの場合はElementsパネルが開いて該当する要素が選択される。  
+* getEventListeners(object): objectに登録されているイベントハンドラを返す。 
+* keys(object): objectのkeyの一覧を返す。  
+* values(object): objectの値の一覧を返す。   
+* monitorEvents(object[, events]): objectに指定したイベントが生じた際はログを出力する。  
+* unmonitorEvents(object[, events]): 指定したイベントのログ出力を止める。   
 
 
 
