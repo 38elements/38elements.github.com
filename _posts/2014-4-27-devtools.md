@@ -42,6 +42,16 @@ nodeをマウスオーバーで該当要素がハイライトされる
 * Ctrl+g:行移動   
 * Ctrl+Enter:snippetの実行   
 <br/>
+   
+[Debugging](https://developers.google.com/chrome-developer-tools/docs/javascript-debugging#sources-panel) 
+
+* F8: Continue
+* F10: Step over
+* F11: Step into
+* Shift+F11: Step out
+* Ctrl+.: Call Stackの次のフレーム  
+* Ctrl+,: Call Stackの前のフレーム  
+<br/>
 
 [Console API Reference](https://developers.google.com/chrome-developer-tools/docs/console-api)   
 
