@@ -16,10 +16,16 @@ title: DevToolsメモ
       
 #### Elementsパネル   
 
-* ←,→:選択されている要素を開く・閉じる    
-* Enter:選択されている要素の属性を変更する   
-* h:選択されている要素のstyleにvisibility: hidden !important;を付与する    
-* F2:選択されている要素を編集する    
+* ←,→:選 択されている要素を開く・閉じる    
+* Enter: 選択されている要素の属性を変更する   
+* h: 選択されている要素のstyleにvisibility: hidden !important;を付与する    
+* F2: 選択されている要素を編集する    
+* Esc: 要素の編集を終了する     
+* Delete: 選択している要素を削除する
+* D&Dで要素を移動することができる
+* Event Listeners  
+handlerを右クリックでShow Function Definition   
+nodeをマウスオーバーで該当要素がハイライトされる
 <br/>
       
 #### Styleサイドバー 
