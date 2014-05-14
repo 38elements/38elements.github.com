@@ -41,6 +41,7 @@ nodeをマウスオーバーで該当要素がハイライトされる
 * Ctrl+Shift+e:選択しているコードをconsoleで実行する    
 * Ctrl+g:行移動   
 * Ctrl+Enter:snippetの実行   
+* Breakpointは画面右のBreakpointsを右クリックしてRemove all Breakpointsですべて消すことができる   
 <br/>
    
 [Debugging](https://developers.google.com/chrome-developer-tools/docs/javascript-debugging#sources-panel) 
@@ -52,7 +53,14 @@ nodeをマウスオーバーで該当要素がハイライトされる
 * Ctrl+.: Call Stackの次のフレーム  
 * Ctrl+,: Call Stackの前のフレーム  
 <br/>
+      
+#### Console   
 
+* $()やdocument.getElementById()などの要素を返す関数を実行した場合その戻り値はConsole上にツリー形式で表示される  
+これらの関数の戻り値の要素のツリーをマウスオーバーすることで画面上の該当要素が強調される。   
+右クリックReveal in Elements panelでElementsパネル内で該当要素が選択された状態で表示される。  
+<br/>
+   
 [Console API Reference](https://developers.google.com/chrome-developer-tools/docs/console-api)   
 
 * [console.log()](https://developers.google.com/chrome-developer-tools/docs/console-api#consolelogobject_object)の第1引数に%s, %d, %f, %o, %O, %cを指定することができる。   
