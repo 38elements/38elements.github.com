@@ -22,3 +22,7 @@ var $foo = $("<div/>", {
     text: "bar"
 });
 {% endhighlight %}
+  
+* [Promiseでresolveとrejectを交互に実行する。](http://jsrun.it/38elements/Promise_resolve_and_reject)  
+
+* [Promiseで非同期の処理を連続で実行する。](http://jsrun.it/38elements/promise_settimeout)
