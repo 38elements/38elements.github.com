@@ -14,3 +14,4 @@ resolve属性のキーはcontrollerに渡されるserivice名になる。
 値が関数の場合はserviceがinjectedされてその関数を実行する。  
 関数の戻り値が[promise](https://docs.angularjs.org/api/ng/service/$q)の場合は値を送られるまでcontrollerは生成されない。
 
+* $routeProviderで指定するテンプレートにはng-controllerの指定は不要です。
