@@ -28,4 +28,16 @@ scope():
 isolateScope():  
 当該要素がディレクティブを含む。ディレクティブが独立したscopeを持っている場合そのscopeを返す。   
 inheritedData():  
-data()と同じ。該当要素にデータがない場合は親要素をたどってデータを取得する。 
+data()と同じ。該当要素にデータがない場合は親要素をたどってデータを取得する。  
+
+* [event](https://github.com/angular/angular.js/blob/aa268560064e5875bd471da3f7d1ebc2f9e6b3b7/src/ng/rootScope.js)について      
+$onのコールバック関数の第1引数にはイベントオブジェクトが入る。  
+$onのコールバック関数で$emitや$broadcastから変数を受け取ることができる。   
+$emitは親要素にイベントを伝播する。   
+$broadcastは子要素にイベントを伝播する。  
+event.targetScope: イベントの発生もとのscope  
+event.currentScope: 現在の処理を行っているscope   
+event.name: イベント名  
+event.stopPropagation: $emitでイベントが発生した場合、イベントの親要素への伝播を止める。
+event.preventDefault(): event.defaultPreventedをtrueにする。   
+event.defaultPrevented: event.preventDefault()がtrueになる。
