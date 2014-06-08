@@ -42,3 +42,11 @@ SimpleHTTPServerで何も出力しない。
 {% highlight bash  %}
 python -m SimpleHTTPServer > /dev/null 2>&1
 {% endhighlight %}  
+<br/>
+   
+pipでインストールしたライブラリをすべてupdateする。   
+[pip-tools](https://github.com/nvie/pip-tools)を利用する。   
+pip-review --auto
+
+
+
