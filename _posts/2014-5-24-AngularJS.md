@@ -41,3 +41,13 @@ event.name: イベント名
 event.stopPropagation: $emitでイベントが発生した場合、イベントの親要素への伝播を止める。
 event.preventDefault(): event.defaultPreventedをtrueにする。   
 event.defaultPrevented: event.preventDefault()がtrueになる。
+  
+* [provider](https://docs.angularjs.org/guide/providers)について      
+providerでserviceオブジェクトを生成する際は$getが呼ばれる。    
+configでは<service名>Providerでinjectする。   
+configではproviderオブジェクトの設定を行う。
+   
+* 独立したscopeを持つディレクティブが付与されている要素のngModelに対して  
+値を渡す際は親要素のcontrollerのスコープが適用できるか($parentを付けるべきか)を  
+考慮する。  
+
