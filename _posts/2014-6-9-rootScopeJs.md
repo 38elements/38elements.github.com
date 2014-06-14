@@ -9,3 +9,9 @@ isolateなscopeは共有するために$$asyncQueue、$$postDigestQueueを代入
 子scopeはthis.$$childScopeClass.prototype = thisすることで親scopeを代入して共有している。   
 親scopeと子scopeのデータ共有がthis.$$childScopeClass.prototype = thisで行われている。   
 共有されないものが$$childScopeClassの属性になっている。  
+<br/>
+#### Scope::$watch
+[$parse](https://docs.angularjs.org/api/ng/service/$parse)は関数を引数に渡されたときはそのまま関数を返す。  
+compileToFnはwatchExpを$parseする。   
+noopはfunction noop() {}で何もしない関数   
+
