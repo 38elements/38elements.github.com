@@ -14,4 +14,24 @@ isolateなscopeは共有するために$$asyncQueue、$$postDigestQueueを代入
 [$parse](https://docs.angularjs.org/api/ng/service/$parse)は関数を引数に渡されたときはそのまま関数を返す。  
 compileToFnはwatchExpを$parseする。   
 noopはfunction noop() {}で何もしない関数   
+scope.$$watchers = []に以下のオブジェクトを格納する。   
+{% highlight javascript %}
+watcher = {
+    fn: listener,
+    last: initWatchVal,
+    get: get,
+    exp: watchExp,
+    eq: !!objectEquality
+};
+{% endhighlight %}   
+unwatchするための関数を返す。    
+<br/>
+#### Scope::$watchGroups
+複数のwatchExpを1つのlistenerに紐付ける。  
+各watchExpを$watchする。そのcallbackがchangeCount++する。  
+changeCountを返すwatchExpのcallbackにlistenerを指定する。  
+unwatchCountが0になるとlistener.$$unwatchがtrueになる。  
+
+
+
 
