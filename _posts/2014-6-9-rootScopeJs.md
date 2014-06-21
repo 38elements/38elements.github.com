@@ -48,7 +48,7 @@ newValueがobjectかarrayでoldValueがinnerArrayやinnerObjectと同じオブ�
 oldValueとinnerArrayやinnerObjectが同じオブジェクトを参照するようにする。       
   
 $watchCollectionAction  
-veryOldValueにnewValueをコピーして次に実行する際にlistenerにそれを渡す。
+veryOldValueにnewValueをコピーして次に実行した際にlistenerにそれを渡す。
 
 
 
