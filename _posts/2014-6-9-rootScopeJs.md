@@ -26,11 +26,13 @@ watcher = {
 {% endhighlight %}   
 unwatchするための関数を返す。    
 <br/>
-#### Scope::$watchGroups
+#### Scope::$watchGroup
 複数のwatchExpを1つのlistenerに紐付ける。  
 各watchExpを$watchする。そのcallbackがchangeCount++する。  
 changeCountを返すwatchExpのcallbackにlistenerを指定する。  
 unwatchCountが0になるとlistener.$$unwatchがtrueになる。  
+<br/>
+#### Scope::$watchCollection
 
 
 
