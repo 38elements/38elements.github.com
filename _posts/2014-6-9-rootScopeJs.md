@@ -32,7 +32,23 @@ unwatchするための関数を返す。
 changeCountを返すwatchExpのcallbackにlistenerを指定する。  
 unwatchCountが0になるとlistener.$$unwatchがtrueになる。  
 <br/>
-#### Scope::$watchCollection
+#### Scope::$watchCollection  
+指定されたscopeの属性の型がarrayやobjectだったときそれらの属性の変化を監視する。 
+指定されたscopeの属性の型がarrayの場合は配列の要素を監視する。  
+指定されたscopeの属性の型がobjectの場合は属性を監視する。  
+以下の文で処理を行っている。
+return this.$watch($watchCollectionWatch, $watchCollectionAction);  
+  
+$watchCollectionWatch   
+oldValueにすべての型の古い値が格納される   
+innerArrayにarray型の古い値が格納される   
+innerObjectにobject型の古い値が格納される   
+newValueがobjectかarrayでoldValueがinnerArrayやinnerObjectと同じオブジェクトを参照していない場合、   
+空のarrayもしくはobjectをoldValueやinnerArray、innerObjectに代入する。   
+oldValueとinnerArrayやinnerObjectが同じオブジェクトを参照するようにする。       
+  
+$watchCollectionAction  
+veryOldValueにnewValueをコピーして次に実行する際にlistenerにそれを渡す。
 
 
 
