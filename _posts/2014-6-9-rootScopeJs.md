@@ -18,9 +18,12 @@ scope.$$watchers = []に以下のオブジェクトを格納する。
 {% highlight javascript %}
 watcher = {
     fn: listener,
+    // function initWatchVal() {}
     last: initWatchVal,
+    // get = compileToFn(watchExp, 'watch'),
     get: get,
     exp: watchExp,
+    // 参照でオブジェクトを比較するのでは
     eq: !!objectEquality
 };
 {% endhighlight %}   
@@ -48,8 +51,32 @@ newValueがobjectかarrayでoldValueがinnerArrayやinnerObjectと同じオブ�
 oldValueとinnerArrayやinnerObjectが同じオブジェクトを参照するようにする。       
   
 $watchCollectionAction  
-veryOldValueにnewValueをコピーして次に実行した際にlistenerにそれを渡す。
-
-
-
+listenerを実行する  
+veryOldValueにnewValueをコピーして次に実行した際にlistenerにそれを渡す。  
+<br/>
+#### Scope::$digest  
+スコープと子スコープのwatchを実行する。 
+listenerをが実行されなくなるまで繰り返し実行される。  
+手動で実行したいときはScope::$applyを利用する。    
+$$asyncQueue, $$postDigestQueueは親scopeと共有する。   
+watcher.getはcompileToFn(watchExp, 'watch')  
+watcher.getの引数にscopeを渡している  
+watch.get(current)とwatch.lastを比較して異なっていればwatch.lastにwatch.get(current)を代入する。監視対象が変化してlistenerを実行する。  
+lastDirtyWatchには最後に実行されたlistenerのwatchが格納される。  
+listenerを実行するオブジェクトの走査は$digestを呼びだしたscope以下のスコープすべてを対象にして行われる。  
+targetは$digestの呼び出しもとのscopeが入る。$digest中は変化しない。   
+currentは走査中に検査対象になったscopeが入る。   
+lastDirtyWatch === watchもしくはscopeの親子間の走査でttlが1減る。   
+lastDirtyWatch === watchのときdirtyはfalseになる。  
+監視対象が変化してlistenerを実行する時dirtyはfalseになる。   
+watchしているscopeの走査が終了条件 while (dirty || asyncQueue.length);    
+$digestを呼びだしたscope以下の走査は以下の部分で行っている    
+{% highlight javascript %}
+if (!(next = (current.$$childHead ||
+    (current !== target && current.$$nextSibling)))) {
+    while(current !== target && !(next = current.$$nextSibling)) {
+        current = current.$parent;
+    }
+}
+{% endhighlight %}   
 
