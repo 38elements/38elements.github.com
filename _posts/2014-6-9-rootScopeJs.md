@@ -80,3 +80,8 @@ if (!(next = (current.$$childHead ||
 }
 {% endhighlight %}   
 
+<br/>
+#### Scope::$destroy()  
+該当scopeを親scopeから削除する。  
+$destroyを該当scopeからbroadcastする。  
+該当scopeの他のscopeへの参照を削除する。
