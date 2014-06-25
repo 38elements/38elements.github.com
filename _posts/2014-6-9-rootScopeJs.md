@@ -79,9 +79,21 @@ if (!(next = (current.$$childHead ||
     }
 }
 {% endhighlight %}   
-
 <br/>
-#### Scope::$destroy()  
+#### Scope::$destroy  
 該当scopeを親scopeから削除する。  
 $destroyを該当scopeからbroadcastする。  
-該当scopeの他のscopeへの参照を削除する。
+該当scopeの他のscopeへの参照を削除する。   
+<br/>
+#### Scope::$eval  
+scopeの属性を引数に応じて処理する。  
+文字列と関数のどちらかを第1引数にする。  
+第2引数にはscopeをoverrideする値を指定する。    
+<br/>
+#### Scope::$evalAsync   
+$browser.defer(fn)はfnをsetTimeoutで実行する  
+this.$$asyncQueue.push({scope: this, expression: expr});  
+<br/>
+#### Scope::$$postDigest   
+this.$$postDigestQueue.push(fn);  
+
