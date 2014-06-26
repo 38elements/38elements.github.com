@@ -61,6 +61,7 @@ listenerをが実行されなくなるまで繰り返し実行される。
 $$asyncQueue, $$postDigestQueueは親scopeと共有する。   
 watcher.getはcompileToFn(watchExp, 'watch')  
 watcher.getの引数にscopeを渡している  
+watch = watchers[length];   
 watch.get(current)とwatch.lastを比較して異なっていればwatch.lastにwatch.get(current)を代入する。監視対象が変化してlistenerを実行する。  
 lastDirtyWatchには最後に実行されたlistenerのwatchが格納される。  
 listenerを実行するオブジェクトの走査は$digestを呼びだしたscope以下のスコープすべてを対象にして行われる。  
@@ -96,4 +97,45 @@ this.$$asyncQueue.push({scope: this, expression: expr});
 <br/>
 #### Scope::$$postDigest   
 this.$$postDigestQueue.push(fn);  
-
+<br/>
+#### Scope::$apply     
+angular内で実行したい処理を引数に取る。  
+$eval(exp) => $digest()  
+<br/>
+#### Scope::$on
+$emitや$broadcastで呼ばれるlistenerを登録する。    
+$$listenersにnameをkeyにして配列にlistenerを格納する。   
+親スコープをたどって先祖スコープすべてに$$listenerCount[name]++する。    
+<br/>
+#### Scope::$emit(name, args)
+argsはlistenerに引数で渡される。  
+listenerに渡されるeventは以下の内容  
+{% highlight javascript %}
+event = {
+    name: name,
+    targetScope: scope,
+    stopPropagation: function() {stopPropagation = true;},
+    preventDefault: function() {
+        event.defaultPrevented = true;
+    },
+    defaultPrevented: false
+}
+event.currentScope = scope;
+{% endhighlight %}   
+<br/>
+#### Scope::$broadcast(name, args)
+argsはlistenerに引数で渡される。  
+listenerに渡されるeventは以下の内容  
+{% highlight javascript %}
+event = {
+    name: name,
+    targetScope: target,
+    preventDefault: function() {
+        event.defaultPrevented = true;
+    },
+    defaultPrevented: false
+}
+event.currentScope = scope;
+{% endhighlight %}   
+<br/>
+var $rootScope = new Scope();
