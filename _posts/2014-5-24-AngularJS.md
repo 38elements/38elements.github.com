@@ -44,6 +44,8 @@ event.defaultPrevented: event.preventDefault()がtrueになる。
   
 * [provider](https://docs.angularjs.org/guide/providers)について      
 providerでserviceオブジェクトを生成する際は$getが呼ばれる。    
+$getはサービスを返す。   
+[provider](https://docs.angularjs.org/api/ng/type/angular.Module)メソッドを利用して定義する。   
 configでは<service名>Providerでinjectする。   
 configではproviderオブジェクトの設定を行う。
    
@@ -51,3 +53,4 @@ configではproviderオブジェクトの設定を行う。
 値を渡す際は親要素のcontrollerのスコープが適用できるか($parentを付けるべきか)を  
 考慮する。  
 
+* [mock.inject](https://docs.angularjs.org/api/ngMock/function/angular.mock.inject)の引数を\_で囲でも\_は削除された状態になる。

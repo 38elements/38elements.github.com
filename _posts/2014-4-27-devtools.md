@@ -56,6 +56,10 @@ nodeをマウスオーバーで該当要素がハイライトされる
 * Ctrl+,: Call Stackの前のフレーム  
 <br/>
       
+#### Networkパネル   
+FilterにDomain:example.comでリクエストの送信先をフィルタリングすることができる   
+<br/>
+      
 #### Console   
 
 * $()やdocument.getElementById()などの要素を返す関数を実行した場合その戻り値はConsole上にツリー形式で表示される  
@@ -92,6 +96,10 @@ console.log("%cfoo bar %d", "color:green; background:black; font-size: 16pt", 10
 * unmonitorEvents(object[, events]): 指定したイベントのログ出力を止める。   
 
 
+<br/>
+<br/>
+[DevTools Digest - Chrome 35](http://www.html5rocks.com/en/tutorials/developertools/chrome-35/)   
+[DevTools Digest](http://www.html5rocks.com/en/tutorials/developertools/chrome-33/)  
 
 
 
