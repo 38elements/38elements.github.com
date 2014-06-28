@@ -4,13 +4,13 @@ title: rootScope.jsメモ
 ---
 AngularJsの[rootScope.js](https://github.com/angular/angular.js/blob/5224499bcdab670a882c6119e2d9192b84aa9047/src/ng/rootScope.js)に関するメモ     
 <br/>
-#### Scope::$new
+#### Scope::$new(isolate)
 isolateなscopeは共有するために$$asyncQueue、$$postDigestQueueを代入している。   
 子scopeはthis.$$childScopeClass.prototype = thisすることで親scopeを代入して共有している。   
 親scopeと子scopeのデータ共有がthis.$$childScopeClass.prototype = thisで行われている。   
 共有されないものが$$childScopeClassの属性になっている。  
 <br/>
-#### Scope::$watch
+#### Scope::$watch(watchExp, listener, objectEquality)
 [$parse](https://docs.angularjs.org/api/ng/service/$parse)は関数を引数に渡されたときはそのまま関数を返す。  
 compileToFnはwatchExpを$parseする。   
 noopはfunction noop() {}で何もしない関数   
@@ -29,20 +29,20 @@ watcher = {
 {% endhighlight %}   
 unwatchするための関数を返す。    
 <br/>
-#### Scope::$watchGroup
+#### Scope::$watchGroup(watchExpressions, listener)
 複数のwatchExpを1つのlistenerに紐付ける。  
 各watchExpを$watchする。そのcallbackがchangeCount++する。  
 changeCountを返すwatchExpのcallbackにlistenerを指定する。  
 unwatchCountが0になるとlistener.$$unwatchがtrueになる。  
 <br/>
-#### Scope::$watchCollection  
+#### Scope::$watchCollection(obj, listener)  
 指定されたscopeの属性の型がarrayやobjectだったときそれらの属性の変化を監視する。 
 指定されたscopeの属性の型がarrayの場合は配列の要素を監視する。  
 指定されたscopeの属性の型がobjectの場合は属性を監視する。  
 以下の文で処理を行っている。
 return this.$watch($watchCollectionWatch, $watchCollectionAction);  
   
-$watchCollectionWatch   
+$watchCollectionWatchi()   
 oldValueにすべての型の古い値が格納される   
 innerArrayにarray型の古い値が格納される   
 innerObjectにobject型の古い値が格納される   
@@ -50,11 +50,11 @@ newValueがobjectかarrayでoldValueがinnerArrayやinnerObjectと同じオブ�
 空のarrayもしくはobjectをoldValueやinnerArray、innerObjectに代入する。   
 oldValueとinnerArrayやinnerObjectが同じオブジェクトを参照するようにする。       
   
-$watchCollectionAction  
+$watchCollectionAction()  
 listenerを実行する  
 veryOldValueにnewValueをコピーして次に実行した際にlistenerにそれを渡す。  
 <br/>
-#### Scope::$digest  
+#### Scope::$digest()  
 スコープと子スコープのwatchを実行する。 
 listenerをが実行されなくなるまで繰り返し実行される。  
 手動で実行したいときはScope::$applyを利用する。    
@@ -81,28 +81,28 @@ if (!(next = (current.$$childHead ||
 }
 {% endhighlight %}   
 <br/>
-#### Scope::$destroy  
+#### Scope::$destroy()  
 該当scopeを親scopeから削除する。  
 $destroyを該当scopeからbroadcastする。  
 該当scopeの他のscopeへの参照を削除する。   
 <br/>
-#### Scope::$eval  
+#### Scope::$eval(expr, locals)  
 scopeの属性を引数に応じて処理する。  
 文字列と関数のどちらかを第1引数にする。  
 第2引数にはscopeをoverrideする値を指定する。    
 <br/>
-#### Scope::$evalAsync   
+#### Scope::$evalAsync(expr)   
 $browser.defer(fn)はfnをsetTimeoutで実行する  
 this.$$asyncQueue.push({scope: this, expression: expr});  
 <br/>
-#### Scope::$$postDigest   
+#### Scope::$$postDigest(fn)   
 this.$$postDigestQueue.push(fn);  
 <br/>
-#### Scope::$apply     
+#### Scope::$apply(expr)     
 angular内で実行したい処理を引数に取る。  
 $eval(exp) => $digest()  
 <br/>
-#### Scope::$on
+#### Scope::$on(name, listener)
 $emitや$broadcastで呼ばれるlistenerを登録する。    
 $$listenersにnameをkeyにして配列にlistenerを格納する。   
 親スコープをたどって先祖スコープすべてに$$listenerCount[name]++する。    
@@ -139,3 +139,14 @@ event.currentScope = scope;
 {% endhighlight %}   
 <br/>
 var $rootScope = new Scope();
+<br/>
+#### decrementListenerCount(current, count, name)  
+$onの戻り値
+{% highlight javascript %}
+return function() {
+    namedListeners[indexOf(namedListeners, listener)] = null;
+    decrementListenerCount(self, 1, name);
+};
+{% endhighlight %}   
+親スコープをたどって、親スコープのcurrent.$$listenerCount[name]をcount分減らす。   
+current.$$listenerCount[name] === 0だったらdelete current.$$listenerCount[name];する。    
