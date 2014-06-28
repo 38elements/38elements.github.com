@@ -32,6 +32,7 @@ nodeをマウスオーバーで該当要素がハイライトされる
 
 * Ctrl+クリック:該当するスタイルを定義している場所を表示する   
 * Tab, Tab+shift:CSSのproperty,valueの移動    
+* 最下部でCSSの属性を検索することができる。   
 <br/>
       
 #### Sourceパネル 
@@ -42,6 +43,7 @@ nodeをマウスオーバーで該当要素がハイライトされる
 * Ctrl+g:行移動   
 * Ctrl+Enter:snippetの実行   
 * Breakpointは画面右のBreakpointsを右クリックしてRemove all Breakpointsですべて消すことができる   
+* CodeMirrorの[ショートカット](http://codemirror.net/demo/sublime.html)を利用することができる。    
 <br/>
    
 [Debugging](https://developers.google.com/chrome-developer-tools/docs/javascript-debugging#sources-panel) 
