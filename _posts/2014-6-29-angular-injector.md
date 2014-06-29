@@ -26,7 +26,49 @@ a.annotate(b);
 // ["a", "b", "c"]
 {% endhighlight %}   
 <br/>    
-#### $injector::invoke(fn, self, locals, serviceName)  
-fnはannotateに渡すfnと同じ形式で必ずしもfunctionである必要はない。
-fn内のfunctionを実行した戻り値を返す。
+#### createInternalInjector(cache, factory)   
+下記でのみ使用されている。    
+{% highlight javascript %}
+      providerCache = {
+        $provide: {
+            provider: supportObject(provider),
+            factory: supportObject(factory),
+            service: supportObject(service),
+            value: supportObject(value),
+            constant: supportObject(constant),
+            decorator: decorator
+          }
+      },
+      providerInjector = (providerCache.$injector =
+          createInternalInjector(providerCache, function() {
+            throw $injectorMinErr('unpr', "Unknown provider: {0}", path.join(' <- '));
+          }, strictDi)),
+      instanceCache = {},
+      instanceInjector = (instanceCache.$injector =
+          createInternalInjector(instanceCache, function(servicename) {
+            var provider = providerInjector.get(servicename + providerSuffix);
+            return instanceInjector.invoke(provider.$get, provider, undefined, servicename);
+          }, strictDi));
+{% endhighlight %}   
+<br/>    
+#### $injector::getService(serviceName)  
+createInternalInjector内にある。    
 
+<br/>    
+#### $injector::invoke(fn, self, locals, serviceName)  
+createInternalInjector内にある。    
+DIを行う。    
+annotateでDIを行うサービスの一覧を取得する。    
+以下の部分でサービスを取得する。  
+localsが優先     
+{% highlight javascript %}
+args.push(
+    locals && locals.hasOwnProperty(key)
+    ? locals[key]
+    : getService(key)
+);
+{% endhighlight %}   
+fnはannotateに渡すfnと同じ形式で必ずしもfunctionである必要はない。    
+fn内のfunctionを実行した戻り値を返す。   
+fnが配列の場合はfnの最後の要素をfnに代入する。
+return fn.apply(self, args);
