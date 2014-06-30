@@ -5,6 +5,9 @@ title: injector.jsメモ
 AngularJsの[injector.js](https://github.com/angular/angular.js/blob/master/src/auto/injector.js)を読んだ際のメモ  
 [injectorSpec.js](https://github.com/angular/angular.js/blob/master/test/auto/injectorSpec.js)   
 <br/>    
+providerからserviceを取得する際は$getメソッドを使用する。  
+module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)はmodule.provider(name, provider_)を内部で利用する際にDIする。
+<br/>    
 #### anonFn(fn)  
 {% highlight javascript %}
 anonFn(function(a,b,c) {var a = b + 1;});
@@ -52,7 +55,21 @@ a.annotate(b);
 {% endhighlight %}   
 <br/>    
 #### $injector::getService(serviceName)  
+$injector::get(getService)である。
 createInternalInjector内にある。    
+serviceインスタンスを取得する場合のfactory
+{% highlight javascript %}
+function(servicename) {
+    var provider = providerInjector.get(servicename + providerSuffix);
+    return instanceInjector.invoke(provider.$get, provider, undefined, servicename);
+}
+{% endhighlight %}   
+serviceプロバイダーを取得する場合factoryは呼ばれない。
+module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)は実行時に
+該当プロバイダーがproviderCacheに格納される。
+{% highlight javascript %}
+return providerCache[name + providerSuffix] = provider_;
+{% endhighlight %}   
 
 <br/>    
 #### $injector::invoke(fn, self, locals, serviceName)  
