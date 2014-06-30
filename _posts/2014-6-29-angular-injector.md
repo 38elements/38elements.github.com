@@ -57,16 +57,17 @@ a.annotate(b);
 #### $injector::getService(serviceName)  
 $injector::get(getService)である。
 createInternalInjector内にある。    
-serviceインスタンスを取得する場合のfactory
+serviceインスタンスを取得する場合は下記のfactory関数から取得したserviceインスタンスを   
+instanceCacheに格納している。    
 {% highlight javascript %}
 function(servicename) {
     var provider = providerInjector.get(servicename + providerSuffix);
     return instanceInjector.invoke(provider.$get, provider, undefined, servicename);
 }
 {% endhighlight %}   
-serviceプロバイダーを取得する場合factoryは呼ばれない。
-module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)は実行時に
-該当プロバイダーがproviderCacheに格納される。
+serviceプロバイダーを取得する場合factoryは呼ばれない。    
+module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)は実行時に   
+該当プロバイダーがproviderCacheに格納されている。
 {% highlight javascript %}
 return providerCache[name + providerSuffix] = provider_;
 {% endhighlight %}   
