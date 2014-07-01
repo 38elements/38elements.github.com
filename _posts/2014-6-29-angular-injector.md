@@ -89,4 +89,21 @@ args.push(
 fnはannotateに渡すfnと同じ形式で必ずしもfunctionである必要はない。    
 fn内のfunctionを実行した戻り値を返す。   
 fnが配列の場合はfnの最後の要素をfnに代入する。
-return fn.apply(self, args);
+return fn.apply(self, args);  
+<br/>    
+#### $injector::instantiate(Type, locals, serviceName)    
+Typeからコンストラクタになる関数を取り出す。     
+取り出した関数のprototypeを共有した空クラスのinstanceを生成する。  
+取り出した関数と空クラスのinstanceをinvokeに渡す。  
+invokeの戻り値がオブジェクトもしくは関数の場合、戻り値を返す。   
+それ以外の場合はinstanceを返す。   
+
+
+
+
+
+
+
+
+
+
