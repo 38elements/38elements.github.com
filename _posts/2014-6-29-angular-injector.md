@@ -6,6 +6,7 @@ AngularJsの[injector.js](https://github.com/angular/angular.js/blob/master/src/
 [injectorSpec.js](https://github.com/angular/angular.js/blob/master/test/auto/injectorSpec.js)   
 <br/>    
 providerからserviceを取得する際は$getメソッドを使用する。  
+module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)、module.provider(name, provider_)はserviceプロバイダーを返す。
 module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)はmodule.provider(name, provider_)を内部で利用する際にDIする。
 <br/>    
 #### anonFn(fn)  
@@ -97,6 +98,19 @@ Typeからコンストラクタになる関数を取り出す。
 取り出した関数と空クラスのinstanceをinvokeに渡す。  
 invokeの戻り値がオブジェクトもしくは関数の場合、戻り値を返す。   
 それ以外の場合はinstanceを返す。   
+<br/>    
+#### loadModules(modulesToLoad)  
+loadedModules = new HashMap([], true)   
+modulesToLoadはarrayである。      
+各modulesToLoadの要素に対して以下の処理を行う。   
+
+* stringの場合      
+
+* functionの場合       
+
+* arrayの場合   
+
+* その他の場合   
 
 
 
