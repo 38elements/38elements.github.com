@@ -27,26 +27,6 @@ python manage.py dumpdata foo --indent 4 &gt; foo.json
 [dumpdata &lt;appname appname appname.Model ...&gt;](https://docs.djangoproject.com/en/1.6/ref/django-admin/#dumpdata-appname-appname-appname-model)  
 <br/>
   
-pythonで長い文字列を作成する  
-{% highlight python  %}
-a = "111111111111111" \  
-    "222222222222222" \  
-    "333333333333333"   
-{% endhighlight %}  
-<br/>
-    
-pythonでは値の最後に,があるとjsonのパースでエラーになる。   
-<br/>
-   
-SimpleHTTPServerで何も出力しない。
-{% highlight bash  %}
-python -m SimpleHTTPServer > /dev/null 2>&1
-{% endhighlight %}  
-<br/>
-   
-pipでインストールしたライブラリをすべてupdateする。   
-[pip-tools](https://github.com/nvie/pip-tools)を利用する。   
-pip-review --auto
 
 
 
