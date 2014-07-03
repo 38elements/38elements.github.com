@@ -105,6 +105,8 @@ modulesToLoadはarrayである。
 各modulesToLoadの要素に対して以下の処理を行う。   
 
 * stringの場合      
+moduleFn = angularModule(module);している。    
+(angularModule = setupModuleLoader(window);でangularModuleを定義している。)
 
 * functionの場合       
 
