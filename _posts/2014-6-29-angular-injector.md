@@ -106,7 +106,8 @@ modulesToLoadはarrayである。
 
 * stringの場合      
 moduleFn = angularModule(module);している。    
-(angularModule = setupModuleLoader(window);でangularModuleを定義している。)
+(angularModule = [setupModuleLoader](https://github.com/angular/angular.js/blob/master/src/loader.js)(window);でangularModuleを定義している。    
+angularModuleはangular.moduleと同じでmodule(name, requires, configFn))   
 
 * functionの場合       
 
