@@ -5,7 +5,22 @@ title: injector.jsメモ
 AngularJsの[injector.js](https://github.com/angular/angular.js/blob/master/src/auto/injector.js)を読んだ際のメモ  
 [injectorSpec.js](https://github.com/angular/angular.js/blob/master/test/auto/injectorSpec.js)   
 <br/>    
-providerからserviceを取得する際は$getメソッドを使用する。  
+providerからserviceを取得する際は$get属性を使用する。  
+$get属性の様式   
+{% highlight javascript %}
+a.$get = function(a,b,c) {};
+a.$get = ["a", "b", "c", function(a, b, c) {}];
+{% endhighlight %}   
+$getはinstanceInjectorのfactory関数内で利用される。  
+{% highlight javascript %}
+instanceCache = {},
+instanceInjector = (instanceCache.$injector =
+  createInternalInjector(instanceCache, function(servicename) {
+    var provider = providerInjector.get(servicename + providerSuffix);
+    return instanceInjector.invoke(provider.$get, provider, undefined, servicename);
+  }, strictDi));
+{% endhighlight %}   
+decoratorの$delegateはwrapper対象のserviceインスタンス      
 module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)、module.provider(name, provider_)はserviceプロバイダーを返す。
 module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)はmodule.provider(name, provider_)を内部で利用する際にDIする。
 <br/>    
@@ -77,6 +92,8 @@ return providerCache[name + providerSuffix] = provider_;
 #### $injector::invoke(fn, self, locals, serviceName)  
 createInternalInjector内にある。    
 DIを行う。    
+selfを主語にしてfnを実行する。そのときにargsにDIするサービスオブジェクトを渡す。     
+return fn.apply(self, args);   
 annotateでDIを行うサービスの一覧を取得する。    
 以下の部分でサービスを取得する。  
 localsが優先     
@@ -89,7 +106,7 @@ args.push(
 {% endhighlight %}   
 fnはannotateに渡すfnと同じ形式で必ずしもfunctionである必要はない。    
 fn内のfunctionを実行した戻り値を返す。   
-fnが配列の場合はfnの最後の要素をfnに代入する。
+fnが配列の場合はfnの最後の要素をfnに代入する。    
 return fn.apply(self, args);  
 <br/>    
 #### $injector::instantiate(Type, locals, serviceName)    
@@ -100,6 +117,12 @@ invokeの戻り値がオブジェクトもしくは関数の場合、戻り値�
 それ以外の場合はinstanceを返す。   
 <br/>    
 #### loadModules(modulesToLoad)  
+
+* runInvokeQueue(queue)  
+$provideサービスでserviceプロバイダーオブジェクトをproviderCacheに登録する。   
+invokeとかもする。   
+$controllerProviderのregisterを実行する。
+
 loadedModules = new HashMap([], true)   
 modulesToLoadはarrayである。      
 各modulesToLoadの要素に対して以下の処理を行う。   
@@ -108,7 +131,10 @@ modulesToLoadはarrayである。
 moduleFn = angularModule(module);している。    
 (angularModule = [setupModuleLoader](https://github.com/angular/angular.js/blob/master/src/loader.js)(window);でangularModuleを定義している。    
 angularModuleはangular.moduleと同じでmodule(name, requires, configFn))   
-
+{% highlight javascript %}
+runInvokeQueue(moduleFn._invokeQueue);
+runInvokeQueue(moduleFn._configBlocks);
+{% endhighlight %}   
 * functionの場合       
 
 * arrayの場合   
