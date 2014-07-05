@@ -5,6 +5,17 @@ title: injector.jsメモ
 AngularJsの[injector.js](https://github.com/angular/angular.js/blob/master/src/auto/injector.js)を読んだ際のメモ  
 [injectorSpec.js](https://github.com/angular/angular.js/blob/master/test/auto/injectorSpec.js)   
 <br/>    
+#### $provide  
+{% highlight javascript %}
+$provide: {
+    provider: supportObject(provider),
+    factory: supportObject(factory),
+    service: supportObject(service),
+    value: supportObject(value),
+    constant: supportObject(constant),
+    decorator: decorator
+  }
+{% endhighlight %}   
 providerからserviceを取得する際は$get属性を使用する。  
 $get属性の様式   
 {% highlight javascript %}
@@ -20,9 +31,14 @@ instanceInjector = (instanceCache.$injector =
     return instanceInjector.invoke(provider.$get, provider, undefined, servicename);
   }, strictDi));
 {% endhighlight %}   
-decoratorの$delegateはwrapper対象のserviceインスタンス      
-module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)、module.provider(name, provider_)はserviceプロバイダーを返す。
-module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)はmodule.provider(name, provider_)を内部で利用する際にDIする。
+* decoratorの$delegateはwrapper対象のserviceインスタンス      
+
+* module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)、module.provider(name, provider_)はserviceプロバイダーを返す。    
+
+* module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)はmodule.provider(name, provider_)を内部で利用する際にmodule.provider内でDIする。
+
+* module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)はmodule.provider(name, provider_)を内部で利用する際にserviceプロバイダーをproviderCacheに格納する。   
+
 <br/>    
 #### anonFn(fn)  
 {% highlight javascript %}
