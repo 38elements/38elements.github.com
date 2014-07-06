@@ -31,7 +31,28 @@ instanceInjector = (instanceCache.$injector =
     return instanceInjector.invoke(provider.$get, provider, undefined, servicename);
   }, strictDi));
 {% endhighlight %}   
-* decoratorの$delegateはwrapper対象のserviceインスタンス      
+#### decorator(serviceName, decorFn)
+指定したserviceをラップする。    
+decorFnはfunction($delegate)である。    
+$delegateはwrapper対象のserviceインスタンス      
+{$delegate: origInstance}をinvokeのlocalsに渡してDIのときに優先的にfn.apply(self, args)に渡される。  
+#### service(name, constructor)   
+constructorはinstantiateでラップされている。
+{% highlight javascript %}
+return factory(name, ['$injector', function($injector) {
+    return $injector.instantiate(constructor);
+}]);
+{% endhighlight %}   
+#### factory(name, factoryFn)   
+$getを付与
+{% highlight javascript %}
+function factory(name, factoryFn) { return provider(name, { $get: factoryFn }); }
+{% endhighlight %}   
+#### constant(name, value)  
+{% highlight javascript %}
+providerCache[name] = value;
+instanceCache[name] = value;
+{% endhighlight %}   
 
 * module.service(name, constructor), module.factory(name, factoryFn), module.value(name, value)、module.provider(name, provider_)はserviceプロバイダーを返す。    
 
@@ -91,6 +112,7 @@ $injector::get(getService)である。
 createInternalInjector内にある。    
 serviceインスタンスを取得する場合は下記のfactory関数から取得したserviceインスタンスを   
 instanceCacheに格納している。    
+module.serviceでサービスを登録した場合、constructorはinstantiateでラップされているのでinvokeはサービスインスタンスを返す。     
 {% highlight javascript %}
 function(servicename) {
     var provider = providerInjector.get(servicename + providerSuffix);
@@ -106,6 +128,9 @@ return providerCache[name + providerSuffix] = provider_;
 
 <br/>    
 #### $injector::invoke(fn, self, locals, serviceName)  
+getServiceとinstantiateから呼ばれる。    
+selfはgetServiceの場合、serviceプロバイダー     
+selfはinstantiateの場合、空オブジェクト        
 createInternalInjector内にある。    
 DIを行う。    
 selfを主語にしてfnを実行する。そのときにargsにDIするサービスオブジェクトを渡す。     
@@ -126,6 +151,12 @@ fnが配列の場合はfnの最後の要素をfnに代入する。
 return fn.apply(self, args);  
 <br/>    
 #### $injector::instantiate(Type, locals, serviceName)    
+module.serviceでconstructorをラップしている。
+{% highlight javascript %}
+return factory(name, ['$injector', function($injector) {
+      return $injector.instantiate(constructor);
+}]);
+{% endhighlight %}   
 Typeからコンストラクタになる関数を取り出す。     
 取り出した関数のprototypeを共有した空クラスのinstanceを生成する。  
 取り出した関数と空クラスのinstanceをinvokeに渡す。  
