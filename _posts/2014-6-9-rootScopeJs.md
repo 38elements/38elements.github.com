@@ -21,6 +21,7 @@ watcher = {
     // function initWatchVal() {}
     last: initWatchVal,
     // get = compileToFn(watchExp, 'watch'),
+    // 比較に利用する。
     get: get,
     exp: watchExp,
     // 参照でオブジェクトを比較するのでは
@@ -42,7 +43,7 @@ unwatchCountが0になるとlistener.$$unwatchがtrueになる。
 以下の文で処理を行っている。
 return this.$watch($watchCollectionWatch, $watchCollectionAction);  
   
-$watchCollectionWatchi()   
+$watchCollectionWatch()   
 oldValueにすべての型の古い値が格納される   
 innerArrayにarray型の古い値が格納される   
 innerObjectにobject型の古い値が格納される   
