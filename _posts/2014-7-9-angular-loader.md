@@ -44,7 +44,7 @@ function invokeLater(provider, method, insertMethod, queue) {
     };
 }
 {% endhighlight %}   
-invokeQueueはinjector.jsのloadModules(modulesToLoad)内のrunInvokeQueue(queue)で実行される。    
+invokeQueueは[injector.js](https://github.com/angular/angular.js/blob/master/src/auto/injector.js)のloadModules(modulesToLoad)内のrunInvokeQueue(queue)で実行される。    
 {% highlight javascript %}
 function runInvokeQueue(queue) {
     var i, ii;
