@@ -16,6 +16,11 @@ angular.Module.controller(name, constructor);で[invokeQueue](https://github.com
 #### function(expression, locals)
 $controllerの実体  
 Controllerサービスを実装している。  
-
-
+[compile.js](https://github.com/angular/angular.js/blob/345ed5d1c73f38a6032c4c2b869742502da807ea/src/ng/compile.js)で下記のように使用されている。
+{% highlight javascript %}
+//$controller('FooCtrl', {$scope:scope});
+controllerInstance = $controller(controller, locals);
+{% endhighlight %}   
+registerで登録したcontstructorを$injector::instantiate(Type, locals, serviceName)に渡す。   
+その戻り値をreturnする。   
 
