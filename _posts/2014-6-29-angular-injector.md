@@ -36,6 +36,15 @@ instanceInjector = (instanceCache.$injector =
 decorFnはfunction($delegate)である。    
 $delegateはwrapper対象のserviceインスタンス      
 {$delegate: origInstance}をinvokeのlocalsに渡してDIのときに優先的にfn.apply(self, args)に渡される。  
+#### provider(name, provider_)    
+引数のprovider_はサービスプロバイダークラス
+{% highlight javascript %}
+// サービスプロバイダークラスをDIしてインスタンス化  
+provider_ = providerInjector.instantiate(provider_);
+...
+// サービスプロバイダーを登録
+return providerCache[name + providerSuffix] = provider_;
+{% endhighlight %}   
 #### service(name, constructor)   
 constructorはinstantiateでラップされている。
 {% highlight javascript %}
