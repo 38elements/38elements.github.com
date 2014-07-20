@@ -22,4 +22,8 @@ hasDirectives[name]が存在していない場合、directiveを生成する関�
 aタグのhrefのサニタイズに利用する正規表現を変更する。   
   
 * imgSrcSanitizationWhitelist(regexp)    
-imgタグのsrcのサニタイズに利用する正規表現を変更する。   
+imgタグのsrcのサニタイズに利用する正規表現を変更する。
+
+
+<br/>
+#### $get()        
