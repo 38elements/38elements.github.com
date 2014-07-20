@@ -17,5 +17,9 @@ $compileProvider.directive(name, directiveFactory)の実体である。
 nameはcamel case化したものである。   
 providerCacheにdirectiveを生成する関数をname + "Directive"というキー名で登録する。    
 hasDirectives[name]が存在していない場合、directiveを生成する関数を登録する。
-
-
+  
+* aHrefSanitizationWhitelist(regexp)    
+aタグのhrefのサニタイズに利用する正規表現を変更する。   
+  
+* imgSrcSanitizationWhitelist(regexp)    
+imgタグのsrcのサニタイズに利用する正規表現を変更する。   
