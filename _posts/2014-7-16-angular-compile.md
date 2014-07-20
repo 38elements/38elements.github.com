@@ -26,4 +26,12 @@ imgタグのsrcのサニタイズに利用する正規表現を変更する。
 
 
 <br/>
-#### $get()        
+#### $CompileProvider::$get()        
+
+<br/>
+#### Attributes(element, attr)   
+
+<br/>
+#### Attributes::directiveNormalize(name)  
+nameをcamel caseに変換する。    
+
