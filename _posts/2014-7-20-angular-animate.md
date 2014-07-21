@@ -26,4 +26,10 @@ $provide.factory(key, factory);
     }
 }
 {% endhighlight %}   
+<br/>
+#### $AnimateProvider.classNameFilter(expression)     
+expressionはRegExpである必要がある。RegExpでない場合はnullが$$classNameFilterに代入される。    
+$$classNameFilterの内容をexpressionに書き換える。   
+$$classNameFilterを返す。    
+
 
