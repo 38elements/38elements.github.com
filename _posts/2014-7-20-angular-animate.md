@@ -8,7 +8,7 @@ AngularJSの[animate.js](https://github.com/angular/angular.js/blob/master/src/n
 #### $AnimateProvider   
 $animateサービスのプロバイダー   
 <br/>
-#### $AnimateProvider.register(name, factory)      
+#### $animateProvider.register(name, factory)      
 アニメーションを実行する関数のプロバイダーを登録する。     
 nameは.から始まる文字列   
 var key = name + '-animation';   
@@ -27,9 +27,27 @@ $provide.factory(key, factory);
 }
 {% endhighlight %}   
 <br/>
-#### $AnimateProvider.classNameFilter(expression)     
+#### $animateProvider.classNameFilter(expression)     
 expressionはRegExpである必要がある。RegExpでない場合はnullが$$classNameFilterに代入される。    
 $$classNameFilterの内容をexpressionに書き換える。   
 $$classNameFilterを返す。    
-
+<br/>
+#### $animateProvider.$get($timeout, $$asyncCallback)        
+{% highlight javascript %}
+function async(fn) {
+    fn && $$asyncCallback(fn);
+}
+{% endhighlight %}   
+<br/>
+#### $animate.enter(element, parent, after, done)     
+afterが指定された場合elementをafter要素の後ろに置く。    
+parentが指定された場合elementをparent要素の最初の子要素にする。    
+doneは処理が終了したときに実行される。     
+<br/>
+#### $animate.leave(element, done)     
+elementを削除する。    
+doneは処理が終了したときに実行される    
+<br/>
+#### $animate.move(element, parent, after, done)     
+$animate.enter(element, parent, after, done)と同じ   
 
