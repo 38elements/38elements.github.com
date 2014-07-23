@@ -9,7 +9,7 @@ AngularJSの[animate.js](https://github.com/angular/angular.js/blob/master/src/n
 $animateサービスのプロバイダー   
 <br/>
 #### $animateProvider.register(name, factory)      
-アニメーションを実行する関数のプロバイダーを登録する。     
+アニメーションを実行する関数のプロバイダー(factory)を登録する。     
 nameは.から始まる文字列   
 var key = name + '-animation';   
 this.$$selectors[name.substr(1)] = key;  
@@ -50,4 +50,31 @@ doneは処理が終了したときに実行される
 <br/>
 #### $animate.move(element, parent, after, done)     
 $animate.enter(element, parent, after, done)と同じ   
+<br/>
+#### $animate.addClass(element, className, done)     
+elementのclass属性にclassNameを付与する。      
+付与し終わったらdoneを実行      
+<br/>
+#### $animate.removeClass(element, className, done)     
+elementのclass属性からclassNameを削除する。      
+削除し終わったらdoneを実行      
+<br/>
+#### $animate.setClass(element, add, remove,  done)     
+elementのclass属性にaddを付与する。      
+elementのclass属性からremoveを削除する。      
+削除し終わったらdoneを実行      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
