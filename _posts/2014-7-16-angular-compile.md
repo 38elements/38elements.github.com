@@ -27,11 +27,18 @@ imgタグのsrcのサニタイズに利用する正規表現を変更する。
 
 <br/>
 #### $CompileProvider::$get()        
-
 <br/>
 #### Attributes(element, attr)   
-
 <br/>
-#### Attributes::directiveNormalize(name)  
+#### Attributes::$normalize(name)  
 nameをcamel caseに変換する。    
+<br/>
+#### Attributes::$addClass(classVal)     
+コンストラクタの引数のelementのclass属性にclassValを追加する。       
+<br/>
+#### Attributes::$removeClass(classVal)     
+コンストラクタの引数のelementのclass属性にclassValを削除する。       
+<br/>
+#### Attributes::$updateClass(newClasses, oldClasses)     
+コンストラクタの引数のelementのclass属性にnewClassesとoldClassesの差分を反映する。        
 
