@@ -28,11 +28,17 @@ handlerを右クリックでShow Function Definition
 nodeをマウスオーバーで該当要素がハイライトされる
 <br/>
       
-#### Styleサイドバー 
+#### [Styleサイドバー](https://developer.chrome.com/devtools/docs/shortcuts#styles-sidebar) 
 
 * Ctrl+クリック:該当するスタイルを定義している場所を表示する   
 * Tab, Tab+shift:CSSのproperty,valueの移動    
 * 最下部でCSSの属性を検索することができる。   
+* color pickerをshift+click: 16進数とrgb表記を切り替える。 
+* ↑↓ :インクリメント    
+* Shift+↑, Shift+↓:10単位でインクリメント
+* PgUP, PgDn:10単位でインクリメント 
+* Shift+PgUP, Shift+PgDn:100単位でインクリメント 
+* Alt+↑, Alt+↓:0.1単位でインクリメント
 <br/>
       
 #### Sourceパネル 
