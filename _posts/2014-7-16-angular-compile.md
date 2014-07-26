@@ -41,4 +41,12 @@ nameをcamel caseに変換する。
 <br/>
 #### Attributes::$updateClass(newClasses, oldClasses)     
 コンストラクタの引数のelementのclass属性にnewClassesとoldClassesの差分を反映する。        
+<br/>
+#### Attributes::$set(key, value, writeAttr, attrName)     
+key: directive($$element)にある属性型のdirectiveのcamel case化した名前や     
+     directiveのscopeに存在しているモデル名 (ex: ngIf)    
+value: keyの値 (ex: "foo_id != 0")   
+writeAttr: directive($$element)にattrName=valueを属性として書き込むか (デフォルトはtrue)         
+attrName: directiveに書き込まれる属性名 (デフォルトはkeyをsnake caseに変換したもの)
+
 
