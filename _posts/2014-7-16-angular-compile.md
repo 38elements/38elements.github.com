@@ -99,8 +99,21 @@ $compile.$get()の戻り値
 $compileNodesをjqLiteオブジェクトにする。    
 $compileNodesの要素の中で空文字でないTextNodeは<span>でwrappする。     
 {% highlight javascript %}
+// publicLinkFn内で利用する
 var compositeLinkFn = compileNodes($compileNodes, transcludeFn, $compileNodes,
                                        maxPriority, ignoreDirective, previousCompileContext);
 {% endhighlight %}   
 $compileNodesのclass属性にng-scopeを追加する。           
 これを返すfunction publicLinkFn(scope, cloneConnectFn, transcludeControllers, parentBoundTranscludeFn)
+<br />
+#### compileNodes(nodeList, transcludeFn, $rootElement, maxPriority, ignoreDirective, previousCompileContext)    
+compileで利用されるcompositeLinkFnを返す。     
+nodeListのnodeごとにAttributesインスタンスを生成する。    
+<br/>
+#### collectDirectives(node, directives, attrs, maxPriority, ignoreDirective)    
+nodeのnodeTypeがElement(1)の場合     
+以下をチェックして該当した場合、 directiveに加える。
+
+* node自身がdirective
+* nodeの属性がdirective
+* nodeのclassがdirective
