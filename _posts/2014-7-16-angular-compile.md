@@ -109,11 +109,22 @@ $compileNodesのclass属性にng-scopeを追加する。
 #### compileNodes(nodeList, transcludeFn, $rootElement, maxPriority, ignoreDirective, previousCompileContext)    
 compileで利用されるcompositeLinkFnを返す。     
 nodeListのnodeごとにAttributesインスタンスを生成する。    
+nodeListのnodeごとにcollectDirectives()を実行する。    
 <br/>
 #### collectDirectives(node, directives, attrs, maxPriority, ignoreDirective)    
 nodeのnodeTypeがElement(1)の場合     
-以下をチェックして該当した場合、 directiveに加える。
+以下をチェックして該当した場合、 directivesに加える。
 
 * node自身がdirective
 * nodeの属性がdirective
 * nodeのclassがdirective
+  
+
+nodeのnodeTypeがText Node(3)の場合     
+addTextInterpolateDirective(directives, text)を実行する    
+<br/>
+nodeのnodeTypeがComment(8)の場合     
+OMMENT_DIRECTIVE_REGEXPにマッチした場合、addDirective()を実行する 
+
+
+
