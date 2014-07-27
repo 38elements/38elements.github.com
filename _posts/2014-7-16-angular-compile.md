@@ -27,6 +27,18 @@ imgタグのsrcのサニタイズに利用する正規表現を変更する。
 
 <br/>
 #### $CompileProvider::$get()        
+function compile($compileNodes, transcludeFn, maxPriority, ignoreDirective,
+                        previousCompileContext)を返す。   
+{% highlight javascript %}
+var startSymbol = $interpolate.startSymbol(),
+    endSymbol = $interpolate.endSymbol(),
+    denormalizeTemplate = (startSymbol == '{{' || endSymbol  == '}}')
+        ? identity
+        : function denormalizeTemplate(template) {
+          return template.replace(/\{\{/g, startSymbol).replace(/}}/g, endSymbol);
+    },
+    NG_ATTR_BINDING = /^ngAttr[A-Z]/;
+{% endhighlight %}   
 <br/>
 #### Attributes(element, attr)   
 <br/>
@@ -47,6 +59,48 @@ key: directive($$element)にある属性型のdirectiveのcamel case化した名
      directiveのscopeに存在しているモデル名 (ex: ngIf)    
 value: keyの値 (ex: "foo_id != 0")   
 writeAttr: directive($$element)にattrName=valueを属性として書き込むか (デフォルトはtrue)         
-attrName: directiveに書き込まれる属性名 (デフォルトはkeyをsnake caseに変換したもの)
-
-
+attrName: directive($$element)に書き込まれる属性名 (デフォルトはkeyをsnake caseに変換したもの)
+{% highlight javascript %}
+// していることの概要
+// Attributesインスタンスのkey属性にvalueを保存する
+this[key] = value;    
+// $attrにkeyをキーとしてsnake caseにして保存する
+this.$attr[key] = attrName = snake_case(key, '-');
+// elementの属性に値を書き込む
+this.$$element.attr(attrName, value);
+// $$observersに登録されている関数を実行する。
+observer = key
+var $$observers = this.$$observers;
+$$observers && forEach($$observers[observer], function(fn) {
+    try {
+        fn(value);
+    } catch (e) {
+        $exceptionHandler(e);
+    }
+});
+{% endhighlight %}   
+#### Attributes::$observe(key, fn)   
+key: directive($$element)にある属性型のdirectiveのcamel case化した名前や     
+     directiveのscopeに存在しているモデル名 (ex: ngIf)    
+fn: $$observersに格納される関数です。keyの値が変更されるたびに実行される。    
+$$observersにfnを格納する。     
+$$observersからfnを削除する関数を返す。    
+{% highlight javascript %}
+$rootScope.$evalAsync(function() {
+    if (!listeners.$$inter) {
+        // no one registered attribute interpolation function, so lets call it manually
+        fn(attrs[key]);
+    }
+});
+{% endhighlight %}   
+<br />
+####  compile($compileNodes, transcludeFn, maxPriority, ignoreDirective, previousCompileContext)
+$compile.$get()の戻り値      
+$compileNodesをjqLiteオブジェクトにする。    
+$compileNodesの要素の中で空文字でないTextNodeは<span>でwrappする。     
+{% highlight javascript %}
+var compositeLinkFn = compileNodes($compileNodes, transcludeFn, $compileNodes,
+                                       maxPriority, ignoreDirective, previousCompileContext);
+{% endhighlight %}   
+$compileNodesのclass属性にng-scopeを追加する。           
+これを返すfunction publicLinkFn(scope, cloneConnectFn, transcludeControllers, parentBoundTranscludeFn)
