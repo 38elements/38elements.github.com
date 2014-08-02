@@ -117,8 +117,10 @@ a.annotate(b);
 {% endhighlight %}   
 <br/>    
 #### $injector::getService(serviceName)  
-$injector::get(getService)である。
-createInternalInjector内にある。    
+$injector::get(getService)である。    
+createInternalInjector内で実装されている。    
+serviceNameのserviceインスタンスを返す。     
+instanceCache[serviceName]が存在している場合、それを返す。     
 serviceインスタンスを取得する場合は下記のfactory関数から取得したserviceインスタンスを   
 instanceCacheに格納している。    
 module.serviceでサービスを登録した場合、constructorはinstantiateでラップされているのでinvokeはサービスインスタンスを返す。     

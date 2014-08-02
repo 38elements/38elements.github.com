@@ -13,10 +13,25 @@ var hasDirectives = {},
     ALL_OR_NOTHING_ATTRS = makeMap('ngSrc,ngSrcset,src,srcset');
 {% endhighlight %}   
 * function registerDirective(name, directiveFactory)   
+{% highlight javascript %}
+// directiveFactoryの例
+var inputDirective = ['$browser', '$sniffer', '$filter', function($browser, $sniffer, $filter) {
+  return {
+    restrict: 'E',
+    require: ['?ngModel'],
+    link: function(scope, element, attr, ctrls) {
+      if (ctrls[0]) {
+        (inputType[lowercase(attr.type)] || inputType.text)(scope, element, attr, ctrls[0], $sniffer,
+                                                            $browser, $filter);
+      }
+    }
+  };
+}];
+{% endhighlight %}   
 $compileProvider.directive(name, directiveFactory)の実体である。   
 nameはcamel case化したものである。   
 providerCacheにdirectiveを生成する関数をname + "Directive"というキー名で登録する。    
-hasDirectives[name]が存在していない場合、directiveを生成する関数を登録する。
+hasDirectives[name]が存在していない場合、directiveFactoryをhasDirectives[name]に登録する。
   
 * aHrefSanitizationWhitelist(regexp)    
 aタグのhrefのサニタイズに利用する正規表現を変更する。   
@@ -112,6 +127,11 @@ nodeListのnodeごとにAttributesインスタンスを生成する。
 nodeListのnodeごとにcollectDirectives()を実行する。    
 <br/>
 #### collectDirectives(node, directives, attrs, maxPriority, ignoreDirective)    
+nodeに存在しているdirectiveを見つける。      
+そのdirectiveのデータを生成する。      
+directiveのデータをdirectivesに格納する。    
+directivesを返す。    
+     
 nodeのnodeTypeがElement(1)の場合     
 以下をチェックして該当した場合、 directivesに加える。
 
@@ -124,7 +144,82 @@ nodeのnodeTypeがText Node(3)の場合
 addTextInterpolateDirective(directives, text)を実行する    
 <br/>
 nodeのnodeTypeがComment(8)の場合     
-OMMENT_DIRECTIVE_REGEXPにマッチした場合、addDirective()を実行する 
+COMMENT_DIRECTIVE_REGEXPにマッチした場合、addDirective()を実行する     
+{% highlight javascript %}
+//directivesの値の例
+[
+    {
+        compile: function () {return value;},
+        index: 0,
+        link: function (scope, $element, attr, ctrl, $transclude) { },
+        name: "ngView",
+        priority: 400,
+        require: undefined,
+        restrict: "ECA",
+        terminal: true,
+        transclude: "element"
+    },
+    {
+        compile: function () {return value;}
+        index: 1
+        link: function (scope, $element) {}
+        name: "ngView"
+        priority: -400
+        require: undefined
+        restrict: "ECA"
+    },
+]
+{% endhighlight %}   
+<br />
+####  addDirective(tDirectives, name, location, maxPriority, ignoreDirective, startAttrName, endAttrName)
+collectDirectives()内で呼ばれる。     
+tDirectivesにdirectiveのデータを格納する。    
+hasDirectives($compileProvider.directiveで登録)にnameキーが存在した場合、    
+directives = $injector.get(name + Suffix)    
+directivesの各データごとにdirectiveがAでstart属性とend属性が設定されていた場合、それらを付与する。       
+tDirectivesにdirectiveのデータを格納する。    
+<br />
+#### applyDirectivesToNode(directives, compileNode, templateAttrs, transcludeFn, jqCollection, originalReplaceDirective, preLinkFns, postLinkFns, previousCompileContext)     
+nodeLinkFnを返す。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
