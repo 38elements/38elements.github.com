@@ -4,6 +4,9 @@ title: compile.jsメモ
 ---
 AngularJsの[compile.js](https://github.com/angular/angular.js/blob/master/src/ng/compile.js)を読んだ際のメモ   
 <br/>
+priorityは高いものから順番に実行されれる。   
+terminalがtrueだとそのpriorityで終わり。    
+<br/>
 #### $CompileProvider($provide, $$sanitizeUriProvider)   
 {% highlight javascript %}
 var hasDirectives = {},
@@ -125,6 +128,7 @@ $compileNodesのclass属性にng-scopeを追加する。
 compileで利用されるcompositeLinkFnを返す。     
 nodeListのnodeごとにAttributesインスタンスを生成する。    
 nodeListのnodeごとにcollectDirectives()を実行する。    
+nodeListのnodeごとにaddDirectivesToNode()を実行する。    
 <br/>
 #### collectDirectives(node, directives, attrs, maxPriority, ignoreDirective)    
 nodeに存在しているdirectiveを見つける。      
@@ -176,50 +180,26 @@ collectDirectives()内で呼ばれる。
 tDirectivesにdirectiveのデータを格納する。    
 hasDirectives($compileProvider.directiveで登録)にnameキーが存在した場合、    
 directives = $injector.get(name + Suffix)    
-directivesの各データごとにdirectiveがAでstart属性とend属性が設定されていた場合、それらを付与する。       
+directivesの各データごとにdirectiveがAでstart属性とend属性が設定されていた場合、それらをdirective.$$startとdirective.$$endに付与する。       
 tDirectivesにdirectiveのデータを格納する。    
 <br />
 #### applyDirectivesToNode(directives, compileNode, templateAttrs, transcludeFn, jqCollection, originalReplaceDirective, preLinkFns, postLinkFns, previousCompileContext)     
-nodeLinkFnを返す。
+nodeLinkFnを返す。             
+collectDirectives()内で利用されている。    
+{% highlight javascript %}
+nodeLinkFn = (directives.length)
+            ? applyDirectivesToNode(directives, nodeList[i], attrs, transcludeFn, $rootElement,
+              null, [], [], previousCompileContext)
+                          : null;
+{% endhighlight %}
+directiveごとに以下の処理をする。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* directive.$$startがある場合は範囲内にあるnodeを取得して$compileNodeに格納する。
+* directive.scopeに対する処理
+* !directive.templateUrl && directive.controllerに対する処理
+* directive.transcludeに対する処理
+* directive.templateに対する処理
+* directive.templateUrlに対する処理
+* directive.compileに対する処理
 
 
