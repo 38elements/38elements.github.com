@@ -149,6 +149,7 @@ addTextInterpolateDirective(directives, text)を実行する
 <br/>
 nodeのnodeTypeがComment(8)の場合     
 COMMENT_DIRECTIVE_REGEXPにマッチした場合、addDirective()を実行する     
+byPriorityでpriorityを降順にソートする。
 {% highlight javascript %}
 //directivesの値の例
 [
@@ -192,10 +193,15 @@ nodeLinkFn = (directives.length)
               null, [], [], previousCompileContext)
                           : null;
 {% endhighlight %}
-directiveごとに以下の処理をする。
+要素に存在しているdirectiveごとに以下の処理をする。
 
 * directive.$$startがある場合は範囲内にあるnodeを取得して$compileNodeに格納する。
-* directive.scopeに対する処理
+* terminalPriority > directive.priorityならループを抜ける。  
+* directive.scopeに対する処理   
+1.directiveValue = directive.scope  
+2.directive.templateUrlが設定されていない状態でdirectiveValueがobjectの場合   
+newIsolateScopeDirective = directiveとする。   
+3.newScopeDirective = newScopeDirective || directive;  
 * !directive.templateUrl && directive.controllerに対する処理
 * directive.transcludeに対する処理
 * directive.templateに対する処理
