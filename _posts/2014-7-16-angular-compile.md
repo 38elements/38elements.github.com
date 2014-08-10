@@ -207,7 +207,16 @@ newIsolateScopeDirective = directiveとする。
 1.directiveValue = directive.controller;    
 2.controllerDirectives = controllerDirectives || {};    
 3.controllerDirectives[directiveName] = directive;
-* directive.transcludeに対する処理
+* directive.transcludeに対する処理   
+1.directiveValue = directive.transclude   
+hasTranscludeDirective = true;
+2.directiveValue === "element"    
+hasElementTranscludeDirective = true;
+  後で書く    
+3.directiveValue == trueのとき   
+  $template = jqLite(jqLiteClone(compileNode)).contents();   
+  $compileNode.empty(); // clear contents  
+  childTranscludeFn = compile($template, transcludeFn);  
 * directive.templateに対する処理
 * directive.templateUrlに対する処理
 * directive.compileに対する処理
