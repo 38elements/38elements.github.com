@@ -2,7 +2,7 @@
 layout: posts
 title: compile.jsメモ 
 ---
-AngularJsの[compile.js](https://github.com/angular/angular.js/blob/master/src/ng/compile.js)を読んだ際のメモ   
+AngularJSの[compile.js](https://github.com/angular/angular.js/blob/master/src/ng/compile.js)を読んだ際のメモ   
 <br/>
 priorityは高いものから順番に実行されれる。   
 terminalがtrueだとそのpriorityで終わり。    
@@ -202,7 +202,11 @@ nodeLinkFn = (directives.length)
 2.directive.templateUrlが設定されていない状態でdirectiveValueがobjectの場合   
 newIsolateScopeDirective = directiveとする。   
 3.newScopeDirective = newScopeDirective || directive;  
-* !directive.templateUrl && directive.controllerに対する処理
+* directiveName = directive.name;   
+* !directive.templateUrl && directive.controllerに対する処理    
+1.directiveValue = directive.controller;    
+2.controllerDirectives = controllerDirectives || {};    
+3.controllerDirectives[directiveName] = directive;
 * directive.transcludeに対する処理
 * directive.templateに対する処理
 * directive.templateUrlに対する処理
