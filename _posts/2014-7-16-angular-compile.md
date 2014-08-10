@@ -195,6 +195,7 @@ nodeLinkFn = (directives.length)
 {% endhighlight %}
 要素に存在しているdirectiveごとに以下の処理をする。
 
+directiveValueには一時的に使用する値を代入する。     
 * directive.$$startがある場合は範囲内にあるnodeを取得して$compileNodeに格納する。
 * terminalPriority > directive.priorityならループを抜ける。  
 * directive.scopeに対する処理   
