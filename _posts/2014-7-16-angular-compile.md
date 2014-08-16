@@ -2,7 +2,7 @@
 layout: posts
 title: compile.jsメモ 
 ---
-AngularJSの[compile.js](https://github.com/angular/angular.js/blob/master/src/ng/compile.js)を読んだ際のメモ   
+AngularJSの[compile.js](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js)を読んだ際のメモ   
 <br/>
 priorityは高いものから順番に実行されれる。   
 terminalがtrueだとそのpriorityで終わり。    
@@ -112,7 +112,7 @@ $rootScope.$evalAsync(function() {
 });
 {% endhighlight %}   
 <br />
-####  compile($compileNodes, transcludeFn, maxPriority, ignoreDirective, previousCompileContext)
+####  [compile($compileNodes, transcludeFn, maxPriority, ignoreDirective, previousCompileContext)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L854)
 $compile.$get()の戻り値      
 $compileNodesをjqLiteオブジェクトにする。    
 $compileNodesの要素の中で空文字でないTextNodeは<span>でwrappする。     
@@ -124,13 +124,13 @@ var compositeLinkFn = compileNodes($compileNodes, transcludeFn, $compileNodes,
 $compileNodesのclass属性にng-scopeを追加する。           
 これを返すfunction publicLinkFn(scope, cloneConnectFn, transcludeControllers, parentBoundTranscludeFn)
 <br />
-#### compileNodes(nodeList, transcludeFn, $rootElement, maxPriority, ignoreDirective, previousCompileContext)    
+#### [compileNodes(nodeList, transcludeFn, $rootElement, maxPriority, ignoreDirective, previousCompileContext)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L916)    
 compileで利用されるcompositeLinkFnを返す。     
 nodeListのnodeごとにAttributesインスタンスを生成する。    
 nodeListのnodeごとにcollectDirectives()を実行する。    
 nodeListのnodeごとにaddDirectivesToNode()を実行する。    
 <br/>
-#### collectDirectives(node, directives, attrs, maxPriority, ignoreDirective)    
+#### [collectDirectives(node, directives, attrs, maxPriority, ignoreDirective)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1031)    
 nodeに存在しているdirectiveを見つける。      
 そのdirectiveのデータを生成する。      
 directiveのデータをdirectivesに格納する。    
@@ -176,7 +176,7 @@ byPriorityでpriorityを降順にソートする。
 ]
 {% endhighlight %}   
 <br />
-####  addDirective(tDirectives, name, location, maxPriority, ignoreDirective, startAttrName, endAttrName)
+####  [addDirective(tDirectives, name, location, maxPriority, ignoreDirective, startAttrName, endAttrName)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1654)
 collectDirectives()内で呼ばれる。     
 tDirectivesにdirectiveのデータを格納する。    
 hasDirectives($compileProvider.directiveで登録)にnameキーが存在した場合、    
@@ -184,7 +184,7 @@ directives = $injector.get(name + Suffix)
 directivesの各データごとにdirectiveがAでstart属性とend属性が設定されていた場合、それらをdirective.$$startとdirective.$$endに付与する。       
 tDirectivesにdirectiveのデータを格納する。    
 <br />
-#### applyDirectivesToNode(directives, compileNode, templateAttrs, transcludeFn, jqCollection, originalReplaceDirective, preLinkFns, postLinkFns, previousCompileContext)     
+#### [applyDirectivesToNode(directives, compileNode, templateAttrs, transcludeFn, jqCollection, originalReplaceDirective, preLinkFns, postLinkFns, previousCompileContext)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1190)     
 nodeLinkFnを返す。             
 collectDirectives()内で利用されている。    
 {% highlight javascript %}
@@ -193,33 +193,34 @@ nodeLinkFn = (directives.length)
               null, [], [], previousCompileContext)
                           : null;
 {% endhighlight %}
-要素に存在しているdirectiveごとに以下の処理をする。
-
+要素に存在しているdirectiveごとに以下の処理をする。   
 directiveValueには一時的に使用する値を代入する。     
+
 * directive.$$startがある場合は範囲内にあるnodeを取得して$compileNodeに格納する。
 * terminalPriority > directive.priorityならループを抜ける。  
 * directive.scopeに対する処理   
-1.directiveValue = directive.scope  
-2.directive.templateUrlが設定されていない状態でdirectiveValueがobjectの場合   
+1.directive.templateUrlが設定されていない状態でdirective.scopeがobjectの場合   
 newIsolateScopeDirective = directiveとする。   
-3.newScopeDirective = newScopeDirective || directive;  
+2.newScopeDirective = newScopeDirective || directive;  
 * directiveName = directive.name;   
 * !directive.templateUrl && directive.controllerに対する処理    
-1.directiveValue = directive.controller;    
-2.controllerDirectives = controllerDirectives || {};    
-3.controllerDirectives[directiveName] = directive;
+1.controllerDirectives = controllerDirectives || {};    
+2.controllerDirectives[directiveName] = directive;
 * directive.transcludeに対する処理   
-1.directiveValue = directive.transclude   
-hasTranscludeDirective = true;
-2.directiveValue === "element"    
+1.directive.transclude === "element"    
 hasElementTranscludeDirective = true;
   後で書く    
-3.directiveValue == trueのとき   
+2.directive.transclude == trueのとき   
   $template = jqLite(jqLiteClone(compileNode)).contents();   
   $compileNode.empty(); // clear contents  
-  childTranscludeFn = compile($template, transcludeFn);  
-* directive.templateに対する処理
-* directive.templateUrlに対する処理
-* directive.compileに対する処理
+  childTranscludeFn = compile($template, transcludeFn);    
+* directive.templateに対する処理   
+1.directive.templateが関数の場合はdirective.template($compileNode, templateAttrs)を実行する。
+その戻り値をテンプレートとする。文字列の場合はdirective.templateをテンプレートとする。
+2.denormalizeTemplate(テンプレート)
+テンプレートの"\{\{" "\}\}"が別の文字列に設定されていた場合、"\{\{" "\}\}"をそれらと変換する。    
+* directive.replaceに対する処理   
+* directive.templateUrlに対する処理    
+* directive.compileに対する処理   
 
 
