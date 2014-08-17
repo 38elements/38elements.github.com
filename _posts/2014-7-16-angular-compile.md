@@ -15,7 +15,7 @@ var hasDirectives = {},
     CLASS_DIRECTIVE_REGEXP = /(([\d\w_\-]+)(?:\:([^;]+))?;?)/,
     ALL_OR_NOTHING_ATTRS = makeMap('ngSrc,ngSrcset,src,srcset');
 {% endhighlight %}   
-* function registerDirective(name, directiveFactory)   
+#### [function registerDirective(name, directiveFactory)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L563)   
 {% highlight javascript %}
 // directiveFactoryの例
 var inputDirective = ['$browser', '$sniffer', '$filter', function($browser, $sniffer, $filter) {
@@ -44,7 +44,7 @@ imgタグのsrcのサニタイズに利用する正規表現を変更する。
 
 
 <br/>
-#### $CompileProvider::$get()        
+#### [$CompileProvider::$get()](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L660)        
 function compile($compileNodes, transcludeFn, maxPriority, ignoreDirective,
                         previousCompileContext)を返す。   
 {% highlight javascript %}
