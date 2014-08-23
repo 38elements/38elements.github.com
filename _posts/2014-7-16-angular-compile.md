@@ -142,7 +142,16 @@ nodeのnodeTypeがElement(1)の場合
 * node自身がdirective
 * nodeの属性がdirective
 * nodeのclassがdirective
-  
+
+要素の属性データを登録する。     
+{% highlight javascript %}
+// attrsMapはattrs.$attrのこと      
+// nName: "ngRepeat"  
+// name: "ng-repeat"  
+// value: "e in entries"
+attrsMap[nName] = name;
+attrs[nName] = value = trim(attr.value);
+{% endhighlight %}   
 
 nodeのnodeTypeがText Node(3)の場合     
 addTextInterpolateDirective(directives, text)を実行する    
@@ -185,6 +194,7 @@ directivesの各データごとにdirectiveがAでstart属性とend属性が設�
 tDirectivesにdirectiveのデータを格納する。    
 <br />
 #### [applyDirectivesToNode(directives, compileNode, templateAttrs, transcludeFn, jqCollection, originalReplaceDirective, preLinkFns, postLinkFns, previousCompileContext)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1190)     
+jqCollectionはroot of compile tree      
 nodeLinkFnを返す。             
 collectDirectives()内で利用されている。    
 {% highlight javascript %}
@@ -219,8 +229,14 @@ hasElementTranscludeDirective = true;
 その戻り値をテンプレートとする。文字列の場合はdirective.templateをテンプレートとする。
 2.denormalizeTemplate(テンプレート)
 テンプレートの"\{\{" "\}\}"が別の文字列に設定されていた場合、"\{\{" "\}\}"をそれらと変換する。    
-* directive.replaceに対する処理   
-* directive.templateUrlに対する処理    
+3.directive.replaceが存在しない場合、$compileNodeにテンプレートを挿入する。
+* [directive.replaceに対する処理](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1311)   
+  テンプレートをjqLiteオブジェクトに変換したものを$templateに代入する。    
+  $compileNodeと$template[0]を置き換える。   
+  $template[0]内にあるdirectiveをcollectDirectivesで取得する。    
+  directivesで処理を行っているdirectiveの直後に$template[0]内にあるdirectiveを格納する。      
+  $template[0]内の各Nodeの属性を現在処理中のdirectiveの属性データに統合する。
+* [directive.templateUrlに対する処理](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1350)    
 * directive.compileに対する処理   
 
 
