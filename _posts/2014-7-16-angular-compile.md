@@ -58,7 +58,7 @@ var startSymbol = $interpolate.startSymbol(),
     NG_ATTR_BINDING = /^ngAttr[A-Z]/;
 {% endhighlight %}   
 <br/>
-#### Attributes(element, attr)   
+#### [Attributes(element, attr)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L666)   
 <br/>
 #### Attributes::$normalize(name)  
 nameをcamel caseに変換する。    
