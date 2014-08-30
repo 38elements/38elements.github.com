@@ -7,7 +7,7 @@ title: AngularJSでGitHubにあるrepositoryのタグ一覧を表示する。
 [$http](https://docs.angularjs.org/api/ng/service/$http#jsonp)でJSONPを行うにはcallback関数名をJSON_CALLBACKにする必要があります。       
       
 AngularJSのtag一覧を取得するURLの例      
-https://api.github.com/repos/angular/angular/angular.js/tags?callback=JSON_CALLBACK   
+https://api.github.com/repos/angular/angular.js/tags?callback=JSON_CALLBACK   
     
 [DEMO](http://jsdo.it/38elements/github_api_angularjs_jsonp)
 {% highlight html %}

@@ -231,12 +231,34 @@ hasElementTranscludeDirective = true;
 テンプレートの"\{\{" "\}\}"が別の文字列に設定されていた場合、"\{\{" "\}\}"をそれらと変換する。    
 3.directive.replaceが存在しない場合、$compileNodeにテンプレートを挿入する。
 * [directive.replaceに対する処理](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1311)   
+  このreplaceの処理はdirective.templateに対する処理で、directive.templateUrlに対応する処理はcompileTemplateUrlで実行される。     
   テンプレートをjqLiteオブジェクトに変換したものを$templateに代入する。    
-  $compileNodeと$template[0]を置き換える。   
+  $compileNodeを$template[0]で置き換える。   
   $template[0]内にあるdirectiveをcollectDirectivesで取得する。    
   directivesで処理を行っているdirectiveの直後に$template[0]内にあるdirectiveを格納する。      
   $template[0]内の各Nodeの属性を現在処理中のdirectiveの属性データに統合する。
 * [directive.templateUrlに対する処理](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1350)    
+  [compileTemplateUrl()](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1741)を実行して[nodeLinkFn](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1840)を上書きする。    
 * directive.compileに対する処理   
+
+<br/>
+#### [compileTemplateUrl(directives, $compileNode, tAttrs, $rootElement, childTranscludeFn, preLinkFns, postLinkFns, previousCompileContext)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1741)   
+applyDirectivesToNode()内で[利用されている](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1359)。    
+[nodeLinkFn](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1840)上書きする[delayedNodeLinkFn(ignoreChildLinkFn, scope, node, rootElement, boundTranscludeFn)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1840)を生成して返す。      
+{% highlight javascript %}
+nodeLinkFn = compileTemplateUrl(directives.splice(i, directives.length - i), $compileNode,
+  templateAttrs, jqCollection, hasTranscludeDirective && childTranscludeFn, preLinkFns, postLinkFns, {
+    controllerDirectives: controllerDirectives,
+    newIsolateScopeDirective: newIsolateScopeDirective,
+    templateDirective: templateDirective,
+    nonTlbTranscludeDirective: nonTlbTranscludeDirective
+  });
+{% endhighlight %}
+$compileNodeの子要素を削除する。    
+<br/>
+#### [delayedNodeLinkFn(ignoreChildLinkFn, scope, node, rootElement, boundTranscludeFn)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1840) 
+templateUrlが指定されていた場合の[nodeLinkFn](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1359)の実体    
+
+
 
 

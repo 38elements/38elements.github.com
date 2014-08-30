@@ -101,7 +101,8 @@ console.log("%cfoo bar %d", "color:green; background:black; font-size: 16pt", 10
 * monitorEvents(object[, events]): objectに指定したイベントが生じた際はログを出力する。  
 * unmonitorEvents(object[, events]): 指定したイベントのログ出力を止める。   
 
-
+<br/>
+[Chormeのシュートカット](https://support.google.com/chrome/answer/157179?hl=ja)   
 <br/>
 <br/>
 [DevTools Digest - Chrome 35](http://www.html5rocks.com/en/tutorials/developertools/chrome-35/)   
