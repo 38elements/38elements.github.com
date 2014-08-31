@@ -125,12 +125,14 @@ $compileNodesのclass属性にng-scopeを追加する。
 これを返すfunction publicLinkFn(scope, cloneConnectFn, transcludeControllers, parentBoundTranscludeFn)
 <br />
 #### [compileNodes(nodeList, transcludeFn, $rootElement, maxPriority, ignoreDirective, previousCompileContext)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L916)    
-compileで利用されるcompositeLinkFnを返す。     
+[compileで利用されるcompositeLinkFnを返す。](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L868)     
 nodeListのnodeごとにAttributesインスタンスを生成する。    
 nodeListのnodeごとにcollectDirectives()を実行する。    
 nodeListのnodeごとにaddDirectivesToNode()を実行する。    
+nodeLinkFn.scopeがtrue（directive.scope === true）なら対象の要素のclassに'ng-scope'を加える。    
 <br/>
 #### [collectDirectives(node, directives, attrs, maxPriority, ignoreDirective)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1031)    
+[compileNodes()で利用されている。](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L925)   
 nodeに存在しているdirectiveを見つける。      
 そのdirectiveのデータを生成する。      
 directiveのデータをdirectivesに格納する。    
@@ -186,7 +188,7 @@ byPriorityでpriorityを降順にソートする。
 {% endhighlight %}   
 <br />
 ####  [addDirective(tDirectives, name, location, maxPriority, ignoreDirective, startAttrName, endAttrName)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1654)
-collectDirectives()内で呼ばれる。     
+[collectDirectives()内で呼ばれる。](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1031)     
 tDirectivesにdirectiveのデータを格納する。    
 hasDirectives($compileProvider.directiveで登録)にnameキーが存在した場合、    
 directives = $injector.get(name + Suffix)    
@@ -196,7 +198,7 @@ tDirectivesにdirectiveのデータを格納する。
 #### [applyDirectivesToNode(directives, compileNode, templateAttrs, transcludeFn, jqCollection, originalReplaceDirective, preLinkFns, postLinkFns, previousCompileContext)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1190)     
 jqCollectionはroot of compile tree      
 nodeLinkFnを返す。             
-collectDirectives()内で利用されている。    
+[compileNodes()内で利用しています。](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L928)
 {% highlight javascript %}
 nodeLinkFn = (directives.length)
             ? applyDirectivesToNode(directives, nodeList[i], attrs, transcludeFn, $rootElement,
@@ -239,7 +241,9 @@ hasElementTranscludeDirective = true;
   $template[0]内の各Nodeの属性を現在処理中のdirectiveの属性データに統合する。
 * [directive.templateUrlに対する処理](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1350)    
   [compileTemplateUrl()](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1741)を実行して[nodeLinkFn](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1840)を上書きする。    
-* directive.compileに対する処理   
+* [directive.compileに対する処理](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1367)   
+  terminalUrlがある場合はそれに対応した後にこの処理が実行される。    
+  linkFn = directive.compile($compileNode, templateAttrs, childTranscludeFn);         
 
 <br/>
 #### [compileTemplateUrl(directives, $compileNode, tAttrs, $rootElement, childTranscludeFn, preLinkFns, postLinkFns, previousCompileContext)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1741)   
@@ -255,9 +259,15 @@ nodeLinkFn = compileTemplateUrl(directives.splice(i, directives.length - i), $co
   });
 {% endhighlight %}
 $compileNodeの子要素を削除する。    
+$http.get(templateUrl)でテンプレートを取得する。    
+現在処理中のdirectiveに対してreplaceが設定されている場合、それに対応した処理をする。    
+directive.templateとと処理内容はほぼ同じだが、applyDirectivesToNode(), compileNode()を実行する。    
+delayedNodeLinkFnと$http.get()のコールバック関数のどちらが先に実行されるかで処理の内容が異なる。     
+それは、linkQueueに要素数があるかどうかで決まる。      
 <br/>
 #### [delayedNodeLinkFn(ignoreChildLinkFn, scope, node, rootElement, boundTranscludeFn)](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1840) 
 templateUrlが指定されていた場合の[nodeLinkFn](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L1359)の実体    
+applyDirectivesToNode()の[戻り値](https://github.com/angular/angular.js/blob/v1.3.0-beta.18/src/ng/compile.js#L928)      
 
 
 
