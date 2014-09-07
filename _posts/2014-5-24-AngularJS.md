@@ -53,4 +53,8 @@ configではproviderオブジェクトの設定を行う。
 値を渡す際は親要素のcontrollerのスコープが適用できるか($parentを付けるべきか)を  
 考慮する。  
 
-* [mock.inject](https://docs.angularjs.org/api/ngMock/function/angular.mock.inject)の引数を\_で囲でも\_は削除された状態になる。
+* [mock.inject](https://docs.angularjs.org/api/ngMock/function/angular.mock.inject)の引数を\_で囲んでも\_は削除された状態になる。   
+
+* ng-repeatで利用する配列が[1, 2, 3, 1]のように同じ値が複数存在している場合    
+ng-repeat="value in [1, 2, 3, 1] track by $index"のように      
+[track by $index](https://docs.angularjs.org/error/ngRepeat/dupes)を付ける必要がある。  
