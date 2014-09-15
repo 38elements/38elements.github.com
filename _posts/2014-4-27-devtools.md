@@ -102,7 +102,21 @@ console.log("%cfoo bar %d", "color:green; background:black; font-size: 16pt", 10
 * unmonitorEvents(object[, events]): 指定したイベントのログ出力を止める。   
 
 <br/>
-[Chormeのシュートカット](https://support.google.com/chrome/answer/157179?hl=ja)   
+[Chormeのショートカット](https://support.google.com/chrome/answer/157179?hl=ja)        
+よく使いそうな機能       
+Ctrl+リンクをクリック: リンクを新しいタブでバックグラウンドで開く       
+Ctrl+Shift+リンクをクリック: リンクを新しいタブでバックグラウンドで開く      
+Ctrl+w: タブを閉じる    
+Ctrl+Shift+t: 最近閉じたタブを開く     
+Ctrl+Tab: 次のタブ     
+Ctrl+Shift+Tab: 前のタブ      
+Alt+←:  戻る    
+Alt+→:  進む    
+Home: ページの一番上に移動       
+End: ページの一番下に移動      
+Space: 下にスクロール     
+Shift+Space: 上にスクロール    
+Ctrl+Shift+v: テキストとして貼り付け                  
 <br/>
 <br/>
 [DevTools Digest - Chrome 35](http://www.html5rocks.com/en/tutorials/developertools/chrome-35/)   
