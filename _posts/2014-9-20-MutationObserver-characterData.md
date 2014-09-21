@@ -9,5 +9,5 @@ title:  MutationObserverメモ
         
 [characterData](https://developer.mozilla.org/en/docs/Web/API/CharacterData)変更でのトリガーはコメントやテキストNodeの内容を変更すると発生する。       
 以下がサンプル      
-<script type="text/javascript" src="http://jsdo.it/blogparts/vxyC/js?width=575&height=496&view=javascript"></script>
+<script type="text/javascript" src="https://jsdo.it/blogparts/vxyC/js?width=575&height=496&view=javascript"></script>
 
