@@ -7,5 +7,7 @@ title: Node.childrenとNode.childNodesメモ
 childrenにはコメントやテキストが含まれません。     
 childNodesはコメントやテキストが含まれます。     
 childrenもchildNodesも子要素が変更された場合それらが自動的に反映されます。      
-<script type="text/javascript" src="https://jsdo.it/blogparts/dtOF/js?width=465&height=496&view=javascript"></script>
+
+[DEMO](http://jsdo.it/38elements/node-children)    
+     
 [Node.childElementCount](https://developer.mozilla.org/ja/docs/Web/API/ParentNode.childElementCount)は子Elementの数です。   
