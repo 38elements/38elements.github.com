@@ -14,7 +14,7 @@ title: DevToolsメモ
 * Ctrl+o: ファイル名でファイルを検索   
 <br/>
       
-#### Elementsパネル   
+#### [Elementsパネル](https://developer.chrome.com/devtools/docs/shortcuts#elements-panel)   
 
 * ←,→:選 択されている要素を開く・閉じる    
 * Enter: 選択されている要素の属性を変更する   
@@ -41,7 +41,7 @@ nodeをマウスオーバーで該当要素がハイライトされる
 * Alt+↑, Alt+↓:0.1単位でインクリメント
 <br/>
       
-#### Sourceパネル 
+#### [Sourceパネル](https://developer.chrome.com/devtools/docs/shortcuts#sources-panel) 
 
 * Ctrl+o:ファイル名を検索  
 * Ctri+Shift+o:選択しているファイル内の関数を検索    
@@ -50,6 +50,7 @@ nodeをマウスオーバーで該当要素がハイライトされる
 * Ctrl+Enter:snippetの実行   
 * Breakpointは画面右のBreakpointsを右クリックしてRemove all Breakpointsですべて消すことができる   
 * CodeMirrorの[ショートカット](http://codemirror.net/demo/sublime.html)を利用することができる。    
+* Alt+DragでVimのCtrl+vみたいに選択することができる。    
 <br/>
    
 [Debugging](https://developers.google.com/chrome-developer-tools/docs/javascript-debugging#sources-panel) 
@@ -66,7 +67,7 @@ nodeをマウスオーバーで該当要素がハイライトされる
 FilterにDomain:example.comでリクエストの送信先をフィルタリングすることができる   
 <br/>
       
-#### Console   
+#### [Console](https://developer.chrome.com/devtools/docs/shortcuts#console)   
 
 * $()やdocument.getElementById()などの要素を返す関数を実行した場合その戻り値はConsole上にツリー形式で表示される  
 これらの関数の戻り値の要素のツリーをマウスオーバーすることで画面上の該当要素が強調される。   
@@ -100,6 +101,15 @@ console.log("%cfoo bar %d", "color:green; background:black; font-size: 16pt", 10
 * values(object): objectの値の一覧を返す。   
 * monitorEvents(object[, events]): objectに指定したイベントが生じた際はログを出力する。  
 * unmonitorEvents(object[, events]): 指定したイベントのログ出力を止める。   
+<br/>
+
+[Workspaces](https://developer.chrome.com/devtools/docs/workspaces)   
+
+1. Workspaces用のフォルダを用意する   
+2. Sourceパネルのファイル一覧があるところで右クリックをして「Add Folder to Workspace」を選択する。
+3. Sourceパネルのファイル一覧で右クリックして変更したいファイルを「Save as」でWorkspaces用のフォルダに保存する。
+4. 保存したファイルをSourceパネルのファイル一覧で右クリックして「Map to File System Resource」を選択して変更したいファイルと関連づける。
+5. 編集して保存する(javascriptファイルは新しい関数を定義することができない)
 
 <br/>
 [Chormeのショートカット](https://support.google.com/chrome/answer/157179?hl=ja)        
