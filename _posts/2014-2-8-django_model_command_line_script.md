@@ -27,6 +27,8 @@ python manage.py dumpdata foo --indent 4 &gt; foo.json
 [dumpdata &lt;appname appname appname.Model ...&gt;](https://docs.djangoproject.com/en/1.6/ref/django-admin/#dumpdata-appname-appname-appname-model)  
 <br/>
   
-
-
+テンプレートに{{ "{% csrf_token " }} %}がないとCookieにcsrf_tokenがセットされない。    
+{{ "{% csrf_token " }} %} なしでセットするには
+request.META["CSRF_COOKIE_USED"] = True
+をリクエストの処理で行う。
 
