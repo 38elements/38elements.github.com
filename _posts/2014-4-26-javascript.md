@@ -22,3 +22,9 @@ var $foo = $("<div/>", {
     text: "bar"
 });
 {% endhighlight %}
+
+* jQueryで要素に登録されているイベントとそのcallback関数の一覧を取得する
+{% highlight javascript %}
+$._data(<HTML要素>, "events");
+{% endhighlight %}
+
