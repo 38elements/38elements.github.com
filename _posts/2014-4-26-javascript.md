@@ -12,19 +12,9 @@ var func = function(a,b,c) {};
 func.length;  
 =>3  
   
-* jQueryで要素の作成
+* 文字列の途中で改行を入れたいときは「\」を行末に置く。
 {% highlight javascript %}
-var $foo = $("<div/>", {
-    class: "bar",
-    on: {
-        click: function() { alert("foo") }
-    },
-    text: "bar"
-});
+var a = "12345\
+678";
+// 12345678
 {% endhighlight %}
-
-* jQueryで要素に登録されているイベントとそのcallback関数の一覧を取得する
-{% highlight javascript %}
-$._data(<HTML要素>, "events");
-{% endhighlight %}
-
