@@ -18,16 +18,24 @@ FooModel.objects.all()
 
 プロジェクトの開始   
 django-admin.py startproject project_name  
+アプリケーションの作成   
+python manage.py startapp app_name    
 テーブル定義を表示   
 django manage.py sql appname  
 インデックスを表示  
 python manage.py sqlindexes appname   
+インタラクティブ   
+python manage.py shell   
+<br/>
+
+[管理者を作成する方法](https://docs.djangoproject.com/en/1.7/intro/tutorial02/#creating-an-admin-user)   
 <br/>
 
 #### Migrations[*](https://docs.djangoproject.com/en/1.7/topics/migrations/#module-django.db.migrations)
 [makemigrations](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-makemigrations)      
 [sqlmigrate](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-sqlmigrate)      
 [migrate](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-migrate)      
+[squashmigrations](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-squashmigrations)      
 <br/>
   
 データベースのデータをjson形式で整形して出力する     
