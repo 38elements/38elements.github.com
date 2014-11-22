@@ -16,10 +16,18 @@ FooModel.objects.all()
 [参考](https://stackoverflow.com/questions/383073/django-how-can-i-use-my-model-classes-to-interact-with-my-database-from-outside/383089#383089)   
 <br/>
 
+プロジェクトの開始   
+django-admin.py startproject project_name  
 テーブル定義を表示   
 django manage.py sql appname  
 インデックスを表示  
 python manage.py sqlindexes appname   
+<br/>
+
+#### Migrations[*](https://docs.djangoproject.com/en/1.7/topics/migrations/#module-django.db.migrations)
+[makemigrations](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-makemigrations)      
+[sqlmigrate](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-sqlmigrate)      
+[migrate](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-migrate)      
 <br/>
   
 データベースのデータをjson形式で整形して出力する     
