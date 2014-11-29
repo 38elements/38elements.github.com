@@ -19,7 +19,7 @@ FooModel.objects.all()
 プロジェクトの開始   
 django-admin.py startproject project_name  
 アプリケーションの作成   
-python manage.py startapp app_name    
+python manage.py [startapp](https://docs.djangoproject.com/en/1.7/ref/django-admin/#startapp-app-label-destination) app_name    
 テーブル定義を表示   
 django manage.py sql appname  
 インデックスを表示  
@@ -37,7 +37,13 @@ python manage.py shell
 [migrate](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-migrate)      
 [squashmigrations](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-squashmigrations)      
 <br/>
-  
+   
+#### Template
+[extends](https://docs.djangoproject.com/en/1.7/ref/templates/builtins/#extends)   
+[block](https://docs.djangoproject.com/en/1.7/ref/templates/builtins/#block)   
+アプリケーションディレクトリの下にtemplatesディレクトリを配置する。それがテンプレートのrootディレクトリになる。[*](https://docs.djangoproject.com/en/1.7/ref/templates/api/#django.template.loaders.app_directories.Loader)   
+<br/>
+   
 データベースのデータをjson形式で整形して出力する     
 python manage.py dumpdata foo --indent 4 &gt; foo.json  
 [dumpdata &lt;appname appname appname.Model ...&gt;](https://docs.djangoproject.com/en/1.6/ref/django-admin/#dumpdata-appname-appname-appname-model)  
@@ -47,4 +53,6 @@ python manage.py dumpdata foo --indent 4 &gt; foo.json
 {{ "{% csrf_token " }} %} なしでセットするには
 request.META["CSRF_COOKIE_USED"] = True
 をリクエストの処理で行う。
+<br/>
 
+[DjangoのModelメモ](/2014/11/29/django-model.html)  
