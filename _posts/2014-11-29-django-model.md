@@ -15,3 +15,51 @@ Metaクラスの[db_table](https://docs.djangoproject.com/en/1.7/ref/models/opti
 * field一覧[*](https://docs.djangoproject.com/en/1.7/ref/models/fields/#model-field-types)
 
 * カスタムフィールドの作成方法[*](https://docs.djangoproject.com/en/1.7/howto/custom-model-fields/)
+ 
+* Fieldに指定することができるオプション一覧[*](https://docs.djangoproject.com/en/1.7/topics/db/models/#field-options)
+
+* 多対多の関係をにするにはそれようのfieldとテーブルを作成する[*](https://docs.djangoproject.com/en/1.7/topics/db/models/#extra-fields-on-many-to-many-relationships) [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#saving-foreignkey-and-manytomanyfield-fields)
+
+* Meta[*](https://docs.djangoproject.com/en/1.7/ref/models/options/)
+
+* 継承する用のクラスはMeta abstract = Trueする。
+
+* related_nameは多対多の関係になっているオブジェクトを参照する際に利用する。    
+継承する際の[注意点](https://docs.djangoproject.com/en/1.7/topics/db/models/#be-careful-with-related-name)
+
+* レコード   
+{% highlight python %}
+#新規
+foo = Foo(name="foo", title="bar")
+foo.save()
+#更新
+foo.name = "1234"
+foo.save()
+{% endhighlight %}
+
+* 多対多や外部キー [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#saving-foreignkey-and-manytomanyfield-fields)      
+外部キーにはそれに対応したModel   
+多対多はattributeにaddする
+<br/>
+   
+#### SQL
+* 比較一覧[*](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#field-lookups)
+
+* １つだけ取得したい場合は[get](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#django.db.models.query.QuerySet.get)
+
+* offset limit[*](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#django.db.models.query.QuerySet.get)   
+ Foo.objects.all()[5:10]
+
+* 外部キーで参照しているテーブルを条件に加える場合はキーワード名を<外部テーブル名>\__<カラム名>\__<条件>とする [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#lookups-that-span-relationships)
+
+* テーブルにあるカラムの値を条件に利用したい場合は[F()](https://docs.djangoproject.com/en/1.7/topics/db/queries/#filters-can-reference-fields-on-the-model)を利用する
+
+* cacheされる条件[*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#caching-and-querysets)
+
+* ORやANDを利用する方法 [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#complex-lookups-with-q-objects)
+
+* レコードを削除するときは[delete()](https://docs.djangoproject.com/en/1.7/ref/models/instances/#django.db.models.Model.delete)を利用する　[*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#deleting-objects)
+
+* レコードの複製はpkにNoneを代入する。 [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#copying-model-instances)  
+
+* 複数のレコードを変更する際は[update()](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#django.db.models.query.QuerySet.update)を利用する [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#updating-multiple-objects-at-once)
