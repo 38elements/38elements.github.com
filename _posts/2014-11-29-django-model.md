@@ -63,3 +63,5 @@ foo.save()
 * レコードの複製はpkにNoneを代入する。 [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#copying-model-instances)  
 
 * 複数のレコードを変更する際は[update()](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#django.db.models.query.QuerySet.update)を利用する [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#updating-multiple-objects-at-once)
+
+* 1対1, 多対多の操作 [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#related-objects)
