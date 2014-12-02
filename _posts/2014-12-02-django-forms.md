@@ -13,3 +13,7 @@ title: DjangoのFormメモ
 * デフォルトのエラーメッセージは[error_messages](https://docs.djangoproject.com/en/1.7/ref/forms/fields/#django.forms.Field.error_messages)に定義する
 
 * フィールドに指定する変数一覧 [*](https://docs.djangoproject.com/en/1.7/ref/forms/fields/#core-field-arguments)
+
+* テンプレートでform.foo.valueで値を表示することができる
+
+* formとmodelを関連付ける [*](https://docs.djangoproject.com/en/dev/topics/forms/modelforms/)
