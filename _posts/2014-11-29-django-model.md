@@ -40,6 +40,8 @@ foo.save()
 * 多対多や外部キー [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#saving-foreignkey-and-manytomanyfield-fields)      
 外部キーにはそれに対応したModel   
 多対多はattributeにaddする
+
+* [DjangoのModelで外部キーにModelではなくidを渡すことができる](/2014/12/04/django-foreignkey-id-save.html)
 <br/>
    
 #### SQL
@@ -71,3 +73,5 @@ foo.save()
 * <Model名>_setでこのモデルを外部キーにしているレコードを取得することができる。外部キーにしているField定義で[related_name](https://docs.djangoproject.com/en/1.7/ref/models/fields/#django.db.models.ForeignKey.related_name)を指定するとそれで取得することができる。 [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#following-relationships-backward)
 
 * from django.core.exceptions import ObjectDoesNotExist
+
+* 実行されたSQLはincludeはconnection.queriesで確認することができる。  [*](https://docs.djangoproject.com/en/dev/faq/models/#how-can-i-see-the-raw-sql-queries-django-is-running)

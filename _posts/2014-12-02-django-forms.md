@@ -17,3 +17,5 @@ title: DjangoのFormメモ
 * テンプレートでform.foo.valueで値を表示することができる
 
 * formとmodelを関連付ける [*](https://docs.djangoproject.com/en/dev/topics/forms/modelforms/)
+
+* コントロールの属性の指定方法 [*](https://docs.djangoproject.com/en/1.7/ref/forms/widgets/#django.forms.Widget.attrs)
