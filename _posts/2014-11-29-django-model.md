@@ -66,7 +66,7 @@ foo.save()
 
 * 1対1, 多対多の操作 [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#related-objects)
 
-* 一度に関連したデータを取得するSQLを発行してModelオブジェクトを生成するには[select_related](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#select-related)を利用する。
+* 一度に関連したデータを全て取得するSQLを発行してModelオブジェクトを生成するには[select_related](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#select-related)を利用する。
 
 * <Model名>_setでこのモデルを外部キーにしているレコードを取得することができる。外部キーにしているField定義で[related_name](https://docs.djangoproject.com/en/1.7/ref/models/fields/#django.db.models.ForeignKey.related_name)を指定するとそれで取得することができる。 [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#following-relationships-backward)
 
