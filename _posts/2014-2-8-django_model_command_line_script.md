@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Djangoメモ 
+title: DjangoのModelをスクリプトでコマンドラインから利用する。 
 ---
 DjangoのModelをスクリプトでコマンドラインから利用する。 
   
@@ -16,46 +16,3 @@ FooModel.objects.all()
 [参考](https://stackoverflow.com/questions/383073/django-how-can-i-use-my-model-classes-to-interact-with-my-database-from-outside/383089#383089)   
 <br/>
 
-プロジェクトの開始   
-django-admin.py startproject project_name  
-アプリケーションの作成   
-python manage.py [startapp](https://docs.djangoproject.com/en/1.7/ref/django-admin/#startapp-app-label-destination) app_name    
-テーブル定義を表示   
-django manage.py sql appname  
-インデックスを表示  
-python manage.py sqlindexes appname   
-インタラクティブ   
-python manage.py shell   
-<br/>
-
-[管理者を作成する方法](https://docs.djangoproject.com/en/1.7/intro/tutorial02/#creating-an-admin-user)   
-<br/>
-
-#### Migrations[*](https://docs.djangoproject.com/en/1.7/topics/migrations/#module-django.db.migrations)
-[makemigrations](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-makemigrations)      
-[sqlmigrate](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-sqlmigrate)      
-[migrate](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-migrate)      
-[squashmigrations](https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-squashmigrations)      
-<br/>
-   
-#### Template
-[extends](https://docs.djangoproject.com/en/1.7/ref/templates/builtins/#extends)   
-[block](https://docs.djangoproject.com/en/1.7/ref/templates/builtins/#block)   
-アプリケーションディレクトリの下にtemplatesディレクトリを配置する。それがテンプレートのrootディレクトリになる。[*](https://docs.djangoproject.com/en/1.7/ref/templates/api/#django.template.loaders.app_directories.Loader)   
-<br/>
-   
-データベースのデータをjson形式で整形して出力する     
-python manage.py dumpdata foo --indent 4 &gt; foo.json  
-[dumpdata &lt;appname appname appname.Model ...&gt;](https://docs.djangoproject.com/en/1.6/ref/django-admin/#dumpdata-appname-appname-appname-model)  
-<br/>
-  
-テンプレートに{{ "{% csrf_token " }} %}がないとCookieにcsrf_tokenがセットされない。    
-{{ "{% csrf_token " }} %} なしでセットするには
-request.META["CSRF_COOKIE_USED"] = True
-をリクエストの処理で行う。
-<br/>
-
-[DjangoのModelメモ](/2014/11/29/django-model.html)  
-<br/>
-
-[DjangoのFormメモ](/2014/12/02/django-forms.html)  
