@@ -16,7 +16,9 @@ Metaクラスの[db_table](https://docs.djangoproject.com/en/1.7/ref/models/opti
 
 * カスタムフィールドの作成方法[*](https://docs.djangoproject.com/en/1.7/howto/custom-model-fields/)
  
-* Fieldに指定することができるオプション一覧[*](https://docs.djangoproject.com/en/1.7/topics/db/models/#field-options)
+* Fieldに指定することができるオプション一覧[*](https://docs.djangoproject.com/en/dev/ref/models/fields/#field-options)
+
+* [Field.validators](https://docs.djangoproject.com/en/dev/ref/models/fields/#validators)に指定するvalidatorについて [*](https://docs.djangoproject.com/en/dev/ref/validators/)
 
 * 多対多の関係をにするにはそれようのfieldとテーブルを作成する[*](https://docs.djangoproject.com/en/1.7/topics/db/models/#extra-fields-on-many-to-many-relationships) [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#saving-foreignkey-and-manytomanyfield-fields)
 

@@ -19,3 +19,8 @@ title: DjangoのFormメモ
 * formとmodelを関連付ける [*](https://docs.djangoproject.com/en/dev/topics/forms/modelforms/)
 
 * コントロールの属性の指定方法 [*](https://docs.djangoproject.com/en/1.7/ref/forms/widgets/#django.forms.Widget.attrs)
+
+* wigetの一覧 [*](https://docs.djangoproject.com/en/1.7/ref/forms/widgets/)
+
+* wigetの属性を変更する
+form.fields["foo"].widget.attrs["bar"] = "qwert" 
