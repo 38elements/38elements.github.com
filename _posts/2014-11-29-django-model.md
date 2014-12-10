@@ -77,3 +77,5 @@ foo.save()
 * from django.core.exceptions import ObjectDoesNotExist
 
 * 実行されたSQLはincludeはconnection.queriesで確認することができる。  [*](https://docs.djangoproject.com/en/dev/faq/models/#how-can-i-see-the-raw-sql-queries-django-is-running)
+
+* choicesの選択されているラベルを表示する方法 [*](https://docs.djangoproject.com/en/dev/ref/models/instances/#django.db.models.Model.get_FOO_display)
