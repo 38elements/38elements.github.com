@@ -22,5 +22,7 @@ title: DjangoのFormメモ
 
 * wigetの一覧 [*](https://docs.djangoproject.com/en/1.7/ref/forms/widgets/)
 
-* wigetの属性を変更する
+* wigetの属性を変更する   
 form.fields["foo"].widget.attrs["bar"] = "qwert" 
+
+* ModelFormではBooleanFieldはrequired=FALSEになっている
