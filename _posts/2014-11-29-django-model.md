@@ -47,6 +47,8 @@ foo.save()
 <br/>
    
 #### SQL
+* Field lookups typeを指定しなかった場合はexactになる。 [*](https://docs.djangoproject.com/en/dev/ref/models/querysets/#field-lookups)
+
 * 比較一覧[*](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#field-lookups)
 
 * １つだけ取得したい場合は[get](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#django.db.models.query.QuerySet.get)
