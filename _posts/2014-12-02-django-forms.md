@@ -25,4 +25,12 @@ title: DjangoのFormメモ
 * wigetの属性を変更する   
 form.fields["foo"].widget.attrs["bar"] = "qwert" 
 
-* ModelFormではBooleanFieldはrequired=FALSEになっている
+* ModelFormではBooleanFieldはrequired=Falseになっている
+
+* ModelFormでrequired=Falseにする方法    
+{% highlight python %}
+class Foo(ModelForm):
+    def __init__(self, *args, **kwd):
+        super(Foo, self).__init__(*args, **kwd)
+        self.fields["bar"].required = False
+{% endhighlight %}
