@@ -64,7 +64,8 @@ foo.save()
 
 * cacheされる条件[*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#caching-and-querysets)
 
-* ORやANDを利用する方法 [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#complex-lookups-with-q-objects)
+* ORやANDを利用する方法 [*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#complex-lookups-with-q-objects)    
+notは~, ANDは&
 
 * レコードを削除するときは[delete()](https://docs.djangoproject.com/en/1.7/ref/models/instances/#django.db.models.Model.delete)を利用する　[*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#deleting-objects)
 
