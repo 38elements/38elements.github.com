@@ -46,6 +46,8 @@ foo.save()
 * [DjangoのModelで外部キーにModelではなくidを渡すことができる](/2014/12/04/django-foreignkey-id-save.html)
 
 * Modelに関連したurlはModel.get_absolute_url(self)に書く [*](https://docs.djangoproject.com/en/dev/ref/models/instances/#django.db.models.Model.get_absolute_url)
+
+* choicesの選択されているラベルを表示する方法 [*](https://docs.djangoproject.com/en/dev/ref/models/instances/#django.db.models.Model.get_FOO_display)
 <br/>
    
 #### SQL
@@ -82,7 +84,5 @@ notは~, ANDは&
 * from django.core.exceptions import ObjectDoesNotExist
 
 * 実行されたSQLはincludeはconnection.queriesで確認することができる。  [*](https://docs.djangoproject.com/en/dev/faq/models/#how-can-i-see-the-raw-sql-queries-django-is-running)
-
-* choicesの選択されているラベルを表示する方法 [*](https://docs.djangoproject.com/en/dev/ref/models/instances/#django.db.models.Model.get_FOO_display)
 
 * 集約関数 [*](https://docs.djangoproject.com/en/dev/topics/db/aggregation/)
