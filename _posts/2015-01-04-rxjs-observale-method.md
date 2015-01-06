@@ -146,18 +146,50 @@ funcの戻り値を出力するObservableを返す。
 argsはObservable   
 argsの各出力をarrayにして返すObservableを返す
 
+<hr/>
 
+* [and(rightSource)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/and.md)
+Promise.all()のようなもの     
 
+* [asObservable()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/asobservable.md)    
 
+* [average([selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/average.md)    
+Observableの値の平均を返す。
+selectoCが指定されている場合は値を引数にしてその戻り値の平均を返す
 
+* bufferは時間内に取得したObservableの値をまとめて配列にする
 
+* [buffer(bufferClosingSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/buffer.md#with-buffer-closing-selector)   
 
+* [buffer(bufferOpenings, bufferClosingSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/buffer.md#with-buffer-opening-and-buffer-closing-selector)   
 
+* [buffer(bufferBoundaries)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/buffer.md#with-boundaries)  
 
+* [bufferWithCount(count, [skip])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/bufferwithcount.md)   
+Observableから来た値の数で値をまとめる    
+skipは一つ前のまとまりの直前の値を現在のまとまりに加える個数
 
+* [bufferWithTime(timeSpan, [timeShift | scheduler], [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/bufferwithtime.md)  
+指定した時間の間に来た値をまとめて配列にする   
+timeShiftに関してはdocumentを見ること   
 
+* [bufferWithTimeOrCount(timeSpan, count, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/bufferwithtimeorcount.md)   
 
+* [combineLatest(...args, resultSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/combinelatestproto.md)   
+argsはObservable
+各Observableが新しい値を送るごとにその他のObservableの最近の値と組み合わせてresultSelectorに渡す。
 
+* [concatAll()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/concatall.md)    
+上流にある複数のObservableを統合して１つのObservableにする    
+
+* [concatMap(selector, [resultSelector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/concatmap.md)       
+[Demo](http://jsdo.it/38elements/rxjs-concatmap)  
+selectorはObservableを返す関数で引数に上流からの値とそのindexをとる    
+resultSelectorは値を返す関数で引数にselectorが受け取った値、戻り値、selectorが受け取ったindex、resultSelectorのindexが来る  
+selectorが返したObservableを連結してその値をresultSelectorに渡す。
+
+* [concatMapObserver(onNext, onError, onCompleted, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/concatmapobserver.md)   
+上流の状態で処理を切り替える
 
 
 
