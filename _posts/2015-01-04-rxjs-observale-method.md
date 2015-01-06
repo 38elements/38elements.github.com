@@ -34,7 +34,7 @@ observableFactoryはObservableを返す関数でdeferが呼ばれるたびに実
 
 * [empty([scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/empty.md)   
 [Demo](http://jsdo.it/38elements/rxjs-observable-empty)   
-空のデータを送ってonComplete()を実行する    
+空のデータを送って下流の処理を実行しない    
 
 * [for(sources, resultSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/for.md)   
 sourcesはarray   
