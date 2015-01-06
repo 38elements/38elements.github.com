@@ -2,9 +2,13 @@
 layout: posts
 title: RxJS Observable method
 ---
+[document](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/observable.md)    
+<br/>
+
 * [amb(...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/amb.md)   
 [Demo](http://jsdo.it/38elements/rxjs-amb)    
 最初に値を出力したObservableの値のみを次の処理に渡す     
+Promise.race()に似ている
   
 * [case(selector, sources, [elseSource|scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/case.md)    
 selectorが返した文字列のsourcesのObservableを返す    
@@ -91,6 +95,73 @@ argsを返すObservableを返す。
 [Demo](http://jsdo.it/38elements/rxjs-onerrorresumenext)   
 argsはObservableの配列   
 errorが発生しても次のObservableからデータを取得する
+
+* [range(start, count, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/range.md)   
+startからcount分のデータを返すObservableを返す  
+
+* [repeat(value, [repeatCount], [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/repeat.md)        
+valueをrepeatCount回返すObservableを返す。    
+repeatCountが指定されてない場合は無限にvalueを返す。
+
+* [return(value, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/return.md)   
+just(value, [scheduler])と同じ   
+valueを返すObservableを返す。    
+
+* [start(func, [context], [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/start.md)    
+非同期でfuncを実行する。   
+funcが返した値を返すObservableを返す。
+
+* [startAsync(functionAsync)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/startasync.md)   
+functionAsyncはPromiseを返すような非同期処理を行う関数
+
+* [throw(exception, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/throw.md)   
+throwError(exception, [scheduler])と同じ  
+exceptionをthrowしてonError()を呼ぶ
+
+* [timer(dueTime, [period], [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/timer.md)     
+dueTime後にperiodの間隔で値を返すObservableを返す    
+periodが指定されていない場合は1回だけ値を返す    
+
+
+* [toAsync(func, [context], [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/toasync.md)   
+funcを非同期に実行してその戻り値を値として返すObservableを返す関数を返す
+
+* [using(resourceFactory, observableFactory)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/using.md)   
+
+
+* [when(...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/when.md)   
+argsはPatternでandとthenDoを利用するときに利用する
+
+* [while(condition, source)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/while.md)   
+conditionはBooleanを返す関数   
+conditionがfalseを返すまでObservableを返す
+
+* [zip(args, func)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/zip.md)   
+argsはObservable   
+funcはargsにあるObservableの値を引数にもつ      
+funcの戻り値を出力するObservableを返す。  
+
+
+* [zipArray(...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ziparray.md)   
+argsはObservable   
+argsの各出力をarrayにして返すObservableを返す
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
