@@ -148,7 +148,7 @@ argsの各出力をarrayにして返すObservableを返す
 
 <hr/>
 
-* [and(rightSource)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/and.md)
+* [and(rightSource)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/and.md)    
 Promise.all()のようなもの     
 
 * [asObservable()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/asobservable.md)    
@@ -189,11 +189,52 @@ resultSelectorは値を返す関数で引数にselectorが受け取った値、�
 selectorが返したObservableを連結してその値をresultSelectorに渡す。
 
 * [concatMapObserver(onNext, onError, onCompleted, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/concatmapobserver.md)   
+[Demo](http://jsdo.it/38elements/rxjs-concatmapobserver)   
 上流の状態で処理を切り替える
 
+* [connect()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/connect.md)     
+publishでとまったsourceの流れを再開する   
+１つの上流から複数の下流に流す際に利用する   
 
+* [contains(searchElement, [fromIndex])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/contains.md)    
+上流から来たデータの中に指定したデータが存在している場合、trueを１つ返す   
+存在していない場合、falseを返す
 
+* [controlled([enableQueue])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/controlled.md)   
+Observableにコントローラを付与する   
+request()が呼ばれるまでデータを流さない   
 
+* [count([predicate])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/count.md)  
+上流から来たデータの数を返す
 
+* [debounce(dueTime, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/debounce.md)   
+throttle
 
+* [debounceWithSelector(durationSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/throttlewithselector.md)      
+durationSelectorはtimerを返す   
+
+* [defaultIfEmpty([defaultValue])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/defaultifempty.md)      
+emptyがきたらdefaultValueを返す
+
+* [delay(dueTime, [scheduler])]()      
+dueTimeはDateかnumber    
+上流のデータが流れ始めるのをdueTime待つ
+
+* [delay([subscriptionDelay], delayDurationSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/delaywithselector.md)    
+subscriptionDelayは最初にデータを流すまでの時間   
+delayDurationSelectorはデータを流す間隔
+
+* [dematerialize()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/dematerialize.md)      
+[Demo](http://jsdo.it/38elements/rxjs-dematerialize)   
+
+* [distinct([keySelector], [keySerializer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/distinct.md)      
+上流から来るデータをユニークにする
+
+* [distinctUntilChanged([keySelector], [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/distinctuntilchanged.md)   
+
+* [do([observer] | [onNext], [onError], [onCompleted])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/do.md)   
+tap()と同じ   
+流れてきたデータをそのまま下流に流す    
+登録された処理を実行する   
+debugに利用すると便利     
 
