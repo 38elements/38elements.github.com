@@ -284,4 +284,16 @@ subscribeが終わった後に実行される関数を登録する
 値がない場合はdefaultValueが返る
 
 * [flatMap(selector, [resultSelector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/selectmany.md)    
+Observableをアンパックする
+
+* [flatMapObserver(onNext, onError, onCompleted, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/flatmapobserver.md)   
+onNext, onCompleted, onErrorはObservableを返す   
+Observableをアンパックする
+
+* [flatMapLatest(selector, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/flatmaplatest.md)    
+[Demo](http://jsdo.it/38elements/RxJS-flatMapLatest)   
+selectorはObservableを返す関数   
+新しいObservableが着た場合、古いObservableのデータは流さずに新しいObservableのデータを流す
+
+* [groupBy(keySelector, [elementSelector], [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/groupby.md)    
 
