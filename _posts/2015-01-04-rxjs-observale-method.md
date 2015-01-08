@@ -255,4 +255,33 @@ sourceのindex番目のデータのみ流す
 * [elementAtOrDefault(index, [defaultValue])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/elementatordefault.md)   
 indexに値がない場合はdefaultValueを返す
 
-* []()   
+* [every(predicate, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/every.md)   
+上流から流れてくるデータが全てpredicateでtrueならtrueを返す  
+
+* [expand(selector, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/expand.md)    
+再起的にseletorを実行して実行する毎にその戻り値を流す
+
+* [filter(predicate, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/where.md)  
+whereと同じ
+
+* [finally(action)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/finally.md)   
+[Demo](http://jsdo.it/38elements/rxjs-finally)     
+subscribeが終わった後に実行される関数を登録する
+
+* [find(predicate, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/find.md)    
+最初にpredicateにマッチした値を1つ返す
+
+* [findIndex(predicate, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/findindex.md)  
+最初にpredicateにマッチした値のindexを1つ返す   
+マッチしなかった場合は-1を返す
+
+* [first([predicate], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/first.md)   
+最初の値を返す。   
+値がない場合はエラーになる
+
+* [firstOrDefault(predicate, [defaultValue], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/firstordefault.md)   
+最初の値を返す。   
+値がない場合はdefaultValueが返る
+
+* [flatMap(selector, [resultSelector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/selectmany.md)    
+
