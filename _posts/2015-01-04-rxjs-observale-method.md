@@ -238,3 +238,21 @@ tap()と同じ
 登録された処理を実行する   
 debugに利用すると便利     
 
+* [doOnNext(onNext, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/doonnext.md)   
+
+* [doOnError(onError, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/doonerror.md)   
+
+* [doOnCompleted(onCompleted, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/dooncompleted.md)    
+
+* [doWhile(condition)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/dowhile.md)     
+[Demo](http://jsdo.it/38elements/rxjs-dowhile)     
+conditionはBooleanを返す関数     
+conditionがtrueの場合は繰り返しソースを返す   
+
+* [Rx.Observable.prototype.elementAt(index)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/elementat.md)    
+sourceのindex番目のデータのみ流す
+
+* [elementAtOrDefault(index, [defaultValue])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/elementatordefault.md)   
+indexに値がない場合はdefaultValueを返す
+
+* []()   
