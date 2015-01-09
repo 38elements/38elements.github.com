@@ -303,3 +303,34 @@ selectorはObservableを返す関数
 [Demo](http://jsdo.it/38elements/rxjs-groupbyuntil)   
 durationSelectorごとにグループの集計をリセットする
 
+* [groupJoin(right, leftDurationSelector, rightDurationSelector, resultSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/groupjoin.md)  
+
+* [ignoreElements()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ignoreelements.md)    
+上流から来たデータを無視する   
+onCompleted()は呼ばれる
+
+* [indexOf(searchElement, [fromIndex])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/indexof.md)    
+searchElementがあるindexを返す
+
+* [jortSort()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/jortsort.md)   
+sourceがソート済みだった場合はtrueをそうでない場合はfalseを返す
+
+* [jortSortUntil(other)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/jortsortuntil.md)     
+otherからデータが来るまで受け取ったデータがソートされている場合はtrueをそうでない場合はfalseを返す
+
+* [last([predicate], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/last.md)     
+データの一番最後のデータを送る
+
+* [lastOrDefault([predicate], [defaultValue], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/lastordefault.md)  
+データの一番最後のデータを送る    
+ない場合はdefaultValueを送る
+
+* [let(func)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/let.md)   
+[Demo](http://jsdo.it/38elements/rxjs-let)   
+subscribeされる前にlet(func)の時点で1回だけ実行される   
+funcはsourceを引数にとる   
+funcはObservableを返す  
+
+* [manySelect(selector, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/manyselect.md)    
+
+* []()  
