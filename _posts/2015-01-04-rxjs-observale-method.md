@@ -296,4 +296,5 @@ selectorはObservableを返す関数
 新しいObservableが着た場合、古いObservableのデータは流さずに新しいObservableのデータを流す
 
 * [groupBy(keySelector, [elementSelector], [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/groupby.md)    
-
+[Demo](http://jsdo.it/38elements/rxjs-groupby)   
+上流から来たデータをグループ化してグループごとにObservableを作る
