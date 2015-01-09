@@ -220,7 +220,7 @@ emptyがきたらdefaultValueを返す
 dueTimeはDateかnumber    
 上流のデータが流れ始めるのをdueTime待つ
 
-* [delay([subscriptionDelay], delayDurationSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/delaywithselector.md)    
+* [delayWithSelector([subscriptionDelay], delayDurationSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/delaywithselector.md)    
 subscriptionDelayは最初にデータを流すまでの時間   
 delayDurationSelectorはデータを流す間隔
 
@@ -298,3 +298,8 @@ selectorはObservableを返す関数
 * [groupBy(keySelector, [elementSelector], [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/groupby.md)    
 [Demo](http://jsdo.it/38elements/rxjs-groupby)   
 上流から来たデータをグループ化してグループごとにObservableを作る
+
+* [groupByUntil(keySelector, [elementSelector], durationSelector, [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/groupbyuntil.md)     
+[Demo](http://jsdo.it/38elements/rxjs-groupbyuntil)   
+durationSelectorごとにグループの集計をリセットする
+
