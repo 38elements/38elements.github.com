@@ -342,7 +342,7 @@ sourceをkeySelectorを通して得た値の最大値を返す
 * [merge(maxConcurrent | other)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/mergeproto.md)   
 引数によって効果が変わる    
 maxConcurrent: number 上流に複数のObservableがあった場合、その同時実行数     
-other: 合成するするObservable   
+other: 合流するObservable   
 
 * [mergeAll()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/mergeall.md)  
 上流の複数のObservableを1つにする
@@ -352,3 +352,9 @@ other: 合成するするObservable
 * [minBy(keySelector, [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/minby.md)    
 
 * [multicast(subject | subjectSelector, [selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/multicast.md)   
+[Demo](http://jsdo.it/38elements/rxjs-multicast)   
+sourceがpublishされた状態になるconnetをしないとデータが流れない     
+データはsubjectにもsourceにも流れる 
+
+* [pairwise()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/pairwise.md)    
+[n番目のデータ, n+1番目のデータ]を流す
