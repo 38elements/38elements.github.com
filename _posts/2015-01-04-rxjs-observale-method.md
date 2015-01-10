@@ -333,4 +333,22 @@ funcはObservableを返す
 
 * [manySelect(selector, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/manyselect.md)    
 
-* []()  
+* [max([comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/max.md)  
+ソースの中の最大値を取得する
+
+* [maxBy(keySelector, [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/maxby.md)  
+sourceをkeySelectorを通して得た値の最大値を返す   
+
+* [merge(maxConcurrent | other)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/mergeproto.md)   
+引数によって効果が変わる    
+maxConcurrent: number 上流に複数のObservableがあった場合、その同時実行数     
+other: 合成するするObservable   
+
+* [mergeAll()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/mergeall.md)  
+上流の複数のObservableを1つにする
+
+* [min([comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/min.md)  
+
+* [minBy(keySelector, [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/minby.md)    
+
+* [multicast(subject | subjectSelector, [selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/multicast.md)   
