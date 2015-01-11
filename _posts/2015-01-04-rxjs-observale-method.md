@@ -390,8 +390,34 @@ connectしたらデータが流れる
 bufferSize: 最後の何個目までのデータを繰り返すか   
 window: 最後の何ミリ秒間に来たデータを繰り返すか   
 
+* [shareReplay([bufferSize], [window], [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/sharereplay.md)   
+2回目のsubscribe時に1回目に記録したデータを流す    
+bufferSize: 最後の何個目までのデータを繰り返すか   
+window: 最後の何ミリ秒間に来たデータを繰り返すか   
 
+* [shareValue(value)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/sharevalue.md)    
+最初にvalueを送るshare
 
+* [refCount()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/refcount.md)   
+publishされたものでもsubscribeされたらconnect状態にする
 
+* [reduce(accumulator, [seed])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/reduce.md)   
 
+* [repeat(repeatCount)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/repeatproto.md)   
+sourceを繰り返す   
+repeatCountがない場合は無限に繰り返す
+
+* [retry([retryCount])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/retry.md)   
+エラーが発生した場合、sourceの最初からやり直す    
+retryCountがない場合は無限に繰り返す  
+
+* [retryWhen(notifier)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/retrywhen.md)    
+
+* [sample(interval | sampleObservable)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/sample.md)    
+指定した時間間隔に来るデータを1つ返す
+
+* [scan([seed], accumulator)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/scan.md)  
+reduceの計算するたびに値を返す版    
+
+* [sequenceEqual(second, [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/sequenceequal.md)    
 
