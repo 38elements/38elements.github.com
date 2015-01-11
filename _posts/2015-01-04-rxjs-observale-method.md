@@ -385,3 +385,13 @@ connectしたらデータが流れる
 * [share()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/share.md)   
 [Demo](http://jsdo.it/38elements/rxjs-share)    
 後からsubscribeしたものにもsourceの送信状態を共有する
+
+* [replay([selector], [bufferSize], [window], [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/replay.md)    
+bufferSize: 最後の何個目までのデータを繰り返すか   
+window: 最後の何ミリ秒間に来たデータを繰り返すか   
+
+
+
+
+
+
