@@ -358,3 +358,30 @@ sourceがpublishされた状態になるconnetをしないとデータが流れ�
 
 * [pairwise()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/pairwise.md)    
 [n番目のデータ, n+1番目のデータ]を流す
+
+* [partition(predicate, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/partition.md)  
+predicateがtrueになるデータを流すObservableとfalseになるデータを流すObservableを持つ配列を返す
+
+* [pausable(pauser)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/pausable.md)   
+Demo  
+pauser.onNext(false)でデータの流れを一時停止(もしくはsource.pause())   
+pauser.onNext(true)でデータの流れを再開(もしくはsource.resume())   
+
+* [pausableBuffered(pauser)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/pausablebuffered.md)    
+Demo  
+停止中に来たデータは保存されている
+
+* [publish([selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/publish.md)   
+connectしたらデータが流れる
+
+* [publishValue([selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/publishvalue.md)     
+最初に流れるデータを指定する   
+connectしたらデータが流れる
+
+* [publishLast([selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/publishlast.md)     
+最後のデータのみ流れる   
+connectしたらデータが流れる
+
+* [share()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/share.md)   
+[Demo](http://jsdo.it/38elements/rxjs-share)    
+後からsubscribeしたものにもsourceの送信状態を共有する
