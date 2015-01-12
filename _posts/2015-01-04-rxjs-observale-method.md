@@ -431,3 +431,62 @@ sourceのデータが1つだけのときそれを流す
 該当する値がない場合はdefaultValueを返す。
 
 * [skip(count)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/skip.md)    
+sourceから流れてくるデータの最初のcount個を無視する
+
+* [skipLast(count)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/skiplast.md)   
+sourceから流れてくるデータの最後のcount個を無視する
+
+* [skipLastWithTime(duration)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/skiplastwithtime.md)   
+durationより後に来たデータを無視する
+
+* [skipUntil(other)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/skipuntil.md)   
+other: timer    
+other msより前に来たデータを無視する
+
+* [skipUntilWithTime(startTime, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/skipuntilwithtime.md)   
+startTime: ms or Date    
+startTimeより前に来たデータを無視する
+
+* [skipWhile(predicate, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/skipwhile.md)   
+predicateがtrueを返す間データを無視する   
+
+* [spawn(fn)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/spawn.md)    
+
+
+* [startWith([scheduler] ...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/startwith.md)   
+argsを先頭に追加する
+
+* [subscribe([observer] | [onNext], [onError], [onCompleted], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribe.md)   
+
+
+
+* [subscribeOnNext(onNext, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribeonnext.md)   
+
+
+
+* [subscribeOnError(onError, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribeonerror.md)   
+
+
+
+* [subscribeOnCompleted(onCompleted, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribeoncompleted.md)   
+
+
+
+* [subscribeOn(scheduler)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribeon.md)   
+
+
+
+* [sum([keySelector], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/sum.md)   
+
+
+
+* [switch()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/switch.md)   
+
+
+
+
+
+
+
+
+
