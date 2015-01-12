@@ -420,4 +420,14 @@ retryCountがない場合は無限に繰り返す
 reduceの計算するたびに値を返す版    
 
 * [sequenceEqual(second, [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/sequenceequal.md)    
+sourceとsecondの流すデータが全て等しいならtrueを返す
 
+* [single([predicate], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/single.md)  
+sourceのデータが1つだけのときそれを流す  
+2つ以上もしくはemptyのときはErrorになる
+
+* [singleOrDefault(predicate, [defaultValue], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/singleordefault.md)   
+sourceのデータが1つだけのときそれを流す  
+該当する値がない場合はdefaultValueを返す。
+
+* [skip(count)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/skip.md)    
