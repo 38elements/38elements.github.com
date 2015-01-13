@@ -471,8 +471,33 @@ argsを先頭に追加する
 * [switch()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/switch.md)   
 直近に流れてきたObservableに切り返る
 
+* [take(count, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/take.md)   
+データを最初からcount個だけ流す
 
+* [takeLast(count)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/takelast.md)   
+データを最後からcount個だけ流す
 
+* [takeLastBuffer(count)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/takelastbuffer.md)   
+データを最後からcount個だけ取得して配列にする    
+
+* [takeLastBufferWithTime(duration, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/takelastbufferwithtime.md)   
+最後のdurationミリ秒間に流れてきたデータを配列にして流す
+
+* [takeLastWithTime(duration, [timeScheduler], [loopScheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/takelastwithtime.md)   
+最後のdurationミリ秒間に流れてきたデータを流す
+
+* [takeUntil(other)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/takeuntil.md)   
+otherが流れ始めるまでに来た出たを流す
+
+* [takeUntilWithTime(other)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/takeuntilwithtime.md)   
+
+* [takeWhile(predicate, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/takewhile.md)   
+predicateがfalseになる前に来た値を流す
+
+* [throttleFirst(windowDuration, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/throttlefirst.md)   
+前の値と最初にwindowDuration以上時間があいたものを返す。そしてCompleteする
+
+* []()   
 
 
 
