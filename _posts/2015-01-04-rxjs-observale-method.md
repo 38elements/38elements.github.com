@@ -452,35 +452,24 @@ predicateがtrueを返す間データを無視する
 
 * [spawn(fn)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/spawn.md)    
 
-
 * [startWith([scheduler] ...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/startwith.md)   
 argsを先頭に追加する
 
 * [subscribe([observer] | [onNext], [onError], [onCompleted], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribe.md)   
 
-
-
 * [subscribeOnNext(onNext, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribeonnext.md)   
-
-
 
 * [subscribeOnError(onError, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribeonerror.md)   
 
-
-
 * [subscribeOnCompleted(onCompleted, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribeoncompleted.md)   
-
-
 
 * [subscribeOn(scheduler)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribeon.md)   
 
-
-
 * [sum([keySelector], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/sum.md)   
-
-
+流れてきたデータの合計を返す
 
 * [switch()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/switch.md)   
+直近に流れてきたObservableに切り返る
 
 
 
