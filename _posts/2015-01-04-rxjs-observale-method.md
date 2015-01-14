@@ -534,6 +534,8 @@ ObservableをMapにする
 
 
 * [withLatestFrom(...args, resultSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/withlatestfrom.md)   
+argsはObservable   
+データが来たときデータと最新のargsのデータをresultSelectorに送る   
 
 
 
