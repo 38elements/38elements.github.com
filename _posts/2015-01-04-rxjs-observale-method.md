@@ -227,7 +227,7 @@ delayDurationSelectorはデータを流す間隔
 * [dematerialize()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/dematerialize.md)      
 [Demo](http://jsdo.it/38elements/rxjs-dematerialize)   
 
-* [distinct([keySelector], [keySerializer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/distinct.md)      
+* [distinct([keySelector], [compare])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/distinct.md)      
 上流から来るデータをユニークにする
 
 * [distinctUntilChanged([keySelector], [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/distinctuntilchanged.md)   
