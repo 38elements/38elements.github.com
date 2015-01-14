@@ -497,7 +497,26 @@ predicateがfalseになる前に来た値を流す
 * [throttleFirst(windowDuration, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/throttlefirst.md)   
 前の値と最初にwindowDuration以上時間があいたものを返す。そしてCompleteする
 
-* []()   
+* [timeInterval([scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/timeinterval.md)   
+流れてくるデータを\{value: value, interval: interval\}形式に変換する
+
+* [timeout(dueTime, [other], [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/timeout.md)   
+一つ前に流れてきたデータからdueTime以内にデータが流れてこない場合はotherを流すかエラーになる
+
+* [timeoutWithSelector([firstTimeout], [timeoutDurationSelector], [other])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/timeoutwithselector.md)   
+firstTimeoutがタイムアウトしたときにtimeoutDuration待ってデータが来ない場合はotherを流す
+
+* [timestamp([scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/timestamp.md)   
+流れてくるデータを\{value: value, timestamp: timestamp\}形式に変換する
+
+* [toArray()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/toarray.md)   
+ObservableをArrayにする  
+
+* [toSet()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/toset.md)   
+ObservableをSetにする  
+
+* [toMap(keySelector, [elementSelector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/tomap.md)   
+ObservableをMapにする  
 
 
 
