@@ -518,6 +518,57 @@ ObservableをSetにする
 * [toMap(keySelector, [elementSelector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/tomap.md)   
 ObservableをMapにする  
 
+* [transduce(transducer)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/transduce.md)   
+
+
+* [window(windowClosingSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/window.md#with-window-closing-selector)   
+
+
+* [window(windowOpenings, windowClosingSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/window.md#with-window-opening-and-window-closing-selector)      
+
+
+* [window(windowBoundaries)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/window.md#with-boundaries)   
+
+
+* [windowWithCount(count, [skip])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/windowwithcount.md)   
+
+
+* [withLatestFrom(...args, resultSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/withlatestfrom.md)   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
