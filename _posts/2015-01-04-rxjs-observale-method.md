@@ -497,7 +497,7 @@ otherが流れ始めるまでに来た出たを流す
 predicateがfalseになる前に来た値を流す
 
 * [throttleFirst(windowDuration, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/throttlefirst.md)   
-前の値と最初にwindowDuration以上時間があいたものを返す。そしてCompleteする
+前の値と最初にwindowDuration以上時間があいたものを返す。
 
 * [timeInterval([scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/timeinterval.md)   
 流れてくるデータを\{value: value, interval: interval\}形式に変換する
