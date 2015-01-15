@@ -228,6 +228,7 @@ delayDurationSelectorはデータを流す間隔
 [Demo](http://jsdo.it/38elements/rxjs-dematerialize)   
 
 * [distinct([keySelector], [compare])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/distinct.md)      
+[Demo](http://jsdo.it/38elements/rxjs-distinct)    
 今までに流れてきたデータと異なるデータなら流す
 
 * [distinctUntilChanged([keySelector], [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/distinctuntilchanged.md)   
@@ -251,7 +252,7 @@ debugに利用すると便利
 conditionはBooleanを返す関数     
 conditionがtrueの場合は繰り返しソースを返す   
 
-* [Rx.Observable.prototype.elementAt(index)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/elementat.md)    
+* [elementAt(index)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/elementat.md)    
 sourceのindex番目のデータのみ流す
 
 * [elementAtOrDefault(index, [defaultValue])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/elementatordefault.md)   
