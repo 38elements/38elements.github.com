@@ -201,8 +201,10 @@ publishでとまったsourceの流れを再開する
 存在していない場合、falseを返す
 
 * [controlled([enableQueue])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/controlled.md)   
+[Demo](http://jsdo.it/38elements/rxjs-controlled)     
 Observableにコントローラを付与する   
-request()が呼ばれるまでデータを流さない   
+request(<sourceから取得するデータの個数>)が呼ばれるまでデータを流さない   
+requestは何度でもできる
 
 * [count([predicate])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/count.md)  
 上流から来たデータの数を返す
