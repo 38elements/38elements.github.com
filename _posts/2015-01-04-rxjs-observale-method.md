@@ -149,6 +149,7 @@ argsの各出力をarrayにして返すObservableを返す
 <hr/>
 
 * [and(rightSource)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/and.md)    
+[Demo](http://jsdo.it/38elements/rxjs-and)     
 Promise.all()のようなもの     
 
 * [asObservable()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/asobservable.md)    
