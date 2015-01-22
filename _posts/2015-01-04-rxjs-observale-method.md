@@ -290,7 +290,9 @@ subscribeが終わった後に実行される関数を登録する
 値がない場合はdefaultValueが返る
 
 * [flatMap(selector, [resultSelector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/selectmany.md)    
-Observableをアンパックする
+複数のObservableを1つのObservableに統合する   
+Observableをアンパックする   
+selectorはiterable, Observable, promise, function   
 
 * [flatMapObserver(onNext, onError, onCompleted, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/flatmapobserver.md)   
 onNext, onCompleted, onErrorはObservableを返す   
