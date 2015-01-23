@@ -181,6 +181,7 @@ argsはObservable
 各Observableが新しい値を送るごとにその他のObservableの最近の値と組み合わせてresultSelectorに渡す。
 
 * [concatAll()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/concatall.md)    
+[Demo](http://jsdo.it/38elements/rxjs-flatmap-and-concatall)    
 上流にある複数のObservableを統合して１つのObservableにする    
 
 * [concatMap(selector, [resultSelector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/concatmap.md)       
@@ -290,6 +291,8 @@ subscribeが終わった後に実行される関数を登録する
 値がない場合はdefaultValueが返る
 
 * [flatMap(selector, [resultSelector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/selectmany.md)    
+[Demo](http://jsdo.it/38elements/rxjs-flatmap-and-concatall)    
+selectManyと同じ     
 複数のObservableを1つのObservableに統合する   
 Observableをアンパックする   
 selectorはiterable, Observable, promise, function   
