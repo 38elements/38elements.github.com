@@ -11,6 +11,7 @@ title: RxJS Observable method
 Promise.race()に似ている
   
 * [case(selector, sources, [elseSource|scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/case.md)    
+[Demo](http://jsdo.it/38elements/rxjs-case)   
 selectorが返した文字列のsourcesのObservableを返す    
 sources: キーとObservableのObject    
 selector: sourcesのキーを返す関数、引数なし     
