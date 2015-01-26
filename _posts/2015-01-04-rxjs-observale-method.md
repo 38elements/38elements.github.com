@@ -462,6 +462,8 @@ startTimeより前に来たデータを無視する
 * [skipWhile(predicate, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/skipwhile.md)   
 predicateがtrueを返す間データを無視する   
 
+* [some([predicate], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/any.md)    
+
 * [spawn(fn)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/spawn.md)    
 
 * [startWith([scheduler] ...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/startwith.md)   
