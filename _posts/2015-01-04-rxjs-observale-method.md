@@ -37,7 +37,8 @@ observableFactoryはObservableを返す関数でdeferが呼ばれるたびに実
 [Demo](http://jsdo.it/38elements/rxjs-observable-empty)   
 空のデータを送って下流の処理を実行しない    
 
-* [for(sources, resultSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/for.md)   
+* [for(sources, resultSelector, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/for.md)   
+[Demo](http://jsdo.it/38elements/rxjs-for)   
 sourcesはarray   
 resultSelectorはObservableを返す関数でarrayにあるデータを1つデータとして受け取る。   
 
