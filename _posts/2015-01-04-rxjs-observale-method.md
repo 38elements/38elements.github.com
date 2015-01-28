@@ -43,6 +43,7 @@ sourcesはarray
 resultSelectorはObservableを返す関数でarrayにあるデータを1つデータとして受け取る。   
 
 * [forkJoin(...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/forkjoin.md)   
+[Demo](http://jsdo.it/38elements/rxjs-forkjoin)     
 argsにはObservableを指定するObservableの最後の値を配列にして渡す   
 
 * [from(iterable, [mapFn], [thisArg], [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/from.md)   
@@ -156,7 +157,7 @@ Promise.all()のようなもの
 
 * [asObservable()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/asobservable.md)    
 
-* [average([selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/average.md)    
+* [average([selector], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/average.md)    
 Observableの値の平均を返す。
 selectoCが指定されている場合は値を引数にしてその戻り値の平均を返す
 
@@ -186,11 +187,13 @@ argsはObservable
 [Demo](http://jsdo.it/38elements/rxjs-flatmap-and-concatall)    
 上流にある複数のObservableを統合して１つのObservableにする    
 
-* [concatMap(selector, [resultSelector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/concatmap.md)       
-[Demo](http://jsdo.it/38elements/rxjs-concatmap)  
+* [concatMap(selector, [resultSelector], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/concatmap.md)       
+[Demo1](http://jsdo.it/38elements/rxjs-concatmap)    
+[Demo2](http://jsdo.it/38elements/rxjs-concatmap-thisarg)    
 selectorはObservableを返す関数で引数に上流からの値とそのindexをとる    
 resultSelectorは値を返す関数で引数にselectorが受け取った値、戻り値、selectorが受け取ったindex、resultSelectorのindexが来る  
-selectorが返したObservableを連結してその値をresultSelectorに渡す。
+selectorが返したObservableを連結してその値をresultSelectorに渡す。     
+resultSelectorが指定されていない場合はthisArgがselectorのコンテキストになる
 
 * [concatMapObserver(onNext, onError, onCompleted, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/concatmapobserver.md)   
 [Demo](http://jsdo.it/38elements/rxjs-concatmapobserver)   
