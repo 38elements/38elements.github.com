@@ -469,6 +469,7 @@ predicateがtrueを返す間データを無視する
 * [some([predicate], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/any.md)    
 
 * [spawn(fn)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/spawn.md)    
+[Demo](http://jsdo.it/38elements/rxjs-rx-spawn)   
 
 * [startWith([scheduler] ...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/startwith.md)   
 argsを先頭に追加する
