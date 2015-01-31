@@ -477,6 +477,7 @@ argsを先頭に追加する
 * [subscribe([observer] | [onNext], [onError], [onCompleted], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribe.md)   
 
 * [subscribeOnNext(onNext, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribeonnext.md)   
+[Demo](http://jsdo.it/38elements/rxjs-scheduler)    
 
 * [subscribeOnError(onError, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribeonerror.md)   
 
