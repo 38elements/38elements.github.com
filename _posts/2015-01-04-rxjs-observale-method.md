@@ -508,7 +508,7 @@ argsを先頭に追加する
 最後のdurationミリ秒間に流れてきたデータを流す
 
 * [takeUntil(other)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/takeuntil.md)   
-otherが流れ始めるまでに来た出たを流す
+otherが流れ始めるまでに来たデータを流す
 
 * [takeUntilWithTime(other)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/takeuntilwithtime.md)   
 
