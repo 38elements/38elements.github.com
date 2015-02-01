@@ -489,6 +489,7 @@ argsを先頭に追加する
 流れてきたデータの合計を返す
 
 * [switch()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/switch.md)   
+[Demo](http://jsdo.it/38elements/rxjs-switch)
 直近に流れてきたObservableに切り返る
 
 * [take(count, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/take.md)   
