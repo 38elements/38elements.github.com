@@ -473,7 +473,8 @@ predicateがtrueを返す間データを無視する
 [Demo](http://jsdo.it/38elements/rxjs-rx-spawn)   
 
 * [startWith([scheduler] ...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/startwith.md)   
-argsを先頭に追加する
+[Demo](http://jsdo.it/38elements/rxjs-startwith)   
+argsをObservableの先頭に追加する    
 
 * [subscribe([observer] | [onNext], [onError], [onCompleted], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribe.md)   
 
