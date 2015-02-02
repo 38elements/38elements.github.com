@@ -139,7 +139,8 @@ argsはPatternでandとthenDoを利用するときに利用する
 conditionはBooleanを返す関数   
 conditionがfalseを返すまでObservableを返す
 
-* [zip(args, func)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/zip.md)   
+* [zip(...args, func)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/zip.md)  
+[Demo](http://jsdo.it/38elements/rxjs-zip)     
 argsはObservable   
 funcはargsにあるObservableの値を引数にもつ      
 funcの戻り値を出力するObservableを返す。  
