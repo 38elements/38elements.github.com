@@ -60,7 +60,7 @@ callbackはfuncの最後の引数である必要がある。
 Eventからobservableを生成する。    
 
 * [fromPromise(promise)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/frompromise.md)   
-Demo
+[Demo](http://jsdo.it/38elements/rxjs-frompromise)
 
 * [fromEventPattern(addHandler, removeHandler, [selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/fromeventpattern.md)   
 
@@ -115,6 +115,7 @@ valueを返すObservableを返す。
 funcが返した値を返すObservableを返す。
 
 * [startAsync(functionAsync)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/startasync.md)   
+[Demo](http://jsdo.it/38elements/rxjs-startasync)    
 functionAsyncはPromiseを返すような非同期処理を行う関数
 
 * [throw(exception, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/throw.md)   
@@ -322,7 +323,8 @@ durationSelectorごとにグループの集計をリセットする
 
 * [groupJoin(right, leftDurationSelector, rightDurationSelector, resultSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/groupjoin.md)  
 
-* [ignoreElements()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ignoreelements.md)    
+* [ignoreElements()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ignoreelements.md)   
+[Demo](http://jsdo.it/38elements/rxjs-ignoreelements)   
 上流から来たデータを無視する   
 onCompleted()は呼ばれる
 
