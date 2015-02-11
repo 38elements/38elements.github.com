@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: JavaScript Gihub Star Rainking at 2014/02/11
+title: JavaScript Github Star Rainking at 2014/02/11
 ---
 <pre style="background-color: white;border: none;">
 angular/angular.js                      35190

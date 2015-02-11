@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Python Gihub Star Rainking at 2014/02/11
+title: Python Github Star Rainking at 2014/02/11
 ---
 <pre style="background-color: white;border: none;">
 jakubroztocil/httpie                    13441

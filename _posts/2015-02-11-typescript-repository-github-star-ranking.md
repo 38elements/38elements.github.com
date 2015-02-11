@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: TypeScript Gihub Star Rainking at 2014/02/11
+title: TypeScript Github Star Rainking at 2014/02/11
 ---
 <pre style="background-color: white;border: none;">
 borisyankov/DefinitelyTyped             3140

@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Java Gihub Star Rainking at 2014/02/11
+title: Java Github Star Rainking at 2014/02/11
 ---
 <pre style="background-color: white;border: none;">
 elasticsearch/elasticsearch             9923

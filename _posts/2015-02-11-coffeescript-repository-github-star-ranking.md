@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: CoffeeScript Gihub Star Rainking at 2014/02/11
+title: CoffeeScript Github Star Rainking at 2014/02/11
 ---
 <pre style="background-color: white;border: none;">
 harvesthq/chosen                        16991
