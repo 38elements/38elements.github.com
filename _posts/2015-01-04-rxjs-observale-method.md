@@ -436,6 +436,7 @@ retryCountがない場合は無限に繰り返す
 指定した時間間隔に来るデータを1つ返す
 
 * [scan([seed], accumulator)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/scan.md)  
+[Demo](http://jsdo.it/38elements/rxjs-scan)  
 reduceの計算するたびに値を返す版    
 
 * [sequenceEqual(second, [comparer])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/sequenceequal.md)    
