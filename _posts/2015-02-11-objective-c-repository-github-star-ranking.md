@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Objective-C Github Star Rainking at 2015/02/11
+title: Objective-C Github Star Ranking at 2015/02/11
 ---
 <pre style="background-color: white;border: none;">
 AFNetworking/AFNetworking               15760

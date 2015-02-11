@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: PHP Github Star Rainking at 2015/02/11
+title: PHP Github Star Ranking at 2015/02/11
 ---
 <pre style="background-color: white;border: none;">
 symfony/symfony                         9669

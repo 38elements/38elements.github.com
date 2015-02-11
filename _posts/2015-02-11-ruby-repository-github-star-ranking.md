@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Ruby Github Star Rainking at 2015/02/11
+title: Ruby Github Star Ranking at 2015/02/11
 ---
 <pre style="background-color: white;border: none;">
 rails/rails                             24893

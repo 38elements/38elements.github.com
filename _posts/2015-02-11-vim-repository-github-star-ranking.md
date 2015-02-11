@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Vim Github Star Rainking at 2015/02/11
+title: Vim Github Star Ranking at 2015/02/11
 ---
 <pre style="background-color: white;border: none;">
 neovim/neovim                           11884

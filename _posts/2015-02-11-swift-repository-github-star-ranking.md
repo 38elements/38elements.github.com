@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Swift Github Star Rainking at 2015/02/11
+title: Swift Github Star Ranking at 2015/02/11
 ---
 <pre style="background-color: white;border: none;">
 fullstackio/FlappySwift                 6719

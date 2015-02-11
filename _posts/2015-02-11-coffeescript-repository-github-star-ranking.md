@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: CoffeeScript Github Star Rainking at 2015/02/11
+title: CoffeeScript Github Star Ranking at 2015/02/11
 ---
 <pre style="background-color: white;border: none;">
 harvesthq/chosen                        16991

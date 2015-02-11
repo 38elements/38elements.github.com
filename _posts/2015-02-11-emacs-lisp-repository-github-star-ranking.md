@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Emacs Lisp Github Star Rainking at 2015/02/11
+title: Emacs Lisp Github Star Ranking at 2015/02/11
 ---
 <pre style="background-color: white;border: none;">
 bbatsov/prelude                         2037

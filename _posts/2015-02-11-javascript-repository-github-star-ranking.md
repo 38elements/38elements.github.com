@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: JavaScript Github Star Rainking at 2015/02/11
+title: JavaScript Github Star Ranking at 2015/02/11
 ---
 <pre style="background-color: white;border: none;">
 angular/angular.js                      35190
