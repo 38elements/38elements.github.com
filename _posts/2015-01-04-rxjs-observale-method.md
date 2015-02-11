@@ -273,6 +273,7 @@ indexに値がない場合はdefaultValueを返す
 上流から流れてくるデータが全てpredicateでtrueならtrueを返す  
 
 * [expand(selector, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/expand.md)    
+[Demo](http://jsdo.it/38elements/rxjs-expand)   
 再起的にseletorを実行して実行する毎にその戻り値を流す
 
 * [filter(predicate, [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/where.md)  
