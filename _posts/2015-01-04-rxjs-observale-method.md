@@ -424,6 +424,7 @@ publishされたものでもsubscribeされたらconnect状態にする
 * [reduce(accumulator, [seed])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/reduce.md)   
 
 * [repeat(repeatCount)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/repeatproto.md)   
+[Demo](http://jsdo.it/38elements/rxjs-repeat)   
 sourceを繰り返す   
 repeatCountがない場合は無限に繰り返す
 
