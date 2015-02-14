@@ -205,7 +205,7 @@ resultSelectorが指定されていない場合はthisArgがselectorのコンテ
 publishでとまったsourceの流れを再開する   
 １つの上流から複数の下流に流す際に利用する   
 
-* [contains(searchElement, [fromIndex])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/contains.md)    
+* [includes(searchElement, [fromIndex])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/includes.md)    
 上流から来たデータの中に指定したデータが存在している場合、trueを１つ返す   
 存在していない場合、falseを返す
 
