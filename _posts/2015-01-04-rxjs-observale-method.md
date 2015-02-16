@@ -67,6 +67,7 @@ Eventからobservableを生成する。
 * [fromNodeCallback(func, [context], [selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/fromnodecallback.md)   
 
 * [generate(initialState, condition, iterate, resultSelector, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/generate.md)   
+[Demo](http://jsdo.it/38elements/rxjs-generate)   
 for文のようにObservableを生成する   
 
 * [generateWithAbsoluteTime(initialState, condition, iterate, resultSelector, timeSelector, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/generatewithabsolutetime.md)  
