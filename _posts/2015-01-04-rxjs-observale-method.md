@@ -94,6 +94,7 @@ Observableを合成する
 argsを返すObservableを返す。
 
 * [ofWithScheduler([scheduler], ...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ofwithscheduler.md)   
+[Demo](http://jsdo.it/38elements/rxjs-scheduler)   
 使用するschedulerを指定してargsを返すObservableを返す。
 
 * [onErrorResumeNext(...args)](https://xgrommx.github.io/rx-book/content/core_objects/observable/observable_methods/onerrorresumenext.html)    
