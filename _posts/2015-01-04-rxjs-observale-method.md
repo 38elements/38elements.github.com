@@ -74,6 +74,7 @@ for文のようにObservableを生成する
 timeSelectorが返した時刻に値を返すObservableを返す
 
 * [generateWithRelativeTime(initialState, condition, iterate, resultSelector, timeSelector, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/generatewithrelativetime.md)  
+[Demo](http://jsdo.it/38elements/rxjs-repeat)     
 timeSelectorは前の値を返してから値を返すまでの時間を返す
 
 * [if(condition, thenSource, [elseSource])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/if.md)  
