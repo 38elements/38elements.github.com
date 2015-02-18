@@ -57,6 +57,7 @@ funcのcallback関数からobservableを生成する。
 callbackはfuncの最後の引数である必要がある。
 
 * [fromEvent(element, eventName, [selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/fromevent.md)   
+[Demo](http://jsdo.it/38elements/rxjs-rx-spawn)   
 Eventからobservableを生成する。    
 
 * [fromPromise(promise)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/frompromise.md)   
@@ -91,6 +92,7 @@ Observableを合成する
 何もしないObservableを返す。subscribeが実行されない
 
 * [of(...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/of.md)  
+[Demo](http://jsdo.it/38elements/rxjs-zip)   
 argsを返すObservableを返す。
 
 * [ofWithScheduler([scheduler], ...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ofwithscheduler.md)   
@@ -137,6 +139,7 @@ funcを非同期に実行してその戻り値を値として返すObservableを
 
 
 * [when(...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/when.md)   
+[Demo](http://jsdo.it/38elements/rxjs-and)   
 argsはPatternでandとthenDoを利用するときに利用する
 
 * [while(condition, source)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/while.md)   
