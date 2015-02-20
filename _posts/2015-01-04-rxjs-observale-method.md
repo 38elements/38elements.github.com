@@ -108,6 +108,7 @@ errorが発生しても次のObservableからデータを取得する
 startからcount分のデータを返すObservableを返す  
 
 * [repeat(value, [repeatCount], [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/repeat.md)        
+[Demo](http://jsdo.it/38elements/rxjs_repeat)    
 valueをrepeatCount回返すObservableを返す。    
 repeatCountが指定されてない場合は無限にvalueを返す。
 
