@@ -554,6 +554,7 @@ ObservableをSetにする
 ObservableをMapにする  
 
 * [transduce(transducer)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/transduce.md)   
+[transducers.jsのデモ](http://jsdo.it/38elements/transducersjs-1)      
 
 
 * [window(windowClosingSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/window.md#with-window-closing-selector)   
