@@ -226,6 +226,7 @@ requestは何度でもできる
 上流から来たデータの数を返す
 
 * [debounce(dueTime, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/debounce.md)   
+[Demo](http://jsdo.it/38elements/rxjs-debounce-throttlefirst)   
 throttle
 
 * [debounceWithSelector(durationSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/throttlewithselector.md)      
@@ -530,6 +531,7 @@ otherが流れ始めるまでに来たデータを流す
 predicateがfalseになる前に来た値を流す
 
 * [throttleFirst(windowDuration, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/throttlefirst.md)   
+[Demo](http://jsdo.it/38elements/rxjs-debounce-throttlefirst)   
 前の値と最初にwindowDuration以上時間があいたものを返す。
 
 * [timeInterval([scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/timeinterval.md)   
