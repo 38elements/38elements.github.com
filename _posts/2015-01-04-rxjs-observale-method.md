@@ -50,6 +50,7 @@ argsにはObservableを指定するObservableの最後の値を配列にして�
 iteratorからobservableを生成する
 
 * [fromArray(array, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/fromarray.md)   
+deprecated    
 arrayからobservableを生成する
 
 * [fromCallback(func, [scheduler], [context], [selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/fromcallback.md)   
