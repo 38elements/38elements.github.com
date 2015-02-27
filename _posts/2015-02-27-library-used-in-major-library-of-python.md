@@ -4,7 +4,7 @@ title: Pythonの主要なライブラリで使用されているライブラリ�
 ---
 この[ランキング](/2015/02/11/python-repository-github-star-ranking.html)にあるrepositoryのsetup.py、requirements.txt、requirements/default.txt、requirements/default.txt       
 から使用されているライブラリを取得して集計しました。プログラムで自動化して集計しました。そのプログラムで使用した       
-正規表現のパターンが十分ではないので集計漏れがあると思います。     
+正規表現のパターンが十分ではないので集計漏れがあります。     
 <pre style="background-color: white;border: none;">
 requests            84
 six                 74
