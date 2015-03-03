@@ -96,6 +96,10 @@ Observableを合成する
 [Demo](http://jsdo.it/38elements/rxjs-zip)   
 argsを返すObservableを返す。
 
+* [ofArrayChanges(array)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ofarraychanges.md)   
+
+* [ofObjectChanges(obj)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ofobjectchanges.md)   
+
 * [ofWithScheduler([scheduler], ...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ofwithscheduler.md)   
 [Demo](http://jsdo.it/38elements/rxjs-scheduler)   
 使用するschedulerを指定してargsを返すObservableを返す。
@@ -456,6 +460,8 @@ sourceとsecondの流すデータが全て等しいならtrueを返す
 * [single([predicate], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/single.md)  
 sourceのデータが1つだけのときそれを流す  
 2つ以上もしくはemptyのときはErrorになる
+
+* [singleInstance()](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/singleinstance.md)    
 
 * [singleOrDefault(predicate, [defaultValue], [thisArg])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/singleordefault.md)   
 sourceのデータが1つだけのときそれを流す  
