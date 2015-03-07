@@ -38,7 +38,7 @@ $broadcastは子要素にイベントを伝播する。
 event.targetScope: イベントの発生もとのscope  
 event.currentScope: 現在の処理を行っているscope   
 event.name: イベント名  
-event.stopPropagation: $emitでイベントが発生した場合、イベントの親要素への伝播を止める。
+event.stopPropagation: $emitでイベントが発生した場合、イベントの親要素への伝播を止める。   
 event.preventDefault(): event.defaultPreventedをtrueにする。   
 event.defaultPrevented: event.preventDefault()がtrueになる。
   
