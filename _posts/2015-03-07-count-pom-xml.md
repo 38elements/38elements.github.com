@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Javaの主要なライブラリにあるpom.xmlを集計して使用されているライブラリを調べました。
+title: Javaの主要なライブラリにあるpom.xmlを集計しました。
 ---
 Javaの主要なライブラリにあるpom.xmlを集計して使用されているライブラリを調べました。    
 [こちら](/2015/02/11/java-repository-github-star-ranking.html)にあるライブラリでpom.xmlがある322ライブラリのpom.xmlの内容を集計しました。       
