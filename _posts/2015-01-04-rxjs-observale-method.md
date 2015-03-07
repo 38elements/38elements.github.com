@@ -178,9 +178,9 @@ selectoCが指定されている場合は値を引数にしてその戻り値の
 * bufferは時間内に取得したObservableの値をまとめて配列にする
 
 * [buffer(bufferClosingSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/buffer.md#with-buffer-closing-selector)   
+[Demo](http://jsdo.it/38elements/rxjs-buffer)   
 
 * [buffer(bufferOpenings, bufferClosingSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/buffer.md#with-buffer-opening-and-buffer-closing-selector)   
-[Demo](http://jsdo.it/38elements/rxjs-buffer)    
 
 * [buffer(bufferBoundaries)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/buffer.md#with-boundaries)  
 
@@ -195,6 +195,7 @@ timeShiftに関してはdocumentを見ること
 * [bufferWithTimeOrCount(timeSpan, count, [scheduler])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/bufferwithtimeorcount.md)   
 
 * [combineLatest(...args, resultSelector)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/combinelatestproto.md)   
+[Demo](http://jsdo.it/38elements/rxjs-combinelatest)    
 argsはObservable
 各Observableが新しい値を送るごとにその他のObservableの最近の値と組み合わせてresultSelectorに渡す。
 
