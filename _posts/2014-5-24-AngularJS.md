@@ -58,3 +58,5 @@ configではproviderオブジェクトの設定を行う。
 * ng-repeatで利用する配列が[1, 2, 3, 1]のように同じ値が複数存在している場合    
 ng-repeat="value in [1, 2, 3, 1] track by $index"のように      
 [track by $index](https://docs.angularjs.org/error/ngRepeat/dupes)を付ける必要がある。  
+
+* One-time binding [*](https://docs.angularjs.org/guide/expression)
