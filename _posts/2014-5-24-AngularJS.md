@@ -59,4 +59,6 @@ configではproviderオブジェクトの設定を行う。
 ng-repeat="value in [1, 2, 3, 1] track by $index"のように      
 [track by $index](https://docs.angularjs.org/error/ngRepeat/dupes)を付ける必要がある。  
 
-* One-time binding [*](https://docs.angularjs.org/guide/expression)
+* One-time binding [*](https://docs.angularjs.org/guide/expression)    
+
+* Domのevent handlerからeventオブジェクトを取得する際は$eventをhandlerの引数にする [*](https://docs.angularjs.org/guide/expression)   
