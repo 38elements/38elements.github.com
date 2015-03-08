@@ -1004,3 +1004,4 @@ marmelab/ng-admin                       1192
 JeffreyZhao/wind                        1191
 joelambert/Flux-Slider                  1187
 </pre>
+[JavaScript Github Star Ranking at 2015/03/08](/2015/03/08/javascript-repository-github-star-ranking.html)
