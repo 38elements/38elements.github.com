@@ -1004,4 +1004,3 @@ dcrec1/inploy                           423
 nov/rack-oauth2                         423
 chef/omnibus                            423
 </pre>
-[Ruby Github Star Ranking at 2015/03/08](/2015/03/08/ruby-repository-github-star-ranking.html)    
