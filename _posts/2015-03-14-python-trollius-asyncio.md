@@ -4,7 +4,7 @@ title: Trolliusを使ってみました
 ---
 [Trollius](http://trollius.readthedocs.org/en/latest/index.html)を使ってみました。     
 TrolliusはPython 2.6-3.5でasyncioの機能を提供するライブラリです。    
-```python
+{% highlight python %}
 import trollius as asyncio
 from trollius import From, Return
 
@@ -24,4 +24,4 @@ def display(x, y):
 loop = asyncio.get_event_loop()
 loop.run_until_complete(display("foo", "bar"))
 loop.close()
-```
+{% endhighlight %}
