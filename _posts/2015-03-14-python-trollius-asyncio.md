@@ -26,7 +26,8 @@ loop.run_until_complete(display("foo", "bar"))
 loop.close()
 {% endhighlight %}
    
-RxPYのto_futureで利用する。   
+<br/>
+[RxPY](https://github.com/ReactiveX/RxPY)のto_futureで利用する。   
 {% highlight python %}
 from __future__ import print_function
 import rx
