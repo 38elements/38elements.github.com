@@ -29,3 +29,5 @@ with concurrent.futures.ProcessPoolExecutor(5) as executor:
 # 4 seconds
 # 5 seconds
 {% endhighlight %}  
+<br/>
+[Trolliusを使ってみました](/2015/03/14/python-trollius-asyncio.html)
