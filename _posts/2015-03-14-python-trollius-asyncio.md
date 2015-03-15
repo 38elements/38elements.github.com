@@ -25,3 +25,19 @@ loop = asyncio.get_event_loop()
 loop.run_until_complete(display("foo", "bar"))
 loop.close()
 {% endhighlight %}
+   
+RxPYのto_futureで利用する。   
+{% highlight python %}
+from __future__ import print_function
+import rx
+import trollius as asyncio
+
+
+@asyncio.coroutine
+def display():
+    future = rx.Observable.return_value("a").to_future(asyncio.Future)
+    subscription = rx.Observable.from_future(future).subscribe(print)
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(display())
+{% endhighlight %}
