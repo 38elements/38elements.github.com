@@ -27,7 +27,7 @@ loop.close()
 {% endhighlight %}
    
 <br/>
-[RxPY](https://github.com/ReactiveX/RxPY)のto_futureで利用する。   
+[RxPY](https://github.com/ReactiveX/RxPY)のto_futureでtrollius.Futureを利用する。   
 {% highlight python %}
 from __future__ import print_function
 import rx
