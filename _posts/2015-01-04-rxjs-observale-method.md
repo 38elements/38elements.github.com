@@ -96,9 +96,11 @@ Observableを合成する
 [Demo](http://jsdo.it/38elements/rxjs-zip)   
 argsを返すObservableを返す。
 
-* [ofArrayChanges(array)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ofarraychanges.md)   
+* [ofArrayChanges(array)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ofarraychanges.md)      
+[Demo](http://jsdo.it/38elements/rxjs-ofarraychanges)   
 
-* [ofObjectChanges(obj)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ofobjectchanges.md)   
+* [ofObjectChanges(obj)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ofobjectchanges.md)  
+[Demo](http://jsdo.it/38elements/rxjs-ofobjectchanges)    
 
 * [ofWithScheduler([scheduler], ...args)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/ofwithscheduler.md)   
 [Demo](http://jsdo.it/38elements/rxjs-scheduler)   
