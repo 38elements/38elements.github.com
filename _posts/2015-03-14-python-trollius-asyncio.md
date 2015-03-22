@@ -10,20 +10,32 @@ from trollius import From, Return
 
 
 @asyncio.coroutine
-def concat(a, b):
-    print "in concat {a}, {b}".format(a=a, b=b)
-    yield From(asyncio.sleep(2))
+def concat(a, b, second):
+    yield From(asyncio.sleep(second))
     raise Return(a + b)
 
 
 @asyncio.coroutine
-def display(x, y):
-    result = yield From(concat(x, y))
+def display(x, y, second):
+    result = yield From(concat(x, y, second))
     print result
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(display("foo", "bar"))
+tasks = [
+    asyncio.async(display("a", "b", 5)),
+    asyncio.async(display("c", "d", 2)),
+    asyncio.async(display("e", "f", 1)),
+    asyncio.async(display("g", "h", 4)),
+    asyncio.async(display("i", "j", 3)),
+]
+loop.run_until_complete(asyncio.wait(tasks))
 loop.close()
+
+# ef 
+# cd
+# ij 
+# gh
+# ab
 {% endhighlight %}
    
 <br/>
