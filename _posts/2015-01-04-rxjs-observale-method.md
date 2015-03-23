@@ -64,7 +64,8 @@ Eventからobservableを生成する。
 * [fromPromise(promise)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/frompromise.md)   
 [Demo](http://jsdo.it/38elements/rxjs-frompromise)
 
-* [fromEventPattern(addHandler, removeHandler, [selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/fromeventpattern.md)   
+* [fromEventPattern(addHandler, removeHandler, [selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/fromeventpattern.md)      
+[Demo](http://jsdo.it/38elements/rxjs-fromeventpattern)     
 
 * [fromNodeCallback(func, [context], [selector])](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/fromnodecallback.md)   
 
