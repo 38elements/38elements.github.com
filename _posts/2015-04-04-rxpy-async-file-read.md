@@ -4,7 +4,7 @@ title: 非同期でファイルのデータを取得してRxPYで利用する
 ---
 非同期でファイルからデータを読み込んでRxPYで利用するためのソースを生成する処理を作成しました。   
 
-```python
+{% highlight python %} 
 from __future__ import print_function
 import asyncore
 import os
@@ -40,4 +40,4 @@ def form_async_file_read(file_names, size=1024, timeout=30, use_poll=False):
 
 if __name__ == "__main__":
     rx.Observable.create(form_async_file_read(["a.txt", "b.txt"], use_poll=True)).subscribe(print)
-```
+{% endhighlight %}
