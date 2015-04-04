@@ -25,6 +25,7 @@ errorが発生した場合、流されるデータをセットする
 Observableの末尾に指定したObservaleを連結する   
 
 * [create(subscribe)](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/create.md)  
+[Demo](http://jsdo.it/38elements/rxjs-create)    
 Observableを生成する。
 subscribeはobserverを引数にとる関数です。    
 subscribeはonNext()とonComplete()を実行してdispose()を返す。    
