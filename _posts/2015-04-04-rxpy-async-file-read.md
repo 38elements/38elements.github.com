@@ -3,7 +3,7 @@ layout: posts
 title: 非同期でファイルのデータを取得してRxPYで利用する 
 ---
 非同期でファイルからデータを読み込んでRxPYで利用するためのソースを生成する処理を作成しました。   
-
+[asyncore](https://docs.python.org/2.7/library/asyncore.html#module-asyncore)     
 {% highlight python %} 
 from __future__ import print_function
 import asyncore
