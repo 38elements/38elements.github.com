@@ -62,3 +62,8 @@ ng-repeat="value in [1, 2, 3, 1] track by $index"のように
 * One-time binding [*](https://docs.angularjs.org/guide/expression)    
 
 * Domのevent handlerからeventオブジェクトを取得する際は$eventをhandlerの引数にする [*](https://docs.angularjs.org/guide/expression)   
+
+* [angular.module(name, [requires], [configFn]);](https://docs.angularjs.org/api/ng/function/angular.module)   
+requiresがあれば新しいmoduleを作成する。       
+requiresがない場合は既存のmoduleを利用する。   
+moduleを作成せずに利用するとエラーになる。       
