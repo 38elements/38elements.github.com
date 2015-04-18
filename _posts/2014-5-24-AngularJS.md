@@ -66,4 +66,10 @@ ng-repeat="value in [1, 2, 3, 1] track by $index"のように
 * [angular.module(name, [requires], [configFn]);](https://docs.angularjs.org/api/ng/function/angular.module)   
 requiresがあれば新しいmoduleを作成する。       
 requiresがない場合は既存のmoduleを利用する。   
-moduleを作成せずに利用するとエラーになる。       
+moduleを作成せずに利用するとエラーになる。   
+
+* angular.module(name, [requires], [configFn])のrequiresを動的に設定する方法
+```javascript
+let app = angular.module("app", []);
+app.requires.push("fooModule");
+```
