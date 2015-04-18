@@ -68,7 +68,7 @@ requiresがあれば新しいmoduleを作成する。
 requiresがない場合は既存のmoduleを利用する。   
 moduleを作成せずに利用するとエラーになる。   
 
-* angular.module(name, [requires], [configFn])のrequiresを動的に設定する方法
+* angular.module(name, [requires], [configFn])のrequiresを動的に設定する方法                     
 ```javascript
 let app = angular.module("app", []);
 app.requires.push("fooModule");
