@@ -73,3 +73,18 @@ moduleを作成せずに利用するとエラーになる。
 let app = angular.module("app", []);
 app.requires.push("fooModule");
 ```
+
+* $httpBackend [*](https://docs.angularjs.org/api/ngMock/service/$httpBackend)       
+下記を追加することを忘れない      
+```
+afterEach(function() {
+    $httpBackend.verifyNoOutstandingExpectation();
+    $httpBackend.verifyNoOutstandingRequest();
+});
+```
+[when](https://docs.angularjs.org/api/ngMock/service/$httpBackend#when)と[expect](https://docs.angularjs.org/api/ngMock/service/$httpBackend#expect)                
+
+
+
+
+
