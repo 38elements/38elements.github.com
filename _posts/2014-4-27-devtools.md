@@ -51,7 +51,9 @@ nodeをマウスオーバーで該当要素がハイライトされる
 * Breakpointは画面右のBreakpointsを右クリックしてRemove all Breakpointsですべて消すことができる   
 * CodeMirrorの[ショートカット](http://codemirror.net/demo/sublime.html)を利用することができる。    
 * Alt+DragでVimのCtrl+vみたいに選択することができる。    
-* Debug中に行番号を右クリックしてCountinue to hereを選択するとその行番号まで処理が進む。    
+* Debug中に行番号を右クリックしてCountinue to hereを選択するとその行番号まで処理が進む。  
+* 右側のXHR BreakpointsでXMLHttpRequestをbreakpointにすることができる。
+* 右側のCall StackのAsyncにチェックをいれるとsetTimeout等の非同期処理のコールバック関数の登録元がCall Stackに表示される。
 <br/>
    
 [Debugging](https://developers.google.com/chrome-developer-tools/docs/javascript-debugging#sources-panel) 
