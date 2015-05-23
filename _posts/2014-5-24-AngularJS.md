@@ -84,6 +84,17 @@ afterEach(function() {
 ```
 [when](https://docs.angularjs.org/api/ngMock/service/$httpBackend#when)と[expect](https://docs.angularjs.org/api/ngMock/service/$httpBackend#expect)                
 
+* directiveのrequire順番にlinkのcontrollersにコントローラが入る   
+^は親のディレクティブ   
+何もなしはfooディレクティブとその属性  
+?は該当するディレクディブが存在しなくてもエラーにならない   
+```
+// fooディレクディブの定義
+require: ['foo', 'ngModel'],
+link: function(scope, element, attrs, ctrls) {
+    var fooCtrl = ctrls[0], ngModelCtrl = ctrls[1];
+}
+```
 
 
 
