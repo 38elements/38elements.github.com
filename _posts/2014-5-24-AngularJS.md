@@ -88,13 +88,13 @@ afterEach(function() {
 ^は親のディレクティブ   
 何もなしはfooディレクティブとその属性  
 ?は該当するディレクディブが存在しなくてもエラーにならない   
-```
+ {% highlight html %}
 // fooディレクディブの定義
 require: ['foo', 'ngModel'],   
 link: function(scope, element, attrs, ctrls) {   
     var fooCtrl = ctrls[0], ngModelCtrl = ctrls[1];   
 }   
-```
+ {% endhighlight %}
 
 
 
