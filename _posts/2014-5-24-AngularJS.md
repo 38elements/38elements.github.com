@@ -90,10 +90,10 @@ afterEach(function() {
 ?は該当するディレクディブが存在しなくてもエラーにならない   
 ```
 // fooディレクディブの定義
-require: ['foo', 'ngModel'],
-link: function(scope, element, attrs, ctrls) {
-    var fooCtrl = ctrls[0], ngModelCtrl = ctrls[1];
-}
+require: ['foo', 'ngModel'],   
+link: function(scope, element, attrs, ctrls) {   
+    var fooCtrl = ctrls[0], ngModelCtrl = ctrls[1];   
+}   
 ```
 
 
