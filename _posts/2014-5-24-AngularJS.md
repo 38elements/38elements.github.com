@@ -95,6 +95,8 @@ link: function(scope, element, attrs, ctrls) {
     var fooCtrl = ctrls[0], ngModelCtrl = ctrls[1];   
 }   
  {% endhighlight %}
+  
+* [ui-routerメモ](/2015/05/24/ui-router.html)
 
 
 
