@@ -33,6 +33,7 @@ parentElementの子要素の前に挿入対象の要素を挿入する。<br/>
 ### NodeListはArray.prototypeのメソッドを適用することができる
 Array.prototype.slice.call(nodeList)でnodeListをArrayに変換することができる。<br/>
 [DEMO](http://jsdo.it/38elements/6WIS)<br/>
+es6ではArray.from()でも変換することができる。<br/>
 <br/>
 
 ### firstChildとfirstElementChildの違い
