@@ -24,3 +24,5 @@ var a = "12345\
 "abc1234def".replace(/[^\d]+(\d+)/g, function(match, p1) {return "__" + p1 + "__";});
 // "__1234__def"
 {% endhighlight %}
+
+* ~~は[Math.floor()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)と同じ
