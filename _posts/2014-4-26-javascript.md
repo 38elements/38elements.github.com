@@ -18,3 +18,9 @@ var a = "12345\
 678";
 // 12345678
 {% endhighlight %}
+
+* [String.prototype.replace()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+{% highlight javascript %}
+"abc1234def".replace(/[^\d]+(\d+)/g, function(match, p1) {return "__" + p1 + "__";});
+// "__1234__def"
+{% endhighlight %}
