@@ -23,6 +23,8 @@ var a = "12345\
 {% highlight javascript %}
 "abc1234def".replace(/[^\d]+(\d+)/g, function(match, p1) {return "__" + p1 + "__";});
 // "__1234__def"
+"abc".replace(/([a-z])([a-z])/g, "$1-$2-");
+// "a-b-c"
 {% endhighlight %}
 
 * ~~は[Math.floor()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)と同じ
