@@ -28,3 +28,12 @@ var a = "12345\
 {% endhighlight %}
 
 * ~~は[Math.floor()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)と同じ
+
+* [ceil](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)と[floor](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
+{% highlight javascript %}
+Math.ceil(4.3)
+// 5
+Math.floor(4.3)
+// 4
+{% endhighlight %}
+
