@@ -37,3 +37,5 @@ Math.floor(4.3)
 // 4
 {% endhighlight %}
 
+* [for of](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of)はiterableオブジェクトの値を回す
+
