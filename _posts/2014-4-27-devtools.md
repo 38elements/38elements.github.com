@@ -122,7 +122,8 @@ Ctrl+Shift+リンクをクリック: リンクを新しいタブでバックグ�
 Ctrl+w: タブを閉じる    
 Ctrl+Shift+t: 最近閉じたタブを開く     
 Ctrl+Tab: 次のタブ     
-Ctrl+Shift+Tab: 前のタブ      
+Ctrl+Shift+Tab: 前のタブ  
+Ctrl+l: アドレスバーをフォーカス    
 Alt+←:  戻る    
 Alt+→:  進む    
 Home: ページの一番上に移動       
