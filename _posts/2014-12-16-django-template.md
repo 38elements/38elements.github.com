@@ -12,9 +12,9 @@ settings.pyの[TEMPLATES](https://docs.djangoproject.com/en/1.8/ref/settings/#st
 [APP_DIRS](https://docs.djangoproject.com/en/1.8/ref/settings/#app-dirs)はFalseに設定しておく    
 <br>
 <br>
-
+   
 * includeはtemplate_dirをrootにして相対パスで書く。     
-
+    
 * テンプレートでrequestを使用する時はsettings.pyに以下の設定をする[*](https://docs.djangoproject.com/en/1.8/ref/templates/api/#django-template-context-processors-request)    
 ```TEMPLATES['OPTIONS']['context_processors'] = 'django.template.context_processors.request' ```
 
