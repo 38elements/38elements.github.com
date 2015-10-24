@@ -9,12 +9,12 @@ title: Djangoのテストメモ
 * fixturesディレクトリをINSTALLED_APPSに設定したアプリケーションのディレクトリの下に置く [*](https://docs.djangoproject.com/en/1.8/topics/testing/tools/#fixture-loading)   
 
 * 下記のようにするにはfoo/tests/__init__.pyにテストクラスをインポートする必要がある。   
-```
+{% highlight bash %}
 python manage.py test foo.tests 
-```
+{% endhighlight %}
 
 * fixturesは相対パス
-```
+{% highlight python %}
 class BookmarkModelTestCase(TestCase):
     fixtures = [
         'feedhoos/fixtures/bookmark.json',
@@ -25,4 +25,4 @@ class BookmarkModelTestCase(TestCase):
 
     def tearDown(self):
         super(BookmarkModelTestCase, self).tearDown()
-```
+{% endhighlight %}
