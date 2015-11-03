@@ -2,6 +2,7 @@
 layout: posts
 title: Swift Github Star Ranking at 2015/03/15
 ---
+[Swift Github Star Ranking at 2015/11/03](/2015/11/03/swift-repository-github-star-ranking.html)
 <pre style="background-color: white;border: none;">
 Alamofire/Alamofire                     7125
 fullstackio/FlappySwift                 6778
