@@ -53,7 +53,8 @@ nodeをマウスオーバーで該当要素がハイライトされる
 * Alt+DragでVimのCtrl+vみたいに選択することができる。    
 * Debug中に行番号を右クリックしてCountinue to hereを選択するとその行番号まで処理が進む。  
 * 右側のXHR BreakpointsでXMLHttpRequestをbreakpointにすることができる。
-* 右側のCall StackのAsyncにチェックをいれるとsetTimeout等の非同期処理のコールバック関数の登録元がCall Stackに表示される。
+* 右側のCall StackのAsyncにチェックをいれるとsetTimeout等の非同期処理のコールバック関数の登録元がCall Stackに表示される。    
+* 右側のEvent Listener Breakpointsで該当するイベントに対するbreakpoinitを設置することができる。   
 <br/>
    
 [Debugging](https://developers.google.com/chrome-developer-tools/docs/javascript-debugging#sources-panel) 
