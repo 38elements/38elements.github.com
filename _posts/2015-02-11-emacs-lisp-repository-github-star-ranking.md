@@ -2,6 +2,7 @@
 layout: posts
 title: Emacs Lisp Github Star Ranking at 2015/02/11
 ---
+[Emacs Github Star Ranking at 2015/11/04](/2015/11/04/emacs-repository-github-star-ranking.html)
 <pre style="background-color: white;border: none;">
 bbatsov/prelude                         2037
 purcell/emacs.d                         1609
