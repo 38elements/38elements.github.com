@@ -2,6 +2,7 @@
 layout: posts
 title: Vim Github Star Ranking at 2015/04/29
 ---
+[Vim Github Star Ranking at 2015/11/04](/2015/11/04/vim-repository-github-star-ranking.html)
 <pre style="background-color: white;border: none;">
 neovim/neovim                           13152
 mathiasbynens/dotfiles                  11331
