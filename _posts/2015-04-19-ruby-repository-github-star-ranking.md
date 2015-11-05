@@ -2,6 +2,7 @@
 layout: posts
 title: Ruby Github Star Ranking at 2015/04/19
 ---
+[Ruby Github Star Ranking at 2015/11/05](/2015/11/05/ruby-repository-github-star-ranking.html)
 <pre style="background-color: white;border: none;">
 rails/rails                             25740
 Homebrew/homebrew                       22524
