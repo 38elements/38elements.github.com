@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Html Github Star Ranking at 2015/11/07
+title: HTML Github Star Ranking at 2015/11/07
 ---
 <pre style="background-color: white;border: none;">
 FreeCodeCamp/FreeCodeCamp                  30339
