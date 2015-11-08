@@ -8,7 +8,7 @@ title: Djangoのテストメモ
 
 * fixturesディレクトリをINSTALLED_APPSに設定したアプリケーションのディレクトリの下に置く [*](https://docs.djangoproject.com/en/1.8/topics/testing/tools/#fixture-loading)   
 
-* 下記のようにするにはfoo/tests/__init__.pyにテストクラスをインポートする必要がある。   
+* 下記のようにするにはfoo/tests/\_\_init\_\_.pyにテストクラスをインポートする必要がある。   
 {% highlight bash %}
 python manage.py test foo.tests 
 {% endhighlight %}
