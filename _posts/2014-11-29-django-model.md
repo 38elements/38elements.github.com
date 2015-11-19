@@ -55,7 +55,7 @@ foo.save()
 
 * 比較一覧[*](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#field-lookups)
 
-* １つだけ取得したい場合は[get](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#django.db.models.query.QuerySet.get)
+* １つだけ取得したい場合は[get(pk=123)](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#django.db.models.query.QuerySet.get)
 
 * offset limit[*](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#django.db.models.query.QuerySet.get)   
  Foo.objects.all()[5:10]
@@ -83,6 +83,6 @@ notは~, ANDは&
 
 * from django.core.exceptions import ObjectDoesNotExist
 
-* 実行されたSQLはincludeはconnection.queriesで確認することができる。  [*](https://docs.djangoproject.com/en/dev/faq/models/#how-can-i-see-the-raw-sql-queries-django-is-running)
+* 実行されたSQLはconnection.queriesで確認することができる。  [*](https://docs.djangoproject.com/en/dev/faq/models/#how-can-i-see-the-raw-sql-queries-django-is-running)
 
 * 集約関数 [*](https://docs.djangoproject.com/en/dev/topics/db/aggregation/)
