@@ -53,7 +53,9 @@ foo.save()
 #### SQL
 * Field lookups typeを指定しなかった場合はexactになる。 [*](https://docs.djangoproject.com/en/dev/ref/models/querysets/#field-lookups)
 
-* 比較一覧[*](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#field-lookups)
+* 比較一覧[*](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#field-lookups)    
+* [filter(**kwargs)](https://docs.djangoproject.com/en/stable/ref/models/querysets/#django.db.models.query.QuerySet.filter)は複数の条件を指定することができる。   
+* querysetを実行する方法 [*](https://docs.djangoproject.com/en/stable/ref/models/querysets/#when-querysets-are-evaluated)    
 
 * １つだけ取得したい場合は[get()](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#django.db.models.query.QuerySet.get)
 
