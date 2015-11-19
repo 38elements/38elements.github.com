@@ -55,7 +55,7 @@ foo.save()
 
 * 比較一覧[*](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#field-lookups)
 
-* １つだけ取得したい場合は[get(pk=123)](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#django.db.models.query.QuerySet.get)
+* １つだけ取得したい場合は[get()](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#django.db.models.query.QuerySet.get)
 
 * offset limit[*](https://docs.djangoproject.com/en/1.7/ref/models/querysets/#django.db.models.query.QuerySet.get)   
  Foo.objects.all()[5:10]
