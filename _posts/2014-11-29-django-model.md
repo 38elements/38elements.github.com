@@ -87,4 +87,7 @@ notは~, ANDは&
 
 * 実行されたSQLはconnection.queriesで確認することができる。  [*](https://docs.djangoproject.com/en/dev/faq/models/#how-can-i-see-the-raw-sql-queries-django-is-running)
 
-* 集約関数 [*](https://docs.djangoproject.com/en/dev/topics/db/aggregation/)
+* 集約関数 [*](https://docs.djangoproject.com/en/dev/topics/db/aggregation/)   
+
+* list(queryset)は該当するレコードがない場合は[]が返ってくる。例外は出ない。 
+
