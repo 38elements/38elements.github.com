@@ -91,3 +91,4 @@ notは~, ANDは&
 
 * list(queryset)は該当するレコードがない場合は[]が返ってくる。例外は出ない。 
 
+* 単にModelを継承したい場合はMeta.proxy = Trueとする [*](https://docs.djangoproject.com/en/stable/topics/db/models/#proxy-models)   
