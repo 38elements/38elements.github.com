@@ -92,3 +92,7 @@ notは~, ANDは&
 * list(queryset)は該当するレコードがない場合は[]が返ってくる。例外は出ない。 
 
 * 単にModelを継承したい場合はMeta.proxy = Trueとする [*](https://docs.djangoproject.com/en/stable/topics/db/models/#proxy-models)   
+
+* (指定したカラム名のキーと値を持つ)dictを取得したい場合は[values(*fields)](https://docs.djangoproject.com/en/1.8/ref/models/querysets/#values)タプルで取得したい場合は[values_list(*fields, flat=False)](https://docs.djangoproject.com/en/1.8/ref/models/querysets/#django.db.models.query.QuerySet.values_list)
+
+
