@@ -7,4 +7,7 @@ title: Djangoのutilsメモ
 
 * [format_html_join](https://docs.djangoproject.com/en/stable/ref/utils/#django.utils.html.format_html)はformatに引数をHTMLエスケープして埋め込む
 
-* rssfeedを作成する [*](https://docs.djangoproject.com/en/stable/ref/utils/#module-django.utils.feedgenerator)    
+* rssfeedを作成する [*](https://docs.djangoproject.com/en/stable/ref/utils/#module-django.utils.feedgenerator)  
+
+* [django.utils.module_loading](https://docs.djangoproject.com/en/stable/ref/utils/#module-django.utils.module_loading) は.で区切った最後の変数を取得する
+
