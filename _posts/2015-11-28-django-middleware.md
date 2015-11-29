@@ -15,7 +15,9 @@ title: Django Middlewareメモ
 ビューを実行する前に実行される     
 
 * process_template_response(request, response) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process_template_response)    
+render()する前に実行される     
 
 * process_response(request, response)[*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process_response)    
+レスポンスをブラウザに返す前に実行される    
 
 * process_exception(request, exception) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process-exception)    
