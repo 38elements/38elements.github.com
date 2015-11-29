@@ -8,9 +8,11 @@ title: Django Middlewareメモ
   
 * [MIDDLEWARE_CLASSES](https://docs.djangoproject.com/en/stable/ref/settings/#std:setting-MIDDLEWARE_CLASSES)にセットする。
   
-* process_request(request) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process_request)    
+* process_request(request) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process_request)  
+どのビューを実行するかを決める前に実行される  
 
 * process_view(request, view_func, view_args, view_kwargs) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process_view)   
+ビューを実行する前に実行される     
 
 * process_template_response(request, response) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process_template_response)    
 
