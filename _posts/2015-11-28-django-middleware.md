@@ -20,4 +20,5 @@ render()する前に実行される
 * process_response(request, response)[*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process_response)    
 レスポンスをブラウザに返す前に実行される    
 
-* process_exception(request, exception) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process-exception)    
+* process_exception(request, exception) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process-exception)  
+ビューで例外が発生したときに実行される     
