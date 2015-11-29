@@ -8,12 +8,12 @@ title: Django Middlewareメモ
   
 * [MIDDLEWARE_CLASSES](https://docs.djangoproject.com/en/stable/ref/settings/#std:setting-MIDDLEWARE_CLASSES)にセットする。
   
-* process_request(request)    
+* process_request(request) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process_request)    
 
-* process_view(request, view_func, view_args, view_kwargs)   
+* process_view(request, view_func, view_args, view_kwargs) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process_view)   
 
-* process_template_response(request, response)    
+* process_template_response(request, response) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process_template_response)    
 
-* process_response(request, response)    
+* process_response(request, response)[*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process_response)    
 
-* process_exception(request, exception)     
+* process_exception(request, exception) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process-exception)    
