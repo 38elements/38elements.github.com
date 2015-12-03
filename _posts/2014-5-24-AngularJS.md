@@ -8,7 +8,11 @@ title: AngularJSメモ
 * ng-classでclass名に-を含んだものを指定する際は''で囲む。  
 ng-class="{'foo-bar': ture}"  
   
-* $inputのvalidationは<formのname属性>.<inputのname属性>.$validの形式で利用する。
+* $inputのvalidationは<formのname属性>.<inputのname属性>.$validの形式で利用する。      
+[form](https://docs.angularjs.org/guide/forms)   
+[form](https://docs.angularjs.org/api/ng/directive/form)   
+[input](https://docs.angularjs.org/api/ng/directive/input)   
+[NgModelController](https://docs.angularjs.org/api/ng/type/ngModel.NgModelController)
   
 * <span style="color:red;">[$routeProvider](https://docs.angularjs.org/api/ngRoute/provider/$routeProvider)にあるwhenメソッドで指定する第2引数のresolve属性(object)について  
 resolve属性のキーはcontrollerに渡されるserivice名になる。   
