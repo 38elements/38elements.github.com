@@ -95,4 +95,4 @@ notは~, ANDは&
 
 * (指定したカラム名のキーと値を持つ)dictを取得したい場合は[values(*fields)](https://docs.djangoproject.com/en/1.8/ref/models/querysets/#values)タプルで取得したい場合は[values_list(*fields, flat=False)](https://docs.djangoproject.com/en/1.8/ref/models/querysets/#django.db.models.query.QuerySet.values_list)
 
-*[model_to_dict(instance, fields=None, exclude=None)](https://docs.djangoproject.com/en/stable/_modules/django/forms/models/)はModelをdictに変換する    
+* [model_to_dict(instance, fields=None, exclude=None)](https://docs.djangoproject.com/en/stable/_modules/django/forms/models/)はModelをdictに変換する    
