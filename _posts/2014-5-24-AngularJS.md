@@ -99,6 +99,8 @@ link: function(scope, element, attrs, ctrls) {
     var fooCtrl = ctrls[0], ngModelCtrl = ctrls[1];   
 }   
  {% endhighlight %}
+
+* $httpのtimeoutでキャンセルした場合、respose.stateは-1になる      
   
 * [ui-routerメモ](/2015/05/24/ui-router.html)
 
