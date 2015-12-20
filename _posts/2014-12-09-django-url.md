@@ -2,6 +2,8 @@
 layout: posts
 title: DjangoのURLメモ 
 ---
+* URLconf [*](https://docs.djangoproject.com/en/stable/topics/http/urls/#example)   
+
 * urlのpattern  r'^foo/?(?P<bar_id>\d+)?/?$'
    
 * redirect("namespace:name", foo=bar)とかできる [*](https://docs.djangoproject.com/en/stable/topics/http/shortcuts/#examples) 
