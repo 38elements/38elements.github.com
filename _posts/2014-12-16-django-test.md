@@ -26,3 +26,9 @@ class BookmarkModelTestCase(TestCase):
     def tearDown(self):
         super(BookmarkModelTestCase, self).tearDown()
 {% endhighlight %}
+
+* URL_CONFの設定 [*](https://docs.djangoproject.com/en/stable/topics/testing/tools/#urlconf-configuration)    
+    
+* settings.pyの設定 [*](https://docs.djangoproject.com/en/stable/topics/testing/tools/#overriding-settings)    
+    
+
