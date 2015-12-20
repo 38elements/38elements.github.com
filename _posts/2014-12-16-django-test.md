@@ -14,7 +14,7 @@ python manage.py test foo.tests
 {% endhighlight %}
 
 * fixturesは相対パス
-{% highlight python %}
+```
 class BookmarkModelTestCase(TestCase):
     fixtures = [
         'feedhoos/fixtures/bookmark.json',
@@ -25,7 +25,7 @@ class BookmarkModelTestCase(TestCase):
 
     def tearDown(self):
         super(BookmarkModelTestCase, self).tearDown()
-{% endhighlight %}
+```
 
 * URL_CONFの設定 [*](https://docs.djangoproject.com/en/stable/topics/testing/tools/#urlconf-configuration)    
     
