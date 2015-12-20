@@ -13,7 +13,7 @@ title: Djangoのテストメモ
 python manage.py test foo.tests 
 {% endhighlight %}
 
-* fixturesは相対パス
+* fixturesは相対パス    
 ```
 class BookmarkModelTestCase(TestCase):
     fixtures = [
