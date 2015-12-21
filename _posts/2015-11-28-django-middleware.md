@@ -22,3 +22,5 @@ render()する前に実行される
 
 * process_exception(request, exception) [*](https://docs.djangoproject.com/en/1.8/topics/http/middleware/#process-exception)  
 ビューで例外が発生したときに実行される     
+
+* Middlewareのインスタンスは起動時に1回だけ生成される。       
