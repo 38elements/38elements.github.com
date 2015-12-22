@@ -106,7 +106,7 @@ link: function(scope, element, attrs, ctrls) {
   
 * 数字をカンマ区切りにするフィルター [*](https://docs.angularjs.org/api/ng/filter/number)   
 
-* data url schemeをするには以下の処理を加える
+* data url schemeをするには以下の処理を加える     
 `$compileProvider.aHrefSanitizationWhitelist(/^\s*(http|https|data):/);`   
 download="ファイル名"をHTML要素に付与する      
   
