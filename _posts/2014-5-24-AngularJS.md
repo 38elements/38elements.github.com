@@ -105,6 +105,10 @@ link: function(scope, element, attrs, ctrls) {
 * input要素に付与される属性型(A)の[ディレクティブ](https://docs.angularjs.org/api/ng/service/$compile)からinput要素のmodelを更新したい場合はrequireに`[ngModel]`を指定してlinkのctrls[0]から[ngModelController](https://docs.angularjs.org/api/ng/type/ngModel.NgModelController)を取得する。ngModelController.$setViewValue(value)を実行する。   
   
 * 数字をカンマ区切りにするフィルター [*](https://docs.angularjs.org/api/ng/filter/number)   
+
+* data url schemeをするには以下の処理を加える
+`$compileProvider.aHrefSanitizationWhitelist(/^\s*(http|https|data):/);`   
+download="ファイル名"をHTML要素に付与する      
   
 * [ui-routerメモ](/2015/05/24/ui-router.html)
 
