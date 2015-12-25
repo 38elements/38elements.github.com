@@ -102,7 +102,7 @@ link: function(scope, element, attrs, ctrls) {
 
 * $httpのtimeoutでキャンセルした場合、respose.stateは-1になる      
 
-* input要素に付与される属性型(A)の[ディレクティブ](https://docs.angularjs.org/api/ng/service/$compile)からinput要素のmodelを更新したい場合はrequireに`[ngModel]`を指定してlinkのctrls[0]から[ngModelController](https://docs.angularjs.org/api/ng/type/ngModel.NgModelController)を取得する。ngModelController.$setViewValue(value)を実行する。   
+* input要素に付与される属性型(A)の[ディレクティブ](https://docs.angularjs.org/api/ng/service/$compile)からinput要素のmodelを更新したい場合はrequireに`[ngModel]`を指定してlinkのctrls[0]から[ngModelController](https://docs.angularjs.org/api/ng/type/ngModel.NgModelController)を取得する。ngModelController.$setViewValue(value);ngModelController.$render()を実行する。ngModelが変化したときngChangeが実行される
   
 * 数字をカンマ区切りにするフィルター [*](https://docs.angularjs.org/api/ng/filter/number)   
 
