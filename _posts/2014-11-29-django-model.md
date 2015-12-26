@@ -97,4 +97,4 @@ notは~, ANDは&
 
 * [model_to_dict(instance, fields=None, exclude=None)](https://docs.djangoproject.com/en/stable/_modules/django/forms/models/)はModelをdictに変換する    
 
-* dateやdatetimeの比較はOSのlacaleに影響を受ける      
+* dateやdatetimeの比較はOSのlocaleに影響を受ける      
