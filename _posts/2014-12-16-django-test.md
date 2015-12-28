@@ -30,6 +30,9 @@ class BookmarkModelTestCase(TestCase):
 * URL_CONFの設定 [*](https://docs.djangoproject.com/en/stable/topics/testing/tools/#urlconf-configuration)    
     
 * settings.pyの設定 [*](https://docs.djangoproject.com/en/stable/topics/testing/tools/#overriding-settings)    
-SimpleTestCase.settings() [*](https://docs.djangoproject.com/en/stable/topics/testing/tools/#overriding-settings)   
+SimpleTestCase.settings() [*](https://docs.djangoproject.com/en/stable/topics/testing/tools/#overriding-settings)  
+
+* Assertions [*](https://docs.djangoproject.com/en/1.9/topics/testing/tools/#assertions)    
+TestCase [*](http://docs.python.jp/2/library/unittest.html#unittest.TestCase)    
     
 
