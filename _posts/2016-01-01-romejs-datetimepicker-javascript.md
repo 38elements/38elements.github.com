@@ -24,7 +24,7 @@ var calendar1 = rome(foo);
 <a href="#" id="open" class="button button-rounded">Open</a>
 &nbsp;
 <a href="#" id="close" class="button button-rounded">Close</a>
-{% highlight %}
+{% endhighlight %}
 
 ```
 .selected-day {
