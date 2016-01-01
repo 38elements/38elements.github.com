@@ -6,14 +6,14 @@ title: rome.jsメモ
 <br>
 [Example1](http://jsdo.it/38elements/rome-datetimepicker-1)
 
-```
+{% highlight html %}
 <input type="text" id="foo"></input>
-```
+{% endhighlight %}
 
-```
+{% highlight javascript %}
 var foo = document.getElementById('foo');
 var calendar1 = rome(foo);
-```
+{% endhighlight %}
 
 <br>
 [Example2](http://jsdo.it/38elements/rome-datetimepicker-2)
@@ -26,14 +26,14 @@ var calendar1 = rome(foo);
 <a href="#" id="close" class="button button-rounded">Close</a>
 {% endhighlight %}
 
-```
+{% highlight css %}
 .selected-day {
     background-color: #FF851B;
     color: #fff;
 }
-```
+{% endhighlight %}
 
-```
+{% highlight javascript %}
 var result = document.getElementById('result');
 var outer = document.getElementById('outer');
 var close = document.getElementById('close');
@@ -54,4 +54,4 @@ close.addEventListener('click', function() {
 open.addEventListener('click', function() {
     calendar.show();
 });
-```
+{% endhighlight %}
