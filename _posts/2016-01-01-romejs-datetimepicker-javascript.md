@@ -18,13 +18,13 @@ var calendar1 = rome(foo);
 <br>
 [Example2](http://jsdo.it/38elements/rome-datetimepicker-2)
 
-```
+<pre>
 <div id="result"></div>
 <div id="outer"></div>
 <a href="#" id="open" class="button button-rounded">Open</a>
 &nbsp;
 <a href="#" id="close" class="button button-rounded">Close</a>
-```
+</pre>
 
 ```
 .selected-day {
