@@ -12,7 +12,7 @@ ng-class="{'foo-bar': ture}"
 [form](https://docs.angularjs.org/guide/forms)   
 [form](https://docs.angularjs.org/api/ng/directive/form)   
 [input](https://docs.angularjs.org/api/ng/directive/input)   
-[NgModelController](https://docs.angularjs.org/api/ng/type/ngModel.NgModelController)
+[NgModelController](https://docs.angularjs.org/api/ng/type/ngModel.NgModelController)   
 入力値バリデーション関係のディレクティブ     
   required      
   ng-required   
