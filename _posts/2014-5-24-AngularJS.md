@@ -13,6 +13,15 @@ ng-class="{'foo-bar': ture}"
 [form](https://docs.angularjs.org/api/ng/directive/form)   
 [input](https://docs.angularjs.org/api/ng/directive/input)   
 [NgModelController](https://docs.angularjs.org/api/ng/type/ngModel.NgModelController)
+入力値バリデーション関係のディレクティブ     
+  required      
+  ng-required   
+  ng-minlength   
+  ng-maxlength  
+  ng-pattern  
+  ng-change  
+
+* ng-trimで両端の空白を削除
   
 * <span style="color:red;">[$routeProvider](https://docs.angularjs.org/api/ngRoute/provider/$routeProvider)にあるwhenメソッドで指定する第2引数のresolve属性(object)について  
 resolve属性のキーはcontrollerに渡されるserivice名になる。   
