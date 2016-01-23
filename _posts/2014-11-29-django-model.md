@@ -101,6 +101,8 @@ add_nowがあるdatetimeはスキップされる
 * dateやdatetimeの比較はOSのlocaleに影響を受ける    
 
 * USE_TZをTrueにすると日時をDBに保存する際にタイムゾーンがUTCの日時に変換される。  
+
+* Custom QuerySet [*](https://docs.djangoproject.com/en/stable/topics/db/managers/#custom-managers) 
   
 
 
