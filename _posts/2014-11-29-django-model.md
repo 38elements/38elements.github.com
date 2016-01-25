@@ -100,7 +100,12 @@ add_nowがあるdatetimeはスキップされる
 
 * dateやdatetimeの比較はOSのlocaleに影響を受ける    
 
-* USE_TZをTrueにすると日時をDBに保存する際にタイムゾーンがUTCの日時に変換される。  
+* USE_TZをTrueにすると日時をDBに保存する際にタイムゾーンがUTCの日時に変換される。
+USE_TZがFalseの場合、DBに使用するdatetimeはnativeである必要がある。    
+nativeとはtzinfoがNoneのdatetimeである。    
+nativeにするにはdatetime_obj.replace(tzinfo=Node)とする。     
+awareはtzinfoを持つdatetime
+
 
 * Custom QuerySet [*](https://docs.djangoproject.com/en/stable/topics/db/managers/#custom-managers) 
   
