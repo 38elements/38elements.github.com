@@ -33,7 +33,6 @@ Metaクラスの[db_table](https://docs.djangoproject.com/en/stable/ref/models/o
 
 * BaseModelはMeta.abstruct=Trueにする [*](https://docs.djangoproject.com/en/stable/topics/db/models/#abstract-base-classes)  
 
-
 * レコード   
 {% highlight python %}
 #新規
