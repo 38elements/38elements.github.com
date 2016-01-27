@@ -47,7 +47,12 @@ foo.save()
 
 * Modelに関連したurlはModel.get_absolute_url(self)に書く [*](https://docs.djangoproject.com/en/dev/ref/models/instances/#django.db.models.Model.get_absolute_url)
 
-* choicesの選択されているラベルを表示する方法 [*](https://docs.djangoproject.com/en/dev/ref/models/instances/#django.db.models.Model.get_FOO_display)
+* choicesの選択されているラベルを表示する方法 [*](https://docs.djangoproject.com/en/dev/ref/models/instances/#django.db.models.Model.get_FOO_display)  
+
+* 接続するDBを振り分ける [*](https://docs.djangoproject.com/en/stable/topics/db/multi-db/#using-routers)   
+
+* BaseModelはMeta.abstruct=Trueにする [*](https://docs.djangoproject.com/en/stable/topics/db/models/#abstract-base-classes)  
+
 <br/>
    
 #### SQL
@@ -108,6 +113,8 @@ awareはtzinfoを持つdatetime
 
 
 * Custom QuerySet [*](https://docs.djangoproject.com/en/stable/topics/db/managers/#custom-managers) 
+from_queryset [*](https://docs.djangoproject.com/en/stable/topics/db/managers/#from-queryset)  
+BaseModelにセットする際はmodels.Modelを継承したクラスでMeta.abstruct=Trueにする [*](https://docs.djangoproject.com/en/1.9/topics/db/managers/#custom-managers-and-model-inheritance)   
   
 
 
