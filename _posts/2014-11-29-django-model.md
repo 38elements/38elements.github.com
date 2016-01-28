@@ -43,6 +43,17 @@ foo.name = "1234"
 foo.save()
 {% endhighlight %}
 
+* 以下のようなエラーが発生した場合 [*](https://docs.djangoproject.com/en/stable/ref/databases/)  
+```
+1005, "Can't create table database_name.#sql-1456_ab (errno: 150)
+```
+以下の設定をする [*](https://docs.djangoproject.com/en/stable/ref/databases/#creating-your-tables)  
+```
+'OPTIONS': {
+   'init_command': 'SET default_storage_engine=MyISAM',
+}
+```
+
 * 多対多や外部キー [*](https://docs.djangoproject.com/en/stable/topics/db/queries/#saving-foreignkey-and-manytomanyfield-fields)      
 外部キーにはそれに対応したModel   
 多対多はattributeにaddする
