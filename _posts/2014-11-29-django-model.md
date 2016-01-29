@@ -24,7 +24,7 @@ Metaクラスの[db_table](https://docs.djangoproject.com/en/stable/ref/models/o
 
 * Many-to-many relationships [*](https://docs.djangoproject.com/en/1.9/topics/db/examples/many_to_many/)    
 
-* Meta[*](https://docs.djangoproject.com/en/stable/ref/models/options/)
+* Meta [*](https://docs.djangoproject.com/en/stable/ref/models/options/)
 
 * 継承する用のクラスはMeta abstract = Trueする。
 
