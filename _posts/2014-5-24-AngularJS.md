@@ -118,6 +118,10 @@ link: function(scope, element, attrs, ctrls) {
 * data url schemeをするには以下の処理を加える     
 `$compileProvider.aHrefSanitizationWhitelist(/^\s*(http|https|data):/);`   
 download="ファイル名"をHTML要素に付与する      
+
+* ``` <option value="{{k}}" ng-repeat="(k, v) in data">{{v}}</option ```
+
+* selectのselectedを指定する際はそれのng-modelは値の型が一致するか注意する
   
 * [ui-routerメモ](/2015/05/24/ui-router.html)
 
