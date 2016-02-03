@@ -55,6 +55,8 @@ foo.save()
    'init_command': 'SET default_storage_engine=MyISAM',
 }
 ```
+* _meta [*](https://docs.djangoproject.com/es/stable/ref/models/meta/)  
+  モデルで定義されているfieldの一覧を取得する [*](https://docs.djangoproject.com/es/stable/ref/models/meta/#django.db.models.options.Options.get_fields)  
 
 * 多対多や外部キー [*](https://docs.djangoproject.com/en/stable/topics/db/queries/#saving-foreignkey-and-manytomanyfield-fields)      
 外部キーにはそれに対応したModel   
