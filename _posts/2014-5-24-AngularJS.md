@@ -119,7 +119,7 @@ link: function(scope, element, attrs, ctrls) {
 `$compileProvider.aHrefSanitizationWhitelist(/^\s*(http|https|data):/);`   
 download="ファイル名"をHTML要素に付与する      
 
-* {% raw %} <option value="{{k}}" ng-repeat="(k, v) in data">{{v}}</option> {% endraw %} 
+* {% raw %}<code> <option value="{{k}}" ng-repeat="(k, v) in data">{{v}}</option> </code>{% endraw %} 
 
 * selectのselectedを指定する際はそれのng-modelは値の型が一致するか注意する
   
