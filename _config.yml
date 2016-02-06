@@ -1,7 +1,7 @@
 safe: true
 lsi: false
 excerpt_separator: "" 
-highlighter: pygments
+highlighter: rouge
 exclude: [README.md, .gitignore, grunt.js, node_modules]
 permalink: date
 markdown: rdiscount
