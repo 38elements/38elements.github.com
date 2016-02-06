@@ -122,7 +122,9 @@ download="ファイル名"をHTML要素に付与する
 * {% raw %}```<option value="{{k}}" ng-repeat="(k, v) in data">{{v}}</option>```{% endraw %}
 
 * selectのselectedを指定する際はそれのng-modelは値の型が一致するか注意する
-  
+
+* ```<ng-include src="'/foo/bar.html'"></ng-include>```   
+
 * [ui-routerメモ](/2015/05/24/ui-router.html)
 
 
