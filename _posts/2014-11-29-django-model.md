@@ -82,7 +82,7 @@ foo.save()
 * offset limit [\*](https://docs.djangoproject.com/en/stable/ref/models/querysets/#django.db.models.query.QuerySet.get)   
  Foo.objects.all()[5:10]
 
-* 外部キーで参照しているテーブルを条件に加える場合はキーワード名を<外部テーブル名>\__<カラム名>\__<条件>とする [\*](https://docs.djangoproject.com/en/stable/topics/db/queries/#lookups-that-span-relationships)
+* 外部キーで参照しているテーブルを条件に加える場合はキーワード名を\<外部テーブル名\>\__\<カラム名\>\__\<条件\>とする [\*](https://docs.djangoproject.com/en/stable/topics/db/queries/#lookups-that-span-relationships)
 
 * テーブルにあるカラムの値を条件に利用したい場合は[F()](https://docs.djangoproject.com/en/stable/topics/db/queries/#filters-can-reference-fields-on-the-model)を利用する
 
