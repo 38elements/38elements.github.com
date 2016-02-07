@@ -4,7 +4,7 @@ title: DjangoのModelメモ
 ---
 * テーブル名     
 デフォルトでは<アプリケーション名>_<Model名>になる。   
-Metaクラスの[db_table](https://docs.djangoproject.com/en/stable/ref/models/options/#db-table)にテーブル名を指定することができる。
+Metaクラスの [db_table](https://docs.djangoproject.com/en/stable/ref/models/options/\#db-table) にテーブル名を指定することができる。
    
 * idが自動的に生成される[\*](https://docs.djangoproject.com/en/stable/topics/db/models/#automatic-primary-key-fields)
 
