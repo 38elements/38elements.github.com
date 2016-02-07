@@ -3,8 +3,8 @@ layout: posts
 title: DjangoのModelメモ 
 ---
 * テーブル名     
-デフォルトでは<アプリケーション名>_<Model名>になる。   
-Metaクラスの [db_table](https://docs.djangoproject.com/en/stable/ref/models/options/\#db-table) にテーブル名を指定することができる。
+デフォルトでは\<アプリケーション名\>_\<Model名\>になる。   
+Metaクラスの [db_table](https://docs.djangoproject.com/en/stable/ref/models/options/#db-table) にテーブル名を指定することができる。
    
 * idが自動的に生成される[\*](https://docs.djangoproject.com/en/stable/topics/db/models/#automatic-primary-key-fields)
 
@@ -101,7 +101,7 @@ notは~, ANDは&
 
 * 一度に関連したデータを全て取得するSQLを発行してModelオブジェクトを生成するには[select_related](https://docs.djangoproject.com/en/stable/ref/models/querysets/#select-related)を利用する。
 
-* <Model名>_setでこのモデルを外部キーにしているレコードを取得することができる。外部キーにしているField定義で[related_name](https://docs.djangoproject.com/en/1.7/ref/models/fields/#django.db.models.ForeignKey.related_name)を指定するとそれで取得することができる。 [*](https://docs.djangoproject.com/en/stable/topics/db/queries/#following-relationships-backward)
+* \<Model名\>_setでこのモデルを外部キーにしているレコードを取得することができる。外部キーにしているField定義で[related_name](https://docs.djangoproject.com/en/1.7/ref/models/fields/#django.db.models.ForeignKey.related_name)を指定するとそれで取得することができる。 [\*](https://docs.djangoproject.com/en/stable/topics/db/queries/#following-relationships-backward)
 
 * from django.core.exceptions import ObjectDoesNotExist
 
@@ -113,7 +113,7 @@ notは~, ANDは&
 
 * 単にModelを継承したい場合はMeta.proxy = Trueとする [\*](https://docs.djangoproject.com/en/stable/topics/db/models/#proxy-models)   
 
-* (指定したカラム名のキーと値を持つ)dictを取得したい場合は[values(*fields)](https://docs.djangoproject.com/en/stable/ref/models/querysets/#values)タプルで取得したい場合は[values_list(*fields, flat=False)](https://docs.djangoproject.com/en/stable/ref/models/querysets/#django.db.models.query.QuerySet.values_list)
+* (指定したカラム名のキーと値を持つ)dictを取得したい場合は[values\(\*fields\)](https://docs.djangoproject.com/en/stable/ref/models/querysets/#values)タプルで取得したい場合は[values_list\(\*fields, flat=False\)](https://docs.djangoproject.com/en/stable/ref/models/querysets/#django.db.models.query.QuerySet.values_list)
 
 * [model_to_dict(instance, fields=None, exclude=None)](https://docs.djangoproject.com/en/stable/_modules/django/forms/models/)はModelをdictに変換する    
 add_nowがあるdatetimeはスキップされる   
