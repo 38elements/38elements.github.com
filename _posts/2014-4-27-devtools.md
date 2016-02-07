@@ -4,7 +4,7 @@ title: DevToolsメモ
 ---
 
 [ショートカット一覧](https://developers.google.com/chrome-developer-tools/docs/shortcuts)   
-新しく知ったこと       
+
 #### すべてのパネル
 
 * Ctrl+[, Ctrl+], Ctrl+[1-9]:パネルの移動    
