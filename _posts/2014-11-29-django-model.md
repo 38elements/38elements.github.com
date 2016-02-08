@@ -62,7 +62,9 @@ foo.save()
 外部キーにはそれに対応したModel   
 多対多はattributeにaddする
 
-* [DjangoのModelで外部キーにModelではなくidを渡すことができる](/2014/12/04/django-foreignkey-id-save.html)
+* [DjangoのModelで外部キーにModelではなくidを渡すことができる](/2014/12/04/django-foreignkey-id-save.html)  
+
+* 多対多のレコードを一度に全部取得するにはprefetch_related()を使用する   [\*](https://docs.djangoproject.com/en/1.9/ref/models/querysets/#prefetch-related)
 
 * Modelに関連したurlはModel.get_absolute_url(self)に書く [\*](https://docs.djangoproject.com/en/dev/ref/models/instances/#django.db.models.Model.get_absolute_url)
 
