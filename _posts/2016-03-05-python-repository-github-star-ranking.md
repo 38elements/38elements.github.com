@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Python Github Star Ranking at 2016/03/06
+title: Python Github Star Ranking at 2016/03/05
 ---
 <pre style="background-color: white;border: none;">
 jkbrzt/httpie                              21521
