@@ -127,7 +127,7 @@ download="ファイル名"をHTML要素に付与する
  
 * ディレクティブの定義の際にcontrollerAsを使用する際はbindToControllerを使用する。   
 Controllerの定義時に$scopeを利用する必要がなくなる。  
-$scope.foo = 1ではなくhttp://this.foo  = 1ができる。  
+$scope.foo = 1ではなくthis.foo  = 1ができる。  
 
 * Angular1.5のdirectiveとcomponentの違い   
 Comparison between Directive definition and Component definition [*](https://docs.angularjs.org/guide/component)  
