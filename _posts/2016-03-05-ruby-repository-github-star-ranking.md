@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Ruby Github Star Ranking at 2016/03/06
+title: Ruby Github Star Ranking at 2016/03/05
 ---
 <pre style="background-color: white;border: none;">
 rails/rails                                30025
