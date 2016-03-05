@@ -123,7 +123,17 @@ download="ファイル名"をHTML要素に付与する
 
 * selectのselectedを指定する際はそれのng-modelは値の型が一致するか注意する
 
-* ```<ng-include src="'/foo/bar.html'"></ng-include>```   
+* ```<ng-include src="'/foo/bar.html'"></ng-include>```  
+ 
+* ディレクティブの定義の際にcontrollerAsを使用する際はbindToControllerを使用する。   
+Controllerの定義時に$scopeを利用する必要がなくなる。  
+$scope.foo = 1ではなくhttp://this.foo  = 1ができる。  
+
+* Angular1.5のdirectiveとcomponentの違い   
+Comparison between Directive definition and Component definition [*](https://docs.angularjs.org/guide/component)  
+
+* '<'はOne-way bindings  
+子コントローラの変更が親コントローラに影響をもたらさない。
 
 * [ui-routerメモ](/2015/05/24/ui-router.html)
 
