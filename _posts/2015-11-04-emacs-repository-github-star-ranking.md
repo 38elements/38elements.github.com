@@ -2,6 +2,7 @@
 layout: posts
 title: Emacs Github Star Ranking at 2015/11/04
 ---
+[Emacs Github Star Ranking at 2016/05/03](/2016/05/03/emacs-repository-github-star-ranking.html)  
 <pre style="background-color: white;border: none;">
 syl20bnr/spacemacs                         4059
 bbatsov/prelude                            2570
