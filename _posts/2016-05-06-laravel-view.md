@@ -3,7 +3,7 @@ layout: posts
 title: laravelのViewメモ 
 ---
 [Blade Templates](https://laravel.com/docs/5.2/blade)  
-` resources/views`ディレクトリに配置する。  
+`resources/views`ディレクトリに配置する。  
 `.blade.php`はbladeテンプレートエンジンの拡張子  
 
 <br>
@@ -14,4 +14,4 @@ helperの`view(name)`でview名を指定する
 ディレクトリは`.`  
 `$errors`は`ViewErrorBag`のインスタンスですべてのビューで利用可能  
 
-`{!! method_field('DELETE') !!}`はHTTPメソッドをDELETEにする  
+{\!\! method_field('DELETE') \!\!}はHTTPメソッドをDELETEにする  
