@@ -2,6 +2,9 @@
 layout: posts
 title: laravelのModelメモ 
 ---
+テーブル名は複数形  
+モデル名は単数形  
+
 ### Migration
 **作成**   
 --tableは対象となるテーブル名  
@@ -16,4 +19,11 @@ php artisan make:migration class_name --create=table_name
 
 ```
 php artisan migrate
+```
+<br>
+
+**モデルの作成**  
+
+```
+php artisan make:model モデルクラス名
 ```
