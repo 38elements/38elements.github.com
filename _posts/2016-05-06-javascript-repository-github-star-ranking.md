@@ -76,7 +76,7 @@ NARKOZ/hacker-scripts                      22086
 Based on a true story
 
 chartjs/Chart.js                           21974
-Simple HTML5 Charts using the <canvas> tag
+Simple HTML5 Charts using the &lt;canvas&gt; tag
 
 gulpjs/gulp                                20910
 The streaming build system
@@ -346,10 +346,10 @@ cheeriojs/cheerio                          8363
 Fast, flexible, and lean implementation of core jQuery designed specifically for the server.
 
 Flipboard/react-canvas                     8319
-High performance <canvas> rendering for React components
+High performance &lt;canvas&gt; rendering for React components
 
 scottjehl/picturefill                      8252
-A responsive image polyfill for <picture>, srcset, sizes, and more
+A responsive image polyfill for &lt;picture&gt;, srcset, sizes, and more
 
 yabwe/medium-editor                        8250
 Medium.com WYSIWYG editor clone. Uses contenteditable API to implement a rich text solution.
@@ -394,7 +394,7 @@ dimsemenov/Magnific-Popup                  7999
 Light and responsive lightbox script with focus on performance.
 
 selectize/selectize.js                     7986
-Selectize is the hybrid of a textbox and <select> box. It's jQuery based and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.
+Selectize is the hybrid of a textbox and &lt;select&gt; box. It's jQuery based and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.
 
 sdelements/lets-chat                       7965
 Self-hosted chat app for small teams
@@ -1060,7 +1060,7 @@ qiao/PathFinding.js                        4452
 A comprehensive path-finding library for grid based games
 
 davatron5000/Lettering.js                  4446
-A lightweight, easy to use Javascript <span> injector for radical Web Typography
+A lightweight, easy to use Javascript &lt;span&gt; injector for radical Web Typography
 
 unconed/TermKit                            4444
 Experimental Terminal platform built on WebKit + node.js. Currently only for Mac and Windows, though the prototype works 90% in any WebKit browser.
@@ -1219,7 +1219,7 @@ deployd/deployd                            3982
 a toolkit for building realtime APIs
 
 johndyer/mediaelement                      3978
-HTML5 <audio> or <video> player with Flash and Silverlight shims that mimics the HTML5 MediaElement API, enabling a consistent UI in all browsers.
+HTML5 &lt;audio&gt; or &lt;video&gt; player with Flash and Silverlight shims that mimics the HTML5 MediaElement API, enabling a consistent UI in all browsers.
 
 ConnorAtherton/walkway                     3968
 An easy way to animate SVG elements.
@@ -2074,7 +2074,7 @@ petruisfan/node-supervisor                 2713
 
 
 lapwinglabs/x-ray                          2713
-The next web scraper. See through the <html> noise.
+The next web scraper. See through the &lt;html&gt; noise.
 
 mailru/FileAPI                             2708
 FileAPI — a set of  javascript tools for working with files. Multiupload, drag'n'drop and chunked file upload. Images: crop, resize and auto orientation by EXIF.
@@ -2461,7 +2461,7 @@ denysdovhan/bash-handbook                  2328
 :book: For those who wanna learn Bash
 
 angular-ui/angular-ui-OLDREPO              2324
-DISCONTINUED REPO: This project has been restructured ->
+DISCONTINUED REPO: This project has been restructured -&gt;
 
 tooling/book-of-modern-frontend-tooling    2322
 The Front-end Tooling Book
