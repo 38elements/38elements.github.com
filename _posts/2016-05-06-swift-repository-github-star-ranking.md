@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Swift Github Star Ranking at 2016/5/06
+title: Swift Github Star Ranking at 2016/05/06
 ---
 <pre style="background-color: white;border: none;">
 Alamofire/Alamofire                        16458
