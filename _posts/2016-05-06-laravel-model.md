@@ -2,7 +2,7 @@
 layout: posts
 title: laravelのModelメモ 
 ---
-#### Migration
+### Migration
 **作成**   
 --tableは対象となるテーブル名  
 --createは生成するテーブル名  
