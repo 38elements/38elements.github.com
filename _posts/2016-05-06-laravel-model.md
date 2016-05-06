@@ -2,6 +2,7 @@
 layout: posts
 title: laravelのModelメモ 
 ---
+[Eloquent](https://laravel.com/docs/5.2/eloquent)  
 テーブル名は複数形  
 モデル名は単数形  
 
