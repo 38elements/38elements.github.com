@@ -28,3 +28,21 @@ php artisan migrate
 ```
 php artisan make:model モデルクラス名
 ```
+
+### リレーション
+`<モデル名>_id`を持つテーブルのカラム名でリレーションを表す。  
+
+Modelに以下のようなメソッドを実装する  
+
+```
+    public function users()
+    {
+        return $this->hasMany(User::class);
+    }
+    
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+```
+
