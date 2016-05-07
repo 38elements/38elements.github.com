@@ -15,19 +15,19 @@ title: laravelのModelメモ
 php artisan make:migration class_name --table=table_name
 php artisan make:migration class_name --create=table_name
 ```
-<br>
+
 **実行**   
 
 ```
 php artisan migrate
 ```
-<br>
 
 **モデルの作成**  
 
 ```
 php artisan make:model モデルクラス名
 ```
+<br>
 
 ### リレーション
 `<モデル名>_id`を持つテーブルのカラム名でリレーションを表す。  
