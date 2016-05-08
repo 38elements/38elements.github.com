@@ -49,5 +49,5 @@ Modelに以下のようなメソッドを実装する
 
 ### Policy
 Modelのメソッドを実行するかどうかを判定する処理  
-* Policyクラスの実装
+* Policyクラスの実装  
 `php artisan make:policy FooPolicy`
