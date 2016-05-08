@@ -45,4 +45,9 @@ Modelに以下のようなメソッドを実装する
         return $this->belongsTo(User::class);
     }
 ```
+<br>
 
+### Policy
+Modelのメソッドを実行するかどうかを判定する処理  
+* Policyクラスの実装
+`php artisan make:policy FooPolicy`
