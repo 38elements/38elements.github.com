@@ -49,5 +49,36 @@ Modelに以下のようなメソッドを実装する
 
 ### Policy
 Modelのメソッドを実行するかどうかを判定する処理  
-* Policyクラスの実装  
+
+**Policyクラスの実装**  
 `php artisan make:policy FooPolicy`
+
+```
+class FooPolicy
+{
+    use HandlesAuthorization;
+
+    public function destroy(User $user, Foo $foo)
+    {
+        return $user->id === $foo->user_id;
+    }
+}
+```
+
+**Policyの登録**　　
+`app/Providers/AuthServiceProvider.php`の`$policies`に登録する  
+
+```
+protected $policies = [
+    'App\Foo' => 'App\Policies\FooPolicy',
+];
+```
+
+**モデルのメソッドでチェックする**
+
+```
+public function destroy(Request $request, Foo $foo)
+{
+    $this->authorize('destroy', $tfoo);
+}
+```
