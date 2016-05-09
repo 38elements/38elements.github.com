@@ -93,6 +93,9 @@ Route::put('user/{id}', ['middleware' => 'foo:value', function ($id) {
 }]);
 ```
 
+### リクエストを送信した後に実行する
+`public function terminate($request, $response)`を実装する
+
 
 
 
