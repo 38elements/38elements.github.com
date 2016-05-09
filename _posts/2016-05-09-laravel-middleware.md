@@ -83,6 +83,15 @@ APIごとにミドルウェアを適応する場合は`app/Http/Kernel.php`の`$
 ```
 <br>
 
+### ルーティングからパラメータを渡す
+handleの第三引数にパラメータがくる  
+ルーティングでミドルウェア名の後ろに`:パラメータ`をつける  
+
+```
+Route::put('user/{id}', ['middleware' => 'foo:value', function ($id) {
+    //
+}]);
+```
 
 
 
