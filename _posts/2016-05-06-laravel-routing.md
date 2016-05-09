@@ -115,8 +115,8 @@ Route::group(['prefix' => 'foo/{bar}'], function () {
 router.phpで`web`ミドルウェアをインストールする。
 `VerifyCsrfToken`で実装されている。  
 対象から外すには`VerifyCsrfToken`の`$except`にurlを追加する。  
-`{{ csrf_field() }}`をform内に置く  
-` X-CSRF-TOKEN`をヘッダーに付与してリクエストする  
+{% raw %}{{ csrf_field() }}{% endraw %}をform内に置く  
+`X-CSRF-TOKEN`をヘッダーに付与してリクエストする  
 
 ### Modelの取得
 `id`でモデルインスタンスを取得する  
@@ -165,7 +165,7 @@ $router->model('user', 'App\User', function () {
 ```
 
 ### DELETEやPUTのやりかた
-form内に{% raw }{{ method_field('PUT') }}{% endraw %}を配置する  
+form内に{% raw %}{{ method_field('PUT') }}{% endraw %}を配置する  
 
 ### Routing情報の取得
 
