@@ -12,6 +12,8 @@ Route::get('users/{user}', function (User $user) {
 });
 ```
 
+### URLの指定
+
 ```
 // 複数メソッドを指定する。
 Route::match(['get', 'post'], 'index', function () {
@@ -32,4 +34,53 @@ Route::get('foo/{foo}/bar/{bar}', function ($foo, $bar) {
 Route::get('foo/{foo?}/bar/{bar?}', function ($foo=1, $bar=null) {
     //
 });
+
+// 正規表現でパラメータを指定
+Route::get('foo/{id}/{name}', function ($id, $name) {
+    //
+})
+->where(['id' => '[0-9]+', 'name' => '[a-z]+']);
+
+// 全体に正規表現でパラメータを指定
+// app/Providers/RouteServiceProvider.php
+// bootメソッドに追加
+public function boot(Router $router)
+{
+    $router->pattern('id', '[0-9]+');
+    parent::boot($router);
+}
 ```
+
+### 名前
+
+```
+// urlに名前を付ける
+Route::get('foo/bar', [
+    'as' => 'hoge', 'uses' => 'FooController@bar'
+]);
+// 上記と等価
+Route::get('foo/bar', 'FooController@bar')->name('hoge');
+
+// Groupで入れ子にした場合
+// 名前がfoo::barになる
+Route::group(['as' => 'foo::'], function () {
+    Route::get('bar', ['as' => 'bar', function () {
+    }]);
+});
+
+// 名前からURLを生成
+$url =  $route('foo::bar', ['id' => 1, 'item' => 'apple']);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
