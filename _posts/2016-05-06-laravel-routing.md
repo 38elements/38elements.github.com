@@ -111,6 +111,61 @@ Route::group(['prefix' => 'foo/{bar}'], function () {
 });
 ```
 
+### CSRF
+router.phpで`web`ミドルウェアをインストールする。
+`VerifyCsrfToken`で実装されている。  
+対象から外すには`VerifyCsrfToken`の`$except`にurlを追加する。  
+`{{ csrf_field() }}`をform内に置く  
+` X-CSRF-TOKEN`をヘッダーに付与してリクエストする  
+
+# Modelの取得
+`id`でモデルインスタンスを取得する  
+ない場合は404  
+
+```
+Route::get('users/{user}', function (App\User $user) {
+    //
+});
+```
+
+`id`以外のカラム名を指定した場合はModelに`getRouteKeyName`メソッドを実装する  
+
+```
+public function getRouteKeyName()
+{
+    return 'other_id';
+}
+```
+
+明示的に指定するには`RouteServiceProvider::boot`で下記のように指定する  
+
+```
+public function boot(Router $router)
+{
+    parent::boot($router);
+    $router->model('user', 'App\User');
+}
+```
+
+Modelの取得をカスタマイズしたい場合は、  
+app/Providers/RouteServiceProvider.phpのbootメソッドに追加  
+
+```
+$router->bind('user', function ($value) {
+    return App\User::where('name', $value)->first();
+});
+```
+
+該当するデータがない場合、第3引数に対応する処理を記述する
+
+```
+$router->model('user', 'App\User', function () {
+    // 
+});
+```
+
+
+
 
 
 
