@@ -165,7 +165,7 @@ $router->model('user', 'App\User', function () {
 ```
 
 ### DELETEやPUTのやりかた
-form内に{{ method_field('PUT') }}を配置する  
+form内に{% raw }{{ method_field('PUT') }}{% endraw %}を配置する  
 
 ### Routing情報の取得
 
