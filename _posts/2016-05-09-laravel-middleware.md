@@ -5,6 +5,7 @@ title: laravelのミドルウェアメモ
 [document](https://laravel.com/docs/5.2/middleware)   
 <br>
 
+### 実装
 以下のコマンドを作成  
 `php artisan make:middleware FooMiddleware`  
 `app/Http/Middleware`ディレクトリの下に生成される  
@@ -41,5 +42,32 @@ class AfterMiddleware
     }
 }
 ```
+<br>
+
+### 登録
+アプリケーション全体にミドルウェアを適用する場合は`app/Http/Kernel.php`の`$middleware`に登録する  
+
+APIごとにミドルウェアを適応する場合は`app/Http/Kernel.php`の`$routeMiddleware`に登録する  
+
+```
+```
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
