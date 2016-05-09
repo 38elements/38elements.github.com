@@ -118,7 +118,7 @@ router.phpで`web`ミドルウェアをインストールする。
 `{{ csrf_field() }}`をform内に置く  
 ` X-CSRF-TOKEN`をヘッダーに付与してリクエストする  
 
-# Modelの取得
+### Modelの取得
 `id`でモデルインスタンスを取得する  
 ない場合は404  
 
@@ -164,6 +164,20 @@ $router->model('user', 'App\User', function () {
 });
 ```
 
+### DELETEやPUTのやりかた
+form内に`{{ method_field('PUT') }}`を配置する  
+
+### Routing情報の取得
+
+```
+$route = Route::current();
+
+$name = $route->getName();
+$actionName = $route->getActionName();
+
+$name = Route::currentRouteName();
+$action = Route::currentRouteAction();
+```
 
 
 
