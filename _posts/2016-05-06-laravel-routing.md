@@ -72,6 +72,47 @@ Route::group(['as' => 'foo::'], function () {
 $url =  $route('foo::bar', ['id' => 1, 'item' => 'apple']);
 ```
 
+### Groups
+グループはネスト可能  
+グループの下にあるroutingに属性を与える  
+
+```
+// Middleware
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/', function ()    {
+        // Uses Auth Middleware
+    });
+});
+
+// Namespaces
+// App\Http\Controllersの下にコントローラが配置されているディレクトリのbaseを付け足す
+Route::group(['namespace' => 'A'], function()
+{
+    // Controllers Within The "App\Http\Controllers\A" Namespace
+
+    Route::group(['namespace' => 'B'], function() {
+        // Controllers Within The "App\Http\Controllers\A\B" Namespace
+    });
+});
+
+// サブドメイン
+// サブドメインの一部をパラメータとして取得
+Route::group(['domain' => '{foo}.example.com'], function () {
+    Route::get('user/{id}', function ($foo, $id) {
+        //
+    });
+});
+
+// URLの接頭辞を指定する
+Route::group(['prefix' => 'foo/{bar}'], function () {
+    Route::get('hoge', function ($bar)    {
+        // /foo/{bar}/hoge
+    });
+});
+```
+
+
+
 
 
 
