@@ -23,6 +23,7 @@ Route::get('foo', [
     'uses' => 'FooController@get'
 ]);
 ```
+<br>
 
 ### 定義ファイルで設定する
 ```
@@ -44,6 +45,49 @@ class UserController extends Controller
     }
 }
 ```
+<br>
+
+### Dependency Injection
+関数の引数に型を書くと自動的に引数のインスタンスが生成されて引数になる
+
+```
+namespace App\Http\Controllers;
+
+use App\Repositories\UserRepository;
+
+class UserController extends Controller
+{
+    protected $users;
+
+    public function __construct(UserRepository $users)
+    {
+        $this->users = $users;
+    }
+    
+    public function get(Request $request, $id)
+    {
+        //
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
