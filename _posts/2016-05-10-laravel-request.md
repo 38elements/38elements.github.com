@@ -62,7 +62,25 @@ $input = $request->only('a', 'b');
 $input = $request->except(['a', 'b']);
 $input = $request->except('a', 'b');
 ```
+<br>
 
+### flash
+一時的にデータを保存して次のリクエストのときにデータを取得する  
+
+```
+// 入力内容を一時的に記録
+$request->flash();
+
+// aとbのみ保存
+$request->flashOnly(['a', 'b']);
+
+// c以外保存
+$request->flashExcept('c');
+
+// 一時保存してリダイレクト
+return redirect('form')->withInput();
+return redirect('form')->withInput($request->except('a'));
+```
 
 
 
