@@ -71,7 +71,16 @@ class UserController extends Controller
     }
 }
 ```
+<br>
 
+### Route Caching
+コントローラーのルーティングをしているなら`route cache`を使用したほうが高速  
+
+キャッシュの生成  
+`php artisan route:cache`  
+
+削除
+`php artisan route:clear`  
 
 
 
