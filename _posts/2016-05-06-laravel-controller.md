@@ -6,6 +6,7 @@ title: laravelのControllerメモ
 [Controller](https://laravel.com/docs/5.2/controllers)   
 `app/Http/Controllers`の下に配置する  
 `Route::get('/users', 'UserController@index');`のようにroutingする   
+[RESTful Resource Controllers](https://laravel.com/docs/5.2/controllers#restful-resource-controllers)  
 <br>
 
 ### ルーティング
