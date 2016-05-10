@@ -99,6 +99,38 @@ return $response;
 
 $response->withCookie(cookie()->forever('name', 'value'));
 ```
+<br>
+
+### ファイル
+[UploadedFile](http://api.symfony.com/3.0/Symfony/Component/HttpFoundation/File/UploadedFile.html)  
+
+```
+//ファイルを取得
+$file = $request->file('name');
+
+//
+$request->hasFile('name');
+
+//
+$request->file('name')->isValid()
+
+// ファイルの移動
+$request->file('name')->move($destinationPath);
+$request->file('name')->move($destinationPath, $fileName);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
