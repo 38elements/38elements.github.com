@@ -65,7 +65,7 @@ class FooPolicy
 }
 ```
 
-**Policyの登録**　　
+**Policyの登録**  
 `app/Providers/AuthServiceProvider.php`の`$policies`に登録する  
 
 ```
