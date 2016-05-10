@@ -80,6 +80,24 @@ $request->flashExcept('c');
 // 一時保存してリダイレクト
 return redirect('form')->withInput();
 return redirect('form')->withInput($request->except('a'));
+
+// 一時保存したデータを取得
+// old()というhelperもある
+$username = $request->old('username');
+```
+<br>
+
+### Cookie
+
+```
+// 値を取得
+$value = $request->cookie('name');
+
+// 値をセット
+$response->withCookie('name', 'value', $minutes);
+return $response;
+
+$response->withCookie(cookie()->forever('name', 'value'));
 ```
 
 
