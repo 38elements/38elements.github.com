@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: laravelのResponseメモ 
+title: LaravelのResponseメモ 
 ---
 [API](https://laravel.com/api/5.2/Illuminate/Http/Response.html)  
 [Document](https://laravel.com/docs/5.2/responses)  
@@ -18,6 +18,7 @@ Route::get('user', function () {
             ->header('Content-Type', $value);
 });
 ```
+<br>
 
 ### Header
 
@@ -34,4 +35,23 @@ return response($content)
                 'bar' => 'bar_v',
             ]);
 ```
+<br>
+
+### Cookie
+
+```
+return response($content)
+            ->header('Content-Type', 'text/html')
+            ->cookie($name, $value)
+```
+
+LaravelでセットされたCookieは暗号化される。  
+暗号化されたくない場合は`App\Http\Middleware\EncryptCookies`で`$except`に設定する。
+
+```
+protected $except = [
+    'cookie_name',
+];
+```
+
 
