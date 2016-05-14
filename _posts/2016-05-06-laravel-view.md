@@ -7,7 +7,6 @@ title: laravelのViewメモ
 `resources/views`ディレクトリに配置する。  
 `.blade.php`はbladeテンプレートエンジンの拡張子  
 <br>
-
 #### layout
 layout内の`@yield(name)`でviewで挿入する内容の位置を指定する  
 `@section(name)...@endsection`でlayoutで指定した`@yield(name)`に対応するコンテンツを記述する  
