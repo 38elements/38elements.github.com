@@ -2,6 +2,7 @@
 layout: posts
 title: Scala Github Star Ranking at 2015/02/21
 ---
+[Scala Github Star Ranking at 2016/05/13](/2016/05/13/scala-repository-github-star-ranking.html)  
 <pre style="background-color: white;border: none;">
 PredictionIO/PredictionIO               5936
 playframework/playframework             5850
