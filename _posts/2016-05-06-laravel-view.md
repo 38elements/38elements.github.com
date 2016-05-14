@@ -17,3 +17,26 @@ helperの`view(name)`でview名を指定する [*](https://laravel.com/docs/5.2/
 
 {\!\! method_field('DELETE') \!\!}はHTTPメソッドをDELETEにする  
 {\!\! csrf_field() \!\!}
+<br>
+
+### データを渡す
+
+```
+return view('hoge.index', ['foo' => 'bar']);
+return view('hoge.index')->with('foo', 'bar');
+```
+
+#### すべてのビューに渡すデータの定義
+`AppServiceProvider`の`boot`メソッド内に記述する  
+
+```
+namespace App\Providers;
+
+class AppServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        view()->share('key', 'value');
+    }
+}
+```
