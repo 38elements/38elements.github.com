@@ -71,11 +71,11 @@ layout内の`@yield(name)`でviewで挿入する内容の位置を指定する
 ```
 
 ### 変数を表示
+{% raw %}
+{{  }}はHTMLエスケープする  
+{{ $name }}  
+{% endraw %}
 
-```
-{{}}はHTMLエスケープする
-{{ $name }}
-```
 
 {\!\! method_field('DELETE') \!\!}はHTTPメソッドをDELETEにする  
 {\!\! csrf_field() \!\!}
