@@ -40,3 +40,74 @@ class AppServiceProvider extends ServiceProvider
     }
 }
 ```
+<br>
+
+### View Composer
+ビューを生成する処理の前に実行する処理を登録する。   
+
+```
+namespace App\Providers;
+
+use Illuminate\Support\ServiceProvider;
+
+class ComposerServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        // クラスベース
+        view()->composer(
+            // view名を複数登録
+            // *はすべてのview
+            ['user', 'foo'], 'App\Http\ViewComposers\UserComposer'
+        );
+
+        // 関数ベース
+        view()->composer('user', function ($view) {
+            //
+        });
+    }
+}
+```
+
+```
+namespace App\Http\ViewComposers;
+
+use Illuminate\View\View;
+use App\Repositories\UserRepository;
+
+class UserComposer
+{
+
+    protected $users;
+
+    public function __construct(UserRepository $users)
+    {
+        $this->users = $users;
+    }
+
+    public function compose(View $view)
+    {
+        $view->with('count', $this->users->count());
+    }
+}
+```
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
