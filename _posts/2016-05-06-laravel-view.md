@@ -80,13 +80,40 @@ layout内の`@yield(name)`でviewで挿入する内容の位置を指定する
 
 @はテンプレートエンジンによって削除される  
 @{{ a }}とすると{{ a }}と表示される  
-{% endraw %}
 
+{{ $a or $b}}のような書式を使うことができる
+{% endraw %}
 
 {\!\! method_field('DELETE') \!\!}はHTTPメソッドをDELETEにする  
 {\!\! csrf_field() \!\!}
 <br>
 
+### if 
+
+```
+@if ($a === 1)
+    foo
+@elseif ($b > 1)
+    bar
+@else
+    baz
+@endif
+```
+
+**セクションがあるか**  
+
+```
+    @hasSection('foo')
+        @yield('foo')
+    @else
+        bar
+    @endif
+```
+
+### ループ
+
+
+<br>
 ### データを渡す
 
 ```
