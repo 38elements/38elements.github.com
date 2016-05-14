@@ -6,15 +6,23 @@ title: laravelのViewメモ
 [Blade Templates](https://laravel.com/docs/5.2/blade)  
 `resources/views`ディレクトリに配置する。  
 `.blade.php`はbladeテンプレートエンジンの拡張子  
-<br>
-#### layout
-layout内の`@yield(name)`でviewで挿入する内容の位置を指定する  
-`@section(name)...@endsection`でlayoutで指定した`@yield(name)`に対応するコンテンツを記述する  
-`@include(name)`はパーシャルを挿入する  
+ディレクトリは`.`  
 helperの`view(name)`でview名を指定する [*](https://laravel.com/docs/5.2/views)  
 データを渡す`view('name', ['user' => $user])`  
-ディレクトリは`.`  
 `$errors`は`ViewErrorBag`のインスタンスですべてのビューで利用可能  
+<br>
+
+**layout**  
+layout内の`@yield(name)`でviewで挿入する内容の位置を指定する  
+レイアウトは`@extends('レイアウトファイル名')`で指定する。  
+
+```
+@extends('foo.bar')
+```
+
+`@section(name)...@endsection`でlayoutで指定した`@yield(name)`に対応するコンテンツを記述する  
+`@include(name)`はパーシャルを挿入する  
+
 
 {\!\! method_field('DELETE') \!\!}はHTTPメソッドをDELETEにする  
 {\!\! csrf_field() \!\!}
