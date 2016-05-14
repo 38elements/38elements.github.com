@@ -10,6 +10,7 @@ title: laravelのViewメモ
 helperの`view(name)`でview名を指定する [*](https://laravel.com/docs/5.2/views)  
 データを渡す`view('name', ['user' => $user])`  
 `$errors`は`ViewErrorBag`のインスタンスですべてのビューで利用可能  
+`@yield(name)`はnameに対応するセクションを表示する  
 <br>
 
 **layout**  
@@ -20,9 +21,61 @@ layout内の`@yield(name)`でviewで挿入する内容の位置を指定する
 @extends('foo.bar')
 ```
 
-`@section(name)...@endsection`でlayoutで指定した`@yield(name)`に対応するコンテンツを記述する  
+**セクションの定義**  
+以下は同じ意味　　
+`@section('name')...@stop`  
+`@section('name')...@endsection`  
+`@section('name', '...')`   
+<br>
+
+以下は同じ意味  
+`@section('name')...@show`   
+`@section('name')...@yield('name')`  
+
+セクションを定義しただけでは表示されない  
+@yieldしないと表示されない  
+
 `@include(name)`はパーシャルを挿入する  
 
+```
+<html>
+    <head>
+        <title>@yield('title')</title>
+    </head>
+    <body>
+        @section('sidebar')
+            test
+        @show
+
+        <div class="container">
+            @yield('content')
+        </div>
+    </body>
+</html>
+```
+
+```
+@extends('layouts.master')
+
+@section('title', 'Page Title')
+
+@section('sidebar')
+    // 親のテンプレートのsidebarを置き換える
+    @parent
+    <p>FOO BAR</p>
+@endsection
+
+@section('content')
+    <p>内容</p>
+@endsection
+```
+
+### 変数を表示
+
+```
+{{}}はHTMLエスケープする
+{{ $name }}
+```
 
 {\!\! method_field('DELETE') \!\!}はHTTPメソッドをDELETEにする  
 {\!\! csrf_field() \!\!}
