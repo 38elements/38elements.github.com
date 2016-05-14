@@ -53,5 +53,42 @@ protected $except = [
     'cookie_name',
 ];
 ```
+<br>
+
+### JSON
+
+```
+return response()->json(['foo' => 'bar']);
+```
+<br>
+
+### File
+
+```
+return response()->download($pathToFile);
+
+return response()->download($pathToFile, $name, $headers);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
