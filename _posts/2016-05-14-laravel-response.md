@@ -69,10 +69,58 @@ return response()->download($pathToFile);
 
 return response()->download($pathToFile, $name, $headers);
 ```
+<br>
 
+### リダイレクト
 
+```
+Route::get('user', function () {
+    return redirect('user/index');
+});
 
+// 遷移元に戻る
+return back();
 
+// nameでurlを指定
+return redirect()->route('foo');
+
+// パラメータを反映
+return redirect()->route('user', ['id' => 1]);
+
+// modelをパラメータにすると自動的にidがパラメータになる
+return redirect()->route('user', [$user]);
+
+// コントローラのアクションを指定
+return redirect()->action('UserController@index', ['id' => 1]);
+
+// flashに保存
+return redirect('user')->with('name', 'foo');
+```
+<br>
+
+### レスポンスオブジェクトにメソッドを追加する
+`Illuminate\Contracts\Routing\ResponseFactory`の`boot`メソッド内に追加  
+
+```
+<?php
+
+namespace App\Providers;
+
+use Response;
+use Illuminate\Support\ServiceProvider;
+
+class ResponseMacroServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        Response::macro('foo', function ($value) {
+            //
+        });
+    }
+}
+
+return response()->foo('bar');
+```
 
 
 
