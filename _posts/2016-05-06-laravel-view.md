@@ -186,6 +186,28 @@ layout内の`@yield(name)`でviewで挿入する内容の位置を指定する
 ```
 <br>
 
+### 独自関数の定義
+`@datetime($value)`の定義
+
+```
+namespace App\Providers;
+
+use Blade;
+use Illuminate\Support\ServiceProvider;
+
+class AppServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        Blade::directive('datetime', function($expression) {
+            return "<?php echo with{$expression}->format('m/d/Y H:i'); ?>";
+        });
+    }
+}
+```
+<br>
+
+
 ### データを渡す
 
 ```
