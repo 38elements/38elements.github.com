@@ -112,8 +112,49 @@ layout内の`@yield(name)`でviewで挿入する内容の位置を指定する
 
 ### ループ
 
+```
+@for ($i = 0; $i < 10; $i++)
+    {{ $i }}
+@endfor
+
+@foreach ($users as $user)
+    {{ $user->id }}
+@endforeach
+
+@forelse ($users as $user)
+    {{ $user->name }}
+@empty
+    empty
+@endforelse
+
+@while (true)
+    while
+@endwhile
+
+@foreach ($users as $user)
+    @if($user->id == 1)
+        @continue
+    @endif
+
+    {{$user->name}}
+
+    @if($user->id == 5)
+        @break
+    @endif
+@endforeach
+
+@foreach ($users as $user)
+    @continue($user->id == 1)
+
+    {{$user->name}}
+
+    @break($user->id == 5)
+@endforeach
+```
+
 
 <br>
+
 ### データを渡す
 
 ```
