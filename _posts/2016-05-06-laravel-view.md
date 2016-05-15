@@ -35,7 +35,7 @@ layout内の`@yield(name)`でviewで挿入する内容の位置を指定する
 セクションを定義しただけでは表示されない  
 @yieldしないと表示されない  
 
-`@include(name)`はパーシャルを挿入する  
+`@include(name, ['key' => 123])`はパーシャルを挿入する  
 
 ```
 <html>
@@ -150,9 +150,40 @@ layout内の`@yield(name)`でviewで挿入する内容の位置を指定する
 
     @break($user->id == 5)
 @endforeach
+
+@each(ビュー名, コレクション, ビュー内の変数, コレクションが空のとき表示するビュー)
 ```
+<br>
 
+### コメント
 
+```
+{{-- コメント --}}
+```
+<br>
+
+### Stack
+コードをグローバル数のようなものに記録する  
+
+```
+@push('scripts')
+    <script src="/example.js"></script>
+@endpush
+
+<head>
+    @stack('scripts')
+</head>
+```
+<br>
+
+### サービスを利用する
+```
+@inject('user', 'App\Services\UserService')
+
+<div>
+    {{ $user->get() }}.
+</div>
+```
 <br>
 
 ### データを渡す
