@@ -72,7 +72,19 @@ $request->session()->flush();
 // セッションのIDを再生成する
 $request->session()->regenerate();
 ```
+<br>
 
+### Flash
+```
+// 一時的なデータの保存
+$request->session()->flash('key', 'value');
+
+// 次のリクエストまでデータを保存
+$request->session()->reflash();
+
+// 特定のキーに関連したデータを次のリクエストまでデータを保存
+$request->session()->keep(['foo', 'bar']);
+```
 
 
 
