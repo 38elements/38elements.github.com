@@ -36,7 +36,7 @@ php artisan migrate
 `predis/predis`をComposerでインストールする  
 <br>
 
-### 使い方
+### 基本的な使い方
 
 ```
 $value = $request->session()->get('key');
@@ -47,7 +47,30 @@ $value = $request->session()->get('key', function() {
     return 'default';
 });
 
-// 
+// 全データをハッシュで取得
+$data = $request->session()->all();
+
+// データの保存
+session(['key' => 'value']);
+$request->session()->put('key', 'value');
+
+// データが存在するか
+$request->session()->has('key');
+
+// セッションに保存されている配列に値を追加
+$request->session()->push('user_ids', 123456789);
+
+// 値を取得して削除
+$value = $request->session()->pull('key', 'default');
+
+// 指定したキーを削除
+$request->session()->forget('key');
+
+// セッションデータをすべて削除
+$request->session()->flush();
+
+// セッションのIDを再生成する
+$request->session()->regenerate();
 ```
 
 
