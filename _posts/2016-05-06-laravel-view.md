@@ -157,9 +157,9 @@ layout内の`@yield(name)`でviewで挿入する内容の位置を指定する
 
 ### コメント
 
-{{raw}}
+{% raw %}
 {{-- コメント --}}
-{{endraw}}
+{% endraw %}
 <br>
 
 ### Stack
