@@ -22,7 +22,7 @@ layout内の`@yield(name)`でviewで挿入する内容の位置を指定する
 ```
 
 **セクションの定義**  
-以下は同じ意味　　
+以下は同じ意味     
 `@section('name')...@stop`  
 `@section('name')...@endsection`  
 `@section('name', '...')`   
