@@ -36,6 +36,19 @@ php artisan migrate
 `predis/predis`をComposerでインストールする  
 <br>
 
+### 使い方
+
+```
+$value = $request->session()->get('key');
+
+$value = $request->session()->get('key', 'default');
+
+$value = $request->session()->get('key', function() {
+    return 'default';
+});
+
+// 
+```
 
 
 
