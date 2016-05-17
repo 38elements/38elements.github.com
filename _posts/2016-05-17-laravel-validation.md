@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: LaravelのRequestメモ 
+title: LaravelのValidationメモ 
 ---
 [Document](https://laravel.com/docs/5.2/validation)  
 [指定できる条件の一覧](https://laravel.com/docs/5.2/validation#available-validation-rules)  
