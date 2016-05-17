@@ -207,7 +207,39 @@ $validate->sometimes('item_name', 'required|max:500', function($input) {
 
 ### ルールの追加
 
+```
+namespace App\Providers;
 
+use Validator;
+use Illuminate\Support\ServiceProvider;
+
+class AppServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        Validator::extend('foo', function($attribute, $value, $parameters, $validator) {
+            return $value == 'foo';
+        });
+    }
+}
+```
+
+上記は下記のようにできる
+
+```
+Validator::extend('foo', 'FooValidator@validate');
+```
+
+**エラーメッセージの定義**
+
+```
+public function boot()
+{
+    Validator::replacer('foo', function($message, $attribute, $rule, $parameters) {
+        return '...';
+    });
+}
+```
 
 
 
