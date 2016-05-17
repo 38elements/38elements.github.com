@@ -76,6 +76,7 @@ abstract class Controller extends BaseController
 
 ### 名前付きエラー
 ひとつのページに複数のフォームがある場合エラーを表示する際にどのフォームのバリデーションエラーかを判断するために名前をつける
+
 ```
 return redirect('register')
     ->withErrors($validator, 'login');
@@ -204,7 +205,7 @@ $validate->sometimes('item_name', 'required|max:500', function($input) {
 ```
 <br>
 
-
+### ルールの追加
 
 
 
