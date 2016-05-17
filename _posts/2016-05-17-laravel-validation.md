@@ -19,3 +19,56 @@ public function user(Request $request)
     ]);
 }
 ```
+
+エラーになった場合は前のページにリダイレクトされる  
+$errorsと入力されたデータがflashに入る  
+
+`bail`をつけると最初のバリデーションエラーでバリデーションの検証が終わる  
+<br>
+
+### エラーメッセージの設定
+`App\Http\Controllers`のControllerクラスの`formatValidationErrors`メソッドを変更する。  
+`Illuminate\Contracts\Validation\Validator`クラスをインポートする。
+
+```
+namespace App\Http\Controllers;
+
+use Illuminate\Foundation\Bus\DispatchesJobs;
+use Illuminate\Contracts\Validation\Validator;
+use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Foundation\Validation\ValidatesRequests;
+
+abstract class Controller extends BaseController
+{
+    use DispatchesJobs, ValidatesRequests;
+
+    protected function formatValidationErrors(Validator $validator)
+    {
+        return $validator->errors()->all();
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
