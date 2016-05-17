@@ -16,6 +16,7 @@ public function user(Request $request)
     $this->validate($request, [
         'id' => 'required|integer',
         'data.name' => 'required|alpha_num|max:255',
+        'data.*.title' => 'required|alpha_num|max:255',
     ]);
 }
 ```
@@ -54,6 +55,7 @@ abstract class Controller extends BaseController
 エラーのときは422のステータスコードを返す  
 <br>
 
+### 
 
 
 
