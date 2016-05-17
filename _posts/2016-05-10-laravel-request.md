@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: laravelのRequestメモ 
+title: LaravelのRequestメモ 
 ---
 [document](https://laravel.com/docs/5.2/requests)  
 コントローラでRequestを受け取る場合、インジェクションで受け取る  
