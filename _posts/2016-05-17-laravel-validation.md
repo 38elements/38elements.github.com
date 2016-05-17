@@ -48,6 +48,12 @@ abstract class Controller extends BaseController
     }
 }
 ```
+<br>
+
+### XMLHttpRequest
+エラーのときは422のステータスコードを返す  
+<br>
+
 
 
 
