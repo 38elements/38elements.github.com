@@ -55,7 +55,53 @@ abstract class Controller extends BaseController
 エラーのときは422のステータスコードを返す  
 <br>
 
-### 
+### 手動でリダイレクトしてエラーと入力値を記録する
+
+```
+    public function index(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'id' => 'required',
+            'passowrd' => 'required',
+        ]);
+
+        if ($validator->fails()) {
+            return redirect('user/login')
+                        ->withErrors($validator)
+                        ->withInput();
+        }
+    }
+```
+<br>
+
+### 名前付きエラー
+ひとつのページに複数のフォームがある場合エラーを表示する際にどのフォームのバリデーションエラーかを判断するために名前をつける
+```
+return redirect('register')
+    ->withErrors($validator, 'login');
+```
+
+{% raw %}
+{{ $errors->login->first('email') }}
+{% endraw %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
