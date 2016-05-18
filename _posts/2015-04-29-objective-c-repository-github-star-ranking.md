@@ -2,7 +2,6 @@
 layout: posts
 title: Objective-C Github Star Ranking at 2015/04/29
 ---
-[Objective-C  Github Star Ranking at 2016/05/18](/2016/05/18/objective-c-repository-github-star-ranking.html)  
 <pre style="background-color: white;border: none;">
 AFNetworking/AFNetworking               17066
 rs/SDWebImage                           8705
