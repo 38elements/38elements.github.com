@@ -2,6 +2,7 @@
 layout: posts
 title: Haskell Github Star Ranking at 2015/02/21
 ---
+[Haskell Github Star Ranking at 2016/05/16](/2016/05/20/haskell-repository-github-star-ranking.html)  
 <pre style="background-color: white;border: none;">
 jgm/pandoc                              3527
 begriffs/postgrest                      2429
