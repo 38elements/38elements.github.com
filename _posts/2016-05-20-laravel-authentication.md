@@ -7,6 +7,7 @@ title: LaravelのAuthenticationメモ
 `App\Http\Controllers\Auth`の下に`AuthController`と`PasswordController`がある。
 `AuthController`は登録と認証  
 `PasswordController`はパスワードの再設定  
+認証は`Auth::attempt(['email' => $email, 'password' => $password, 'active' => 1])`で行う     
 <br>
 
 ### コマンド
@@ -75,6 +76,25 @@ Route::get('edit', [
     'uses' => 'PageController@edit'
 ]);
 ```
+
+特定の`guard`を使用して認証  
+
+```
+Auth::guard('admin')->attempt($credentials)
+```
+<br>
+
+### Logout
+
+```
+Auth::logout();
+```
+<br>
+
+
+
+
+
 
 
 
