@@ -116,6 +116,20 @@ Auth::loginUsingId(1);
 // このリクエストの間だけ有効なuserとしてログイン
 Auth::once(['email' => $email, 'password' => $password, 'active' => 1]);
 ```
+<br>
+
+### パスワードリセット
+
+自分で実装する場合は`Illuminate\Contracts\Auth\CanResetPassword`インターフェイスをUserに実装する。  
+フレームワークでは既に`Illuminate\Auth\Passwords\CanResetPassword`で実装されている。  
+それはUserモデルで利用されている。  
+フレームワークのものを利用する場合は実装する必要はない。  
+
+コントローラは`PasswordController`   
+`$redirectTo`にパスワードをリセットした後ログイン状態になったときに遷移するurlを設定する  
+Routingは`php artisan make:auth`で生成される。  
+ビューは`resources/views/auth/passwords`以下に生成される。  
+
 
 
 
