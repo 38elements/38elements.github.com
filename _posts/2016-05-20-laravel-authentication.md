@@ -20,10 +20,57 @@ php artisan make:auth
 `php artisan make:auth`は`resources/views/auth`と`resources/views/layouts`の下に`.blade.php`ファイルを作成する。 
 <br>
 
-### 認証した後に表示するページ
+### AuthControllerの設定
+**ログイン後に遷移するページ**  
 `AuthController`の`$redirectTo`プロパティにログインした後に遷移するurlを設定する。  
 失敗した場合は自動的にloginフォームに戻る。  
 <br>
+**$guard**  
+`AuthController`の`$guard`プロパティに`config/auth.php`で定義されている`$guards`のキーを設定する。  
+<br>
+**validator()**  
+id,password,emailなど登録情報に関するバリデーションを行う  
+<br>
+**create()**  
+DBにユーザデータを登録する  
+<br>
+
+### ログインしたユーザのデータを取得
+
+```
+// ログインしているかどうか
+Auth::check()
+
+$user = Auth::user();
+
+$request->user()
+```
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
