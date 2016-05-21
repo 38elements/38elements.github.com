@@ -57,4 +57,93 @@ $gate->after(function ($user, $ability, $result, $arguments) {
     //
 });
 ```
+<br>
+
+### 登録した関数を使用する
+
+**現在ログインしているユーザ**  
+
+```
+        if (Gate::denies('update-post', $post)) {
+            abort(403);
+        }
+```
+
+**ユーザを指定**  
+
+```
+if (Gate::forUser($user)->allows('update-post', $post)) {
+    //
+}
+```
+
+**user**  
+
+```
+if ($request->user()->cannot('update-post', $post)) {
+    //
+}
+
+if ($request->user()->can('update-post', $post)) {
+    // 
+}
+```
+
+**template** 
+
+```
+@can('update-post', $post)
+    <!--  -->
+@else
+    <!--  -->
+@endcan
+```
+
+**Form Request**  
+
+```
+public function authorize()
+{
+    $postId = $this->route('post');
+    return Gate::allows('update', Post::findOrFail($postId));
+}
+```
+<br>
+
+### 複数の引数を得る
+
+```
+Gate::define('title', function ($user, $param1, $param2) {
+    //
+});
+
+if (Gate::allows('title', [$param1, $param2])) {
+    //
+}
+```
+<br>
+
+### Policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
