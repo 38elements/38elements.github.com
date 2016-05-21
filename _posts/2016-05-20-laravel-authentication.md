@@ -92,6 +92,34 @@ Auth::logout();
 <br>
 
 
+### ログインしたままにする
+
+`remember_token`カラムを`users`テーブルに追加する  
+
+```
+Auth::attempt(['email' => $email, 'password' => $password], $remember)
+
+Auth::viaRemember()
+```
+<br>
+
+### ユーザを指定してログインする
+
+```
+Auth::login($user);
+
+Auth::loginUsingId(1);
+
+// guardを指定してログイン
+Auth::loginUsingId(1);
+
+// このリクエストの間だけ有効なuserとしてログイン
+Auth::once(['email' => $email, 'password' => $password, 'active' => 1]);
+```
+
+
+
+
 
 
 
