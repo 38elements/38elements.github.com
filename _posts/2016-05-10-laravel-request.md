@@ -61,6 +61,9 @@ $input = $request->only('a', 'b');
 // aとb以外取得
 $input = $request->except(['a', 'b']);
 $input = $request->except('a', 'b');
+
+// car/{type}
+$type = $request->route('type');
 ```
 <br>
 
