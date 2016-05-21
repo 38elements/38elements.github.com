@@ -129,7 +129,9 @@ Auth::once(['email' => $email, 'password' => $password, 'active' => 1]);
 `$redirectTo`にパスワードをリセットした後ログイン状態になったときに遷移するurlを設定する  
 Routingは`php artisan make:auth`で生成される。  
 ビューは`resources/views/auth/passwords`以下に生成される。  
+<br>
 
+### Customization
 
 
 
