@@ -34,6 +34,9 @@ id,password,emailなど登録情報に関するバリデーションを行う
 **create()**  
 DBにユーザデータを登録する  
 <br>
+**認証に失敗した場合すぐに再度ログインできなくする**  
+`use ThrottlesLogins`する  
+<br>
 
 ### ログインしたユーザのデータを取得
 
@@ -46,6 +49,32 @@ $user = Auth::user();
 $request->user()
 ```
 <br>
+
+### 適用
+
+routerで設定するか、コントローラのコンストラクタで呼ぶ   
+
+```
+Route::get('edit', [
+    'middleware' => 'auth',
+    'uses' => 'PageController@edit'
+]);
+
+public function __construct()
+{
+    $this->middleware('auth');
+}
+```
+
+特定の`guard`を適用したい場合  
+
+```
+// apiを適用
+Route::get('edit', [
+    'middleware' => 'auth:api',
+    'uses' => 'PageController@edit'
+]);
+```
 
 
 
