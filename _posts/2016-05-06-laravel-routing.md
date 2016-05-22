@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: laravelのRoutingメモ 
+title: LaravelのRoutingメモ 
 ---
 デフォルトでは`app/Http/routes.php`で設定する。  
 
