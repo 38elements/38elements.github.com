@@ -244,7 +244,31 @@ if (policy($car)->own($user, $car)) {
 ポリシーのメソッド名を省略することができる
 
 ```
+namespace App\Http\Controllers;
+
+use App\Car;
+use App\Http\Controllers\Controller;
+
+class PostController extends Controller
+{
+    public function own($id)
+    {
+        $car = Car::find($id);
+        // ログインしているユーザーに対して検証
+        $this->authorize('own', $car);
+        // メソッド名が同じなので上記は下記と同じ
+         $this->authorize($post);
+    }
+}
 ```
+
+ログインしているユーザー以外のユーザーを検証したいとき
+
+```
+$this->authorizeForUser($user, 'own', $car);
+```
+
+
 
 
 
