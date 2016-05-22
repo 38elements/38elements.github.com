@@ -101,6 +101,12 @@ if ($request->user()->can('update-post', $post)) {
 
 **Form Request**  
 
+Form Request Validation  
+FooRequestクラス内  
+rules()メソッドではルールを定義する  
+authorize()は権限をチェックする。エラーなら403  
+$this->route(param_name)で値をとるとこができる  
+
 ```
 public function authorize()
 {
