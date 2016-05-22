@@ -138,7 +138,32 @@ $userがモデルの処理を実行できる権限の有無を返す
 `app/Policies`の下にファイルが作成される
 
 ```
-php artisan make:policy PostPolicy
+php artisan make:policy CarPolicy
+```
+
+beforeでスキップする条件を設定する
+
+```
+namespace App\Policies;
+
+use App\User;
+use App\Car;
+
+class CarPolicy
+{
+
+    public function before($user, $ability)
+    {
+        if ($user->isAdmin()) {
+            return true;
+        }
+    }
+
+    public function own(User $user, Car $car)
+    {
+        return $user->id === $car->user_id;
+    }
+}
 ```
 
 ### 登録
@@ -157,8 +182,20 @@ class AuthServiceProvider extends ServiceProvider
     protected $policies = [
         Foo::class => FooPolicy::class,
     ];
-}
 ```
+<br>
+
+### 確認方法
+
+### Gate Facade
+
+### User Model
+
+### Blade Templates
+
+### Policy Helper
+
+
 
 
 
