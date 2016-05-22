@@ -131,6 +131,37 @@ if (Gate::allows('title', [$param1, $param2])) {
 
 ### Policy
 
+$userがモデルの処理を実行できる権限の有無を返す  
+
+### 作成
+
+`app/Policies`の下にファイルが作成される
+
+```
+php artisan make:policy PostPolicy
+```
+
+### 登録
+
+`AuthServiceProvider`にモデルとそれに対応するポリシーを`$policies`プロパティに登録する  
+
+```
+namespace App\Providers;
+
+use App\Foo;
+use App\Policies\FooPolicy;
+use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+
+class AuthServiceProvider extends ServiceProvider
+{
+    protected $policies = [
+        Foo::class => FooPolicy::class,
+    ];
+}
+```
+
+
+
 
 
 
