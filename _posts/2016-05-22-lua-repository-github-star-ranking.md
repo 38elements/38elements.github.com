@@ -80,7 +80,7 @@ The original code from the DeepMind article + my tweaks
 
 
 loveshell/ngx_lua_waf                      779
-ngx_lua_waf譏ｯ荳�荳ｪ蝓ｺ莠四ua-nginx-module(openresty)逧жeb蠎皮畑髦ｲ轣ｫ蠅�
+ngx_lua_waf是一个基于lua-nginx-module(openresty)的web应用防火墙
 
 
 yagop/telegram-bot                         776
@@ -268,7 +268,7 @@ Human-readable representation of Lua tables
 
 
 vrld/hump                                  289
-Lﾃ坊E Helper Utilities for Massive Progression
+LÖVE Helper Utilities for Massive Progression
 
 
 nicholas-leonard/dp                        289
@@ -340,7 +340,7 @@ DarkRP, a non-serious roleplay gamemode for Garry's Mod.
 
 
 KennyShields/LoveFrames                    227
-A GUI library for Lﾃ坊E
+A GUI library for LÖVE
 
 
 facebook/bAbI-tasks                        225
@@ -460,7 +460,7 @@ Yonaba/30log                               177
 
 
 karai17/Simple-Tiled-Implementation        176
-Tiled library for Lﾃ坊E
+Tiled library for LÖVE
 
 
 freifunk-gluon/gluon                       175
@@ -504,7 +504,7 @@ Dynamic Lua binding to GObject libraries using GObject-Introspection
 
 
 vrld/HC                                    159
-General purpose collision detection library for the use with Lﾃ坊E.
+General purpose collision detection library for the use with LÖVE.
 
 
 KaimingHe/resnet-1k-layers                 157
@@ -512,11 +512,11 @@ Deep Residual Networks with 1K Layers
 
 
 kikito/love-tile-tutorial                  156
-A tutorial for making tile-based games with Lﾃ坊E
+A tutorial for making tile-based games with LÖVE
 
 
 MisterDA/love-release                      156
-:love_letter: Lua script that makes Lﾃ坊E game release easier
+:love_letter: Lua script that makes LÖVE game release easier
 
 
 nagadomi/kaggle-cifar10-torch7             155
@@ -524,7 +524,7 @@ Code for Kaggle-CIFAR10 competition. 5th place.
 
 
 Kadoba/Advanced-Tiled-Loader               155
-Imports Tiled maps into Lua for the Lﾃ坊E game engine. (NO LONGER IN DEVELOPMENT)
+Imports Tiled maps into Lua for the LÖVE game engine. (NO LONGER IN DEVELOPMENT)
 
 
 cheng6076/SNLI-attention                   154
@@ -548,7 +548,7 @@ WebSocket support for the ngx_lua module (and OpenResty)
 
 
 kikito/anim8                               149
-An animation library for Lﾃ坊E
+An animation library for LÖVE
 
 
 openresty/lua-resty-upload                 148
@@ -652,11 +652,11 @@ Official Hedgewars mirror for GitHub!
 
 
 ilsanbao/17moncn                           130
-IP蝨ｰ蝮�蠖貞ｱ槫慍譟･隸｢螟夊ｯｭ險�迚�
+IP地址归属地查询多语言版
 
 
 Stabyourself/mari0                         129
-Mario + Portal game in Lﾃ坊E
+Mario + Portal game in LÖVE
 
 
 liseen/lua-resty-http                      128
@@ -684,7 +684,7 @@ OpenResty (nginx+lua) that discovers upstream servers from SRV records
 
 
 crosslife/LoveClear                        125
-螟ｩ螟ｩ辷ｱ豸磯勁邊ｾ邂�迚�
+天天爱消除精简版
 
 
 davidm/lua-inspect                         125
@@ -704,7 +704,7 @@ This is a self contained software accompanying the paper titled: Learning Longer
 
 
 Overtorment/NoobHub                        123
-Network multiplayer and messaging for CoronaSDK, Moai, Gideros & Lﾃ坊E
+Network multiplayer and messaging for CoronaSDK, Moai, Gideros & LÖVE
 
 
 tkocisky/oxnn                              122
@@ -776,7 +776,7 @@ Implementation of http://arxiv.org/abs/1511.05641 that lets one build a larger n
 
 
 vrld/SUIT                                  113
-Immediate Mode GUI library for Lﾃ坊E
+Immediate Mode GUI library for LÖVE
 
 
 openresty/lua-resty-upstream-healthcheck   113
@@ -856,11 +856,11 @@ bmddota/barebones                          103
 
 
 kylecoburn/PokeBot                         103
-The automated Pokﾃｩmon speedrunning machine
+The automated Pokémon speedrunning machine
 
 
 appwilldev/moochine-demo                   103
-OpenResty(ngx_lua, http://openresty.org )+Moochine 螳梧紛螳樔ｾ� 
+OpenResty(ngx_lua, http://openresty.org )+Moochine 完整实例 
 
 
 APItools/monitor                           102
@@ -896,11 +896,11 @@ Kaiwa XMPP Server
 
 
 coinkite/cloudfire                         99
-CloudFIRE 窶� Decentralized Open-Source Replacement for Cloudflare + Pubnub
+CloudFIRE – Decentralized Open-Source Replacement for Cloudflare + Pubnub
 
 
 Germanunkol/trAInsported                   99
-Lﾃｶve2D Game
+Löve2D Game
 
 
 ficusio/openresty                          98
@@ -948,7 +948,7 @@ A tool for tracing Lua script execution and analysing time profiles and coverage
 
 
 nixuehan/Belial                            92
-蝓ｺ莠始ginx lua module 逧��ｸ�荳ｪ waf .
+基于nginx lua module 的一个 waf .
 
 
 pathak22/context-encoder                   91
@@ -972,7 +972,7 @@ A Lua-based Build Tool
 
 
 rxi/lovebird                               90
-A browser-based debug console for Lﾃ坊E
+A browser-based debug console for LÖVE
 
 
 nrk/mercury                                89
@@ -988,7 +988,7 @@ Mustache templates for Lua
 
 
 hpxl/nginx-lua-fastdfs-GraphicsMagick      87
-nginx+lua+fastdfs+GraphicsMagick 蜉ｨ諤∫函謌千ｼｩ逡･蝗ｾ
+nginx+lua+fastdfs+GraphicsMagick 动态生成缩略图
 
 
 ValyriaTear/ValyriaTear                    87
@@ -1020,11 +1020,11 @@ Provides a set of async. callback based handlers for working with raw TCP/UDP so
 
 
 vrld/shine                                 84
-Postprocessing effect repository for Lﾃ坊E
+Postprocessing effect repository for LÖVE
 
 
 fsantanna/ceu                              83
-The Programming Language Cﾃｩu
+The Programming Language Céu
 
 
 keplerproject/copas                        83
@@ -1052,7 +1052,7 @@ Semantic highlighting for Lua in Vim
 
 
 bungle/lua-resty-session                   81
-Session library for OpenResty 窶� flexible and secure
+Session library for OpenResty – flexible and secure
 
 
 xopxe/lumen                                81
@@ -1152,7 +1152,7 @@ Embedded Lua templates
 
 
 excessive/love3d                           74
-A 3D extension for Lﾃ坊E
+A 3D extension for LÖVE
 
 
 stevedonovan/LuaMacro                      74
@@ -1176,7 +1176,7 @@ Metronome IM, lightweight xmpp server with advanced microblogging features.
 
 
 josefnpat/vapor                            74
-Vapor - Lﾃ坊E Distribution Client
+Vapor - LÖVE Distribution Client
 
 
 kyleconroy/lua-state-machine               74
@@ -1324,7 +1324,7 @@ Code for the paper "A Theoretically Grounded Application of Dropout in Recurrent
 
 
 keplerproject/luadoc                       68
-LuaDoc is obsolete, use LDoc instead 竊�
+LuaDoc is obsolete, use LDoc instead →
 
 
 nathankot/mjolnir.tiling                   68
@@ -1340,7 +1340,7 @@ Capsule network with variations. Originally proposed by Tieleman & Hinton : http
 
 
 rxi/lurker                                 68
-Auto-swaps changed Lua files in a running Lﾃ坊E project
+Auto-swaps changed Lua files in a running LÖVE project
 
 
 hoelzro/lua-repl                           68
@@ -1384,7 +1384,7 @@ An implementation of the RL-NTM from http://arxiv.org/abs/1505.00521
 
 
 kikito/gamera                              66
-A camera system for Lﾃ坊E
+A camera system for LÖVE
 
 
 ZeroK-RTS/Zero-K                           66
@@ -1408,7 +1408,7 @@ Mod for minetest that adds digital circuitry [=minecraft redstone]
 
 
 IgorTimofeev/OpenComputers                 65
-ﾐ�ﾐｵﾐｿﾐｾﾐｷﾐｸﾑひｾﾑ�ﾐｸﾐｹ MineOS ﾐｸ ﾐｲﾑ��ｿﾐｾﾐｼﾐｾﾐｳﾐｰﾑひｵﾐｻﾑ糊ｽﾐｾﾐｳﾐｾ ﾑ��ｾﾑ��ひｰ ﾐｿﾐｾﾐｴ OpenComputers
+Репозиторий MineOS и вспомогательного софта под OpenComputers
 
 
 cloudwu/ldebug                             64
@@ -1436,7 +1436,7 @@ Shodan HQ nmap plugin - passively scan targets
 
 
 adonaac/thranduil                          63
-UI module for Lﾃ坊E
+UI module for LÖVE
 
 
 aimingoo/ngx_cc                            63
@@ -1512,7 +1512,7 @@ Ansible playbook for my self-hosted communication infrastructure
 
 
 zheng-ji/ngx_lua_reqstatus                 61
-螳樊慮扈溯ｮ｡ nginx 迥ｶ諤∫噪 lua 諡灘ｱ�
+实时统计 nginx 状态的 lua 拓展
 
 
 iassael/torch-bnlstm                       61
@@ -1576,7 +1576,7 @@ A real map datapack based on TFS 1.2 engine
 
 
 adonaac/yaoui                              59
-UI Kit for Lﾃ坊E
+UI Kit for LÖVE
 
 
 jmcnamara/xlsxwriter.lua                   58
@@ -1592,7 +1592,7 @@ xUnit-style + randomized unit testing framework for Lua (and C projects using Lu
 
 
 kikito/love-loader                         58
-Threaded resource loading for Lﾃ坊E
+Threaded resource loading for LÖVE
 
 
 aura-project/melia                         58
@@ -1636,7 +1636,7 @@ Awesome WM extension that allows automatically detect and configure connected/di
 
 
 headchant/LICK                             55
-Lﾃｶve Interactive Coding Kit
+Löve Interactive Coding Kit
 
 
 spacebuild/sbep                            55
@@ -1692,7 +1692,7 @@ Reinforcement learning environments for Torch7
 
 
 unixhot/waf                                54
-菴ｿ逕ｨNginx+Lua螳樒鴫逧ЦAF
+使用Nginx+Lua实现的WAF
 
 
 soumith/deepmind-atari                     54
@@ -1708,7 +1708,7 @@ Lightweight embedded scripting language
 
 
 Josepdal/DBTeam                            54
-An administration and multi-language bot based on yagop/telegram-bot --&gt;
+An administration and multi-language bot based on yagop/telegram-bot -->
 
 
 andreaskoepf/faster-rcnn.torch             54
@@ -1756,7 +1756,7 @@ Line-level profiler for code running in LuaJIT
 
 
 haimanman/jx3                              52
-縲雁苑鄂�3縲区ｵｷ魑玲薯莉ｶ
+《剑网3》海鳗插件
 
 
 szagoruyko/torch-opencv-demos              52
@@ -1800,7 +1800,7 @@ Jumprope-based local content store
 
 
 adonaac/popo                               51
-Text module for Lﾃ坊E
+Text module for LÖVE
 
 
 minetest-technic/technic                   51
