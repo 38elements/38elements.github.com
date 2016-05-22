@@ -77,7 +77,7 @@ if (Gate::forUser($user)->allows('update-post', $post)) {
 }
 ```
 
-**user**  
+**user model**  
 
 ```
 if ($request->user()->cannot('update-post', $post)) {
@@ -99,7 +99,7 @@ if ($request->user()->can('update-post', $post)) {
 @endcan
 ```
 
-**Form Request**  
+**Form Requestクラス**  
 
 Form Request Validation  
 FooRequestクラス内  
