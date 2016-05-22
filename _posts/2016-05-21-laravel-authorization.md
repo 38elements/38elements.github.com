@@ -187,18 +187,32 @@ class AuthServiceProvider extends ServiceProvider
 
 ### 確認方法
 
-### Gate Facade
+**Gate Facade**  
 
-### User Model
+```
+```
 
-### Blade Templates
+**User Model**  
 
-### Policy Helper
+```
+```
 
+**Blade Templates**  
 
+```
+```
 
+**Policy Helper**  
 
+```
+```
 
+**Controller**  
+コントローラのアクション名とモデルに対応するポリシーのメソッド名が同じ場合  
+ポリシーのメソッド名を省略することができる
+
+```
+```
 
 
 
