@@ -190,21 +190,53 @@ class AuthServiceProvider extends ServiceProvider
 **Gate Facade**  
 
 ```
+<?php
+
+namespace App\Http\Controllers;
+
+use Gate;
+use App\User;
+use App\Car;
+use App\Http\Controllers\Controller;
+
+class PostController extends Controller
+{
+    public function update($id)
+    {
+        $car = Car::find($id);
+        if (Gate::denies('own', $car)) {
+            abort(403);
+        }
+    }
+}
 ```
 
 **User Model**  
 
 ```
+if ($user->can('own', $car)) {
+    //
+}
+
+if ($user->cannot('own', $car)) {
+    //
+}
 ```
 
 **Blade Templates**  
 
 ```
+@can('own', $car)
+    
+@endcan
 ```
 
 **Policy Helper**  
 
 ```
+if (policy($car)->own($user, $car)) {
+    //
+}
 ```
 
 **Controller**  
