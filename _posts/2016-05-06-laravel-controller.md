@@ -49,6 +49,7 @@ class UserController extends Controller
 <br>
 
 ### Dependency Injection
+[サービスコンテナ](https://laravel.com/docs/5.2/container)参照  
 関数の引数に型を書くと自動的に引数のインスタンスが生成されて引数になる
 
 ```
