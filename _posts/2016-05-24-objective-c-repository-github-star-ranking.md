@@ -3552,7 +3552,7 @@ jaydee3/JDFlipNumberView                   669
 
 
 brentvatne/react-native-video              669
-A <Video /> component for react-native
+A &lt;Video /&gt; component for react-native
 
 
 vicoapp/vico                               667
