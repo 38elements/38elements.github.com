@@ -3,6 +3,14 @@ layout: posts
 title: LaravelのMigrationメモ 
 ---
 [Document](https://laravel.com/docs/5.2/migrations)  
+<br>
+
+### PostgreSQLのドライバーのインストール
+
+```
+apt-get install php5-pgsql
+```
+<br>
 
 
 ### ファイル生成
