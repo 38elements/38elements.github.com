@@ -48,6 +48,9 @@ actingAs($user): 認証済みのユーザを設定
 withSession($arr): セッションデータを設定する  
 <br>
 
+### DB
+
+
 middlewareを無効化するには`use WithoutMiddleware;`する  
 もしくは`$this->withoutMiddleware();`  
 
