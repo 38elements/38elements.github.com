@@ -49,6 +49,7 @@ withSession($arr): セッションデータを設定する
 <br>
 
 middlewareを無効化するには`use WithoutMiddleware;`する  
+もしくは`$this->withoutMiddleware();`  
 
 DBをテストごとにリセットするには`use DatabaseMigrations;`する  
 `DatabaseMigrations`traitはテスト前に`migrate`、後に`migrate:rollback`を実行する  
