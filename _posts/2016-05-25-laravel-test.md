@@ -50,6 +50,65 @@ withSession($arr): セッションデータを設定する
 
 ### DB
 
+seeInDatabase($table_name, $data): テーブルに該当するデータのレコードが存在するか  
+<br>
+
+### Model Factory
+
+ある程度プロパティに値が入力されたモデルオブジェクトを返す  
+`database/factories/ModelFactory.php`に記述する  
+`$faker`は[Faker](https://github.com/fzaninotto/Faker)で任意の値を入力する  
+
+```
+$factory->defineAs(App\User::class, 'admin', function ($faker) {
+    return [
+        'name' => $faker->name,
+        'email' => $faker->email,
+        'password' => str_random(10),
+        'remember_token' => str_random(10),
+        'admin' => true,
+    ];
+});
+
+// 値をオーバーライド
+$user = factory(App\User::class)->make([
+    'name' => 'Ken',
+]);
+
+// 1つ作成
+$user = factory(App\User::class, 'admin')->make();
+
+// 3つ作成
+$users = factory(App\User::class, 'admin', 3)->make();
+```
+
+複数のモデルを`create()`するとコレクションが返る  
+`each()`が利用できる  
+
+```
+$users = factory(App\User::class, 3)
+    ->create()
+    ->each(function($user) {
+        $user->cars()->save(factory(App\Car::class)->make());
+    });
+```
+
+ファクトリーでリレーションを定義する  
+
+```
+$factory->define(App\Car::class, function ($faker) {
+    return [
+        'name' => $faker->name,
+        'description' => $faker->paragraph,
+        'user_id' => function () {
+            return factory(App\User::class)->create()->id;
+        },
+        'user_type' => function (array $car) {
+            return App\User::find($car['user_id'])->type;
+        }
+    ];
+});
+```
 
 middlewareを無効化するには`use WithoutMiddleware;`する  
 もしくは`$this->withoutMiddleware();`  
