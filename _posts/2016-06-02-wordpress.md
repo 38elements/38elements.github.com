@@ -3,6 +3,11 @@ layout: posts
 title: WordPressメモ
 ---
 
+```
+sudo apt-get install php5-fpm
+```
+<br>
+
 ### Nginx
 
 動作に必要な最小限の設定をするには下記の4つを記述する必要がある  
