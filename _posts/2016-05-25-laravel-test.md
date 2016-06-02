@@ -109,6 +109,11 @@ $factory->define(App\Car::class, function ($faker) {
     ];
 });
 ```
+<br>
+
+### モック
+
+<br>
 
 middlewareを無効化するには`use WithoutMiddleware;`する  
 もしくは`$this->withoutMiddleware();`  
