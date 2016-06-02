@@ -6,6 +6,25 @@ title: WordPressメモ
 ```
 sudo apt-get install php5-fpm
 ```
+
+/etc/php5/fpm/php-fpm.conf
+
+```
+events.mechanism = epoll
+```
+
+/etc/php5/fpm/pool.d/www.conf
+
+```
+user = nginx
+group = nginx
+
+listen = /var/run/php5-fpm.sock
+listen.owner = nginx 
+listen.group = nginx 
+listen.mode = 0660
+```
+
 <br>
 
 ### Nginx
