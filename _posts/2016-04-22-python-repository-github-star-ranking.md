@@ -2,6 +2,7 @@
 layout: posts
 title: Python Github Star Ranking at 2016/04/22
 ---
+[Python Github Star Ranking at 2016/06/03](/2016/06/03/python-repository-github-star-ranking.html)
 <pre style="background-color: white;border: none;">
 jkbrzt/httpie                              22170
 vinta/awesome-python                       20177
