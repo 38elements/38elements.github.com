@@ -268,6 +268,7 @@ class PostController extends Controller
 $this->authorizeForUser($user, 'own', $car);
 ```
 
+Modelクラスでの利用方法 [\*](/2016/05/06/laravel-model.html)  
 
 
 
