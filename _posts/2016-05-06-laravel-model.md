@@ -82,3 +82,5 @@ public function destroy(Request $request, Foo $foo)
     $this->authorize('destroy', $tfoo);
 }
 ```
+
+Policyはここにも記述がある [\*](/2016/05/20/laravel-authentication.html)  
