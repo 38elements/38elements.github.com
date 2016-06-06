@@ -79,7 +79,7 @@ protected $policies = [
 ```
 public function destroy(Request $request, Foo $foo)
 {
-    $this->authorize('destroy', $tfoo);
+    $this->authorize('destroy', $foo);
 }
 ```
 
