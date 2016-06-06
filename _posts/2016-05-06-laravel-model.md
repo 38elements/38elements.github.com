@@ -83,4 +83,4 @@ public function destroy(Request $request, Foo $foo)
 }
 ```
 
-Policyはここにも記述がある [\*](/2016/05/20/laravel-authentication.html)  
+Policyはここにも記述がある [\*](/2016/05/21/laravel-authorization.html)  
