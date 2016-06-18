@@ -4,6 +4,8 @@ title: Djangoの認証メモ
 ---
 [Document](https://docs.djangoproject.com/en/stable/topics/auth/)  
 
+### Userモデルのテーブル
+
 ```
 CREATE TABLE "auth_user" (
     "id" integer NOT NULL PRIMARY KEY AUTOINCREMENT,
