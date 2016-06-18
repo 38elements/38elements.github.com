@@ -4,6 +4,8 @@ title: DjangoのTemplateメモ
 ---
 [Document](https://docs.djangoproject.com/en/1.9/ref/templates/)  
 
+render() [\*](https://docs.djangoproject.com/ja/1.9/topics/http/shortcuts/#render)  
+
 [extends](https://docs.djangoproject.com/en/stable/ref/templates/builtins/#extends)   
 [block](https://docs.djangoproject.com/en/stable/ref/templates/builtins/#block)   
 <br>
