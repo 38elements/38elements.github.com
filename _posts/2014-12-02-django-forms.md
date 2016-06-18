@@ -2,6 +2,9 @@
 layout: posts
 title: DjangoのFormメモ 
 ---
+[Document](https://docs.djangoproject.com/ja/1.9/ref/forms/)  
+[Topic](https://docs.djangoproject.com/ja/1.9/topics/forms/)  
+
 * 入力コントロールのidは[auto_id](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.auto_id)
 
 * エラーメッセージを追加するには[add_error](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.add_error)を利用する。
@@ -32,6 +35,13 @@ class Foo(ModelForm):
         super(Foo, self).__init__(*args, **kwd)
         self.fields["bar"].required = False
 {% endhighlight %}
+
+* Formのバリデーション [\*](https://docs.djangoproject.com/ja/1.9/ref/forms/validation/)  
+
+* ValidationError [\*](https://docs.djangoproject.com/en/stable/ref/exceptions/#validationerror)  
+
+* テンプレート内でフォームのフィールドのプロパティ一覧 [\*](https://docs.djangoproject.com/ja/stable/topics/forms/#looping-over-the-form-s-fields)  
+
 
 <br/>
 <hr/>
