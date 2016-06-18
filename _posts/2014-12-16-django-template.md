@@ -15,11 +15,12 @@ settings.pyの[TEMPLATES](https://docs.djangoproject.com/en/stableref/settings/#
    
 * includeはtemplate_dirをrootにして相対パスで書く。  
 
-* テンプレートでrequestを使用する時はsettings.pyに以下の設定をする[*](https://docs.djangoproject.com/en/1.8/ref/templates/api/#django-template-context-processors-request)  
+* テンプレートでrequestを使用する時はsettings.pyに以下の設定をする[\*](https://docs.djangoproject.com/en/1.8/ref/templates/api/#django-template-context-processors-request)  
 
 ```
 TEMPLATES['OPTIONS']['context_processors'] = 'django.template.context_processors.request'
 ```
 
-* \{\{\}\}内の値が関数の場合は引数なしで実行される。 [*](https://docs.djangoproject.com/en/dev/topics/templates/#variables)
->If the resulting value is callable, it is called with no arguments. The result of the call becomes the template value.
+* \{\{\}\}内の値が関数の場合は引数なしで実行される。 [\*](https://docs.djangoproject.com/en/dev/topics/templates/#variables)  
+If the resulting value is callable, it is called with no arguments. The result of the call becomes the template value.  
+
