@@ -9,7 +9,7 @@ title: DjangoのTemplateメモ
 <br>
 <br>
 settings.pyの[TEMPLATES](https://docs.djangoproject.com/en/stable/ref/settings/#std:setting-TEMPLATES)の設定    
-[DIRS](https://docs.djangoproject.com/en/stable/ref/settings/#dirs)にテンプレートのディレクトリを格納する     
+[DIRS](https://docs.djangoproject.com/en/stable/ref/settings/#dirs)にテンプレートのディレクトリを格納する(templatesディレクトリの場所)     
 [APP_DIRS](https://docs.djangoproject.com/en/stable/ref/settings/#app-dirs)はTrueにしないとadminが表示されない    
 <br>
 <br>
