@@ -14,3 +14,7 @@ title: DjangoのURLメモ
 [ResolverMatch](https://docs.djangoproject.com/en/stable/ref/urlresolvers/#django.core.urlresolvers.ResolverMatch)が格納されている。   
 
 * ResolverMatch.view_nameはnamespaceとnameが:で結合されたものが入っている     
+
+<br/>
+<hr/>
+[Djangoメモ](/2014/12/04/django.html)
