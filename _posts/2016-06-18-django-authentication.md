@@ -4,6 +4,11 @@ title: Djangoの認証メモ
 ---
 [Document](https://docs.djangoproject.com/en/stable/topics/auth/)  
 
+### コマンドラインでのユーザ管理
+コマンドラインでユーザの登録方法 [\*](https://docs.djangoproject.com/en/stable/topics/auth/default/#creating-users)  
+コマンドラインでパスワードの変更 [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#changing-passwords)  
+<br>
+
 ### Userモデルのテーブル
 
 ```
