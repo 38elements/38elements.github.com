@@ -135,6 +135,7 @@ BaseModelにセットする際はmodels.Modelを継承したクラスでMeta.abs
 [\*](https://docs.djangoproject.com/en/1.9/topics/db/managers/#custom-managers-and-model-inheritance)   
   
 <br/>
+ModelをFormに利用したいときは[ModelForm](https://docs.djangoproject.com/en/stable/topics/forms/modelforms/)を使用する
 <hr/>
 [Djangoメモ](/2014/12/04/django.html)
 
