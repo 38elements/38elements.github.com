@@ -134,5 +134,7 @@ from_queryset [\*](https://docs.djangoproject.com/en/stable/topics/db/managers/#
 BaseModelにセットする際はmodels.Modelを継承したクラスでMeta.abstruct=Trueにする
 [\*](https://docs.djangoproject.com/en/1.9/topics/db/managers/#custom-managers-and-model-inheritance)   
   
-
+<br/>
+<hr/>
+[Djangoメモ](/2014/12/04/django.html)
 
