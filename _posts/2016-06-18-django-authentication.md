@@ -9,6 +9,20 @@ title: Djangoの認証メモ
 コマンドラインでパスワードの変更 [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#changing-passwords)  
 <br>
 
+### ログイン・ログアウト
+LOGIN [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#how-to-log-a-user-in)  
+
+LOGOUT [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#how-to-log-a-user-out)  
+<br>
+
+### view関数にログインが必要な制約をつける
+`login_required(redirect_field_name='next', login_url=None)`デコレーターを利用する [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#django.contrib.auth.decorators.login_required)  
+<br>
+
+###  view関数に権限が必要な制約をつける
+`permission_required(perm, login_url=None, raise_exception=False)`デコレーターを利用する [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#django.contrib.auth.decorators.login_required)  
+<br>
+
 ### Userモデルのテーブル
 
 ```
