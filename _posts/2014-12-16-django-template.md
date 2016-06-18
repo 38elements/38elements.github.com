@@ -25,3 +25,6 @@ TEMPLATES['OPTIONS']['context_processors'] = 'django.template.context_processors
 * \{\{\}\}内の値が関数の場合は引数なしで実行される。 [\*](https://docs.djangoproject.com/en/dev/topics/templates/#variables)  
 If the resulting value is callable, it is called with no arguments. The result of the call becomes the template value.  
 
+<br/>
+<hr/>
+[Djangoメモ](/2014/12/04/django.html)
