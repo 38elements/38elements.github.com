@@ -20,12 +20,12 @@ title: DjangoのFormメモ
 
 * コントロールの属性の指定方法 [*](https://docs.djangoproject.com/en/1.7/ref/forms/widgets/#django.forms.Widget.attrs)
 
-* wigetの一覧 [*](https://docs.djangoproject.com/en/1.7/ref/forms/widgets/)
+* wigetの一覧 [*](https://docs.djangoproject.com/en/stable/ref/forms/widgets/)
 
 * wigetの属性を変更する   
 form.fields["foo"].widget.attrs["bar"] = "qwert" 
 
-* ModelFormではBooleanFieldはrequired=Falseになっている
+* [ModelForm](https://docs.djangoproject.com/en/stable/topics/forms/modelforms/)ではBooleanFieldはrequired=Falseになっている
 
 * ModelFormでrequired=Falseにする方法    
 {% highlight python %}
