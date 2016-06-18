@@ -20,7 +20,7 @@ title: DjangoのURLメモ
 from django.conf.urls import include, url
 
 {% raw %}
-urlpatterns = [  
+urlpatterns = [
     url(r'^$', index, name='index')),  
     url(r'^foo/', include(foo.urls, namespace='foo')),  
     url(r'^bar/(?P<year>\d{4})/?$', bar, {'foo': 'bar'}, name='bar')  
