@@ -16,17 +16,16 @@ title: DjangoのURLメモ
 * ResolverMatch.view_nameはnamespaceとnameが:で結合されたものが入っている     
 <br>
 
-```
+
 from django.conf.urls import include, url
 
 urlpatterns = [
     url(r'^$', index, name='index')),
     url(r'^foo/', include(foo.urls, namespace='foo')),
-
+    url(r'^bar/(?P<year>\d{4})/?$', bar, \{'foo': 'bar'\}, name='bar')
 ]
 
 {% url 'namespace:name' param %}
-```
 
 <br/>
 <hr/>
