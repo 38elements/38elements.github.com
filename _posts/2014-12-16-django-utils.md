@@ -11,3 +11,6 @@ title: Djangoのutilsメモ
 
 * [django.utils.module_loading](https://docs.djangoproject.com/en/stable/ref/utils/#module-django.utils.module_loading) は.で区切った最後の変数を取得する
 
+<br/>
+<hr/>
+[Djangoメモ](/2014/12/04/django.html)
