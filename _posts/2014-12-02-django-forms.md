@@ -34,3 +34,7 @@ class Foo(ModelForm):
         super(Foo, self).__init__(*args, **kwd)
         self.fields["bar"].required = False
 {% endhighlight %}
+
+<br/>
+<hr/>
+[Djangoメモ](/2014/12/04/django.html)
