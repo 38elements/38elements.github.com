@@ -15,3 +15,6 @@ python manage.py sqlindexes appname
 インタラクティブ   
 python manage.py shell   
 <br/>
+<br/>
+<hr/>
+[Djangoメモ](/2014/12/04/django.html)
