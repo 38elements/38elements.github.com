@@ -2,6 +2,7 @@
 layout: posts
 title: DjangoのTemplateメモ 
 ---
+[Document](https://docs.djangoproject.com/en/1.9/ref/templates/)  
 
 [extends](https://docs.djangoproject.com/en/stable/ref/templates/builtins/#extends)   
 [block](https://docs.djangoproject.com/en/stable/ref/templates/builtins/#block)   
