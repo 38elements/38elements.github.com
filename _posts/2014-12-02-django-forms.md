@@ -55,6 +55,7 @@ class FooForm(BarForm):
 ```
 値を変更したい場合、is_valid()前ならform.fields[field_name].initial  
 後ならform.cleaned_data[field_name]を変更する  
+[widget](https://docs.djangoproject.com/en/stable/ref/forms/widgets/)でコントロールを指定する  
 
 
 <br/>
