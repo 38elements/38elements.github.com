@@ -26,6 +26,12 @@ LOGOUT [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#how-to-lo
 from django.contrib.auth import logout
 logout(request)
 ```
+
+ログイン状態にあるか確認する [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#the-raw-way)  
+ 
+```
+request.user.is_authenticated()
+```
 <br>
 
 ### view関数にログインが必要な制約をつける
