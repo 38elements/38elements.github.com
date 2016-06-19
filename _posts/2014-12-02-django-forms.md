@@ -2,8 +2,10 @@
 layout: posts
 title: DjangoのFormメモ 
 ---
-[Document](https://docs.djangoproject.com/ja/1.9/ref/forms/)  
-[Topic](https://docs.djangoproject.com/ja/1.9/topics/forms/)  
+[Document](https://docs.djangoproject.com/en/stable/ref/forms/)  
+[Topic](https://docs.djangoproject.com/en/stable/topics/forms/)  
+
+* form.non_field_errorsはfieldに紐づいていないclean()とかのValidationErrorを返す [\*](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.non_field_errors)
 
 * 入力コントロールのidは[auto_id](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.auto_id)
 
