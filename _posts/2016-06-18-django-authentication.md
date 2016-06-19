@@ -21,6 +21,11 @@ if user is not None:
 ```
 
 LOGOUT [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#how-to-log-a-user-out)  
+
+```
+from django.contrib.auth import logout
+logout(request)
+```
 <br>
 
 ### view関数にログインが必要な制約をつける
