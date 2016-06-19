@@ -12,6 +12,14 @@ title: Djangoの認証メモ
 ### ログイン・ログアウト
 LOGIN [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#how-to-log-a-user-in)  
 
+```
+from django.contrib.auth import authenticate, login
+user = authenticate(username=username, password=password)
+if user is not None:
+    if user.is_active:
+        login(request, user)
+```
+
 LOGOUT [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#how-to-log-a-user-out)  
 <br>
 
