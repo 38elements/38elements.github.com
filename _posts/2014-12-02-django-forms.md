@@ -43,6 +43,7 @@ class Foo(ModelForm):
 * ValidationError [\*](https://docs.djangoproject.com/en/stable/ref/exceptions/#validationerror)  
 
 * テンプレート内でフォームのフィールドのプロパティ一覧 [\*](https://docs.djangoproject.com/ja/stable/topics/forms/#looping-over-the-form-s-fields)  
+<br>
 
 ### Form fields [\*](https://docs.djangoproject.com/en/stable/ref/forms/fields/)
 CharFieldのstripパラメーターをFalseにしないと入力値の前後のスペースを削除する [\*](https://docs.djangoproject.com/en/1.9/ref/forms/fields/#django.forms.CharField.strip)  
