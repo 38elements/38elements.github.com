@@ -53,7 +53,7 @@ CharFieldのstripパラメーターをFalseにしないと入力値の前後の�
 class FooForm(BarForm):
     bar = None // BarFormのbar fieldを無効
 ```
-値を変更したい場合、is_valid()前ならfield.initial  
+値を変更したい場合、is_valid()前ならform.fields[field_name].initial  
 後ならform.cleaned_data[field_name]を変更する  
 
 
