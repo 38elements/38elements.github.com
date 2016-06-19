@@ -47,6 +47,15 @@ class Foo(ModelForm):
 ### Form fields [\*](https://docs.djangoproject.com/en/stable/ref/forms/fields/)
 CharFieldのstripパラメーターをFalseにしないと入力値の前後のスペースを削除する [\*](https://docs.djangoproject.com/en/1.9/ref/forms/fields/#django.forms.CharField.strip)  
 
+サブクラスが継承もとのfieldを無効にしたい場合はそのNoneを代入する  
+
+```
+class FooForm(BarForm):
+    bar = None // BarFormのbar fieldを無効
+```
+値を変更したい場合、is_valid()前ならfield.initial  
+後ならform.cleaned_data[field_name]を変更する  
+
 
 <br/>
 <hr/>
