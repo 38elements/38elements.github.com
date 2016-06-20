@@ -5,6 +5,27 @@ title: DjangoのFormメモ
 [Document](https://docs.djangoproject.com/en/stable/ref/forms/)  
 [Topic](https://docs.djangoproject.com/en/stable/topics/forms/)  
 
+### Form fields [\*](https://docs.djangoproject.com/en/stable/ref/forms/fields/)
+CharFieldのstripパラメーターをFalseにしないと入力値の前後のスペースを削除する [\*](https://docs.djangoproject.com/en/1.9/ref/forms/fields/#django.forms.CharField.strip)  
+
+サブクラスが継承もとのfieldを無効にしたい場合はそのNoneを代入する  
+
+```
+class FooForm(BarForm):
+    bar = None // BarFormのbar fieldを無効
+```
+値を変更したい場合、is_valid()前ならform.fields[field_name].initial  
+
+後ならform.cleaned_data[field_name]を変更する  
+
+[widget](https://docs.djangoproject.com/en/stable/ref/forms/widgets/)でコントロールを指定する  
+
+コントロールのHTML要素の属性は[attrs](https://docs.djangoproject.com/en/1.9/ref/forms/widgets/#django.forms.Widget.attrs)で指定する  
+<br>
+
+<hr>
+<br>
+
 * form.non_field_errorsはfieldに紐づいていないclean()とかのValidationErrorを返す [\*](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.non_field_errors)
 
 * 入力コントロールのidは[auto_id](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.auto_id)
@@ -44,22 +65,6 @@ class Foo(ModelForm):
 
 * テンプレート内でフォームのフィールドのプロパティ一覧 [\*](https://docs.djangoproject.com/ja/stable/topics/forms/#looping-over-the-form-s-fields)  
 <br>
-
-### Form fields [\*](https://docs.djangoproject.com/en/stable/ref/forms/fields/)
-CharFieldのstripパラメーターをFalseにしないと入力値の前後のスペースを削除する [\*](https://docs.djangoproject.com/en/1.9/ref/forms/fields/#django.forms.CharField.strip)  
-
-サブクラスが継承もとのfieldを無効にしたい場合はそのNoneを代入する  
-
-```
-class FooForm(BarForm):
-    bar = None // BarFormのbar fieldを無効
-```
-値を変更したい場合、is_valid()前ならform.fields[field_name].initial  
-後ならform.cleaned_data[field_name]を変更する  
-[widget](https://docs.djangoproject.com/en/stable/ref/forms/widgets/)でコントロールを指定する  
-コントロールのHTML要素の属性は[attrs](https://docs.djangoproject.com/en/1.9/ref/forms/widgets/#django.forms.Widget.attrs)で指定する  
-
-
 <br/>
 <hr/>
 [Djangoメモ](/2014/12/04/django.html)
