@@ -34,9 +34,9 @@ csrf対策でフォームに入れる
 
 staticを利用するとき　[\*](https://docs.djangoproject.com/ja/1.9/ref/contrib/staticfiles/#std:templatetag-staticfiles-static)
 
-```
+{% raw %}
 {% load static from staticfiles %}
-```
+{% endraw %}
 
 <br/>
 <hr/>
