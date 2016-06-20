@@ -32,11 +32,13 @@ csrf対策でフォームに入れる
 {{csrf_token}}
 {% endraw %}
 
-staticを利用するとき　[\*](https://docs.djangoproject.com/ja/1.9/ref/contrib/staticfiles/#std:templatetag-staticfiles-static)
+staticを利用するとき　[\*](https://docs.djangoproject.com/en/stable/ref/contrib/staticfiles/#std:templatetag-staticfiles-static)
 
 {% raw %}
 {% load static from staticfiles %}
 {% endraw %}
+
+shortcut [\*](https://docs.djangoproject.com/en/stable/topics/http/shortcuts/)  
 
 <br/>
 <hr/>
