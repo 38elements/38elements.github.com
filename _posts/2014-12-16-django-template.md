@@ -3,6 +3,7 @@ layout: posts
 title: DjangoのTemplateメモ 
 ---
 [Document](https://docs.djangoproject.com/en/stable/ref/templates/)  
+[Built-in template tags and filters](https://docs.djangoproject.com/ja/1.9/ref/templates/builtins/)  
 
 render() [\*](https://docs.djangoproject.com/en/stable/topics/http/shortcuts/#render)  
 
