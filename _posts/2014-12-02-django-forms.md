@@ -21,6 +21,8 @@ class FooForm(BarForm):
 [widget](https://docs.djangoproject.com/en/stable/ref/forms/widgets/)でコントロールを指定する  
 
 コントロールのHTML要素の属性は[attrs](https://docs.djangoproject.com/en/1.9/ref/forms/widgets/#django.forms.Widget.attrs)で指定する  
+
+ファイルをアップロードする方法 [\*](https://docs.djangoproject.com/en/stable/topics/http/file-uploads/)  
 <br>
 
 <hr>
