@@ -33,6 +33,13 @@ class FooForm(BarForm):
         for error in errors:
             print(error)
 ```
+
+Fieldのリストはbase_fieldsにある  
+それをFormのインスタンスごとにコピーしている
+
+```
+self.fields = copy.deepcopy(self.base_fields)
+```
 <br>
 
 <hr>
