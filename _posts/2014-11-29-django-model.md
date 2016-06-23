@@ -70,6 +70,10 @@ foo.save()
 
 * choicesの選択されているラベルを表示する方法 [\*](https://docs.djangoproject.com/en/dev/ref/models/instances/#django.db.models.Model.get_FOO_display)  
 
+* models.ForeignKeyの第1引数  
+`'Foo'`: そのアプリケーションのFooモデル   
+`'A.Bar'`: AアプリケーションのBarモデル   
+
 <br/>
    
 #### SQL
