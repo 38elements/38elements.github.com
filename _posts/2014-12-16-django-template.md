@@ -19,7 +19,7 @@ settings.pyの[TEMPLATES](https://docs.djangoproject.com/en/stable/ref/settings/
    
 * includeはtemplate_dirをrootにして相対パスで書く。  
 
-* テンプレートでrequestを使用する時はsettings.pyに以下の設定をする[\*](https://docs.djangoproject.com/en/1.8/ref/templates/api/#django-template-context-processors-request)  
+* テンプレートでrequestを使用する時はsettings.pyに以下の設定をする[\*](https://docs.djangoproject.com/en/stable/ref/templates/api/#django-template-context-processors-request)  
 
 ```
 TEMPLATES['OPTIONS']['context_processors'] = 'django.template.context_processors.request'
@@ -40,6 +40,8 @@ staticを利用するとき　[\*](https://docs.djangoproject.com/en/stable/ref/
 {% endraw %}
 
 shortcut [\*](https://docs.djangoproject.com/en/stable/topics/http/shortcuts/)  
+
+カスタムフィルターとタグの作成方法 [*](https://docs.djangoproject.com/en/stable/howto/custom-template-tags/)    
 
 <br/>
 <hr/>
