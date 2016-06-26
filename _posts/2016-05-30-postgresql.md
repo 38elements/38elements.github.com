@@ -18,6 +18,7 @@ CREATE DATABASE <name> with owner <user_name> encoding 'utf8';
 ```
 sudo apt-get install php5-pgsql
 ```
+<br>
 
 ### Django
 以下のようなエラーが出たらログイン権限を付与したか確かめる
