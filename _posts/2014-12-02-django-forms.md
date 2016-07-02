@@ -8,6 +8,12 @@ title: DjangoのFormメモ
 ### Form fields [\*](https://docs.djangoproject.com/en/stable/ref/forms/fields/)
 requiredはデフォルトではTrue  
 
+Formクラスのfieldはbase_fieldsにある [*](https://github.com/django/django/blob/ec6121693f112ae33b653b4364e812722d2eb567/django/forms/forms.py#L93)  
+
+```
+self.fields = copy.deepcopy(self.base_fields)
+```
+
 CharFieldのstripパラメーターをFalseにしないと入力値の前後のスペースを削除する [\*](https://docs.djangoproject.com/en/1.9/ref/forms/fields/#django.forms.CharField.strip)  
 
 サブクラスが継承もとのfieldを無効にしたい場合はそのNoneを代入する  
