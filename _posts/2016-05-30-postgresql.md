@@ -21,6 +21,13 @@ sudo apt-get install php5-pgsql
 <br>
 
 ### Django
+以下をインストールする
+
+```
+sudo apt-get install python3-dev libpg-dev
+pip3 install psycopg2
+```
+
 以下のようなエラーが出たらログイン権限を付与したか確かめる
 
 ```
