@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: DjangoのFormあるFieldのerror_messagesを属性を使用して動的に生成する方法
+title: DjangoでFormのerror_messagesを属性を使って動的に生成
 ---
 以下のようにする。
 
