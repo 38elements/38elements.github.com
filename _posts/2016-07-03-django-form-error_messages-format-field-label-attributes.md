@@ -6,13 +6,13 @@ title: DjangoのFormクラスにあるFieldのerror_messagesをFieldの属性を
 
 ```
 for field_name, field_obj in MyForm.base_fields.items():
-        attrs = {}
-        attrs['label'] = field_obj.label if hasattr(field_obj, 'label') and field_obj.label else 'label'
-        attrs['max_length'] = field_obj.max_length if hasattr(field_obj, 'max_length') and field_obj.max_length else '0'
+    attrs = {}
+    attrs['label'] = field_obj.label if hasattr(field_obj, 'label') and field_obj.label else 'label'
+    attrs['max_length'] = field_obj.max_length if hasattr(field_obj, 'max_length') and field_obj.max_length else '0'
+    # ...
+    f.error_messages = {
+        'required': '{label}を入力してください。'.format(**attrs),
+        'max_length': '{label}は{max_length}文字以下にしてください。'.format(**attrs),
         # ...
-        f.error_messages = {
-            'required': '{label}を入力してください。'.format(**attrs),
-            'max_length': '{label}は{max_length}文字以下にしてください。'.format(**attrs),
-            # ...
-        }
+    }
 ```
