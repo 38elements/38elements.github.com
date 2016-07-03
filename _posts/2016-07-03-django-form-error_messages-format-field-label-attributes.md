@@ -18,3 +18,7 @@ for field_name, field_obj in MyForm.base_fields.items():
         # ...
     }
 ```
+<br/>
+<hr/>
+[Djangoメモ](/2014/12/04/django.html)
+[DjangoのFormメモ](/2014/12/02/django-forms.html)  
