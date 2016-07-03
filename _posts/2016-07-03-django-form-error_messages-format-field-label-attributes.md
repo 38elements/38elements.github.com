@@ -2,6 +2,8 @@
 layout: posts
 title: DjangoでFormのerror_messagesを属性を使って動的に生成
 ---
+クラス変数としてのFieldはbase_fieldに格納されている。 [*](https://github.com/django/django/blob/ec6121693f112ae33b653b4364e812722d2eb567/django/forms/forms.py#L93)  
+
 以下のようにする。
 
 ```
