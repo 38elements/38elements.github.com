@@ -46,6 +46,8 @@ Fieldのリストはbase_fieldsにある
 ```
 self.fields = copy.deepcopy(self.base_fields)
 ```
+
+Formのerror_messagesを属性を使って動的に生成 [\*](/2016/07/03/django-form-error_messages-format-field-label-attributes.html)  
 <br>
 
 <hr>
