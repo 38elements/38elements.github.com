@@ -92,8 +92,11 @@ class Foo(ModelForm):
 
 * テンプレート内でフォームのフィールドのプロパティ一覧 [\*](https://docs.djangoproject.com/ja/stable/topics/forms/#looping-over-the-form-s-fields)  
 
-* FileField ファイルアップロードをするときに使用する [\*](https://docs.djangoproject.com/ja/1.9/ref/forms/fields/#filefield)  
-ファイルがない場合はキー自体がない  
+* FileField ファイルアップロードをするときに使用する [\*](https://docs.djangoproject.com/en/stable/ref/forms/fields/#filefield)  
+ファイルがない場合はキー自体がない 
+
+* RegexField パターンにマッチした入力のみ有効な入力とする [\*](https://docs.djangoproject.com/en/stable/ref/forms/fields/#regexfield)  
+[regex](https://docs.djangoproject.com/en/stable/ref/forms/fields/#django.forms.RegexField.regex)にマッチした場合、有効な入力である  
 <br>
 <br/>
 <hr/>
