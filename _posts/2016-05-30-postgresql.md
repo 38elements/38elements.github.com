@@ -2,10 +2,11 @@
 layout: posts
 title: PostgreSQLメモ 
 ---
-postgresユーザを作成する
-psql
 
 ```
+sudo passwd postgres
+su postgres
+psql
 create role <user_name> with login password '<password>';
 CREATE DATABASE <name> with owner <user_name> encoding 'utf8';
 ```
@@ -18,13 +19,20 @@ CREATE DATABASE <name> with owner <user_name> encoding 'utf8';
 ```
 sudo apt-get install php5-pgsql
 ```
+
+Login方法
+
+```
+psql -U <user_name> -d <database_name> -h 127.0.0.1
+```
+
 <br>
 
 ### Django
 以下をインストールする
 
 ```
-sudo apt-get install python3-dev libpg-dev
+sudo apt-get install python3-dev libpq-dev
 pip3 install psycopg2
 ```
 
