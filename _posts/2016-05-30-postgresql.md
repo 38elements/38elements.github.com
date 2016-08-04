@@ -29,7 +29,7 @@ psql -U <user_name> -d <database_name> -h 127.0.0.1
 <br>
 
 ### Django
-以下をインストールする
+以下をインストールする  
 [psycopg2](http://initd.org/psycopg/docs/)  
 
 ```
