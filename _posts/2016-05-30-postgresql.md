@@ -30,6 +30,7 @@ psql -U <user_name> -d <database_name> -h 127.0.0.1
 
 ### Django
 以下をインストールする
+[psycopg2](http://initd.org/psycopg/docs/)  
 
 ```
 sudo apt-get install python3-dev libpq-dev
