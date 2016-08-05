@@ -19,13 +19,27 @@ CREATE DATABASE <name> with owner <user_name> encoding 'utf8';
 ```
 sudo apt-get install php5-pgsql
 ```
+<br>
 
 Login方法
 
 ```
 psql -U <user_name> -d <database_name> -h 127.0.0.1
 ```
+<br>
 
+ダンプ
+
+```
+pg_dump -d database -h host -U user_name > foo.sql
+```
+<br>
+
+restore
+
+```
+\i foo.sql
+```
 <br>
 
 ### Django
