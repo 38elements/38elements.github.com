@@ -40,6 +40,7 @@ request.user.is_authenticated()
 
 ###  view関数に権限が必要な制約をつける
 `permission_required(perm, login_url=None, raise_exception=False)`デコレーターを利用する [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#django.contrib.auth.decorators.login_required)  
+permissionについて [\*](https://docs.djangoproject.com/ja/1.10/topics/auth/default/#topic-authorization)  
 <br>
 
 ### Userモデルのテーブル
