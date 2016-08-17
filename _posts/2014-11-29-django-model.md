@@ -126,7 +126,8 @@ foo = F00.objects.filter(Q(bar=bar) & Q(hoge=hoge)).get()
 
 * 単にModelを継承したい場合はMeta.proxy = Trueとする [\*](https://docs.djangoproject.com/en/stable/topics/db/models/#proxy-models)   
 
-* (指定したカラム名のキーと値を持つ)dictを取得したい場合は[values\(\*fields\)](https://docs.djangoproject.com/en/stable/ref/models/querysets/#values)タプルで取得したい場合は[values_list\(\*fields, flat=False\)](https://docs.djangoproject.com/en/stable/ref/models/querysets/#django.db.models.query.QuerySet.values_list)
+* (指定したカラム名のキーと値を持つ)dictを取得したい場合は[values\(\*fields\)](https://docs.djangoproject.com/en/stable/ref/models/querysets/#values)  
+タプルで取得したい場合は[values_list\(\*fields, flat=False\)](https://docs.djangoproject.com/en/stable/ref/models/querysets/#django.db.models.query.QuerySet.values_list)
 
 * [model_to_dict(instance, fields=None, exclude=None)](https://docs.djangoproject.com/en/stable/_modules/django/forms/models/)はModelをdictに変換する    
 add_nowがあるdatetimeはスキップされる   
