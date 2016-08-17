@@ -87,7 +87,8 @@ foo.save()
 * offset limit [\*](https://docs.djangoproject.com/en/stable/ref/models/querysets/#django.db.models.query.QuerySet.get)   
  Foo.objects.all()[5:10]
 
-* 外部キーで参照しているテーブルを条件に加える場合はキーワード名を\<外部テーブル名\>\_\_\<カラム名\>\_\_\<条件\>とする  [\*](https://docs.djangoproject.com/en/stable/topics/db/queries/#lookups-that-span-relationships)
+* 外部キーで参照しているテーブルを条件に加える場合はキーワード名を\<外部テーブル名\>\_\_\<カラム名\>\_\_\<条件\>とする  [\*](https://docs.djangoproject.com/en/stable/topics/db/queries/#lookups-that-span-relationships)  
+default_related_nameは外部キーの参照先のモデルが外部キーが所属しているテーブルのカラムの値でフィルターしたいときに使用するテーブル名 [\*](https://docs.djangoproject.com/en/stable/ref/models/fields/#django.db.models.ForeignKey.related_query_name) 
 
 * テーブルにあるカラムの値を条件に利用したい場合は[F()](https://docs.djangoproject.com/en/stable/topics/db/queries/#filters-can-reference-fields-on-the-model)を利用する
 
@@ -108,8 +109,6 @@ notは~, ANDは&
 
 * \<Model名\>_setでこのモデルを外部キーにしているレコードを取得することができる。  
 外部キーにしているField定義で[related_name](https://docs.djangoproject.com/en/stable/ref/models/fields/#django.db.models.ForeignKey.related_name)を指定するとそれで取得することができる。 [\*](https://docs.djangoproject.com/en/stable/topics/db/queries/#following-relationships-backward)
-
-* default_related_nameは外部キーの参照先のモデルが外部キーが所属しているテーブルのカラムの値でフィルターしたいときに使用するテーブル名 [\*](https://docs.djangoproject.com/en/stable/ref/models/fields/#django.db.models.ForeignKey.related_query_name) 
 
 * from django.core.exceptions import ObjectDoesNotExist
 
