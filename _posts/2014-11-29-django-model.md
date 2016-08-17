@@ -31,7 +31,9 @@ Metaクラスの [db_table](https://docs.djangoproject.com/en/stable/ref/models/
 
 * 接続するDBを振り分ける [\*](https://docs.djangoproject.com/en/stable/topics/db/multi-db/#using-routers)   
 
-* BaseModelはMeta.abstruct=Trueにする [\*](https://docs.djangoproject.com/en/stable/topics/db/models/#abstract-base-classes)  
+* BaseModelはMeta.abstruct=Trueにする [\*](https://docs.djangoproject.com/en/stable/topics/db/models/#abstract-base-classes) 
+
+* マイグレーションの対象にしない場合はmanaged=False [\*](https://docs.djangoproject.com/en/stable/ref/models/options/#managed)
 
 * レコード   
 {% highlight python %}
