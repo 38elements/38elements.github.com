@@ -106,13 +106,16 @@ notは~, ANDは&
 
 * 一度に関連したデータを全て取得するSQLを発行してModelオブジェクトを生成するには[select_related](https://docs.djangoproject.com/en/stable/ref/models/querysets/#select-related)を利用する。
 
-* \<Model名\>_setでこのモデルを外部キーにしているレコードを取得することができる。外部キーにしているField定義で[related_name](https://docs.djangoproject.com/en/1.7/ref/models/fields/#django.db.models.ForeignKey.related_name)を指定するとそれで取得することができる。 [\*](https://docs.djangoproject.com/en/stable/topics/db/queries/#following-relationships-backward)
+* \<Model名\>_setでこのモデルを外部キーにしているレコードを取得することができる。  
+外部キーにしているField定義で[related_name](https://docs.djangoproject.com/en/stable/ref/models/fields/#django.db.models.ForeignKey.related_name)を指定するとそれで取得することができる。 [\*](https://docs.djangoproject.com/en/stable/topics/db/queries/#following-relationships-backward)
+
+* default_related_nameは外部キーの参照先のモデルが外部キーが所属しているテーブルのカラムの値でフィルターしたいときに使用するテーブル名 [\*](https://docs.djangoproject.com/en/stable/ref/models/fields/#django.db.models.ForeignKey.related_query_name) 
 
 * from django.core.exceptions import ObjectDoesNotExist
 
-* 実行されたSQLはconnection.queriesで確認することができる。  [\*](https://docs.djangoproject.com/en/dev/faq/models/#how-can-i-see-the-raw-sql-queries-django-is-running)
+* 実行されたSQLはconnection.queriesで確認することができる。  [\*](https://docs.djangoproject.com/en/stable/faq/models/#how-can-i-see-the-raw-sql-queries-django-is-running)
 
-* 集約関数 [\*](https://docs.djangoproject.com/en/dev/topics/db/aggregation/)   
+* 集約関数 [\*](https://docs.djangoproject.com/en/stable/topics/db/aggregation/)   
 
 * list(queryset)は該当するレコードがない場合は[]が返ってくる。例外は出ない。 
 
