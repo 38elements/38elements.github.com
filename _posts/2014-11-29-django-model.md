@@ -26,8 +26,6 @@ Metaクラスの [db_table](https://docs.djangoproject.com/en/stable/ref/models/
 
 * Meta [\*](https://docs.djangoproject.com/en/stable/ref/models/options/)
 
-* 継承する用のクラスはMeta abstract = Trueする。
-
 * related_nameは多対多の関係になっているオブジェクトを参照する際に利用する。    
 継承する際の[注意点](https://docs.djangoproject.com/en/stable/topics/db/models/#be-careful-with-related-name)
 
@@ -127,7 +125,7 @@ add_nowがあるdatetimeはスキップされる
 
 * dateやdatetimeの比較はOSのlocaleに影響を受ける    
 
-* USE_TZをTrueにすると日時をDBに保存する際にタイムゾーンがUTCの日時に変換される。
+* USE_TZをTrueにすると日時をDBに保存する際にタイムゾーンがUTCの日時に変換される。  
 USE_TZがFalseの場合、DBに使用するdatetimeはnativeである必要がある。    
 nativeとはtzinfoがNoneのdatetimeである。    
 nativeにするにはdatetime_obj.replace(tzinfo=Node)とする。     
