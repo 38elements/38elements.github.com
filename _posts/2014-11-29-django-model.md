@@ -97,6 +97,10 @@ default_related_nameは外部キーの参照先のモデルが外部キーが所
 * ORやANDを利用する方法 [\*](https://docs.djangoproject.com/en/stable/topics/db/queries/#complex-lookups-with-q-objects)    
 notは~, ANDは&
 
+```
+foo = F00.objects.filter(Q(bar=bar) & Q(hoge=hoge)).get()
+```
+
 * レコードを削除するときは[delete()](https://docs.djangoproject.com/en/stable/ref/models/instances/#django.db.models.Model.delete)を利用する　[\*](https://docs.djangoproject.com/en/1.7/topics/db/queries/#deleting-objects)
 
 * レコードの複製はpkにNoneを代入する。 [\*](https://docs.djangoproject.com/en/stable/topics/db/queries/#copying-model-instances)  
