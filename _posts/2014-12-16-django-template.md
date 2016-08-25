@@ -33,7 +33,7 @@ csrf対策でフォームに入れる
 {{csrf_token}}
 {% endraw %}
 
-staticを利用するとき　[\*](https://docs.djangoproject.com/en/stable/ref/contrib/staticfiles/#std:templatetag-staticfiles-static)
+staticを利用するとき　[\*](https://docs.djangoproject.com/en/stable/ref/contrib/staticfiles/#std:templatetag-staticfiles-static)  
 STATIC_URL: 静的ファイルのurl(/static/)  
 STATICFILES_DIRS: 開発時にファイルを置く場所  
 STATIC_ROOT: 本番環境でファイルを置く場所 [collectstatic](https://docs.djangoproject.com/en/stable/ref/contrib/staticfiles/#django-admin-collectstatic)でのSTATICFILES_DIRSにあるファイルの移動先
