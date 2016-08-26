@@ -65,6 +65,8 @@ Formのerror_messagesを属性を使って動的に生成 [\*](/2016/07/03/djang
 
 * バリデーションは[is_valid](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.is_valid)で行う
 
+* バリデーション後のフォームのデータは[cleaned_data](https://docs.djangoproject.com/ja/1.10/ref/forms/api/#django.forms.Form.cleaned_data )  
+
 * デフォルトのエラーメッセージは[error_messages](https://docs.djangoproject.com/en/stable/ref/forms/fields/#django.forms.Field.error_messages)に定義する
 
 * フィールドに指定する変数一覧 [*](https://docs.djangoproject.com/en/stable/ref/forms/fields/#core-field-arguments)
