@@ -141,8 +141,7 @@ nativeにするにはdatetime_obj.replace(tzinfo=Node)とする。
 awareはtzinfoを持つdatetime
 
 
-* Custom QuerySet [\*](https://docs.djangoproject.com/en/stable/topics/db/managers/#custom-managers)     
-from_queryset [\*](https://docs.djangoproject.com/en/stable/topics/db/managers/#from-queryset)  
+* Custom QuerySet [\*](https://docs.djangoproject.com/en/1.10/topics/db/managers/#calling-custom-queryset-methods-from-the-manager)   
 BaseModelにセットする際はmodels.Modelを継承したクラスでMeta.abstruct=Trueにする
 [\*](https://docs.djangoproject.com/en/1.9/topics/db/managers/#custom-managers-and-model-inheritance)   
   
