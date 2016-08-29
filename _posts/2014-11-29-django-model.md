@@ -145,7 +145,8 @@ awareはtzinfoを持つdatetime
 BaseModelにセットする際はmodels.Modelを継承したクラスでMeta.abstruct=Trueにする
 [\*](https://docs.djangoproject.com/en/1.9/topics/db/managers/#custom-managers-and-model-inheritance)   
 
-* transaction.atomic() [\*](https://docs.djangoproject.com/ja/1.10/topics/db/transactions/#django.db.transaction.atomic)  
+* トランザクション  
+transaction.atomic() [\*](https://docs.djangoproject.com/ja/1.10/topics/db/transactions/#django.db.transaction.atomic)  
 select_for_update() [\*](https://docs.djangoproject.com/ja/1.10/ref/models/querysets/#select-for-update)  
   
 <br/>
