@@ -3696,7 +3696,7 @@ A simple to use, standard interface for authenticating to oauth 2.0 protected en
 
 
 StefanLage/LegofySwift                     221
-Make images look as if they are made out of 1x1 LEGO blocks -> the idea comes from https://github.com/JuanPotato/Legofy
+Make images look as if they are made out of 1x1 LEGO blocks -&gt; the idea comes from https://github.com/JuanPotato/Legofy
 
 
 mbogh/NibDesignable                        221
@@ -3952,7 +3952,7 @@ Numi Plugin Kit
 
 
 robrix/Box                                 201
-Swift µframework of the ubiquitous Box<T> & MutableBox<T> reference types, for recursive value types & misc. other purposes.
+Swift µframework of the ubiquitous Box&lt;T&gt; & MutableBox&lt;T&gt; reference types, for recursive value types & misc. other purposes.
 
 
 soffes/Crypto                              201
