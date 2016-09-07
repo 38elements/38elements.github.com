@@ -39,3 +39,5 @@ Math.floor(4.3)
 
 * [for of](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...of)はiterableオブジェクトの値を回す
 
+* [window.onerror](https://developer.mozilla.org/ja/docs/Web/API/GlobalEventHandlers/onerror)は発生したエラーをハンドリングする  
+
