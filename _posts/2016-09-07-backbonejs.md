@@ -10,5 +10,7 @@ title: Backbone.jsメモ
 `model.validationError`にエラーが格納される。  
 `model.save()`はデフォルトでvalidate()が実行される。  
 `model.set()`と`model.unset()`では`{validate:true}`が渡されたときvalidate()が実行される。  
+<br>
 
-
+### View
+<br>
