@@ -13,7 +13,9 @@ title: Backbone.jsメモ
 <br>
 
 ### View
-tagNameで指定したElementをrootにした要素を表す。  
+tagNameで指定したElementをrootにした要素を表す。
+elプロパティがその生成された要素を格納する。
+$elは$(el)と同じ  
 classNameやidを指定することができる。  
 eventsでViewに関するイベントを登録する。  
 eventsは以下の形式  
@@ -24,4 +26,6 @@ handlerはViewのプロパティ
     '<event type> <selector>: <handler>'
 }
 ```
+
+
 <br>
