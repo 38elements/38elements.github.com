@@ -39,6 +39,10 @@ redner()はDomの処理を書く
 <br>
 
 ### Collection
-CollectionはModelの集合
-Collection.get(id)はmodel.idを指定する。  
+CollectionはModelの集合  
+CollectionにObjectも格納することができる  
+Collection.get(id)はmodel.idを指定する。 
+modelのid属性は特別な意味を持つ。  
+collection.add([a,b])はa,bを加える  
+collection.remove([a,b])はa,bを削除する  
 
