@@ -45,4 +45,7 @@ Collection.get(id)はmodel.idを指定する。
 modelのid属性は特別な意味を持つ。  
 collection.add([a,b])はa,bを加える  
 collection.remove([a,b])はa,bを削除する  
+add,removeイベントハンドラを付与することができる  
+所属しているモデルに対してイベントハンドラを付与することができる  
+
 
