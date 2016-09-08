@@ -38,4 +38,7 @@ initializeでモデルとrender()をbind
 redner()はDomの処理を書く  
 <br>
 
-### Collections
+### Collection
+CollectionはModelの集合
+Collection.get(id)はmodel.idを指定する。  
+
