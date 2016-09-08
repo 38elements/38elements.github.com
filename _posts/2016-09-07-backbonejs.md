@@ -27,5 +27,7 @@ handlerはViewのプロパティ
 }
 ```
 
+elに既にページに存在しているCSSセレクタや$elemを指定してそれをroot要素にすることができる。  
+view.setElement(elem)でviewに紐づいているelemを切り替えることができる。   
 
 <br>
