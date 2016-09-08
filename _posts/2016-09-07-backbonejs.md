@@ -34,4 +34,8 @@ view.setElement(elem)でviewに紐づいているelemを切り替えることが
 fooView = new FooView({el: elem, model: fooModel});
 ```
 
+initializeでモデルとrender()をbind    
+redner()はDomの処理を書く  
 <br>
+
+### Collections
