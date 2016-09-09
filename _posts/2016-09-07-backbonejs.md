@@ -53,3 +53,4 @@ add,removeイベントハンドラを付与することができる
 ### Event
 trigger('event')  
 once('event')  
+change:foo_attr  
