@@ -2,7 +2,6 @@
 layout: posts
 title: PHP Github Star Ranking at 2016/09/09
 ---
-[PHP Github Star Ranking at 2016/09/09](/2016/09/09/swift-repository-github-star-ranking.html)  
 <pre style="background-color: white;border: none;">
 laravel/laravel                            25791
 A PHP Framework For Web Artisans
