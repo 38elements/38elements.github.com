@@ -52,6 +52,7 @@ set(data)はidに応じてadd, remove, changeイベントを起こす
 set(data)はidが存在しているものは更新、ないものは削除、新規は追加   
 reset(data)はdataに置き換える  
 resetイベントが発生する  
+underscorejsのメソッドを利用することができる  
 <br>
 
 ### Event
