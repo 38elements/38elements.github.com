@@ -48,10 +48,17 @@ collection.remove([a,b])はa,bを削除する
 add,removeイベントハンドラを付与することができる  
 所属しているモデルに対してイベントハンドラを付与することができる  
 {'merge': true}  
-set()はidに応じてadd, remove, changeイベントを起こす  
+set(data)はidに応じてadd, remove, changeイベントを起こす  
+set(data)はidが存在しているものは更新、ないものは削除、新規は追加   
+reset(data)はdataに置き換える  
+resetイベントが発生する  
 <br>
 
 ### Event
 trigger('event')  
 once('event')  
 change:foo_attr  
+collection.set()はidに応じてadd, remove, changeイベントを起こす  
+
+
+
