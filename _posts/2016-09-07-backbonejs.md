@@ -48,6 +48,7 @@ collection.remove([a,b])はa,bを削除する
 add,removeイベントハンドラを付与することができる  
 所属しているモデルに対してイベントハンドラを付与することができる  
 {'merge': true}  
+set()はidに応じてadd, remove, changeイベントを起こす  
 <br>
 
 ### Event
