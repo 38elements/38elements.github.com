@@ -47,5 +47,8 @@ collection.add([a,b])はa,bを加える
 collection.remove([a,b])はa,bを削除する  
 add,removeイベントハンドラを付与することができる  
 所属しているモデルに対してイベントハンドラを付与することができる  
+<br>
 
-
+### Event
+trigger('event')  
+once('event')  
