@@ -79,8 +79,8 @@ obj.trigger('event1 event2', 'arg')
 [listenTo()](http://backbonejs.org/#Events-listenTo)は他のオブジェクトで発生したイベントを受け取る  
 listenToOnce()もある  
 [stopListening()](http://backbonejs.org/#Events-stopListening)はlistenTo()をやめる  
+view.eventsに登録することもできる  
 <br>
-
 
 ### Serverとの通信
 ModelやCollectionのurlにアクセス先を指定する  
@@ -89,6 +89,9 @@ ModelやCollectionのurlにアクセス先を指定する
 [save()](http://backbonejs.org/#Model-save)はPUTメソッドでリクエストを送る。{patch: true}にするとpatchメソッドにする。validate()を実行する  
 [destroy()](http://backbonejs.org/#Model-destroy)はDELETEメソッドを送る  
 <br>
+
+### Router
+Backbone.Router.extend()でrouterを生成した後、Backbone.history.start()する  
 
 
 
