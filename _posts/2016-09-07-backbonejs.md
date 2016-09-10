@@ -25,7 +25,7 @@ handlerはViewのプロパティ
 
 {% raw %}
 {
-    '<event_type> <selector>: <handler>'
+    'event_type selector': 'handler'
 }
 {% endraw %}
 
