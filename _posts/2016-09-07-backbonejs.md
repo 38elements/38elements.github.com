@@ -61,6 +61,7 @@ underscorejsのメソッドを利用することができる
 <br>
 
 ### Event
+デフォルトのイベント一覧 [\*](http://backbonejs.org/#Events-catalog)  
 [Backbone.Events](http://backbonejs.org/#Events)を継承したものがイベントを受け取ることができる。   
 trigger('event')  
 once('event')  
