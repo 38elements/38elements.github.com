@@ -91,7 +91,20 @@ ModelやCollectionのurlにアクセス先を指定する
 <br>
 
 ### Router
-Backbone.Router.extend()でrouterを生成した後、Backbone.history.start()する  
+[document](http://backbonejs.org/#Router)  
+[Backbone.Router.extend()](http://backbonejs.org/#Router-extend)でrouterを生成した後、Backbone.history.start()する  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
