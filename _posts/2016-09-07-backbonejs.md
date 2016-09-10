@@ -24,9 +24,9 @@ eventsは以下の形式
 handlerはViewのプロパティ  
 
 {% raw %}
-{
+{  
     'event_type selector': 'handler'
-}
+}  
 {% endraw %}
 
 elに既にページに存在しているCSSセレクタや$elemを指定してそれをroot要素にすることができる。  
