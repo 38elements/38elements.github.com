@@ -23,11 +23,11 @@ eventsでViewに関するイベントを登録する。
 eventsは以下の形式  
 handlerはViewのプロパティ  
 
-```
+{raw}
 {
     '<event_type> <selector>: <handler>'
 }
-```
+{endraw}
 
 elに既にページに存在しているCSSセレクタや$elemを指定してそれをroot要素にすることができる。  
 view.setElement(elem)でviewに紐づいているelemを切り替えることができる。   
