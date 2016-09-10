@@ -75,6 +75,9 @@ trigger()は複数のイベントを起こすことができる
 obj.trigger('event1 event2', 'arg')
 ```
 
+[listenTo()](http://backbonejs.org/#Events-listenTo)は他のオブジェクトで発生したイベントを受け取る  
+listenToOnce()もある  
+[stopListening()](http://backbonejs.org/#Events-stopListening)はlistenTo()をやめる  
 <br>
 
 
