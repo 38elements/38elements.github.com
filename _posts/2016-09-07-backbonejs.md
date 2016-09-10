@@ -2,6 +2,7 @@
 layout: posts
 title: Backbone.jsメモ
 ---
+[Document](http://backbonejs.org/)  
 
 ### Model
 `model.validate(attrs)`はモデルの属性を引数にとる。  
