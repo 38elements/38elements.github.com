@@ -5,6 +5,7 @@ title: Backbone.jsメモ
 [Document](http://backbonejs.org/)  
 
 ### Model
+[document](http://backbonejs.org/#Model)  
 `model.validate(attrs)`はモデルの属性を引数にとる。  
 `model.validate(attrs)`は不適切な場合はエラー文を返す。  
 `invalid`イベントにエラーが渡される。   
@@ -15,6 +16,7 @@ urlにアクセス先を指定する
 <br>
 
 ### View
+[document](http://backbonejs.org/#View)  
 tagNameで指定したElementをrootにした要素を表す。
 elプロパティがその生成された要素を格納する。
 $elは$(el)と同じ  
@@ -41,6 +43,7 @@ redner()はDomの処理を書く
 <br>
 
 ### Collection
+[document](http://backbonejs.org/#Collection)  
 CollectionはModelの集合  
 modelにModelを指定する  
 urlにアクセス先を指定する  
