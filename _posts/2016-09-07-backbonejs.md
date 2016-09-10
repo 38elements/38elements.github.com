@@ -25,7 +25,7 @@ handlerはViewのプロパティ
 
 ```
 {
-    '<event type> <selector>: <handler>'
+    '<event_type> <selector>: <handler>'
 }
 ```
 
