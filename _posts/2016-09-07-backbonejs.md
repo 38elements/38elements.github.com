@@ -66,6 +66,15 @@ trigger('event')
 once('event')  
 change:foo_attr  
 collection.set()はidに応じてadd, remove, changeイベントを起こす  
+[on()](http://backbonejs.org/#Events-on)  
+[off()](http://backbonejs.org/#Events-off)  
+[trigger()](http://backbonejs.org/#Events-trigger)  
+trigger()は複数のイベントを起こすことができる  
+
+```
+obj.trigger('event1 event2', 'arg')
+```
+
 <br>
 
 
