@@ -102,6 +102,7 @@ routesでurlとコールバック関数をマッピングする。
 {trigger: true}でリダイレクト先のコールバック関数を実行する  
 {replace: true}で履歴を上書き  
 [router.execute()](http://backbonejs.org/#Router-execute)はマッチするたびに実行される関数  
+デフォルトのルーティングは{% raw %}'*path':  'default_func'{% endraw %}  
 <br>
 
 
