@@ -72,7 +72,7 @@ collection.set()はidに応じてadd, remove, changeイベントを起こす
 ModelやCollectionのurlにアクセス先を指定する  
 [parse()](http://backbonejs.org/#Model-parse)はサーバーから送られてきたデータを変換する  
 [collection.fetch()](http://backbonejs.org/#Collection-fetch)で{reset: true}を指定するとresetする  
-save()はPUTメソッドでリクエストを送る。validate()を実行する  
+[save()](http://backbonejs.org/#Model-save)はPUTメソッドでリクエストを送る。{patch: true}にするとpatchメソッドにする。validate()を実行する  
 [destroy()](http://backbonejs.org/#Model-destroy)はDELETEメソッドを送る  
 <br>
 
