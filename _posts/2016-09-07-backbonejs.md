@@ -61,6 +61,7 @@ underscorejsのメソッドを利用することができる
 <br>
 
 ### Event
+[Backbone.Events](http://backbonejs.org/#Events)を継承したものがイベントを受け取ることができる。   
 trigger('event')  
 once('event')  
 change:foo_attr  
