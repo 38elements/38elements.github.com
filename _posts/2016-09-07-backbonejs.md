@@ -93,8 +93,13 @@ ModelやCollectionのurlにアクセス先を指定する
 ### Router
 [document](http://backbonejs.org/#Router)  
 [Backbone.Router.extend()](http://backbonejs.org/#Router-extend)でrouterを生成した後、Backbone.history.start()する  
-
-
+routesでurlとコールバック関数をマッピングする。  
+[router.navigate()](http://backbonejs.org/#Router-navigate)はリダイレクトのようなもの  
+デフォルトではリダイレクト先のコールバック関数を実行しない 
+{trigger: true}でリダイレクト先のコールバック関数を実行する  
+{replace: true}で履歴を上書き  
+[router.execute()](http://backbonejs.org/#Router-execute)はマッチするたびに実行される関数  
+<br>
 
 
 
