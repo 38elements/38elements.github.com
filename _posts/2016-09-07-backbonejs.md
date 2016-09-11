@@ -105,7 +105,8 @@ routesでurlとコールバック関数をマッピングする。
 デフォルトのルーティングは{% raw %}'*path':  'default_func'{% endraw %}  
 <br>
 
-
+### Backbone.Marionette
+[document](http://marionettejs.com/docs/current/)  
 
 
 
