@@ -32,6 +32,19 @@ title: Marionette.jsメモ
 
 * `ui`属性はViewで使用する要素のセレクタを登録する
 
+* `getUI(ui_key)`でui_keyに対応したjQueryオブジェクトを取得する
+
+* eventsは指定したイベントと要素に対応したハンドラーを実行する設定
+{% raw %}
+events: {
+    'click @ui.info': 'displayInfo'
+}
+{% endraw %}
+
+* triggersはイベントとそれに対応した発生させるイベントを発生させる設定  
+events: {
+    'click @ui.info': 'click:info'
+}
 <br>
 <hr>
 [Backbone.jsメモ](/2016/09/07/backbonejs.html)
