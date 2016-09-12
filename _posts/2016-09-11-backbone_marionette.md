@@ -58,7 +58,7 @@ events: {
 * templateにデータを渡す際、Modelは属性がtemplate内のグローバル変数になる。  
 Collectionはitemsという変数に格納される。 [\*](http://marionettejs.com/docs/master/marionette.view.html#advanced-view-topics)
 
-
+* [View.render()](https://github.com/marionettejs/backbone.marionette/blob/d8bee8d66003f6935994f7f066235a8896f81d94/src/view.js#L92)はBackbone.jsの[それ](https://github.com/jashkenas/backbone/blob/master/backbone.js#L1351)とは異なる
 
 
 
