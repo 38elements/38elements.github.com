@@ -29,7 +29,8 @@ title: Marionette.jsメモ
 * `onRender()`で`showChildView(region, view)`の設定をする  
 
 * `childViewEvents`属性は子Viewで発生したイベントを捕捉する
- 
+
+* `ui`属性はViewで使用する要素のセレクタを登録する
 
 <br>
 <hr>
