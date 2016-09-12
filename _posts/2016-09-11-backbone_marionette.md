@@ -14,8 +14,6 @@ title: Marionette.jsメモ
 
 * `templateContext`の`this`は`serializeData()`である。viewではない。  
 
-* triggersにマッピングされる文字列の規則 [\*](http://marionettejs.com/docs/v3.0.0/events.html#magic-method-binding) 
-
 * [getOption()](http://marionettejs.com/docs/v3.0.0/marionette.functions.html#marionettegetoption)は定義されたViewの引数のオブジェクトの属性を取得する  
 
 * [mergeOptions()](http://marionettejs.com/docs/v3.0.0/marionette.functions.html#marionettemergeoptions)は定義されたViewの引数のオブジェクトの属性をthis.&lt;属性&gt;で参照できるようにする  
@@ -34,7 +32,8 @@ title: Marionette.jsメモ
 
 * `getUI(ui_key)`でui_keyに対応したjQueryオブジェクトを取得する
 
-* eventsは指定したイベントと要素に対応したハンドラーを実行する設定
+* eventsは指定したイベントと要素に対応したハンドラーを実行する設定  
+functionを渡すこともできる  
 {% raw %}
 events: {
     'click @ui.info': 'displayInfo'
@@ -45,6 +44,14 @@ events: {
 events: {
     'click @ui.info': 'click:info'
 }
+
+* triggersにマッピングされる文字列の規則 [\*](http://marionettejs.com/docs/v3.0.0/events.html#magic-method-binding) 
+
+* [triggerMethod()](http://marionettejs.com/docs/master/marionette.view.html#onevent-listeners)は上の文字列の規則を反映した属性を実行する
+
+* ライフサイクルイベント [\*](http://marionettejs.com/docs/master/viewlifecycle.html#view-lifecycle)
+
+
 <br>
 <hr>
 [Backbone.jsメモ](/2016/09/07/backbonejs.html)
