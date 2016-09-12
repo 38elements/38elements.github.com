@@ -53,7 +53,18 @@ events: {
 
 * `modelEvents`はViewのmodel属性のmodelが発生させたイベントとそのハンドラーを紐つける。  
 
-* `collectionEvents`ははViewのcollection属性のcollectionが発生させたイベントとそのハンドラーを紐つける。  
+* `collectionEvents`ははViewのcollection属性のcollectionが発生させたイベントとそのハンドラーを紐つける。 
+
+* templateにデータを渡す際、Modelは属性がtemplate内のグローバル変数になる。  
+Collectionはitemsという変数に格納される。 [\*](http://marionettejs.com/docs/master/marionette.view.html#advanced-view-topics)
+
+
+
+
+
+
+
+
 <br>
 <hr>
 [Backbone.jsメモ](/2016/09/07/backbonejs.html)
