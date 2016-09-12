@@ -51,7 +51,9 @@ events: {
 
 * ライフサイクルイベント [\*](http://marionettejs.com/docs/master/viewlifecycle.html#view-lifecycle)
 
+* `modelEvents`はViewのmodel属性のmodelが発生させたイベントとそのハンドラーを紐つける。  
 
+* `collectionEvents`ははViewのcollection属性のcollectionが発生させたイベントとそのハンドラーを紐つける。  
 <br>
 <hr>
 [Backbone.jsメモ](/2016/09/07/backbonejs.html)
