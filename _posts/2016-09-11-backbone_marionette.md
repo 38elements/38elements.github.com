@@ -11,13 +11,7 @@ title: Marionette.jsメモ
 * triggersはイベントの書き換え
 
 * eventsはイベントとハンドラの紐付け
-
 <br>
-
-### AppRouter
-[document](http://marionettejs.com/docs/master/marionette.approuter.html)    
-[Backbone.Router](http://backbonejs.org/#Router)を拡張したもの  
-
 
 ### Application
 [document](http://marionettejs.com/docs/master/marionette.application.html)
@@ -41,6 +35,12 @@ application.start();
 * `getView()`
 
 <br>
+
+### AppRouter
+[document](http://marionettejs.com/docs/master/marionette.approuter.html)    
+[Backbone.Router](http://backbonejs.org/#Router)を拡張したもの  
+<br>
+
 
 ### View
 
