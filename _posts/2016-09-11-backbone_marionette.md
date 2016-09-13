@@ -138,6 +138,49 @@ childview接頭辞を親Viewのtriggerにつける [\*](http://marionettejs.com/
 region.show(view, {preventDestroy: true});
 ```
 
+* `region.hasView()`: Viewがセットされているか
+
+* `region.reset()`: Viewを削除して再度追加
+
+*　`region.attachHtml()`はviewを表示することに利用する
+<br>
+
+### Application
+
+* `application.start()`は`before:start`と`start`イベントを発生させる
+
+* 以下のようにbackbonejsを起動する
+
+```
+let application = new Application();
+application.on('start', function() {
+    backbone.history.start();
+});
+application.start();
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
