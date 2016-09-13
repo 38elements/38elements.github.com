@@ -64,6 +64,16 @@ Collectionはitemsという変数に格納される。 [\*](http://marionettejs.
 
 ### CollectionView
 [document](http://marionettejs.com/docs/master/marionette.collectionview.html)  
+* `CollectionView`は`collection`属性のcollectionに存在するmodelを`childView`属性に適用してそのelをCollectionViewのelに入れる。  
+デフォフトでsortされるのでsortされたくないときはsort: falseにする  
+
+* `childView`属性はViewを返すfunctionかView
+
+* `childViewOptions`属性はObjectかObjectを返す関数
+`initialize`関数の引数になる  
+
+
+
 
 
 
