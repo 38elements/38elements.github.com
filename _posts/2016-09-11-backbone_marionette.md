@@ -10,6 +10,8 @@ title: Marionette.jsメモ
 
 * triggersはイベントの書き換え
 
+* eventsはイベントとハンドラの紐付け
+
 ### View
 
 * `templateContext`の`this`は`serializeData()`である。viewではない。  
