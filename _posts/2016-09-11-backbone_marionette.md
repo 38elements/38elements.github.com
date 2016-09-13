@@ -176,10 +176,12 @@ region.show(view, {preventDestroy: true});
 * `region.reset()`: Viewを削除して再度追加
 
 *　`region.attachHtml()`はviewを表示することに利用する
+
 <br>
 
 ### Behavior
 [document](http://marionettejs.com/docs/master/marionette.behavior.html)  
+
 * Viewの属性の一部
 
 <br>
