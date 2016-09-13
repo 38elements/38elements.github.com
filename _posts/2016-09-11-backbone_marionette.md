@@ -39,6 +39,7 @@ application.start();
 ### AppRouter
 [document](http://marionettejs.com/docs/master/marionette.approuter.html)    
 [Backbone.Router](http://backbonejs.org/#Router)を拡張したもの  
+routeが変わった時は`onRoute`が呼ばれる [\*](http://marionettejs.com/docs/master/marionette.approuter.html#handling-route-changes)  
 <br>
 
 
