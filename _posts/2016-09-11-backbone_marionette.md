@@ -180,6 +180,8 @@ region.show(view, {preventDestroy: true});
 
 ### Behavior
 [document](http://marionettejs.com/docs/master/marionette.behavior.html)  
+* Viewの属性の一部
+
 <br>
 
 ### Backbone Radio
