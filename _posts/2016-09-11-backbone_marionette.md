@@ -121,7 +121,22 @@ remove(model)はそれに対応するChildViewを1つ削除
 * 子Viewから親Viewへイベントバブルを捕捉する  
 childview接頭辞を親Viewのtriggerにつける [\*](http://marionettejs.com/docs/master/events.html#event-bubbling)  
 `childViewEvents`属性もある [\*](http://marionettejs.com/docs/master/events.html#explicit-event-listeners)
+<br>
 
+### Region
+[document](http://marionettejs.com/docs/master/marionette.region.html)  
+
+* view.addRegion('region_name', 'selector');
+
+* Viewを加える方法 [\*](http://marionettejs.com/docs/master/marionette.region.html#showing-a-view)
+
+* `region.empty()`でリージョン以下のViewを削除
+
+* 他のViewを表示するとき元のViewはdestoryされるが{preventDestroy: true}するとdestroyされない  
+
+```
+region.show(view, {preventDestroy: true});
+```
 
 
 
