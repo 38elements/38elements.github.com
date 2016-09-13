@@ -14,6 +14,11 @@ title: Marionette.jsメモ
 
 <br>
 
+### AppRouter
+[document](http://marionettejs.com/docs/master/marionette.approuter.html)    
+[Backbone.Router](http://backbonejs.org/#Router)を拡張したもの  
+
+
 ### Application
 [document](http://marionettejs.com/docs/master/marionette.application.html)
 
