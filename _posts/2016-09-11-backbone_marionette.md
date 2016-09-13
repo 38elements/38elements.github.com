@@ -70,7 +70,65 @@ Collectionはitemsという変数に格納される。 [\*](http://marionettejs.
 * `childView`属性はViewを返すfunctionかView
 
 * `childViewOptions`属性はObjectかObjectを返す関数
-`initialize`関数の引数になる  
+childViewの`initialize`関数の引数になる  
+
+* `childViewEventPrefix`はchildViewから発生したイベントを捕捉する際の接頭辞
+
+* `childViewEvents`はchildViewから発生したイベントを捕捉する   
+カスタムイベントも捕捉する
+
+* `childViewTriggers`はchildViewでtriggerしたものを関数にマッピングする  
+
+* `emptyView`はcollectionが空のときに表示するView
+
+* `emptyViewOptions`属性はObjectかObjectを返す関数
+emptyViewの`initialize`関数の引数になる 
+
+* `isEmpty`はcollectionが空かどうかの述語
+
+* render()は全体を作り直す
+
+* collection.reset(model)はcollection view全体を書き換える  
+add(model)はそれに対応するChildViewを1つ加える  
+remove(model)はそれに対応するChildViewを1つ削除
+
+* `attachHtml`はchildViewの表示順
+
+* `attachBuffer`はchildViewの表示
+
+* `destroy()`はchildViewを削除する
+
+* `filter`はmodelを表示するかしないかを判定する述語
+
+* `setfilter()`はfilterをセット
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
