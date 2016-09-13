@@ -146,6 +146,7 @@ region.show(view, {preventDestroy: true});
 <br>
 
 ### Application
+[document](http://marionettejs.com/docs/master/marionette.application.html)
 
 * `application.start()`は`before:start`と`start`イベントを発生させる
 
@@ -159,10 +160,11 @@ application.on('start', function() {
 application.start();
 ```
 
+* `getRegion()`
 
+* `showView(view)`
 
-
-
+* `getView()`
 
 
 
