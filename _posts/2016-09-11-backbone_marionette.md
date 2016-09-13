@@ -178,7 +178,13 @@ region.show(view, {preventDestroy: true});
 *　`region.attachHtml()`はviewを表示することに利用する
 <br>
 
+### Behavior
+[document](http://marionettejs.com/docs/master/marionette.behavior.html)  
+<br>
 
+### Backbone Radio
+[document](http://marionettejs.com/docs/master/backbone.radio.html)  
+<br>
 
 
 
