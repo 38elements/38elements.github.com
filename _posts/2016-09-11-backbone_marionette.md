@@ -8,7 +8,7 @@ title: Marionette.jsメモ
 
 * [extend()](http://marionettejs.com/docs/master/marionette.functions.html#marionetteextend)で継承したクラスを作成する
 
-
+* triggersはイベントの書き換え
 
 ### View
 
@@ -107,6 +107,38 @@ remove(model)はそれに対応するChildViewを1つ削除
 * `sort`はデフォルトで有効
 
 * `getViewComparator()`はmodelをソートする方法
+<br>
+
+### Event
+[document](http://marionettejs.com/docs/master/events.html)  
+
+* on('event_name', hanlder, thisObj)
+
+* triggerMethod('event_name', ...args);
+
+* 子Viewから親Viewへイベントバブルを捕捉する  
+childview接頭辞を親Viewのtriggerにつける [\*](http://marionettejs.com/docs/master/events.html#event-bubbling)  
+`childViewEvents`属性もある [\*](http://marionettejs.com/docs/master/events.html#explicit-event-listeners)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
