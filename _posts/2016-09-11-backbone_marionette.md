@@ -102,8 +102,11 @@ remove(model)はそれに対応するChildViewを1つ削除
 
 * `setfilter()`はfilterをセット
 
+* `removeFilter`はfilterを削除 preventRenderをセットするとリレンダリングされない
 
+* `sort`はデフォルトで有効
 
+* `getViewComparator()`はmodelをソートする方法
 
 
 
