@@ -193,6 +193,8 @@ region.show(view, {preventDestroy: true});
 
 <br>
 
+### Object
+[document](http://marionettejs.com/docs/master/marionette.object.html)  
 
 
 
