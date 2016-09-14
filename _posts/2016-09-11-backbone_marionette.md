@@ -196,7 +196,11 @@ region.show(view, {preventDestroy: true});
 ### Object
 [document](http://marionettejs.com/docs/master/marionette.object.html)  
 
+* `initialize(options)`はコンストラクタ  
 
+* `on()`でイベントの登録  
+
+* `destroy()`はObjectにセットしたイベントを削除する
 
 
 
