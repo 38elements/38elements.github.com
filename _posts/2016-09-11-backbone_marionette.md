@@ -188,6 +188,9 @@ region.show(view, {preventDestroy: true});
 
 ### Backbone Radio
 [document](http://marionettejs.com/docs/master/backbone.radio.html)  
+
+* triggerは`channelName`に登録したすべてのObjectが対象
+
 <br>
 
 
