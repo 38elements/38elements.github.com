@@ -213,6 +213,13 @@ region.show(view, {preventDestroy: true});
 * ViewのgetTemplate属性にテンプレートがある要素のセレクタもしくは  
 handlebarsやunderscore.template等の関数を返す関数をセットする
 
+* Viewのcollection属性はテンプレート内では`items`という変数に格納される
+
+* テンプレートに渡される変数について [*](http://marionettejs.com/docs/master/template.html#modelcollection-rendering-rules)
+
+* [Template Context](http://marionettejs.com/docs/master/template.html#template-context)はテンプレートに渡されるコンテキストの一部  
+ObjectかObjectを返す関数をセットする  
+
 <br>
 
 ### TemplateCache
