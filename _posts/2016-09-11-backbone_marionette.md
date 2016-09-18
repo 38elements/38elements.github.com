@@ -203,9 +203,16 @@ region.show(view, {preventDestroy: true});
 * `destroy()`はObjectにセットしたイベントを削除する
 <br>
 
+### Template
+[document](http://marionettejs.com/docs/master/template.html)  
+
+<br>
+
 ### TemplateCache
 [document](http://marionettejs.com/docs/master/marionette.templatecache.html)   
 
+`TemplateCache.get(selector, options)`  
+`TemplateCache.clear()`  
 
 
 
