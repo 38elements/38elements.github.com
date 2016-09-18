@@ -206,6 +206,13 @@ region.show(view, {preventDestroy: true});
 ### Template
 [document](http://marionettejs.com/docs/master/template.html)  
 
+* Viewのtemplate属性にテンプレートがある要素のセレクタをセットする
+
+* Viewのtemplate属性にhandlebarsやunderscore.template等の関数をセットする
+
+* ViewのgetTemplate属性にテンプレートがある要素のセレクタもしくは  
+handlebarsやunderscore.template等の関数を返す関数をセットする
+
 <br>
 
 ### TemplateCache
