@@ -99,6 +99,8 @@ Collectionはitemsという変数に格納される。 [\*](http://marionettejs.
 
 ### CollectionView
 [document](http://marionettejs.com/docs/master/marionette.collectionview.html)  
+[document](http://marionettejs.com/docs/master/marionette.collectionviewadvanced.html)  
+
 * `CollectionView`は`collection`属性のcollectionに存在するmodelを`childView`属性に適用してそのelをCollectionViewのelに入れる。  
 デフォフトでsortされるのでsortされたくないときはsort: falseにする  
 
@@ -142,6 +144,15 @@ remove(model)はそれに対応するChildViewを1つ削除
 * `sort`はデフォルトで有効
 
 * `getViewComparator()`はmodelをソートする方法
+
+* `buildChildView(model, ChildViewClass, childViewOptions))`はchild_viewインスタンスを動的生成する [\*]()  
+
+* `addChildView(view, index)`はviewを`CollectionView`の管理下におく [\*](http://marionettejs.com/docs/master/marionette.collectionviewadvanced.html#collectionviews-addchildview)
+
+* [findBy\*](http://marionettejs.com/docs/master/marionette.collectionviewadvanced.html#collectionview-retrieve-child-views)でviewを検索する  
+[cid](http://backbonejs.org/#Model-cid)はBackbonejsが自動的に割り当てるユニークなID  
+
+*
 <br>
 
 ### Event
@@ -176,6 +187,13 @@ region.show(view, {preventDestroy: true});
 * `region.reset()`: Viewを削除して再度追加
 
 *　`region.attachHtml()`はviewを表示することに利用する
+
+* `addChildView(view, index)` [*\](https://github.com/marionettejs/backbone.marionette/blob/d8bee8d66003f6935994f7f066235a8896f81d94/src/collection-view.js#L491)
+
+* `removeChildView(view)`
+
+* CollectionViewのchildren属性はunderscorejsのメソッドを利用することができる
+
 
 <br>
 
