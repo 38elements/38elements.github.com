@@ -152,7 +152,14 @@ remove(model)はそれに対応するChildViewを1つ削除
 * [findBy\*](http://marionettejs.com/docs/master/marionette.collectionviewadvanced.html#collectionview-retrieve-child-views)でviewを検索する  
 [cid](http://backbonejs.org/#Model-cid)はBackbonejsが自動的に割り当てるユニークなID  
 
-*
+* [filter(child, index, collection)](http://marionettejs.com/docs/master/marionette.collectionviewadvanced.html#collectionviews-filter)は表示するモデルを取捨選択する
+
+* [setFilter(func, options)](http://marionettejs.com/docs/master/marionette.collectionviewadvanced.html#collectionviews-setfilter)でfilterをセット  
+`preventRender`をoptionsに指定するとリレンダリングされない
+
+* [removeFilter(options)](http://marionettejs.com/docs/master/marionette.collectionviewadvanced.html#collectionviews-removefilter)でfilterを削除  
+`preventRender`をoptionsに指定するとリレンダリングされない
+
 <br>
 
 ### Event
