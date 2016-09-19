@@ -160,6 +160,8 @@ remove(model)はそれに対応するChildViewを1つ削除
 * [removeFilter(options)](http://marionettejs.com/docs/master/marionette.collectionviewadvanced.html#collectionviews-removefilter)でfilterを削除  
 `preventRender`をoptionsに指定するとリレンダリングされない
 
+* [sort](http://marionettejs.com/docs/master/marionette.collectionviewadvanced.html#collectionviews-sort)
+
 <br>
 
 ### Event
