@@ -13,3 +13,9 @@ title: nightmare.jsメモ
 ```
 .type(selector, '\u000d')
 ```
+* `.insert(selector[, text])`は`change`イベントを発生させない。
+
+```
+let event = new Event('change', {'bubbles': true, 'cancelable': true});
+elem.dispatchEvent(event);
+```
