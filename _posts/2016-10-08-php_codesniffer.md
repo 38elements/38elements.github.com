@@ -2,7 +2,7 @@
 layout: posts
 title: PHP_CodeSnifferメモ 
 ---
-
+#### ルールを無効にする
 ルールを無効にしたいときはルールを無効にしたルールセット(ruleset.xml)を作成する。  
 `PSR2`を基にした`Foo`というルールを作成する例  
 
