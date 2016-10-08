@@ -14,7 +14,7 @@ php_codesniffer/CodeSniffer/Standards/Foo/ruleset.xml
 
 `ruleset.xml`の内容  
 無効にしたいクラスを以下のように変換して`exclude`要素の`name`属性に指定する。  
-<ルールセット名>.<種類>.<ファイル名>
+\<ルールセット名\>.\<種類\>.\<ファイル名\>　　
 
 ```
 PSR1_Sniffs_Classes_ClassDeclarationSniff => PSR1.Classes.ClassDeclaration
