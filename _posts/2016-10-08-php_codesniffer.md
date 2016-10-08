@@ -20,7 +20,7 @@ php_codesniffer/CodeSniffer/Standards/Foo/ruleset.xml
 PSR1_Sniffs_Classes_ClassDeclarationSniff => PSR1.Classes.ClassDeclaration
 ```
 
-```
+```xml
 <?xml version="1.0"?>
 <ruleset name="Foo">
     <description></description>
