@@ -31,3 +31,13 @@ PSR1_Sniffs_Classes_ClassDeclarationSniff => PSR1.Classes.ClassDeclaration
     </rule>
 </ruleset>
 ```
+<br>
+
+#### Vim連携
+
+Syntasticをインストールして下記を.vimrcに追加する。
+
+```
+let g:syntastic_php_checkers=['php', 'phpcs']
+let g:syntastic_php_phpcs_args='--standard=psr2'
+```
