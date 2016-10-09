@@ -12,6 +12,8 @@ title: Marionette.jsメモ
 
 * eventsはイベントとハンドラの紐付け  
 
+* 属性に関数を設定するとその戻り値が属性の値になる [\*](https://github.com/marionettejs/backbone.marionette/blob/master/docs/basics.md#functions-returning-values)
+
 <br>
 #### [Marionette.jsのApplicationメモ](/2016/10/09/marionettejs-application.html)
 <br>
