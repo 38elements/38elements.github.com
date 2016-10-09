@@ -12,28 +12,7 @@ title: Marionette.jsメモ
 
 * eventsはイベントとハンドラの紐付け
 <br>
-
-### Application
-[document](http://marionettejs.com/docs/master/marionette.application.html)
-
-* `application.start()`は`before:start`と`start`イベントを発生させる
-
-* 以下のようにbackbonejsを起動する
-
-```
-let application = new Application();
-application.on('start', function() {
-    backbone.history.start();
-});
-application.start();
-```
-
-* `getRegion()`
-
-* `showView(view)`
-
-* `getView()`
-
+[Marionette.jsのApplicationメモ](/2016/10/09/marionettejs-application.html)
 <br>
 
 ### AppRouter
