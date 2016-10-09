@@ -6,3 +6,5 @@ title: Marionette.jsのApplicationメモ
 
 * ApplicationのRootViewはregionで指定した要素のの下に`app.showView(view_obj);`で挿入する。  
 `app.showView(view_obj);`で入れ替えることも可能 [\*](http://marionettejs.com/docs/master/marionette.application.html#root-layout)   
+
+* [initialize](http://marionettejs.com/docs/master/marionette.application.html#initialize)の代わりに`constructor`を使用することができる。
