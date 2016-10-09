@@ -11,3 +11,19 @@ title: Marionette.jsのApplicationメモ
 * [initialize](http://marionettejs.com/docs/master/marionette.application.html#initialize)の代わりに`constructor`を使用することができる。
 
 * [Object](http://marionettejs.com/docs/master/marionette.object.html)を継承している
+
+* 以下のようにbackbonejsを起動する
+
+```
+let application = new Application();
+application.on('start', function() {
+    backbone.history.start();
+});
+application.start();
+```
+
+* `getRegion()`
+
+* `showView(view)`
+
+* `getView()`
