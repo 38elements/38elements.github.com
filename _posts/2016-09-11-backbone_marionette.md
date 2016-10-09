@@ -10,9 +10,10 @@ title: Marionette.jsメモ
 
 * triggersはイベントの書き換え
 
-* eventsはイベントとハンドラの紐付け
+* eventsはイベントとハンドラの紐付け  
+
 <br>
-[Marionette.jsのApplicationメモ](/2016/10/09/marionettejs-application.html)
+#### [Marionette.jsのApplicationメモ](/2016/10/09/marionettejs-application.html)
 <br>
 
 ### AppRouter
