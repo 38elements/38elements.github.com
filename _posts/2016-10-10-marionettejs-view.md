@@ -39,12 +39,31 @@ ui: {
 * view.getUI(ui)  
 指定したuiに対応する要素を取得する。
 
+events属性とtriggers属性で使用する。  
+
+```
+ui: {
+    'foo': '#foo',
+    ...
+},
+
+events: {
+    'click @ui.foo': 'fooHandler'
+},
+
+triggers: {
+    'click @ui.foo': 'click:foo'
+},
+```
+
 <br>
 
 #### triggers属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#event-and-trigger-mapping)   
+イベントを受け取って対応するイベントを発生させる。  
 <br>
 
 #### events属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#view-events)  
+イベントを受け取って対応するイベントハンドラを実行させる。  
 <br>
 
 #### viewに関係したイベント
