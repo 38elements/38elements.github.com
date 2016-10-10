@@ -25,13 +25,26 @@ Viewの属性はroot要素の属性になる。
 ```
 <br>
 
-#### ui属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#defining-ui)
+#### ui属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#defining-ui)  
+
+下記のように設定する。  
+
+```
+ui: {
+    '<ui name>': '<selector>',
+    ...
+}
+```
+
+* view.getUI(ui)  
+指定したuiに対応する要素を取得する。
+
 <br>
 
-#### triggers属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#event-and-trigger-mapping)  
+#### triggers属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#event-and-trigger-mapping)   
 <br>
 
-#### events属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#view-events)
+#### events属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#view-events)  
 <br>
 
 #### viewに関係したイベント
@@ -47,7 +60,20 @@ onRenderの際にview.showChildView(region, view)でリージョンに子Viewを
 指定したregionにviewを設置する。
 
 * view.getChildView(region)  
-指定したregionに存在するviewを取得する。
+指定したregionに存在するviewを取得する。  
+存在しない場合はnullを返す。
 
 * region.empty()  
 regionに存在する要素を削除する。
+
+<br>
+
+#### childViewEvents属性
+
+子Viewで発生したイベントにイベントハンドラを紐付ける。  
+
+```
+  childViewEvents: {
+    '<event name>': '<handler>'
+  }
+```
