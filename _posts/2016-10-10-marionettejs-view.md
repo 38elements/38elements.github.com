@@ -55,7 +55,6 @@ triggers: {
     'click @ui.foo': 'click:foo'
 },
 ```
-
 <br>
 
 #### triggers属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#event-and-trigger-mapping)   
