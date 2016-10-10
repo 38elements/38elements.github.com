@@ -24,6 +24,8 @@ Viewの属性はroot要素の属性になる。
         ...
     }
 ```
+
+* view.addRegion(region_name, selector);
 <br>
 
 #### ui属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#defining-ui)  
@@ -93,6 +95,8 @@ onRenderの際にview.showChildView(region, view)でリージョンに子Viewを
 
 * region.empty()  
 regionに存在する要素を削除する。
+
+* region.show(view);
 
 <br>
 
