@@ -108,34 +108,7 @@ childview接頭辞を親Viewのtriggerにつける [\*](http://marionettejs.com/
 `childViewEvents`属性もある [\*](http://marionettejs.com/docs/master/events.html#explicit-event-listeners)
 <br>
 
-### Region
-[document](http://marionettejs.com/docs/master/marionette.region.html)  
-
-* view.addRegion('region_name', 'selector');
-
-* Viewを加える方法 [\*](http://marionettejs.com/docs/master/marionette.region.html#showing-a-view)
-
-* `region.empty()`でリージョン以下のViewを削除
-
-* 他のViewを表示するとき元のViewはdestoryされるが{preventDestroy: true}するとdestroyされない  
-
-```
-region.show(view, {preventDestroy: true});
-```
-
-* `region.hasView()`: Viewがセットされているか
-
-* `region.reset()`: Viewを削除して再度追加
-
-*　`region.attachHtml()`はviewを表示することに利用する
-
-* `addChildView(view, index)` [*\](https://github.com/marionettejs/backbone.marionette/blob/d8bee8d66003f6935994f7f066235a8896f81d94/src/collection-view.js#L491)
-
-* `removeChildView(view)`
-
-* CollectionViewのchildren属性はunderscorejsのメソッドを利用することができる
-
-
+[Marionette.jsのRegionメモ](/2016/10/10/marionettejs-region.html)  
 <br>
 
 ### Behavior
