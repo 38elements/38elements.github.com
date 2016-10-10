@@ -16,7 +16,7 @@ Viewでは以下のように設定する。
 ```
 <br>
 
-#### RegionとViewの置換
+#### Region要素とView要素の置換
 以下のようにするとid=fooの要素をViewの要素に置き換えることができる。
 
 ```
@@ -27,7 +27,22 @@ Viewでは以下のように設定する。
     }
 }
  ```
+<br>
 
+#### 動的な設定
+
+以下のように動的に設定することができる。
+
+```
+'regions': function(options) { 
+   return {
+      'region1': {
+         'el': '#foo',
+         'replaceElement': true
+      }
+   };
+}
+```
 
 <br>
 <hr>
