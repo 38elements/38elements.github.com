@@ -111,13 +111,6 @@ childview接頭辞を親Viewのtriggerにつける [\*](http://marionettejs.com/
 [Marionette.jsのRegionメモ](/2016/10/10/marionettejs-region.html)  
 <br>
 
-### Behavior
-[document](http://marionettejs.com/docs/master/marionette.behavior.html)  
-
-* Viewの属性の一部
-
-<br>
-
 ### Backbone Radio
 [document](http://marionettejs.com/docs/master/backbone.radio.html)  
 
@@ -160,68 +153,7 @@ ObjectかObjectを返す関数をセットする
 `TemplateCache.get(selector, options)`  
 `TemplateCache.clear()`  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <br>
 <hr>
 [Backbone.jsメモ](/2016/09/07/backbonejs.html)  
-[handlebarsjs](http://handlebarsjs.com/reference.html)
+[handlebars.js](http://handlebarsjs.com/reference.html)
