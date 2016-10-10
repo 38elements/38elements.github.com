@@ -71,8 +71,12 @@ triggers: {
 #### collectionEvents [\*](http://marionettejs.com/docs/master/marionette.view.html#collection-events)
 <br>
 
-#### viewに関係したイベント
-viewに関係したイベントリスト [\*](http://marionettejs.com/docs/master/viewlifecycle.html#view-destruction-lifecycle)  
+#### イベント
+* viewに関係したイベントリスト [\*](http://marionettejs.com/docs/master/viewlifecycle.html#view-destruction-lifecycle)  
+
+* view.triggerMethod(trigger_name, value)
+viewに登録されているtriggerを発生させる。
+
 <br>
 
 #### ChildView
