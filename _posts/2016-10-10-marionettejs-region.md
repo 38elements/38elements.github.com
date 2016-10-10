@@ -26,7 +26,7 @@ Viewでは以下のように設定する。
         'replaceElement': true
     }
 }
- ```
+```
 <br>
 
 #### 動的な設定
