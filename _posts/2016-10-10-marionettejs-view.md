@@ -2,7 +2,7 @@
 layout: posts
 title: Marionette.jsのViewメモ
 ---
-[document](http://marionettejs.com/docs/master/marionette.view.html#rendering-a-template)
+[document](http://marionettejs.com/docs/master/marionette.view.html)
 
 #### 基本
 
