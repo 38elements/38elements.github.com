@@ -109,5 +109,5 @@ regionに存在する要素を削除する。
 
 <hr>
 [Marionette.jsメモ](/2016/09/11/backbone_marionette.html)  
-[handlebarsjs](http://handlebarsjs.com/reference.html)  
+[handlebars.js](http://handlebarsjs.com/reference.html)  
 [Backbone.js](http://backbonejs.org/#View)  
