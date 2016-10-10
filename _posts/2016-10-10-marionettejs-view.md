@@ -66,8 +66,7 @@ triggers: {
 <br>
 
 #### viewに関係したイベント
-
-viewに関係したイベントリスト [\*](http://marionettejs.com/docs/master/viewlifecycle.html#view-destruction-lifecycle)
+viewに関係したイベントリスト [\*](http://marionettejs.com/docs/master/viewlifecycle.html#view-destruction-lifecycle)  
 <br>
 
 #### ChildView
