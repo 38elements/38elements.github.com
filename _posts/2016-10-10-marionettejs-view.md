@@ -43,8 +43,11 @@ viewに関係したイベントリスト [\*](http://marionettejs.com/docs/maste
 
 onRenderの際にview.showChildView(region, view)でリージョンに子Viewを設置する。  
 
-* view.showChildView(region, view)
+* view.showChildView(region, view)    
+指定したregionにviewを設置する。
 
-* view.getChildView(region)
+* view.getChildView(region)  
+指定したregionに存在するviewを取得する。
 
-* region.empty()
+* region.empty()  
+regionに存在する要素を削除する。
