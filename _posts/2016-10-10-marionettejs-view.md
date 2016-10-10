@@ -2,6 +2,8 @@
 layout: posts
 title: Marionette.jsのViewメモ
 ---
+## View
+
 [document](http://marionettejs.com/docs/master/marionette.view.html)
 
 #### 基本
@@ -108,6 +110,29 @@ regionに存在する要素を削除する。
   childViewEvents: {
     '<event name>': '<handler>'
   }
+```
+<br>
+
+## Behavior
+[document](http://marionettejs.com/docs/master/marionette.behavior.html)  
+
+BehaviorはViewの一部を共通化することができる。  
+Viewのbehaviors属性で利用するBehaviorを指定する。  
+
+```
+behaviors: [BehaviorClass1, BehaviorClass2]
+```
+<br>
+
+#### defaults属性
+
+defaults属性にはデフォルトのoptionsの値を設定する。
+
+```
+    defaults: {
+       type: 'car',
+       date: '2015-01-19'
+    }
 ```
 <br>
 
