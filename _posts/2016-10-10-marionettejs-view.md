@@ -13,7 +13,7 @@ tagNameで設定された要素がViewのroot要素になる。
 Viewの属性はroot要素の属性になる。  
 <br>
 
-#### Regions
+#### regions属性
 
 テンプレート内でChildViewを設置する要素のセレクターを登録しておく
 
@@ -25,8 +25,16 @@ Viewの属性はroot要素の属性になる。
 ```
 <br>
 
+#### ui属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#defining-ui)
+<br>
 
-#### Event
+#### triggers属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#event-and-trigger-mapping)  
+<br>
+
+#### events属性 [\*](http://marionettejs.com/docs/master/marionette.view.html#view-events)
+<br>
+
+#### viewに関係したイベント
 
 viewに関係したイベントリスト [\*](http://marionettejs.com/docs/master/viewlifecycle.html#view-destruction-lifecycle)
 <br>
