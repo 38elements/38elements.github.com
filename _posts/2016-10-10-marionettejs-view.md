@@ -65,6 +65,12 @@ triggers: {
 イベントを受け取って対応するイベントハンドラを実行させる。  
 <br>
 
+#### modelEvents [\*](http://marionettejs.com/docs/master/marionette.view.html#model-events)
+<br>
+
+#### collectionEvents [\*](http://marionettejs.com/docs/master/marionette.view.html#collection-events)
+<br>
+
 #### viewに関係したイベント
 viewに関係したイベントリスト [\*](http://marionettejs.com/docs/master/viewlifecycle.html#view-destruction-lifecycle)  
 <br>
