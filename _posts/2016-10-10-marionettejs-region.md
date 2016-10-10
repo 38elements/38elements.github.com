@@ -60,6 +60,11 @@ view.addRegion(region_name, selector);
 * region.show(view, options)  
 optionsに{preventDestroy: true}を指定した場合、既存のViewは削除されない
 
+* region.hasView()  
+regionにviewが存在しているか  
+
+* どのように子ViewがRegionに配置されるか [\*](http://marionettejs.com/docs/master/marionette.region.html#set-how-views-el-is-attached)
+
 <br>
 <hr>
 [Marionette.jsメモ](/2016/09/11/backbone_marionette.html)  
