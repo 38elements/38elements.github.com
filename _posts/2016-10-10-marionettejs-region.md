@@ -43,6 +43,22 @@ Viewでは以下のように設定する。
    };
 }
 ```
+<br>
+
+#### 動的な追加
+
+```
+view.addRegion(region_name, selector);
+```
+<br>
+
+#### Viewの配置と削除
+
+* region.empty()  
+ビューの削除
+
+* region.show(view, options)  
+optionsに{preventDestroy: true}を指定した場合、既存のViewは削除されない
 
 <br>
 <hr>
