@@ -100,6 +100,8 @@ regionに存在する要素を削除する。
 
 * region.show(view);
 
+* view.getRegion(region_name);
+
 <br>
 
 #### childViewEvents属性
