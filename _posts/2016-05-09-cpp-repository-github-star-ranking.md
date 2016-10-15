@@ -2,6 +2,7 @@
 layout: posts
 title: C++ Github Star Ranking at 2016/05/09
 ---
+[C++ Github Star Ranking at 2016/10/15](/2016/10/15/cpp-repository-github-star-ranking.html)  
 <pre style="background-color: white;border: none;">
 apple/swift                                30008
 The Swift Programming Language
