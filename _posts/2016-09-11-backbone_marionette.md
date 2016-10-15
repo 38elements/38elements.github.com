@@ -28,8 +28,8 @@ title: Marionette.jsメモ
 * 起動方法
 
 ```
-Backbone.history.start();
 let router = new AppRouter();
+Backbone.history.start();
 ```
 <br>
 
