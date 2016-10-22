@@ -103,19 +103,10 @@ remove(model)はそれに対応するChildViewを1つ削除
 
 <br>
 
-### Event
-[document](http://marionettejs.com/docs/master/events.html)  
-
-* on('event_name', hanlder, thisObj)
-
-* triggerMethod('event_name', ...args);
-
-* 子Viewから親Viewへイベントバブルを捕捉する  
-childview接頭辞を親Viewのtriggerにつける [\*](http://marionettejs.com/docs/master/events.html#event-bubbling)  
-`childViewEvents`属性もある [\*](http://marionettejs.com/docs/master/events.html#explicit-event-listeners)
+#### [Marionette.jsのEventメモ](/2016/10/22/marionettejs-event.html)  
 <br>
 
-[Marionette.jsのRegionメモ](/2016/10/10/marionettejs-region.html)  
+#### [Marionette.jsのRegionメモ](/2016/10/10/marionettejs-region.html)  
 <br>
 
 ### Backbone Radio
