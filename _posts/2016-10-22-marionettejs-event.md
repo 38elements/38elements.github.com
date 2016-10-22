@@ -12,6 +12,7 @@ title: Marionette.jsのEventメモ
 foo:bar => fooBar  
 
 * Child Viewで発生したイベントを取得する[\*](http://marionettejs.com/docs/master/events.html#child-view-events)  
+イベントハンドラの第1引数はChild View
 
 ```
   childViewEvents: {
@@ -23,3 +24,11 @@ foo:bar => fooBar
 view.on('childview:click:button', handler);
 ```
 
+* childViewTriggers[\*](http://marionettejs.com/docs/master/events.html#triggering-events-on-child-events)  
+
+<br>
+
+<hr>
+[Marionette.jsメモ](/2016/09/11/backbone_marionette.html)  
+[handlebars.js](http://handlebarsjs.com/reference.html)  
+[Backbone.js](http://backbonejs.org/#View)  
