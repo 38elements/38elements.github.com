@@ -91,4 +91,28 @@ new Handlebars.SafeString(html)
 ### Partial
 
 [document](http://handlebarsjs.com/partials.html)  
+
+```
+Handlebars.registerPartial(partial_name, partial)
+```
+
+\{\{> partial \}\}  
+
+* context  
+\{\{> partial context \}\}  
+
+* parameter    
+\{\{> partial foo='bar' \}\}  
+
+* outer
+
+outerパーシャルが下記の場合
+
+{{raw}}
+foo
+{{p1}}
+bar
+{{p2}}
+{{endraw}}
+
 <br>
