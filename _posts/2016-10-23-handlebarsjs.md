@@ -25,6 +25,20 @@ let html = template(data);
 [Block](http://handlebarsjs.com/block_helpers.html)  
 [Built-In Helpers](http://handlebarsjs.com/builtin_helpers.html)  
 
+* \{\{#foo\}\}の形式  
+
+* Block  
+以下のようなブロックの場合  
+\{\{#foo\}\}\{\{bar\}\}\{\{/foo\}\}  
+何もしないブロックヘルパーの定義  
+
+```javascript
+Handlebars.registerHelper('foo', function(options) {
+  return options.fn(this);
+});
+```
+
+
 エスケープせずにそのまま出力する場合は下記を返す。
 
 ```
