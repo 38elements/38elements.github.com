@@ -73,6 +73,12 @@ options.hashにキーワード引数が格納されている
 ```
 new Handlebars.SafeString(html)
 ```
+
+#### Built-In Helper
+
+* if   
+[example](http://jsdo.it/38elements/handlebarsjs-if)  
+
 <br>
 
 ### Partial
