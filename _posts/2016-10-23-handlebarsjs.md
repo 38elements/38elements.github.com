@@ -9,3 +9,11 @@ title: Handlebars.jsメモ
 \{\{! comment \}\}  
 \{\{\{ raw \}\}\}  
 [example](http://jsdo.it/38elements/handlebarsjs-1)  
+<br>
+
+#### コンパイル
+
+```javascript
+let template = Handlebars.compile(template_source);
+let html = template(data);
+```
