@@ -108,11 +108,11 @@ Handlebars.registerPartial(partial_name, partial)
 
 outerパーシャルが下記の場合
 
-{{raw}}
+{%raw%}
 foo
 {{p1}}
 bar
 {{p2}}
-{{endraw}}
+{%endraw%}
 
 <br>
