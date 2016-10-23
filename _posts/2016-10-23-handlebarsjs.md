@@ -120,12 +120,12 @@ bar
 {%raw%}
 {{#> outer}}  
     {{#*inline 'p1'}}   
-        ABC
+        ABC   
     {{/inline}}  
     {{#*inline 'p2'}}   
-        DEF
+        DEF   
     {{/inline}}  
-{{/outer}}
+{{/outer}}   
 {%endraw%}
 
 <br>
