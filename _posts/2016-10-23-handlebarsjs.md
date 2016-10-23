@@ -8,3 +8,4 @@ title: Handlebars.jsメモ
 \{\{ var \}\}  
 \{\{! comment \}\}  
 \{\{\{ raw \}\}\}  
+[example](http://jsdo.it/38elements/handlebarsjs-1)  
