@@ -21,6 +21,9 @@ let html = template(data);
 
 #### ヘルパー
 
+[Block](http://handlebarsjs.com/block_helpers.html)  
+[Built-In Helpers](http://handlebarsjs.com/builtin_helpers.html)  
+
 エスケープせずにそのまま出力する場合は下記を返す。
 
 ```
