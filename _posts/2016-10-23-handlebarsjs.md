@@ -41,6 +41,7 @@ Handlebars.registerHelper('foo', function(options) {
 
 * ブロックヘルパーに引数を渡した場合  
 \{\{#foo args\}\}\{\{bar\}\}\{\{/foo\}\}  
+argsがcontext  
 
 ```
 Handlebars.registerHelper('with', function(context, options) {
@@ -60,6 +61,12 @@ Handlebars.registerHelper('foo', function(context, options) {
     return content;
 });
 ```
+
+* キーワード引数
+
+\{\{#foo args foo='bar' key='value' \}\}\{\{bar\}\}\{\{/foo\}\}   
+options.hashにキーワード引数が格納されている  
+
 
 * エスケープせずにそのまま出力する場合は下記を返す。
 
