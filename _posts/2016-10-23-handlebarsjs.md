@@ -3,6 +3,7 @@ layout: posts
 title: Handlebars.jsメモ
 ---
 [Handlebars.js](http://handlebarsjs.com/)  
+[reference](http://handlebarsjs.com/reference.html)  
 
 #### 出力
 \{\{ var \}\}  
