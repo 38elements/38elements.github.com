@@ -17,3 +17,13 @@ title: Handlebars.jsメモ
 let template = Handlebars.compile(template_source);
 let html = template(data);
 ```
+<br>
+
+#### ヘルパー
+
+エスケープせずにそのまま出力する場合は下記を返す。
+
+```
+new Handlebars.SafeString(html)
+```
+<br>
