@@ -5,14 +5,14 @@ title: Handlebars.jsメモ
 [Handlebars.js](http://handlebarsjs.com/)  
 [reference](http://handlebarsjs.com/reference.html)  
 
-#### 出力
+### 出力
 \{\{ var \}\}  
 \{\{! comment \}\}  
 \{\{\{ raw \}\}\}  
 [example](http://jsdo.it/38elements/handlebarsjs-1)  
 <br>
 
-#### コンパイル
+### コンパイル
 
 ```javascript
 let template = Handlebars.compile(template_source);
@@ -20,14 +20,14 @@ let html = template(data);
 ```
 <br>
 
-#### ヘルパー
+### ヘルパー
 
 [Block](http://handlebarsjs.com/block_helpers.html)  
 [Built-In Helpers](http://handlebarsjs.com/builtin_helpers.html)  
 
 * \{\{#foo\}\}の形式  
 
-* Block  
+#### Block Helper  
 以下のようなブロックの場合  
 \{\{#foo\}\}\{\{bar\}\}\{\{/foo\}\}  
 何もしないブロックヘルパーの定義  
@@ -46,7 +46,7 @@ new Handlebars.SafeString(html)
 ```
 <br>
 
-#### Partial
+### Partial
 
 [document](http://handlebarsjs.com/partials.html)  
 <br>
