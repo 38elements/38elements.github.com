@@ -4,14 +4,6 @@ title: Marionette.jsメモ
 ---
 [document](http://marionettejs.com/docs/current/)  
 
-* 2.xから3.0の変更点 [\*](https://github.com/marionettejs/backbone.marionette/releases/tag/v3.0.0)  
-
-* [extend()](http://marionettejs.com/docs/master/marionette.functions.html#marionetteextend)で継承したクラスを作成する
-
-* triggersはイベントの書き換え
-
-* eventsはイベントとハンドラの紐付け  
-
 * 属性に関数を設定するとその戻り値が属性の値になる [\*](https://github.com/marionettejs/backbone.marionette/blob/master/docs/basics.md#functions-returning-values)  
 <br>
 
@@ -154,4 +146,5 @@ ObjectかObjectを返す関数をセットする
 <br>
 <hr>
 [Backbone.jsメモ](/2016/09/07/backbonejs.html)  
+[Handlebars.jsメモ](/2016/10/23/handlebarsjs.html)   
 [handlebars.js](http://handlebarsjs.com/reference.html)
