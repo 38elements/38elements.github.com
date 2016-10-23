@@ -79,6 +79,13 @@ new Handlebars.SafeString(html)
 * if   
 [example](http://jsdo.it/38elements/handlebarsjs-if)  
 
+* unless  
+
+* each  
+ループ処理を行う   
+空の場合はelse節を利用することができる。  
+\{\{@index\}\} インデックス  
+\{\{@key\}\} キー    
 <br>
 
 ### Partial
