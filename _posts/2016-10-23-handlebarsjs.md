@@ -118,7 +118,7 @@ bar
 下記のように埋め込む   
 
 {%raw%}
-{{#> outer}}
+{{#> outer}}  
     {{#*inline 'p1'}}   
         ABC
     {{/inline}}  
