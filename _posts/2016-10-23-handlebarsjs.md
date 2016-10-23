@@ -30,3 +30,8 @@ let html = template(data);
 new Handlebars.SafeString(html)
 ```
 <br>
+
+#### Partial
+
+[document](http://handlebarsjs.com/partials.html)  
+<br>
