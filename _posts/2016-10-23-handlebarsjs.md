@@ -109,10 +109,23 @@ Handlebars.registerPartial(partial_name, partial)
 outerパーシャルが下記の場合
 
 {%raw%}
-foo
-{{p1}}
-bar
-{{p2}}
+foo  
+{{p1}}  
+bar  
+{{p2}}  
+{%endraw%}
+
+下記のように埋め込む   
+
+{%raw%}
+{{#> outer}}
+    {{#*inline 'p1'}}   
+        ABC
+    {{/inline}}  
+    {{#*inline 'p2'}}   
+        DEF
+    {{/inline}}  
+{{/outer}}
 {%endraw%}
 
 <br>
