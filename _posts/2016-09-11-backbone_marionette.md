@@ -10,7 +10,7 @@ title: Marionette.jsメモ
 #### [Marionette.jsのApplicationメモ](/2016/10/09/marionettejs-application.html)
 <br>
 
-### AppRouter
+#### AppRouter
 [document](http://marionettejs.com/docs/master/marionette.approuter.html)    
 [Backbone.Router](http://backbonejs.org/#Router)を拡張したもの  
 * routeが変わった時は`onRoute`が呼ばれる [\*](http://marionettejs.com/docs/master/marionette.approuter.html#handling-route-changes)  
@@ -23,6 +23,13 @@ title: Marionette.jsメモ
 let router = new AppRouter();
 Backbone.history.start();
 ```
+
+* appRoutes  
+urlとcontrollerのキーを紐付ける  
+
+* controller  
+appRoutesで指定したキーとハンドラを紐付ける  
+ハンドラでは子Viewの設定とかをする  
 <br>
 
 #### [Marionette.jsのViewメモ](/2016/10/10/marionettejs-view.html)
