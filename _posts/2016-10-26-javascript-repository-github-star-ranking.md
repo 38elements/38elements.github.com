@@ -80,7 +80,7 @@ An open source code editor for the web, written in JavaScript, HTML and CSS.
 
 
 chartjs/Chart.js                           25851
-Simple HTML5 Charts using the <canvas> tag
+Simple HTML5 Charts using the &lt;canvas&gt; tag
 
 
 jashkenas/backbone                         25664
@@ -516,7 +516,7 @@ Open source Slack-alternative in Golang and React - Mattermost
 
 
 Flipboard/react-canvas                     9211
-High performance <canvas> rendering for React components
+High performance &lt;canvas&gt; rendering for React components
 
 
 juliangarnier/anime                        9195
@@ -556,7 +556,7 @@ The JavaScript library for modern SVG graphics.
 
 
 selectize/selectize.js                     8854
-Selectize is the hybrid of a textbox and <select> box. It's jQuery based and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.
+Selectize is the hybrid of a textbox and &lt;select&gt; box. It's jQuery based and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.
 
 
 keen/dashboards                            8852
@@ -568,7 +568,7 @@ Create an Apple-like one page scroller website (iPhone 5S website) with One Page
 
 
 scottjehl/picturefill                      8734
-A responsive image polyfill for <picture>, srcset, sizes, and more
+A responsive image polyfill for &lt;picture&gt;, srcset, sizes, and more
 
 
 knsv/mermaid                               8704
@@ -1680,7 +1680,7 @@ Emmet for Sublime Text
 
 
 davatron5000/Lettering.js                  4618
-A lightweight, easy to use Javascript <span> injector for radical Web Typography
+A lightweight, easy to use Javascript &lt;span&gt; injector for radical Web Typography
 
 
 twitter/hogan.js                           4610
@@ -1836,7 +1836,7 @@ A simple, lightweight JavaScript API for handling browser cookies
 
 
 johndyer/mediaelement                      4295
-HTML5 <audio> or <video> player with Flash and Silverlight shims that mimics the HTML5 MediaElement API, enabling a consistent UI in all browsers.
+HTML5 &lt;audio&gt; or &lt;video&gt; player with Flash and Silverlight shims that mimics the HTML5 MediaElement API, enabling a consistent UI in all browsers.
 
 
 medialize/URI.js                           4287
@@ -2520,7 +2520,7 @@ KineticJS is an HTML5 Canvas JavaScript framework that extends the 2d context by
 
 
 primer/octicons                            3485
-A scalable set of icons handcrafted with <3 by GitHub
+A scalable set of icons handcrafted with &lt;3 by GitHub
 
 
 zhukov/webogram                            3473
@@ -2592,7 +2592,7 @@ Node server that uses phantomjs to render a javascript-rendered page as HTML. To
 
 
 algolia/places                             3429
-:globe_with_meridians: Turn any <input> into an address autocomplete
+:globe_with_meridians: Turn any &lt;input&gt; into an address autocomplete
 
 
 SheetJS/js-xlsx                            3421
@@ -2664,7 +2664,7 @@ A new Webpack boilerplate with hot reloading React components, and error handlin
 
 
 sarcadass/granim.js                        3337
-Create fluid and interactive gradients animations with this small (< 10 kB) js library.
+Create fluid and interactive gradients animations with this small (&lt; 10 kB) js library.
 
 
 gaearon/redux-thunk                        3336
@@ -2812,7 +2812,7 @@ carrot/share-button                        3180
 
 
 lapwinglabs/x-ray                          3178
-The next web scraper. See through the <html> noise.
+The next web scraper. See through the &lt;html&gt; noise.
 
 
 andrewplummer/Sugar                        3176
@@ -3980,7 +3980,7 @@ nicescroll plugin for jquery - scrollbars like iphone/ipad
 
 
 angular-ui/angular-ui-OLDREPO              2320
-DISCONTINUED REPO: This project has been restructured ->
+DISCONTINUED REPO: This project has been restructured -&gt;
 
 
 substack/node-optimist                     2315
