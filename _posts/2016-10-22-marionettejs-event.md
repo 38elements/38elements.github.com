@@ -26,6 +26,7 @@ view.on('childview:click:button', handler);
 
 * childViewTriggers[\*](http://marionettejs.com/docs/master/events.html#triggering-events-on-child-events)  
 
+* Modelで発生したイベントをViewで受け取る [\*](http://marionettejs.com/docs/master/marionette.view.html#model-and-collection-event)  
 <br>
 
 <hr>
