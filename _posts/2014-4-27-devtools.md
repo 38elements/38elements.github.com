@@ -103,6 +103,8 @@ console.log("%cfoo bar %d", "color:green; background:black; font-size: 16pt", 10
 * getEventListeners(object): objectに登録されているイベントハンドラを返す。 
 * keys(object): objectのkeyの一覧を返す。  
 * values(object): objectの値の一覧を返す。   
+* monitor(function): functionが実行された場合、その引数を表示する。  
+* debug(function): functionが実行された場合、そのfunction内でbreakする。    
 * monitorEvents(object[, events]): objectに指定したイベントが生じた際はログを出力する。  
 * unmonitorEvents(object[, events]): 指定したイベントのログ出力を止める。   
 <br/>
