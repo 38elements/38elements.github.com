@@ -41,7 +41,8 @@ Math.floor(4.3)
 
 * [window.onerror](https://developer.mozilla.org/ja/docs/Web/API/GlobalEventHandlers/onerror)は発生したエラーをハンドリングする  
 
-* \`\`内で1行が長い文字列を改行をして生成する方法
+* \`\`内で1行が長い文字列を改行をして生成する方法  
+
 ```
 `123\
 45`
