@@ -136,8 +136,11 @@ Shift+Space: 上にスクロール
 Ctrl+Shift+v: テキストとして貼り付け                  
 <br/>
 <br/>
+<hr>
 [DevTools Digest - Chrome 35](http://www.html5rocks.com/en/tutorials/developertools/chrome-35/)   
 [DevTools Digest](http://www.html5rocks.com/en/tutorials/developertools/chrome-33/)  
+[Microsoft Edge Developer Tools](https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/)  
+[IE11 F12 開発者ツールの使用](https://msdn.microsoft.com/library/bg182326(v=vs.85).aspx)  
 
 
 
