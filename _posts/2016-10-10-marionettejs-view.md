@@ -118,7 +118,8 @@ regionに存在する要素を削除する。
 ## Behavior
 [document](http://marionettejs.com/docs/master/marionette.behavior.html)  
 
-BehaviorはViewの一部を共通化することができる。  
+各Behaviorは所属しているViewを共通化することができる。  
+this.viewはBehaviorが所属しているView  
 Viewのbehaviors属性で利用するBehaviorを指定する。  
 
 ```
