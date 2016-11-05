@@ -154,14 +154,25 @@ flatpickrインスタンスを削除
 #### Event
 
 * onChange  
+日時を変更したとき  
+function(dateObj, dateStr){}
 
 * onOpen  
+カレンダーが開いたとき  
+function(){}
 
 * onClose  
+カレンダーが閉じたとき    
+function(dateObj, dateStr){}
 
 * onReady  
+カレンダーが選択可能になったとき  
+function(){}
 
 * onValueUpdate  
 
+* onDayCreate [\*](https://chmln.github.io/flatpickr/#event-onDayCreate)
+カレンダーの日付セルが生成されたとき  
+function(dayElement){}
 <hr>
 [PikaDay.jsメモ](/2014/02/02/pikadayjs.html)  
