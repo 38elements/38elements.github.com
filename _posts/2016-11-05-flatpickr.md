@@ -2,7 +2,9 @@
 layout: posts
 title: Flatpickrメモ  
 ---
+Flatpickrは他のライブラリに依存していないDateTimePickerです。  
 [document](https://chmln.github.io/flatpickr/)  
+[Github](https://github.com/chmln/flatpickr)  
 [日本語の設定](https://github.com/chmln/flatpickr/blob/master/src/flatpickr.l10n.ja.js)  
 
 #### コンストラクタ
