@@ -160,3 +160,6 @@ flatpickrインスタンスを削除
 * onReady  
 
 * onValueUpdate  
+
+<hr>
+[PikaDay.jsメモ](/2014/02/02/pikadayjs.html)  
