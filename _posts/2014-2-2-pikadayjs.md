@@ -108,7 +108,9 @@ title: PikaDay.jsメモ
     <dt>picker.destroy()  </dt>
     <dd>カレンダーのDOMを削除する。</dd>
 </dl>
-
+<br>
+<hr>
+[Flatpickrメモ](/2016/11/05/flatpickr.html)  
 
 
 
