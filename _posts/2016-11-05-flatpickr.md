@@ -155,19 +155,19 @@ flatpickrインスタンスを削除
 
 * onChange  
 日時を変更したとき  
-function(dateObj, dateStr){}
+function(dates, datestring, Flatpickr){}
 
 * onOpen  
 カレンダーが開いたとき  
-function(){}
+function(dates, datestring, Flatpickr){}
 
 * onClose  
 カレンダーが閉じたとき    
-function(dateObj, dateStr){}
+function(dates, datestring, Flatpickr){}
 
 * onReady  
 カレンダーが選択可能になったとき  
-function(){}
+function(dates, datestring, Flatpickr){}
 
 * onValueUpdate  
 
