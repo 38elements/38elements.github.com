@@ -173,6 +173,6 @@ function(){}
 
 * onDayCreate [\*](https://chmln.github.io/flatpickr/#event-onDayCreate)
 カレンダーの日付セルが生成されたとき  
-function(dayElement){}
+function(dates, datestring, Flatpickr, spanElem){}
 <hr>
 [PikaDay.jsメモ](/2014/02/02/pikadayjs.html)  
