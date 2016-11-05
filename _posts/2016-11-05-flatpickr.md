@@ -87,6 +87,10 @@ inlineで表示させるか
 
 * onReady [\*](https://chmln.github.io/flatpickr/#event-onReady)    
 
+* onValueUpdate  
+
+* onDayCreate  
+
 * parseDate  
 文字列をDateオブジェクトに変換する関数  
 
