@@ -2,6 +2,7 @@
 layout: posts
 title: TypeScript Github Star Ranking at 2016/06/25
 ---
+[TypeScript Github Star Ranking at 2016/11/06](/2016/11/06/typescript-repository-github-star-ranking.html)  
 <pre style="background-color: white;border: none;">
 driftyco/ionic                             24468
 Advanced HTML5 mobile development framework and SDK. Build incredible mobile apps with web technologies you already know and love. Best friends with AngularJS.
