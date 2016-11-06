@@ -204,5 +204,7 @@ function(dates, datestring, Flatpickr, spanElem){}
 }
 ```
 
+[example](http://jsdo.it/38elements/flatpickr-year-month-order)  
+
 <hr>
 [PikaDay.jsメモ](/2014/02/02/pikadayjs.html)  
