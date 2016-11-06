@@ -178,5 +178,31 @@ function(dates, datestring, Flatpickr){}
 * onDayCreate [\*](https://chmln.github.io/flatpickr/#event-onDayCreate)
 カレンダーの日付セルが生成されたとき  
 function(dates, datestring, Flatpickr, spanElem){}
+
+<br>
+
+#### カレンダーの年月の表示順序を変える
+
+以下のCSSで変更することができる。
+
+```
+.flatpickr-current-month {
+    display: flex;
+    justify-content: center;
+}
+
+.cur-year {
+    order: 1
+}
+
+.cur-month:before  {
+     content: "年 "
+}
+
+.cur-month {
+    order: 2
+}
+```
+
 <hr>
 [PikaDay.jsメモ](/2014/02/02/pikadayjs.html)  
