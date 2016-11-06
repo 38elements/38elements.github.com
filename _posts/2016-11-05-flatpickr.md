@@ -140,7 +140,7 @@ flatpickrインスタンスを削除
 * open()  
 カレンダーを開く
 
-* parseDate(date) 
+* parseDate(date)  
 指定した文字列をDateオブジェクトにする  
 
 * redraw()  
