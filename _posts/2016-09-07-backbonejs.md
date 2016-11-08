@@ -105,6 +105,17 @@ routesでurlとコールバック関数をマッピングする。
 デフォルトのルーティングは{% raw %}'*path':  'default_func'{% endraw %}  
 <br>
 
+#### すべてのイベントを捕捉
+
+Model,View,Router,Collectionに下記のイベントを登録する
+
+```
+this.on('all', handler);
+```
+<br>
+
+<br>
+
 <hr>
 [Marionette.jsメモ](/2016/09/11/backbone_marionette.html)
 
