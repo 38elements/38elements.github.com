@@ -2,6 +2,7 @@
 layout: posts
 title: JavaScriptメモ 
 ---
+[caniuse](http://caniuse.com/)  
   
 * keyイベントでデフォルトの動作を防ぎたい場合はイベントハンドラでfalseを返す。
   
