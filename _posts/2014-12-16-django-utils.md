@@ -3,7 +3,8 @@ layout: posts
 title: Djangoのutilsメモ 
 ---
 
-* [cached_property](https://docs.djangoproject.com/en/stable/ref/utils/#django.utils.functional.cached_property)はpropertyの値をキャッシュしたいときに利用する
+* [cached_property](https://docs.djangoproject.com/en/stable/ref/utils/#django.utils.functional.cached_property)はpropertyの値をキャッシュしたいときに利用する  
+ディスクリプタで実装されている [\*](https://docs.djangoproject.com/en/stable/_modules/django/utils/functional/#cached_property)  
 
 * [format_html_join](https://docs.djangoproject.com/en/stable/ref/utils/#django.utils.html.format_html)はformatに引数をHTMLエスケープして埋め込む
 
