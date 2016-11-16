@@ -276,7 +276,7 @@ A free, open source, Bootstrap admin theme created by Start Bootstrap
 
 
 benpickles/peity                           3697
-Progressive <svg> pie, donut, bar and line charts
+Progressive &lt:svg&gt: pie, donut, bar and line charts
 
 
 workshopper/learnyounode                   3681
@@ -836,7 +836,7 @@ This Is Responsive
 
 
 benbarnett/jquery-animate-enhanced         1443
-Extend $.animate() to detect CSS transitions for Webkit, Mozilla, IE>=10 and Opera and convert animations automatically.
+Extend $.animate() to detect CSS transitions for Webkit, Mozilla, IE&gt:=10 and Opera and convert animations automatically.
 
 
 dherman/asm.js                             1441
@@ -860,7 +860,7 @@ HTML Source code for www.RestApiTutorial.com
 
 
 ManrajGrover/SingleDivProject              1405
-One <div>. Many possibilities.
+One &lt:div&gt:. Many possibilities.
 
 
 fool2fish/dragon-book-exercise-answers     1399
