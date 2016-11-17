@@ -58,3 +58,32 @@ func({}, 'bar')
 # bar
 ```
 <br>
+
+#### 関数の実行結果をキャッシュする
+
+[functools.lru_cache(maxsize=128, typed=False)](https://docs.python.org/3/library/functools.html#functools.lru_cache)  
+maxsizeにNoneを指定した場合、すべての引数の結果をキャッシュする  
+
+```python
+from functools import lru_cache
+
+
+@lru_cache(maxsize=2)
+def func(foo):
+    print(str(foo))
+    return
+
+func(1)
+func(2)
+func(3)
+func(3)
+func(2)
+func(1)
+
+
+# 1
+# 2
+# 3
+# 1
+```
+<br>
