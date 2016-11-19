@@ -87,3 +87,39 @@ func(1)
 # 1
 ```
 <br>
+
+#### 値の数量を調べる。 指定した値とその数量をもつ配列を生成する
+
+[collections.Counter([iterable-or-mapping])](https://docs.python.org/3.5/library/collections.html#collections.Counter)  
+
+```python
+from collections import Counter
+
+c1 = Counter('aaaabbcccd')
+print(list(c1.elements()))
+# ['a', 'a', 'a', 'a', 'd', 'b', 'b', 'c', 'c', 'c']
+print(c1.most_common())
+# [('a', 4), ('c', 3), ('b', 2), ('d', 1)]
+print(c1.most_common(2))
+# [('a', 4), ('c', 3)]
+c2 = Counter(a=4, b=2)
+print(list(c2.elements()))
+# ['b', 'b', 'a', 'a', 'a', 'a']
+c3 = Counter(a=4, b=3, c=1)
+print(list(c3.elements()))
+# ['b', 'b', 'b', 'a', 'a', 'a', 'a', 'c']
+c4 = Counter({'a': 1, 'b': 3})
+print(list(c4.elements()))
+# ['a', 'b', 'b', 'b']
+c4.subtract(c1)
+print(dict(c4))
+# {'a': -3, 'd': -1, 'b': 1, 'c': -3}
+print(dict(+c4))
+# {'b': 1}
+print(dict(-c4))
+# {'a': 3, 'c': 3, 'd': 1}
+c2.update(c3)
+print(dict(c2))
+# {'b': 5, 'a': 8, 'c': 1}
+```
+<br>
