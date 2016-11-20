@@ -3,6 +3,21 @@ layout: posts
 title: Python Tips
 ---
 
+#### dictにデフォルトの値を設定する
+
+[collections.defaultdict([default_factory[, ...]])](https://docs.python.org/3.5/library/collections.html#collections.defaultdict)  
+
+```python
+from collections import defaultdict
+
+d = defaultdict(lambda: 100)
+
+d['foo'] += 1
+print(d['foo'])
+# 101
+```
+<br>
+
 #### \_\_call\_\_でクロージャーのようなふるまい
 
 ```python
