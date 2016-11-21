@@ -1740,7 +1740,7 @@ Rick Astley invades your terminal.
 
 
 bohoomil/fontconfig-ultimate               411
-freetype2-infinality run-time settings => infinality compatible fontconfig => infinality-bundle
+freetype2-infinality run-time settings =&gt: infinality compatible fontconfig =&gt: infinality-bundle
 
 
 yixia/FFmpeg-Android                       411
@@ -2340,7 +2340,7 @@ eliminate bugs and weeds from shell scripts
 
 
 hchbaw/auto-fu.zsh                         307
-#zsh automatic complete-word and list-choices. Originally incr-0.2.zsh  by y.fujii <y-fujii at mimosa-pudica.net>
+#zsh automatic complete-word and list-choices. Originally incr-0.2.zsh  by y.fujii &lt:y-fujii at mimosa-pudica.net&gt:
 
 
 odb/shml                                   306
@@ -2888,7 +2888,7 @@ Go Versioning Packager
 
 
 musictheory/rchook                         241
-Make Xcode bump build #, tag git, and archive files on Product->Archive
+Make Xcode bump build #, tag git, and archive files on Product-&gt:Archive
 
 
 firehol/blocklist-ipsets                   241
@@ -3324,7 +3324,7 @@ A set of scripts and config files to run a Cassandra cluster from Docker
 
 
 jakearchibald/sass-ie                      203
-Writing mobile-first styles without leaving IE<9 behind
+Writing mobile-first styles without leaving IE&lt:9 behind
 
 
 fisherman/fishtape                         202
