@@ -3,6 +3,37 @@ layout: posts
 title: Python Tips
 ---
 
+#### 引数をデコレータ関数
+
+```python
+def deco(foo):
+    print('1')
+    def _deco(func):
+        print('2')
+        def __deco(arg):
+            print(foo)
+            func(arg)
+        print('3')
+        return __deco 
+    print('4')
+    return _deco
+
+
+@deco('foo')
+def func(arg):
+    print(arg)
+
+func('bar')
+
+# 1
+# 4
+# 2
+# 3
+# foo
+# bar
+```
+<br>
+
 #### dictにデフォルトの値を設定する
 
 [collections.defaultdict([default_factory[, ...]])](https://docs.python.org/3.5/library/collections.html#collections.defaultdict)  
