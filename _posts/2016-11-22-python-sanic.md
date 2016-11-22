@@ -33,3 +33,4 @@ uriによってrouteを格納する変数を振り分ける [\*](https://github.
 Routeはnamedtuple [\*](ihttps://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/router.py#L7)  
 
 app.run() [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/sanic.py#L220)  
+サーバーイベントリスナーの登録 [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/sanic.py#L262-L279)  
