@@ -2,6 +2,7 @@
 layout: posts
 title: Shell Github Star Ranking at 2016/05/06
 ---
+[Shell Github Star Ranking at 2016/11/21](/2016/11/21/shell-repository-github-star-ranking.html)  
 <pre style="background-color: white;border: none;">
 robbyrussell/oh-my-zsh                     36727
 A delightful community-driven framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
