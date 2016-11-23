@@ -63,10 +63,16 @@ on_url, on_header, on_headers_complete, on_body, on_message_completeは[httptool
 connection_timeout, connection_made, connection_timeoutはasyncio.Protocolのメソッド  
 
 * connection_made(self, transport) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L58)  
+[Transport](https://docs.python.org/3.5/library/asyncio-protocol.html#transports)  
+self.transport = transport [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L62)  
 
 * connection_lost(self, exc) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L65)  
 
 * connection_timeout(self) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L70)  
+
+* write_response(self, response) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L142)   
+responseはhandlerの戻り値 [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/sanic.py#L179)  
+self.transport.write()でresponseの内容を書き込んでいる [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L146)    
 
 <br>
 
