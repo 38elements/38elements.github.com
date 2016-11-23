@@ -59,6 +59,7 @@ response_callbackは[write_response](https://github.com/channelcat/sanic/blob/93
 #### HttpProtocol [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L25)
 HttpProtocolは[asyncio.Protocol](https://docs.python.org/3.5/library/asyncio-protocol.html#protocols)のサブクラス  
 on_url, on_header, on_headers_complete, on_body, on_message_completeは[httptools](https://github.com/MagicStack/httptools)インスタンスから呼ばれる  
+self.parser = httptools.HttpRequestParser(self) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L97)  
 
 connection_timeout, connection_made, data_receivedはasyncio.Protocolのメソッド  
 
@@ -72,11 +73,22 @@ self.transport = transport [\*](https://github.com/channelcat/sanic/blob/93f50b8
 connection_madeしてからのタイムアウトの処理  
 [ここ](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L60-L61)で設定されている  
 
-* data_received(self, data) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L84)  
+* [data_received(self, data)](https://docs.python.org/3.5/library/asyncio-protocol.html#asyncio.Protocol.data_received) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L84)  
 
 * write_response(self, response) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L142)   
 responseはhandlerの戻り値 [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/sanic.py#L179)  
 self.transport.write()でresponseの内容を書き込んでいる [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L146)    
+
+* on_url(self, url)  
+
+* on_header(self, url)  
+
+* on_headers_complete(self)  
+
+* on_body(self, body)  
+
+* on_message_complete(self) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L134)   
+request_handlerを実行する  
 
 <br>
 
