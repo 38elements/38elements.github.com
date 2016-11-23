@@ -79,13 +79,13 @@ connection_madeしてからのタイムアウトの処理
 responseはhandlerの戻り値 [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/sanic.py#L179)  
 self.transport.write()でresponseの内容を書き込んでいる [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L146)    
 
-* on_url(self, url)  
+* on_url(self, url) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L106)  
 
-* on_header(self, url)  
+* on_header(self, url) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L109)  
 
-* on_headers_complete(self)  
+* on_headers_complete(self) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L116)  
 
-* on_body(self, body)  
+* on_body(self, body) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L134)  
 
 * on_message_complete(self) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L134)   
 request_handlerを実行する  
