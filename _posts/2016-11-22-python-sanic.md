@@ -52,9 +52,9 @@ server_coroutineの実行 [\*](https://github.com/channelcat/sanic/blob/93f50b8e
 request_handlerは[app.handle_request](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/sanic.py#L140) [\*](ihttps://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/sanic.py#L252)  
 <br>
 
-##### HttpProtocol [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L25)
+#### HttpProtocol [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L25)
 on_url, on_header, on_headers_complete, on_body, on_message_completeは[httptools](https://github.com/MagicStack/httptools)インスタンスから呼ばれる  
 <br>
 
-##### httptools [\*](https://github.com/MagicStack/httptools)  
+#### httptools [\*](https://github.com/MagicStack/httptools)  
 app.parserはhttptools.HttpRequestParser(self) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L97)  
