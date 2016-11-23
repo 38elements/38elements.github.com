@@ -23,7 +23,7 @@ uriによってrouteを格納する変数を振り分ける [\*](https://github.
     self.routes_all[uri] = route
     if properties['unhashable']:
         self.routes_always_check.append(route)
-    // add_parameter(match)でuriにパラメータがある場合
+    // add_parameter(match) で uri にパラメータがある場合
     elif parameters:
         self.routes_dynamic[url_hash(uri)].append(route)
     else:
