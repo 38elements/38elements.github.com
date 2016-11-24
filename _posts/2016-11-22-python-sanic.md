@@ -81,7 +81,7 @@ self.transport.write()でresponseの内容を書き込んでいる [\*](https://
 
 * on_url(self, url) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L106)  
 
-* on_header(self, url) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L109)  
+* on_header(self, name, value) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L109)  
 
 * on_headers_complete(self) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L116)  
 
