@@ -99,3 +99,7 @@ request_handlerを実行する
 
 #### httptools [\*](https://github.com/MagicStack/httptools)  
 app.parserはhttptools.HttpRequestParser(self) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L97)  
+<br>
+
+#### HTTPResponse [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/response.py#L74)
+
