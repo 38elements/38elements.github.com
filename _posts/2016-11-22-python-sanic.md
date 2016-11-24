@@ -74,6 +74,7 @@ connection_madeしてからのタイムアウトの処理
 [ここ](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L60-L61)で設定されている  
 
 * [data_received(self, data)](https://docs.python.org/3.5/library/asyncio-protocol.html#asyncio.Protocol.data_received) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L84)  
+リクエストデータを受け取ってhttptools.HttpRequestParserを実行  
 
 * write_response(self, response) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L142)   
 responseはhandlerの戻り値 [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/sanic.py#L179)  
