@@ -3,6 +3,27 @@ layout: posts
 title: Python Tips
 ---
 
+#### Generator
+
+```python
+def gen():
+    yield 1
+    yield 2
+    yield 3
+
+g = gen()
+print(g.__class__.__name__)
+
+for i in g:
+    print(i)
+
+# generator
+# 1
+# 2
+# 3
+```
+<br>
+
 #### 引数をデコレータ関数
 
 ```python
