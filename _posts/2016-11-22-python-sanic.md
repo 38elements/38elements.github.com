@@ -93,7 +93,7 @@ self.requestにRequestインスタンスを代入
 self.request.body = body  
 
 * on_message_complete(self) [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/server.py#L134)   
-request_handlerを実行する  
+__request_handlerを実行する__  
 
 <br>
 
