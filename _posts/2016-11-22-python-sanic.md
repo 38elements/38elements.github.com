@@ -2,8 +2,8 @@
 layout: posts
 title: sanicのソースコードリーディングメモ 
 ---
-
-[Github](https://github.com/channelcat/sanic)  
+sanicはasyncioベースの速さに注力しているウェブサーバーです。  
+[Github](https://github.com/channelcat/sanic)  
 
 appでありSanicクラス [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/sanic.py#L20) 
 
