@@ -3,7 +3,7 @@ layout: posts
 title: sanicのソースコードリーディングメモ 
 ---
 sanicはasyncioベースの速さに注力しているウェブサーバーです。  
-python3.5以上で動作します。  
+Python3.5以上で動作します。  
 [Github](https://github.com/channelcat/sanic)  
 
 appでありSanicクラス [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/sanic.py#L20) 
