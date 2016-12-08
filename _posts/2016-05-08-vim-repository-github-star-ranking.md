@@ -844,7 +844,7 @@ Smart selection of the closest text object
 
 
 dag/vim2hs                                 290
-vim2hs :: Vim -> Haskell
+vim2hs :: Vim -&gt: Haskell
 
 
 tommcdo/vim-exchange                       281
@@ -1844,7 +1844,7 @@ Fugitive extension to manage and merge Git branches
 
 
 vim-scripts/a.vim                          112
-Alternate Files quickly (.c --> .h etc)
+Alternate Files quickly (.c --&gt: .h etc)
 
 
 ElmCast/elm-vim                            112
@@ -2784,7 +2784,7 @@ A Vim script to return info about the Git branches.
 
 
 JustArchi/ArchiDroid-legacy                69
-Legacy ArchiDroid Repo / New -> https://github.com/ArchiDroid/ArchiDroid
+Legacy ArchiDroid Repo / New -&gt: https://github.com/ArchiDroid/ArchiDroid
 
 
 crusoexia/vim-monokai                      69
@@ -2964,7 +2964,7 @@ My personal dotfiles
 
 
 ktonga/vim-follow-my-lead                  62
-Vim plugin for showing all your <Leader> mappings in a readable table including the descriptions.
+Vim plugin for showing all your &lt:Leader&gt: mappings in a readable table including the descriptions.
 
 
 windy/ruby-vimrc                           62
