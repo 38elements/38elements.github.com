@@ -107,4 +107,4 @@ json(), text(), html()はHTTPResponse()のwrapper
 <br>
 
 #### Request [\*](https://github.com/channelcat/sanic/blob/e3453553e1c904ddf8e0cf4de47c9f5e69f7eef5/sanic/request.py#L36)
-Requsetはdictのサブクラス  
+Requestはdictのサブクラス  
