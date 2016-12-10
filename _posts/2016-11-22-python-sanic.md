@@ -103,5 +103,8 @@ app.parserはhttptools.HttpRequestParser(self) [\*](https://github.com/channelca
 <br>
 
 #### HTTPResponse [\*](https://github.com/channelcat/sanic/blob/93f50b8ef7ed8fee206d2c440b096c09f1dd0af4/sanic/response.py#L74)  
-json(), text(), html()はHTTPResponse()のwrapper
+json(), text(), html()はHTTPResponse()のwrapper  
+<br>
 
+#### Request [\*](https://github.com/channelcat/sanic/blob/e3453553e1c904ddf8e0cf4de47c9f5e69f7eef5/sanic/request.py#L36)
+Requsetはdictのサブクラス  
