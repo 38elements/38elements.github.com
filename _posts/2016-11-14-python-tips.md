@@ -3,6 +3,14 @@ layout: posts
 title: Python Tips
 ---
 
+#### リスト内包
+
+```python
+['a' if i % 2 == 1 else 'b' for i in range(10)]
+# ['b', 'a', 'b', 'a', 'b', 'a', 'b', 'a', 'b', 'a']
+```
+<br>
+
 #### Generator
 
 ```python
