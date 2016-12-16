@@ -108,3 +108,7 @@ json(), text(), html()はHTTPResponse()のwrapper
 
 #### Request [\*](https://github.com/channelcat/sanic/blob/e3453553e1c904ddf8e0cf4de47c9f5e69f7eef5/sanic/request.py#L36)
 Requestはdictのサブクラス  
+<br>
+
+#### Router [\*](https://github.com/channelcat/sanic/blob/209b7633025e63f1c6f163f3024139d50bd9dabd/sanic/router.py)
+
