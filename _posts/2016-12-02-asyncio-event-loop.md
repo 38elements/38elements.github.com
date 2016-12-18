@@ -22,4 +22,4 @@ title: asyncioのloopメモ
 
 * loop.create_connection()  
 
-* loop.create_server()  
+* loop.create_server() [\*](https://docs.python.org/3.5/library/asyncio-eventloop.html#asyncio.AbstractEventLoop.create_server)  
