@@ -7,3 +7,7 @@ title: VirtualBoxメモ
 ```
 /sbin/mount.vboxsf: mounting failed with the error: No such device
 ```
+
+```
+sudo mount -t vboxsf foo /mnt/foo
+```
