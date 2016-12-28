@@ -8,6 +8,8 @@ title: VirtualBoxメモ
 /sbin/mount.vboxsf: mounting failed with the error: No such device
 ```
 
+自動マウントしない
+
 ```
 sudo mount -t vboxsf foo /mnt/foo
 ```
