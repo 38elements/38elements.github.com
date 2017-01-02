@@ -29,7 +29,7 @@ urlpatterns = [
 
 {% url 'namespace:name' param %}
 {% endraw %}
-
+[\*](https://docs.djangoproject.com/en/1.10/topics/http/urls/#passing-extra-options-to-view-functions)  
 <br/>
 <hr/>
 [Djangoメモ](/2014/12/04/django.html)
