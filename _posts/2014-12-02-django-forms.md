@@ -30,11 +30,11 @@ class FooForm(BarForm):
 
 [widget](https://docs.djangoproject.com/en/stable/ref/forms/widgets/)でコントロールを指定する  
 
-コントロールのHTML要素の属性は[attrs](https://docs.djangoproject.com/en/1.9/ref/forms/widgets/#django.forms.Widget.attrs)で指定する  
+コントロールのHTML要素の属性は[attrs](https://docs.djangoproject.com/en/stable/ref/forms/widgets/#django.forms.Widget.attrs)で指定する  
 
 ファイルをアップロードする方法(FileField) [\*](https://docs.djangoproject.com/en/stable/topics/http/file-uploads/)  
 
-フォームのすべてのエラーメッセージを表示する
+フォームのすべてのエラーメッセージを表示する [\*](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.errors)
 
 ```
     for field, errors in form.errors.items():
@@ -90,11 +90,11 @@ class Foo(ModelForm):
         self.fields["bar"].required = False
 {% endhighlight %}
 
-* Formのバリデーション [\*](https://docs.djangoproject.com/ja/1.9/ref/forms/validation/)  
+* Formのバリデーション [\*](https://docs.djangoproject.com/en/stable/ref/forms/validation/)  
 
 * ValidationError [\*](https://docs.djangoproject.com/en/stable/ref/exceptions/#validationerror)  
 
-* テンプレート内でフォームのフィールドのプロパティ一覧 [\*](https://docs.djangoproject.com/ja/stable/topics/forms/#looping-over-the-form-s-fields)  
+* テンプレート内でフォームのフィールドのプロパティ一覧 [\*](https://docs.djangoproject.com/en/stable/topics/forms/#looping-over-the-form-s-fields)  
 
 * FileField ファイルアップロードをするときに使用する [\*](https://docs.djangoproject.com/en/stable/ref/forms/fields/#filefield)  
 ファイルがない場合はキー自体がない 
