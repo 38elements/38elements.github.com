@@ -50,3 +50,4 @@ Math.floor(4.3)
 // => '12345'
 ```
 
+* input.formでinput要素が所属しているformを取得 [\*](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)  
