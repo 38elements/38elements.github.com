@@ -2,6 +2,7 @@
 layout: posts
 title: Ruby Github Star Ranking at 2016/08/31
 ---
+[Ruby Github Star Ranking at 2017/01/09](/2017/01/09/ruby-repository-github-star-ranking.html)
 <pre style="background-color: white;border: none;">
 rails/rails                                32613
 Ruby on Rails
