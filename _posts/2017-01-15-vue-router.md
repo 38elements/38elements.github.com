@@ -23,7 +23,11 @@ title: VueRouterメモ
 * 1つのパスに複数のコンポーネントをルーティングする方法 [\*](https://router.vuejs.org/en/essentials/named-views.html)  
 componentsにnameキーを置く  
 
-* 
+* redirectには関数を渡して動的にパスを変更することができる [\*](https://router.vuejs.org/en/essentials/redirect-and-alias.html)  
+
+* before(), after() [\*](https://router.vuejs.org/en/advanced/navigation-guards.html)  
+
+
 <hr>
 [Vue.jsメモ](/2016/12/20/vuejs.html)  
 [Vuexメモ](/2017/01/14/vuex.html)  
