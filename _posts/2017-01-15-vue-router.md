@@ -10,13 +10,13 @@ title: VueRouterメモ
 
 * pathの設定例 [\*](https://github.com/vuejs/vue-router/blob/dev/examples/route-matching/app.js)  
 
-* &lt;router-view&gt;&lt;/router-view&gt;にroutesに設定したcomponentが入る [\*](https://router.vuejs.org/en/essentials/getting-started.html)  
+* [&lt;router-view&gt;&lt;/router-view&gt;](https://router.vuejs.org/en/api/router-view.html)にroutesに設定したcomponentが入る [\*](https://router.vuejs.org/en/essentials/getting-started.html)  
 
 * 子ステートはchildrenに設定する [\*](https://router.vuejs.org/en/essentials/nested-routes.html)  
 
 * router.push(location), router.replace(location), router.replace(location) [\*](https://router.vuejs.org/en/essentials/navigation.html)  
 
-* &lt;router-link&gt;はテンプレートでの遷移を記述する際に使用する  
+* [&lt;router-link&gt;](https://router.vuejs.org/en/api/router-link.html)はテンプレートでの遷移を記述する際に使用する  
 
 * nameキーを指定することによってルーティングされるpathに名前をつけることができる [\*](https://router.vuejs.org/en/essentials/named-routes.html)  
 
@@ -26,8 +26,9 @@ componentsにnameキーを置く
 * redirectには関数を渡して動的にパスを変更することができる [\*](https://router.vuejs.org/en/essentials/redirect-and-alias.html)  
 
 * before(), after() [\*](https://router.vuejs.org/en/advanced/navigation-guards.html)  
+toもfromも[ルートオブジェクト](https://router.vuejs.org/en/api/route-object.html)   
 
-
+* metaキーで[ルートオブジェクト](https://router.vuejs.org/en/api/route-object.html)にメタデータを付与することができる [\*](https://router.vuejs.org/en/advanced/meta.html)  
 <hr>
 [Vue.jsメモ](/2016/12/20/vuejs.html)  
 [Vuexメモ](/2017/01/14/vuex.html)  
