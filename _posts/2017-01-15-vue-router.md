@@ -11,8 +11,19 @@ title: VueRouterメモ
 * pathの設定例 [\*](https://github.com/vuejs/vue-router/blob/dev/examples/route-matching/app.js)  
 
 * &lt;router-view&gt;&lt;/router-view&gt;にroutesに設定したcomponentが入る [\*](https://router.vuejs.org/en/essentials/getting-started.html)  
+
 * 子ステートはchildrenに設定する [\*](https://router.vuejs.org/en/essentials/nested-routes.html)  
 
+* router.push(location), router.replace(location), router.replace(location) [\*](https://router.vuejs.org/en/essentials/navigation.html)  
+
+* &lt;router-link&gt;はテンプレートでの遷移を記述する際に使用する  
+
+* nameキーを指定することによってルーティングされるpathに名前をつけることができる [\*](https://router.vuejs.org/en/essentials/named-routes.html)  
+
+* 1つのパスに複数のコンポーネントをルーティングする方法 [\*](https://router.vuejs.org/en/essentials/named-views.html)  
+componentsにnameキーを置く  
+
+* 
 <hr>
 [Vue.jsメモ](/2016/12/20/vuejs.html)  
 [Vuexメモ](/2017/01/14/vuex.html)  
