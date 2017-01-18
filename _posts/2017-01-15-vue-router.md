@@ -39,8 +39,8 @@ toもfromも[ルートオブジェクト](https://router.vuejs.org/en/api/route-
 * router.app  
 routerが所属しているVueオブジェクト
 
-* router.currentRoute  
-現在のRouteオブジェクト  
+* router.currentRoute  
+現在のRouteオブジェクト  
 
 <hr>
 [Vue.jsメモ](/2016/12/20/vuejs.html)  
