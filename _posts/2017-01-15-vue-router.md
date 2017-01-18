@@ -35,6 +35,13 @@ toもfromも[ルートオブジェクト](https://router.vuejs.org/en/api/route-
 * Routeのoption [\*](https://router.vuejs.org/ja/api/options.html)  
 
 * Routeオブジェクト [\*](https://router.vuejs.org/en/api/router-instance.html)  
+
+* router.app  
+routerが所属しているVueオブジェクト
+
+* router.currentRoute  
+現在のRouteオブジェクト  
+
 <hr>
 [Vue.jsメモ](/2016/12/20/vuejs.html)  
 [Vuexメモ](/2017/01/14/vuex.html)  
