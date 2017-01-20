@@ -44,7 +44,9 @@ routerが所属しているVueオブジェクト
 
 * コンポーネントではthis.$routerをつかう
 
-* aliasを使う
+* aliasを使う  
+
+* pathに''を指定することができる  
 
 <hr>
 [Vue.jsメモ](/2016/12/20/vuejs.html)  
