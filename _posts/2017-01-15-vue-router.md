@@ -46,7 +46,9 @@ routerが所属しているVueオブジェクト
 
 * aliasを使う  
 
-* pathに''を指定することができる  
+* redirectを使う  
+
+* pathに''を指定することができる  
 
 <hr>
 [Vue.jsメモ](/2016/12/20/vuejs.html)  
