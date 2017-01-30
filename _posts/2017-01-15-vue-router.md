@@ -50,6 +50,8 @@ routerが所属しているVueオブジェクト
 
 * pathに''を指定することができる  
 
+* コンポーネントができた直後に実行したい処理はcomponent.beforeRouteEnter()内でnext((vm)=>{})に記述するかmounted
+
 <hr>
 [Vue.jsメモ](/2016/12/20/vuejs.html)  
 [Vuexメモ](/2017/01/14/vuex.html)  
