@@ -31,6 +31,10 @@ PSR1_Sniffs_Classes_ClassDeclarationSniff => PSR1.Classes.ClassDeclaration
     </rule>
 </ruleset>
 ```
+
+[Setting the default coding standard](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Configuration-Options#setting-the-default-coding-standard)  
+[Specifying a Coding Standard](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Usage#specifying-a-coding-standard)  
+
 <br>
 
 #### Vim連携
