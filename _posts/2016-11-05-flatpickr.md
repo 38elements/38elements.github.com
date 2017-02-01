@@ -208,3 +208,4 @@ function(dates, datestring, Flatpickr, spanElem){}
 
 <hr>
 [PikaDay.jsメモ](/2014/02/02/pikadayjs.html)  
+[vue-flatpickr](https://github.com/jrainlau/vue-flatpickr)  
