@@ -9,3 +9,5 @@ title: Vue Materialメモ
 
 * [input](https://vuematerial.github.io/#/components/input)でplaceholderはlabelがデフォルトでなるが、placeholderをセットするとplaceholderになる       
 その場合、requiredが反映されない
+
+* `md-table`には`overflow-x: auto;`が設定されている  
