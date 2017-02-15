@@ -51,3 +51,20 @@ Math.floor(4.3)
 ```
 
 * input.formでinput要素が所属しているformを取得 [\*](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)  
+
+* getterを使用したproxyの例
+
+```
+let _b = {
+    c: {
+        d: 1
+    }
+};
+let a = {
+    get b() {
+        return _b;
+    }
+};
+console.log(a.b.c.d);
+// => 1
+```
