@@ -32,7 +32,9 @@ toもfromも[ルートオブジェクト](https://router.vuejs.org/en/api/route-
 * metaキーで[ルートオブジェクト](https://router.vuejs.org/en/api/route-object.html)にメタデータを付与することができる [\*](https://router.vuejs.org/en/advanced/meta.html)  
 
 * Routeオブジェクト [\*](https://router.vuejs.org/en/api/route-object.html)  
-コンポーネントではthis.$routeでアクセスする
+コンポーネントではthis.$routeでアクセスする  
+this.$route.query  
+this.$route.params  
 
 * Routeのoption [\*](https://router.vuejs.org/ja/api/options.html)  
 
