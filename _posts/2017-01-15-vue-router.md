@@ -14,9 +14,10 @@ title: VueRouterメモ
 
 * 子ステートはchildrenに設定する [\*](https://router.vuejs.org/en/essentials/nested-routes.html)  
 
-* router.push(location), router.replace(location), router.replace(location) [\*](https://router.vuejs.org/en/essentials/navigation.html)  
+* router.push(location, onComplete, onAbort), router.replace(location, onComplete, onAbort), router.replace(location, onComplete, onAbort) [\*](https://router.vuejs.org/en/essentials/navigation.html)  
+{% raw %}locationは{name: "foo", params: {bar: 1}}か{path: "/foo", query: {bar: 1}}の形式{% endraw %}
 
-* [&lt;router-link&gt;](https://router.vuejs.org/en/api/router-link.html)はテンプレートでの遷移を記述する際に使用する  
+* [&lt;router-link&gt;](https://router.vuejs.org/en/api/router-link.html)はテンプレートでの遷移を記述する際に使用する  
 
 * nameキーを指定することによってルーティングされるpathに名前をつけることができる [\*](https://router.vuejs.org/en/essentials/named-routes.html)  
 
