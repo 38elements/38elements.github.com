@@ -15,15 +15,14 @@ title: VueRouterメモ
 * 子ステートはchildrenに設定する [\*](https://router.vuejs.org/en/essentials/nested-routes.html)  
 
 * router.push(location, onComplete, onAbort), router.replace(location, onComplete, onAbort), router.replace(location, onComplete, onAbort) [\*](https://router.vuejs.org/en/essentials/navigation.html)  
-{% raw %}locationは{name: "foo", params: {bar: 1}}か{path: "/foo", query: {bar: 1}}の形式{% endraw %}
+{% raw %}locationは{name: "foo", params: {bar: 1}}か{path: "/foo", query: {bar: 1}}の形式{% endraw %}   
 
 * [&lt;router-link&gt;](https://router.vuejs.org/en/api/router-link.html)はテンプレートでの遷移を記述する際に使用する  
 
 * nameキーを指定することによってルーティングされるpathに名前をつけることができる [\*](https://router.vuejs.org/en/essentials/named-routes.html)  
 
-* 1つのパスに複数のコンポーネントをルーティングする方法 [\*](https://router.vuejs.org/en/essentials/named-views.html)  
-componentsにnameキーを置く  
-
+* nameを使って1つのパスに複数のコンポーネントをルーティングする方法 [\*](https://router.vuejs.org/en/essentials/named-views.html)  
+componentsにnameキーを置く  　
 * redirectには関数を渡して動的にパスを変更することができる [\*](https://router.vuejs.org/en/essentials/redirect-and-alias.html)  
 
 * before(), after() [\*](https://router.vuejs.org/en/advanced/navigation-guards.html)  
@@ -35,6 +34,9 @@ toもfromも[ルートオブジェクト](https://router.vuejs.org/en/api/route-
 コンポーネントではthis.$routeでアクセスする  
 this.$route.query  
 this.$route.params  
+paramをpathに指定する際は以下の形式にする  
+`route.path = '/foo/:param/'`  
+最後の/を付ける   
 
 * Routeのoption [\*](https://router.vuejs.org/ja/api/options.html)  
 
