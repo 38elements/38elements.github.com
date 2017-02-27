@@ -11,3 +11,5 @@ title: Vue Materialメモ
 その場合、requiredが反映されない
 
 * `md-table`には`overflow-x: auto;`が設定されている  
+
+* `md-file`は@change.nativeを使用する
