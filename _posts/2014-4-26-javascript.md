@@ -84,3 +84,16 @@ a = [1, 2, 3]
 [...a]
 // [1, 2, 3]
 ```
+
+* input type="file"で画像データをdata uriで取得する
+
+```
+function handler(event) {
+    let file = event.target.files[0];
+    let reader = new FileReader();
+    reader.onload = function(e) {
+        console.log(e.target.result);
+    };
+    reader.readAsDataURL(file);
+}
+```
