@@ -13,3 +13,5 @@ title: Vue Materialメモ
 * `md-table`には`overflow-x: auto;`が設定されている  
 
 * `md-file`は@change.nativeを使用する
+
+* `md-select`が遅くなる場合は`md-input-container`で`v-if`して`md-select`で`v-once`
