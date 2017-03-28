@@ -22,8 +22,8 @@ optionはHTML要素のdata属性で指定することができる。
 * altInput  
 ユーザに見せるため入力コントロールを設置するか。  
 サーバーに送信するデータが入力されるコントールはコンストラクタで指定したHTML要素。  
-それはあらかじめhiddenにする。   
-[example](http://jsdo.it/38elements/flatpickr-alt-input)  
+それはあらかじめhiddenにする。   
+使い方 [example](http://jsdo.it/38elements/flatpickr-alt-input)  
 
 * altFormat  
 altInputで生成されたHTML要素に表示される日時のフォーマット  
@@ -39,11 +39,11 @@ altInputで生成されたHTML要素に適用されるCSSクラス名
 
 * dateFormat  
 カレンダーから選択した際に入力コントロールに入力される日時のフォーマット  
-[example](http://jsdo.it/38elements/flatpickr-date-format)  
+使い方 [example](http://jsdo.it/38elements/flatpickr-date-format)  
 
 * defaultDate 
 入力コントロールにデフォルトで入力されている日時  
-[example](http://jsdo.it/38elements/flatpickr-date-format)  
+使い方 [example](http://jsdo.it/38elements/flatpickr-date-format)  
 
 * disable  
 選択不可能な日付 [\*](https://chmln.github.io/flatpickr/#disable)  
