@@ -22,7 +22,7 @@ optionはHTML要素のdata属性で指定することができる。
 * altInput  
 ユーザに見せるため入力コントロールを設置するか。  
 サーバーに送信するデータが入力されるコントールはコンストラクタで指定したHTML要素。  
-それはあらかじめhiddenにする。   
+それはあらかじめhiddenにする。  
 使い方 [example](http://jsdo.it/38elements/flatpickr-alt-input)  
 
 * altFormat  
