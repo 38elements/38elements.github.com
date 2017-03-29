@@ -182,6 +182,26 @@ function(dates, datestring, Flatpickr, spanElem){}
 
 <br>
 
+#### 要素 [\*](https://chmln.github.io/flatpickr/instance-methods-properties-elements/#elements)
+
+* input  
+紐づいているinput
+
+* calendarContainer  
+カレンダー
+
+* prevMonthNav
+
+* nextMonthNav
+
+* currentMonthElement
+
+* currentYearElement
+
+* days
+
+<br>
+
 #### カレンダーの年月の表示順序を変える
 
 以下のCSSで変更することができる。
