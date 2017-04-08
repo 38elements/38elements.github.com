@@ -6,11 +6,12 @@ title: Create React Appメモ
 
 ## 使い方
 
+SassやLessを使用する方法 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc)  
+<br>
+
 ### npm start
 
 [packages/react-scripts/scripts/start.js](https://github.com/facebookincubator/create-react-app/blob/0ace417c459dc5f1355f5f9a820c5b847feb4e35/packages/react-scripts/scripts/start.js)に処理が記述されている。  
-
-SassやLessを使用する方法 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc)  
 <br>
 
 #### webpack.config.dev
