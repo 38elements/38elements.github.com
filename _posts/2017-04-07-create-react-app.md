@@ -41,6 +41,15 @@ eslintの設定は[eslint-config-react-app](https://github.com/facebookincubator
 babelの設定は[babel-preset-react-app](https://github.com/facebookincubator/create-react-app/tree/master/packages/babel-preset-react-app)で記述されている。  
 <br>
 
+### npm run test
+<br>
+
+### npm run build
+<br>
+
 ### npm run eject
 
 動作をカスタマイズすることができる
+<br>
+
+
