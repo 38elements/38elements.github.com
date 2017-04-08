@@ -50,6 +50,12 @@ babelの設定は[babel-preset-react-app](https://github.com/facebookincubator/c
 
 #### 環境変数 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-custom-environment-variables)
 
+`REACT_APP_`から始まる環境変数を使用することができる。  
+`.js`では`process.env.REACT_APP_FOO`の形式で使用することができる。  
+`.html`では`%REACT_APP_FOO%`の形式で使用することができる。  
+
+`.env`ファイルに`REACT_APP_FOO=foo`の形式で環境変数を指定することができる。 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-development-environment-variables-in-env)  
+
 <br>
 
 ### npm run test
