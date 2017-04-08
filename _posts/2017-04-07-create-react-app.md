@@ -7,6 +7,8 @@ title: Create React Appメモ
 ## 使い方
 
 SassやLessを使用する方法 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc)  
+
+Flowを使用する方法 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-flow)  
 <br>
 
 ### npm start
