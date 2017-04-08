@@ -9,6 +9,9 @@ title: Create React Appメモ
 SassやLessを使用する方法 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc)  
 
 Flowを使用する方法 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-flow)  
+
+requestをproxyする方法 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#proxying-api-requests-in-development)  
+
 <br>
 
 ### npm start
@@ -56,9 +59,12 @@ babelの設定は[babel-preset-react-app](https://github.com/facebookincubator/c
 
 `.env`ファイルに`REACT_APP_FOO=foo`の形式で環境変数を指定することができる。 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-development-environment-variables-in-env)  
 
+デフォルトの環境変数 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#advanced-configuration)  
 <br>
 
 ### npm run test
+
+テストの設定方法 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#running-tests)  
 <br>
 
 ### npm run build
