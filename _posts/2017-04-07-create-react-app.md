@@ -11,6 +11,10 @@ title: Create React Appメモ
 
 #### webpack.config.dev
 
+`public/index.html`と`src/`以下のファイルをwebpackは処理する  
+
+publicディレクトリにはwebpackが処理しないがアプリケーションに使用するファイルを置く  
+
 loadersは後ろから先に適用される  
 
 [packages/react-scripts/config/webpack.config.dev.js](https://github.com/facebookincubator/create-react-app/blob/47a8148fb195707b4fb533521afd3aee6807d92a/packages/react-scripts/config/webpack.config.dev.js)で`npm start`で実行されるwebpackの設定が記述されている。  
