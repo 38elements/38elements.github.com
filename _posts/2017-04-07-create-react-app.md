@@ -48,6 +48,10 @@ eslintの設定は[eslint-config-react-app](https://github.com/facebookincubator
 babelの設定は[babel-preset-react-app](https://github.com/facebookincubator/create-react-app/tree/master/packages/babel-preset-react-app)で記述されている。  
 <br>
 
+#### 環境変数 [\*](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-custom-environment-variables)
+
+<br>
+
 ### npm run test
 <br>
 
