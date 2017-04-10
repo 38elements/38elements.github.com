@@ -176,7 +176,7 @@ function(dates, datestring, Flatpickr){}
 
 * onValueUpdate  
 
-* onDayCreate [\*](https://chmln.github.io/flatpickr/#event-onDayCreate)
+* onDayCreate [\*](https://chmln.github.io/flatpickr/events/#ondaycreate)  
 カレンダーの日付セルが生成されたとき  
 function(dates, datestring, Flatpickr, spanElem){}
 
