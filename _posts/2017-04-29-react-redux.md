@@ -6,6 +6,8 @@ title: React Reduxメモ
 [react-redux github](https://github.com/reactjs/react-redux)  
 [redux document](http://redux.js.org/?q=#)  
 
+### Redux
+
 #### Action
 
 * Actionの規約 [\*](https://github.com/acdlite/flux-standard-action)  
