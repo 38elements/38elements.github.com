@@ -14,6 +14,18 @@ title: React Reduxメモ
 
 * actionCreatorで生成される
 
+<br>
+
+### Reducer
+
+* reducerはstoreのstateを変更する
+
+* stateがundefinedのときreducerは初期値を返す。  
+stateにデフォルトの値を設定する。  
+変更がない場合はstateをそのまま返す。  
+
+* stateを変更する際は新しいオブジェクトを返す  
+`Object.assign({}, old, {foo: 123})`  
 
 <br>
 
