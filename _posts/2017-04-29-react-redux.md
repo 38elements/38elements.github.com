@@ -16,7 +16,7 @@ title: React Reduxメモ
 
 <br>
 
-### Reducer
+#### Reducer
 
 * reducerはstoreのstateを変更する
 
