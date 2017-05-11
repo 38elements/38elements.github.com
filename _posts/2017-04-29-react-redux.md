@@ -31,6 +31,18 @@ stateにデフォルトの値を設定する。  
 
 <br>
 
+#### Middleware
+
+* ミドルウェアはdispach(action)を実行した前の処理と後の処理を定義することができる  
+applyMiddlewareはdispachを上書きする  
+
+* ミドルウェアを通過した後に本物のdispatchを呼び出してReducerにいく  
+
+* applyMiddleware(A, B, C)はA前->B前->C前->Cでdispach(action)->C後->B後->A後の順  
+C後->B後->A後で一つ前のmiddlewareの戻り値をdispatch(action)の戻り値で取得することができる
+
+<br>
+
 ### react-redux
 
 #### connect([mapStateToProps], [mapDispatchToProps], [mergeProps], [options])
