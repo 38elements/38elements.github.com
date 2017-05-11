@@ -37,6 +37,8 @@ stateにデフォルトの値を設定する。  
 * stateを変更する際は新しいオブジェクトを返す  
 `Object.assign({}, old, {foo: 123})`  
 
+* combineReducers(reducers) [\*](http://redux.js.org/docs/api/combineReducers.html)  
+
 <br>
 
 #### Middleware
