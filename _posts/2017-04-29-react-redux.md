@@ -18,6 +18,14 @@ title: React Reduxメモ
 
 <br>
 
+#### ActionCreator
+
+* ActionCreatorはActionを返す関数  
+
+* bindActionCreators(actionCreators, dispatch)はactionCreatorsをdispatchでラップする  
+
+<br>
+
 #### Reducer
 
 * reducerはstoreのstateを変更する
