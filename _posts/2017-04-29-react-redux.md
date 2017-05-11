@@ -42,3 +42,13 @@ stateにデフォルトの値を設定する。  
 * mergeProps(stateProps, dispatchProps, ownProps)  
 
 * options
+
+<br>
+
+### Redux Thunk
+
+非同期処理は[Redux Thunk](https://github.com/gaearon/redux-thunk)を使用する。  
+thunkをmiddlewareの先頭に置く。
+
+<br>
+
