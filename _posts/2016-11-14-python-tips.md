@@ -2,6 +2,16 @@
 layout: posts
 title: Python Tips
 ---
+#### Formatted string literals [\*](https://docs.python.org/3/reference/lexical_analysis.html#f-strings)
+
+```
+foo = 'bar'
+a = f'foo is {bar}'
+print(a)
+# foo is bar
+```
+
+<br>
 
 #### リスト内包
 
