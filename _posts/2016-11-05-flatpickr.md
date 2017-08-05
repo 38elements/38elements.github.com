@@ -15,7 +15,7 @@ let flatpickr = flatpickr(elem, options);
 ```
 <br>
 
-#### オブション [\*](https://chmln.github.io/flatpickr/#options)
+#### オブション [\*](https://chmln.github.io/flatpickr/options/)
 
 optionはHTML要素のdata属性で指定することができる。  
 
@@ -46,10 +46,10 @@ altInputで生成されたHTML要素に適用されるCSSクラス名
 使い方 [example](http://jsdo.it/38elements/flatpickr-date-format)  
 
 * disable  
-選択不可能な日付 [\*](https://chmln.github.io/flatpickr/#disable)  
+選択不可能な日付 [\*](https://chmln.github.io/flatpickr/examples/#disabling-specific-dates)  
 
 * enable  
-選択可能な日付 [\*](https://chmln.github.io/flatpickr/#enable)  
+選択可能な日付 [\*](https://chmln.github.io/flatpickr/examples/#disabling-all-dates-except-select-few)  
 
 * enableTime  
 時刻を指定可能にするか  
@@ -79,13 +79,13 @@ inlineで表示させるか
 カレンダーを表示しない  
 時刻のみを選択する際に利用する
 
-* onChange [\*](https://chmln.github.io/flatpickr/#event-onChange)  
+* onChange [\*](https://chmln.github.io/flatpickr/events/#onchange)  
 
-* onClose [\*](https://chmln.github.io/flatpickr/#event-onClose)   
+* onClose [\*](https://chmln.github.io/flatpickr/events/#onclose)   
 
-* onOpen [\*](https://chmln.github.io/flatpickr/#event-onOpen)  
+* onOpen [\*](https://chmln.github.io/flatpickr/events/#onopen)  
 
-* onReady [\*](https://chmln.github.io/flatpickr/#event-onReady)    
+* onReady [\*](https://chmln.github.io/flatpickr/events/#onready)    
 
 * onValueUpdate  
 
@@ -228,5 +228,6 @@ function(dates, datestring, Flatpickr, spanElem){}
 [example](http://jsdo.it/38elements/flatpickr-year-month-order)  
 
 <hr>
-[PikaDay.jsメモ](/2014/02/02/pikadayjs.html)  
-[vue-flatpickr](https://github.com/jrainlau/vue-flatpickr)  
+[PikaDay.jsメモ](/2014/02/02/pikadayjs.html)
+
+[vue-flatpickr](https://github.com/jrainlau/vue-flatpickr)
