@@ -11,5 +11,6 @@ title: VirtualBoxメモ
 自動マウントしない
 
 ```
+sudo mkdir /mnt/foo
 sudo mount -t vboxsf foo /mnt/foo
 ```
