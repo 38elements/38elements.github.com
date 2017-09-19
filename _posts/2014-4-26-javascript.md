@@ -97,3 +97,12 @@ function handler(event) {
     reader.readAsDataURL(file);
 }
 ```
+
+<hr>
+
+[Microsoft Edge Developer Guide](https://docs.microsoft.com/en-us/microsoft-edge/dev-guide)  
+[Microsoft Edge Platform status](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/)  
+[Firefox Platform Status](https://platform-status.mozilla.org/)  
+[WebKit Feature Status](https://webkit.org/status/)  
+[Chrome  Platform Status](https://www.chromestatus.com/features)  
+
