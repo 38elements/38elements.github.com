@@ -6,11 +6,11 @@ title: Djangoの認証メモ
 
 ### コマンドラインでのユーザ管理
 コマンドラインでユーザの登録方法 [\*](https://docs.djangoproject.com/en/stable/topics/auth/default/#creating-users)  
-コマンドラインでパスワードの変更 [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#changing-passwords)  
+コマンドラインでパスワードの変更 [\*](https://docs.djangoproject.com/en/stable/topics/auth/default/#changing-passwords)  
 <br>
 
 ### ログイン・ログアウト
-LOGIN [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#how-to-log-a-user-in)  
+LOGIN [\*](https://docs.djangoproject.com/en/stable/topics/auth/default/#how-to-log-a-user-in)  
 
 ```
 from django.contrib.auth import authenticate, login
@@ -20,14 +20,14 @@ if user is not None:
         login(request, user)
 ```
 
-LOGOUT [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#how-to-log-a-user-out)  
+LOGOUT [\*](https://docs.djangoproject.com/en/stable/topics/auth/default/#how-to-log-a-user-out)  
 
 ```
 from django.contrib.auth import logout
 logout(request)
 ```
 
-ログイン状態にあるか確認する [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#the-raw-way)  
+ログイン状態にあるか確認する [\*](https://docs.djangoproject.com/en/dev/topics/auth/default/#the-raw-way)  
  
 ```
 request.user.is_authenticated()
@@ -35,12 +35,13 @@ request.user.is_authenticated()
 <br>
 
 ### view関数にログインが必要な制約をつける
-`login_required(redirect_field_name='next', login_url=None)`デコレーターを利用する [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#django.contrib.auth.decorators.login_required)  
+`login_required(redirect_field_name='next', login_url=None)`デコレーターを利用する [\*](https://docs.djangoproject.com/en/dev/topics/auth/default/#django.contrib.auth.decorators.login_required)  
 <br>
 
 ###  view関数に権限が必要な制約をつける
-`permission_required(perm, login_url=None, raise_exception=False)`デコレーターを利用する [\*](https://docs.djangoproject.com/en/1.9/topics/auth/default/#django.contrib.auth.decorators.login_required)  
-permissionについて [\*](https://docs.djangoproject.com/ja/1.10/topics/auth/default/#topic-authorization)  
+`permission_required(perm, login_url=None, raise_exception=False)`デコレーターを利用する [\*](https://docs.djangoproject.com/en/dev/topics/auth/default/#django.contrib.auth.decorators.login_required)  
+permissionについて [\*](https://docs.djangoproject.com/en/dev/topics/auth/default/#topic-authorization)  
+methodに対してデコレートする際は[method_decorator](https://docs.djangoproject.com/en/dev/ref/utils/#django.utils.decorators.method_decorator)を使用する  
 <br>
 
 ### Userモデルのテーブル
@@ -63,4 +64,5 @@ CREATE TABLE "auth_user" (
 
 <br/>
 <hr/>
+
 [Djangoメモ](/2014/12/04/django.html)
