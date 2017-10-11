@@ -9,6 +9,9 @@ title: Djangoのデータベースメモ
 [squashmigrations](https://docs.djangoproject.com/en/stable/ref/django-admin/#django-admin-squashmigrations)    
 DBからModelを生成する    
 [inspectdb](https://docs.djangoproject.com/en/stable/howto/legacy-databases/#auto-generate-the-models)   
+```
+python manage.py inspectdb --database foo > models.py
+```
 <br/>
-レプリケーション [*](https://docs.djangoproject.com/en/stable/topics/db/multi-db/)   
+レプリケーション [\*](https://docs.djangoproject.com/en/stable/topics/db/multi-db/)   
 <br>
