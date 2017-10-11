@@ -16,7 +16,7 @@ python manage.py inspectdb --database foo > models.py
 
 レプリケーション [\*](https://docs.djangoproject.com/en/stable/topics/db/multi-db/)   
 
-<br\>
+<br/>
 
 #### Router[\*](https://docs.djangoproject.com/en/stable/topics/db/multi-db/#an-example)
 app_labalは自動的に設定されている  
