@@ -18,7 +18,7 @@ python manage.py inspectdb --database foo > models.py
 
 <br/>
 
-#### Router[\*](https://docs.djangoproject.com/en/stable/topics/db/multi-db/#an-example)
+#### Router [\*](https://docs.djangoproject.com/en/stable/topics/db/multi-db/#an-example)
 app_labalは自動的に設定されている  
 DATABASE_ROUTERS = ['path.to.YourRouter']  
 DATABASE_ROUTERSのマイクレーションの設定をmigrateで反映するにはpython manage.py migrate --database fooのように対象となるDATABASESのキーを指定する必要がある  
