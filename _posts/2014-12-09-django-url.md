@@ -14,7 +14,15 @@ title: DjangoのURLメモ
 * HttpRequestオブジェクトからnamespaceやnameを取得するには[HttpRequest.resolver_match](https://docs.djangoproject.com/en/stable/ref/request-response/#django.http.HttpRequest.resolver_match)を利用する。   
 [ResolverMatch](https://docs.djangoproject.com/en/stable/ref/urlresolvers/#django.core.urlresolvers.ResolverMatch)が格納されている。   
 
-* ResolverMatch.view_nameはnamespaceとnameが:で結合されたものが入っている     
+* ResolverMatch.view_nameはnamespaceとnameが:で結合されたものが入っている    
+
+* slugとかintとか [\*](https://docs.djangoproject.com/en/2.0/topics/http/urls/#path-converters)  
+
+* pathとかre_pathとか [\*](https://docs.djangoproject.com/en/2.0/ref/urls/#module-django.urls.conf)
+
+* include()の例 [\*](https://docs.djangoproject.com/en/2.0/topics/http/urls/#including-other-urlconfs)
+
+* include()はnamespace、path()はname
 <br>
 
 
