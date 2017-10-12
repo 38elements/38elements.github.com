@@ -59,6 +59,14 @@ routerが所属しているVueオブジェクト
 
 * コンポーネントができた直後に実行したい処理はcomponent.beforeRouteEnter()内でnext((vm)=>{})に記述するかmounted
 
+* metaを使用した認証の確認 [\*](https://router.vuejs.org/en/advanced/meta.html)
+
+```
+let application = new Vue({
+    router
+}).$mount('#application')
+```
+
 <hr>
 [Vue.jsメモ](/2016/12/20/vuejs.html)  
 [Vuexメモ](/2017/01/14/vuex.html)  
