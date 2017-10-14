@@ -44,6 +44,7 @@ nodeをマウスオーバーで該当要素がハイライトされる
 #### [Sourceパネル](https://developer.chrome.com/devtools/docs/shortcuts#sources-panel) 
 
 * Ctrl+o:ファイル名を検索  
+* Ctrl+p:ソースマップ(sourcemap)を表示 
 * Ctri+Shift+o:選択しているファイル内の関数を検索    
 * Ctrl+Shift+e:選択しているコードをconsoleで実行する    
 * Ctrl+g:行移動   
