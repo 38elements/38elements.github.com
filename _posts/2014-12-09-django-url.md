@@ -23,6 +23,8 @@ title: DjangoのURLメモ
 * include()の例 [\*](https://docs.djangoproject.com/en/2.0/topics/http/urls/#including-other-urlconfs)
 
 * include()はnamespace、path()はname
+
+* namespaceを設定するにはapp_nameを設定する必要がある [\*](https://docs.djangoproject.com/en/2.0/topics/http/urls/#namespaces-and-include)  
 <br>
 
 
