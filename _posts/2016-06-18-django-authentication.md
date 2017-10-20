@@ -30,7 +30,7 @@ logout(request)
 ログイン状態にあるか確認する [\*](https://docs.djangoproject.com/en/dev/topics/auth/default/#the-raw-way)  
  
 ```
-request.user.is_authenticated()
+request.user.is_authenticated
 ```
 <br>
 
