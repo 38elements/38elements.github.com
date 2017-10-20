@@ -8,6 +8,8 @@ request.FILESにはファイルが添付しているキーのみが存在して�
 <br>
 HttpResponse [\*](https://docs.djangoproject.com/en/stable/ref/request-response/#httpresponse-objects)     
 
+JsonResponse [\*](https://docs.djangoproject.com/en/stable/ref/request-response/#jsonresponse-objects)  
+
 リロードした場合ページの状態を残さないようにする
 
 ```
