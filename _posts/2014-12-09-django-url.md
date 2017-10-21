@@ -25,6 +25,8 @@ title: DjangoのURLメモ
 * include()はnamespace、path()はname
 
 * namespaceを設定するにはapp_nameを設定する必要がある [\*](https://docs.djangoproject.com/en/2.0/topics/http/urls/#namespaces-and-include)  
+* [APPEND_SLASH](https://docs.djangoproject.com/en/stable/ref/settings/#append-slash)がTrue(defaultはTrue)の場合、urlの最後に/がない場合でマッチしない場合はurlの最後に/を付けてリダイレクトする
+
 <br>
 
 
