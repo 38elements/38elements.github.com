@@ -5,7 +5,7 @@ title: Djangoのデータベースメモ
 
 #### Connection
 
-SQLを実行するには[django.db.connections](https://docs.djangoproject.com/en/1.11/topics/db/sql/#executing-custom-sql-directly)を利用する  
+SQLを実行するには[django.db.connections](https://docs.djangoproject.com/en/1.11/topics/db/sql/#executing-custom-sql-directly)を利用する  
 database_nameは設定のDATABASESのキーではなくDBのデーターベース名
 
 ```python
