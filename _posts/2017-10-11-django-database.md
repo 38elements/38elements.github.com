@@ -2,6 +2,18 @@
 layout: posts
 title: Djangoのデータベースメモ 
 ---
+
+#### Connection
+
+SQLを実行するには[django.db.connections](https://docs.djangoproject.com/en/1.11/topics/db/sql/#executing-custom-sql-directly)を利用する  
+database_nameは設定のDATABASESのキーではなくDBのデーターベース名
+
+```python
+from django.db import connections
+cursor = connections[database_name].cursor()
+cursor.execute('select * from users')
+```
+
 #### Migrations [*](https://docs.djangoproject.com/en/stable/topics/migrations/#module-django.db.migrations)
 [makemigrations](https://docs.djangoproject.com/en/stable/ref/django-admin/#django-admin-makemigrations)      
 [sqlmigrate](https://docs.djangoproject.com/en/stable/ref/django-admin/#django-admin-sqlmigrate)      
