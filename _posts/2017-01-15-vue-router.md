@@ -25,8 +25,10 @@ title: VueRouterメモ
 componentsにnameキーを置く  　
 * redirectには関数を渡して動的にパスを変更することができる [\*](https://router.vuejs.org/en/essentials/redirect-and-alias.html)  
 
-* before(), after() [\*](https://router.vuejs.org/en/advanced/navigation-guards.html)  
-toもfromも[ルートオブジェクト](https://router.vuejs.org/en/api/route-object.html)   
+* Navigation guards  
+before(), after()のようなもの [\*](https://router.vuejs.org/en/advanced/navigation-guards.html)  
+toもfromも[ルートオブジェクト](https://router.vuejs.org/en/api/route-object.html)  
+next()を実行することを忘れない  
 
 * metaキーで[ルートオブジェクト](https://router.vuejs.org/en/api/route-object.html)にメタデータを付与することができる [\*](https://router.vuejs.org/en/advanced/meta.html)  
 
