@@ -56,6 +56,23 @@ vm.$v.formにはidとpasswordをvalidateした総合的な結果が入る。
 <input v-model.trim="form.id" @input="$v.form,id.$touch()">
 ```
 
+#### vm.$v.&lt;key&gt;の値
+
+* validationsで登録した各validatorの結果
+
+* $invalid: 不適切かどうか
+
+* $dirty: $touch()されたかどうか。$resetでfalseになる。
+
+* $error: $invalid && $dirty
+
+* $pending: [Asynchronous validation](https://monterail.github.io/vuelidate/#sub-asynchronous-validation)が検証中かどうか
+
+* $params:  [withParams()](https://monterail.github.io/vuelidate/#sub-custom-validators)の引数
+
+* $each: [Collections validation](https://monterail.github.io/vuelidate/#sub-collections-validation)の結果
+
+
 <hr>
 
 [Vue.jsメモ](/2016/12/20/vuejs.html)  
