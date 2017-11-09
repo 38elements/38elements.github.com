@@ -75,6 +75,18 @@ vm.$v.formにはidとpasswordをvalidateした総合的な結果が入る。
 * $each: [Collections validation](https://monterail.github.io/vuelidate/#sub-collections-validation)の結果
 
 
+<br>
+
+#### vm.$v.&lt;key&gt;の値
+
+* $touch(): $dirtyをtrueにする
+
+* $reset(): $dirtyをfalseにする
+
+<br>
+
+validatorの実装方法 [\*](https://monterail.github.io/vuelidate/#sub-custom-validators)  
+
 <hr>
 
 [Vue.jsメモ](/2016/12/20/vuejs.html)  
