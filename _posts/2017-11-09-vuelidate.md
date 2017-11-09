@@ -56,6 +56,8 @@ vm.$v.formにはidとpasswordをvalidateした総合的な結果が入る。
 <input v-model.trim="form.id" @input="$v.form,id.$touch()">
 ```
 
+<br>
+
 #### vm.$v.&lt;key&gt;の値
 
 * validationsで登録した各validatorの結果
