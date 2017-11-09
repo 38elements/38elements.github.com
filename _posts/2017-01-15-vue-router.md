@@ -72,3 +72,4 @@ let application = new Vue({
 <hr>
 [Vue.jsメモ](/2016/12/20/vuejs.html)  
 [Vuexメモ](/2017/01/14/vuex.html)  
+[vuelidateメモ](/2017/11/09/vuelidate.html)  
