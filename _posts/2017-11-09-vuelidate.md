@@ -56,4 +56,7 @@ vm.$v.formにはidとpasswordをvalidateした総合的な結果が入る。
 <input v-model.trim="form.id" @input="$v.form,id.$touch()">
 ```
 
+<hr>
 
+[Vue.jsメモ](/2016/12/20/vuejs.html)  
+[Vuexメモ](/2017/01/14/vuex.html)  
