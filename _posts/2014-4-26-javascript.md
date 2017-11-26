@@ -112,5 +112,6 @@ function handler(event) {
 [Microsoft Edge Platform status](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/)  
 [Firefox Platform Status](https://platform-status.mozilla.org/)  
 [WebKit Feature Status](https://webkit.org/status/)  
-[Chrome  Platform Status](https://www.chromestatus.com/features)  
+[Chrome Platform Status](https://www.chromestatus.com/features)  
+[ECMAScript compatibility table](kangax.github.io/compat-table/es6/)  
 
