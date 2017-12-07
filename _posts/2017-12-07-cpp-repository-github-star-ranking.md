@@ -3,4004 +3,4004 @@ layout: posts
 title: C++ Github Star Ranking at 2017/12/07
 ---
 <pre style="background-color: white;border: none;">
-electron/electron                          36804
-Build cross platform desktop apps with JavaScript, HTML, and CSS
-
-
-apple/swift                                34510
-The Swift Programming Language
-
-
-tensorflow/tensorflow                      34289
+tensorflow/tensorflow                      80799
 Computation using data flow graphs for scalable machine learning
 
 
-nwjs/nw.js                                 29621
-Call all Node.js modules directly from DOM and enable a new way of writing applications with all Web technologies.
+electron/electron                          53707
+Build cross platform desktop apps with JavaScript, HTML, and CSS
 
 
-rethinkdb/rethinkdb                        16482
-The open-source database for the realtime web.
+apple/swift                                41823
+The Swift Programming Language
 
 
-facebook/hhvm                              13995
-A virtual machine designed for executing programs written in Hack and PHP. 
+nwjs/nw.js                                 32875
+Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.
 
 
-BVLC/caffe                                 13156
-Caffe: a fast open framework for deep learning.
-
-
-google/protobuf                            12462
+google/protobuf                            21957
 Protocol Buffers - Google's data interchange format
 
 
-opencv/opencv                              11562
-Open Source Computer Vision Library
+BVLC/caffe                                 21614
+Caffe: a fast open framework for deep learning.
 
 
-mongodb/mongo                              10175
-The Mongo Database
-
-
-bitcoin/bitcoin                            10141
+bitcoin/bitcoin                            20744
 Bitcoin Core integration/staging tree
 
 
-cocos2d/cocos2d-x                          8911
-cocos2d-x for C++
+rethinkdb/rethinkdb                        20369
+The open-source database for the realtime web.
 
 
-facebook/folly                             7514
-An open-source C++ library developed and used at Facebook.
+opencv/opencv                              20277
+Open Source Computer Vision Library
 
 
-google/leveldb                             7300
-LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
+facebook/hhvm                              15004
+A virtual machine designed for executing programs written in Hack and PHP. 
 
 
-facebook/osquery                           7231
-SQL powered operating system instrumentation, monitoring, and analytics.
-
-
-google/flatbuffers                         6756
-Memory Efficient Serialization Library
-
-
-godotengine/godot                          6730
-Godot Engine – Multi-platform 2D and 3D game engine
-
-
-Microsoft/CNTK                             6504
-Computational Network Toolkit (CNTK)
-
-
-tesseract-ocr/tesseract                    6435
+tesseract-ocr/tesseract                    14640
 Tesseract Open Source OCR Engine (main repository)
 
 
-facebook/rocksdb                           6230
-A library that provides an embeddable, persistent key-value store for fast storage.
+Microsoft/CNTK                             13299
+Microsoft Cognitive Toolkit (CNTK), an open source deep-learning toolkit
 
 
-CRYTEK-CRYENGINE/CRYENGINE                 6196
-CRYENGINE is a powerful real-time game development platform created by Crytek.
+mongodb/mongo                              12727
+The MongoDB Database
 
 
-mobile-shell/mosh                          5731
-Mobile Shell
+grpc/grpc                                  12630
+The C based gRPC (C++, Node.js, Python, Ruby, Objective-C, PHP, C#)
 
 
-dmlc/mxnet                                 5442
+apache/incubator-mxnet                     12316
 Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more
 
 
-facebookresearch/fastText                  5258
-Library for fast text representation and classification.
+google/leveldb                             11815
+LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
 
 
-SFTtech/openage                            5221
-Free (as in freedom) open source clone of the Age of Empires II engine :rocket:
+godotengine/godot                          11708
+Godot Engine – Multi-platform 2D and 3D game engine
 
 
-yangyangwithgnu/hardseed                   5169
-SEX IS ZERO (0), so, who wanna be the ONE (1), aha?
+cocos2d/cocos2d-x                          11230
+Cocos2d-x is a suite of open-source, cross-platform, game-development tools used by millions of developers all over the world.
 
 
-coolwanglu/pdf2htmlEX                      5168
-Convert PDF to HTML without losing text or format.
+google/guetzli                             10561
+Perceptual JPEG encoder
 
 
-xbmc/xbmc                                  5122
-Kodi Main Repository - By using this code you agree with our policy and will follow the GPLv2 license as included
+facebook/osquery                           10267
+SQL powered operating system instrumentation, monitoring, and analytics.
 
 
-ocornut/imgui                              4892
-Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies
-
-
-paulasmuth/fnordmetric                     4874
-FnordMetric allows you collect and visualize timeseries data with SQL.
-
-
-sqlitebrowser/sqlitebrowser                4793
-Official home of the DB Browser for SQLite (DB4S) project. Previously known as "SQLite Database Browser" and "Database Browser for SQLite". Website at: 
-
-
-haoel/leetcode                             4792
-LeetCode Problems' Solutions 
-
-
-openframeworks/openFrameworks              4651
-openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
-
-
-facebook/watchman                          4649
-Watches files and records, or triggers actions, when they change. 
-
-
-dmlc/xgboost                               4644
+dmlc/xgboost                               9887
 Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow
 
 
-paralect/robomongo                         4627
-Native cross-platform MongoDB management tool
+Tencent/mars                               9773
+Mars is a cross-platform network component  developed by WeChat.
 
 
-wkhtmltopdf/wkhtmltopdf                    4509
-Convert HTML to PDF using Webkit (QtWebKit)
+facebook/folly                             9717
+An open-source C++ library developed and used at Facebook.
 
 
-alibaba/AndFix                             4406
-AndFix is a library that offer hot-fix for Android App.
+facebook/rocksdb                           9181
+A library that provides an embeddable, persistent key-value store for fast storage.
 
 
-zealdocs/zeal                              4339
-Offline documentation browser inspired by Dash
+ocornut/imgui                              8845
+Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies
 
 
-facebook/proxygen                          4276
-A collection of C++ HTTP libraries including an easy to use HTTP server.
+facebook/yoga                              8786
+Yoga is a cross-platform layout engine which implements Flexbox. Follow https://twitter.com/yogalayout for updates.
 
 
-facebook/css-layout                        4225
-A subset of CSS (specifically flex-box) re-implemented as a stand alone project for use primarily on mobile. Used by react-native
+google/flatbuffers                         8645
+Memory Efficient Serialization Library
 
 
-bjorn/tiled                                4178
-A generic tile map editor
+uNetworking/uWebSockets                    8204
+Tiny WebSockets
 
 
-sandstorm-io/capnproto                     4131
-Cap'n Proto serialization/RPC system
-
-
-googlei18n/libphonenumber                  4129
-Google's common Java, C++ and JavaScript library for parsing, formatting, and validating international phone numbers.
-
-
-draios/sysdig                              3988
-Linux system exploration and troubleshooting tool with first class support for containers
-
-
-JohnLangford/vowpal_wabbit                 3961
-Vowpal Wabbit is a machine learning system which pushes the frontier of machine learning with techniques such as online, hashing, allreduce, reductions, learning2search, active, and interactive learning.
-
-
-telegramdesktop/tdesktop                   3925
-Telegram Desktop messaging app
-
-
-dropbox/lepton                             3817
-Lepton is a tool and file format for losslessly compressing JPEGs by an average of 22%.
-
-
-ideawu/ssdb                                3795
-SSDB - A fast NoSQL database, an alternative to Redis
-
-
-philsquared/Catch                          3692
-A modern, C++-native, header-only, framework for unit-tests, TDD and BDD
-
-
-phusion/passenger                          3593
-A fast and robust web server and application server for Ruby, Python and Node.js
-
-
-openalpr/openalpr                          3593
-Automatic License Plate Recognition library
-
-
-TTimo/doom3.gpl                            3572
-Doom 3 GPL source release
-
-
-esp8266/Arduino                            3562
-ESP8266 core for Arduino
-
-
-miloyip/rapidjson                          3539
-A fast JSON parser/generator for C++ with both SAX/DOM style API
-
-
-uglide/RedisDesktopManager                 3531
-:wrench: Cross-platform GUI management tool for Redis
-
-
-baidu/Paddle                               3527
-PArallel Distributed Deep LEarning
-
-
-uWebSockets/uWebSockets                    3520
-Highly scalable WebSocket server & client library
-
-
-Automattic/node-canvas                     3509
-Node canvas is a Cairo backed Canvas implementation for NodeJS.
-
-
-TrinityCore/TrinityCore                    3487
-TrinityCore Open Source MMO Framework
-
-
-nlohmann/json                              3472
-JSON for Modern C++
-
-
-v8/v8                                      3463
-The official mirror of the V8 git repository
-
-
-ssloy/tinyrenderer                         3446
-Support c++ code for a short computer graphics course
-
-
-appjs/appjs                                3428
-(Deprecated!) SDK on top of nodejs to build desktop apps using HTML5/CSS/JS
-
-
-facebookarchive/scribe                     3359
-Scribe is a server for aggregating log data streamed in real time from a large number of servers.
-
-
-google/googletest                          3342
-Google Test
-
-
-amznlabs/amazon-dsstne                     3314
-Deep Scalable Sparse Tensor Network Engine (DSSTNE) is an Amazon developed library for building Deep Learning (DL) machine learning (ML) models 
-
-
-acaudwell/Gource                           3311
-software version control visualization
-
-
-aria2/aria2                                3297
+aria2/aria2                                7597
 aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.
 
 
-sass/libsass                               3282
-A C/C++ implementation of a Sass compiler
+CRYTEK/CRYENGINE                           7565
+CRYENGINE is a powerful real-time game development platform created by Crytek.
 
 
-notepad-plus-plus/notepad-plus-plus        3255
+v8/v8                                      7541
+The official mirror of the V8 Git repository
+
+
+sqlitebrowser/sqlitebrowser                7502
+Official home of the DB Browser for SQLite (DB4S) project. Previously known as "SQLite Database Browser" and "Database Browser for SQLite". Website at: 
+
+
+nlohmann/json                              7354
+JSON for Modern C++
+
+
+Microsoft/napajs                           7196
+Napa.js: a multi-threaded JavaScript runtime
+
+
+yangyangwithgnu/hardseed                   7124
+SEX IS ZERO (0), so, who wanna be the ONE (1), aha?
+
+
+mobile-shell/mosh                          6913
+Mobile Shell
+
+
+google/googletest                          6704
+Google Test
+
+
+ApolloAuto/apollo                          6695
+An open autonomous driving platform
+
+
+xbmc/xbmc                                  6512
+Kodi Main Repository - By using this code you agree with our policy and will follow the GPLv2 license as included
+
+
+openalpr/openalpr                          6486
+Automatic License Plate Recognition library
+
+
+caffe2/caffe2                              6455
+Caffe2 is a lightweight, modular, and scalable deep learning framework.
+
+
+haoel/leetcode                             6273
+LeetCode Problems' Solutions 
+
+
+Studio3T/robomongo                         6262
+Native cross-platform MongoDB management tool
+
+
+esp8266/Arduino                            6237
+ESP8266 core for Arduino
+
+
+SFTtech/openage                            6224
+Free (as in freedom) open source clone of the Age of Empires II engine :rocket:
+
+
+uglide/RedisDesktopManager                 6199
+:wrench: Cross-platform GUI management tool for Redis
+
+
+telegramdesktop/tdesktop                   6155
+Telegram Desktop messaging app
+
+
+googlei18n/libphonenumber                  6142
+Google's common Java, C++ and JavaScript library for parsing, formatting, and validating international phone numbers.
+
+
+catchorg/Catch2                            6087
+A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch)
+
+
+wkhtmltopdf/wkhtmltopdf                    6079
+Convert HTML to PDF using Webkit (QtWebKit)
+
+
+facebook/watchman                          6072
+Watches files and records, or triggers actions, when they change. 
+
+
+PaddlePaddle/Paddle                        5945
+PArallel Distributed Deep LEarning
+
+
+alibaba/AndFix                             5804
+AndFix is a library that offer hot-fix for Android App.
+
+
+openframeworks/openFrameworks              5671
+openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
+
+
+brpc/brpc                                  5576
+Industrial-grade RPC framework used throughout Baidu, with 600,000+ instances and 500+ kinds of services, called "baidu-rpc" inside Baidu.
+
+
+tekezo/Karabiner-Elements                  5558
+Karabiner-Elements is a powerful utility for keyboard customization on macOS Sierra (10.12) or later.
+
+
+symless/synergy-core                       5477
+Open source core of Synergy, the keyboard and mouse sharing tool
+
+
+OpenGenus/cosmos                           5409
+Algorithms that run our universe | Your personal library of every algorithm and data structure code that you will ever encounter
+
+
+zealdocs/zeal                              5371
+Offline documentation browser inspired by Dash
+
+
+facebook/proxygen                          5240
+A collection of C++ HTTP libraries including an easy to use HTTP server.
+
+
+OpenRCT2/OpenRCT2                          5221
+An open source re-implementation of RollerCoaster Tycoon 2 🎢
+
+
+Tencent/rapidjson                          5214
+A fast JSON parser/generator for C++ with both SAX/DOM style API
+
+
+capnproto/capnproto                        5117
+Cap'n Proto serialization/RPC system - core tools and C++ library
+
+
+JohnLangford/vowpal_wabbit                 5079
+Vowpal Wabbit is a machine learning system which pushes the frontier of machine learning with techniques such as online, hashing, allreduce, reductions, learning2search, active, and interactive learning.
+
+
+bjorn/tiled                                5075
+A generic tile map editor
+
+
+notepad-plus-plus/notepad-plus-plus        4968
 Notepad++ official repository
 
 
-visualfc/liteide                           3215
-LiteIDE is a simple, open source, cross-platform Go IDE. 
+ideawu/ssdb                                4946
+SSDB - A fast NoSQL database, an alternative to Redis
 
 
-pagespeed/ngx_pagespeed                    3181
-Automatic PageSpeed optimization module for Nginx
+asmuth/zdb                                 4916
+Embeddable database library with columnar storage
 
 
-SFML/SFML                                  3086
-Simple and Fast Multimedia Library
+draios/sysdig                              4721
+Linux system exploration and troubleshooting tool with first class support for containers
 
 
-tjanczuk/edge                              3078
-Run .NET and Node.js code in-process on Windows, MacOS, and Linux
+arangodb/arangodb                          4672
+🥑 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.
 
 
-facebook/redex                             3076
-A bytecode optimizer for Android apps
+Automattic/node-canvas                     4525
+Node canvas is a Cairo backed Canvas implementation for NodeJS.
 
 
-apache/thrift                              3031
+sass/node-sass                             4506
+:rainbow: Node.js bindings to libsass
+
+
+acaudwell/Gource                           4390
+software version control visualization
+
+
+vnpy/vnpy                                  4344
+基于python的开源量化交易平台开发框架
+
+
+ssloy/tinyrenderer                         4325
+Support c++ code for a short computer graphics course
+
+
+Microsoft/LightGBM                         4323
+A fast, distributed, high performance gradient boosting (GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. It is under the umbrella of the DMTK(http://github.com/microsoft/dmtk) project of Microsoft.
+
+
+dropbox/lepton                             4271
+Lepton is a tool and file format for losslessly compressing JPEGs by an average of 22%.
+
+
+apache/thrift                              4213
 Mirror of Apache Thrift
 
 
-webscalesql/webscalesql-5.6                3001
-WebScaleSQL, Version 5.6, based upon the MySQL-5.6 community releases.
+mozilla/DeepSpeech                         4203
+A TensorFlow implementation of Baidu's DeepSpeech architecture
 
 
-google/lmctfy                              2962
-lmctfy is the open source version of Google’s container stack, which provides Linux application containers.
-
-
-tekezo/Karabiner                           2895
-Karabiner (KeyRemap4MacBook) is a powerful utility for keyboard customization.
-
-
-zeromq/libzmq                              2859
-ZeroMQ core engine in C++, implements ZMTP/3.0
-
-
-kyleneideck/BackgroundMusic                2834
-Background Music, an OS X audio utility
-
-
-keepassx/keepassx                          2797
-KeePassX is a cross platform port of the windows application “Keepass Password Safe”.
-
-
-Maximus5/ConEmu                            2794
+Maximus5/ConEmu                            4172
 Customizable Windows terminal with tabs, splits, quake-style and more
 
 
-dolphin-emu/dolphin                        2778
-Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements.
-
-
-arangodb/arangodb                          2689
-ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.
-
-
-chenshuo/muduo                             2659
-A C++ non-blocking network library for multi-threaded server in Linux
-
-
-apache/mesos                               2629
-Mirror of Apache Mesos
-
-
-breach/thrust                              2627
-Chromium-based cross-platform / cross-language application framework
-
-
-google/liquidfun                           2611
-2D physics engine for games
-
-
-koekeishiya/kwm                            2597
-Tiling window manager with focus follows mouse for OSX
-
-
-ipkn/crow                                  2583
-Crow is very fast and easy to use C++ micro web framework (inspired by Python Flask)
-
-
-FLIF-hub/FLIF                              2543
-Free Lossless Image Format
-
-
-ceph/ceph                                  2537
-Ceph is a distributed object, block, and file storage platform 
-
-
-hrydgard/ppsspp                            2528
-A PSP emulator for Android, Windows, Mac, Linux and Blackberry 10, written in C++. Want to contribute? Join us in #ppsspp on freenode (IRC) or just send pull requests / issues.
-
-
-GarageGames/Torque3D                       2441
-MIT Licensed Open Source version of Torque 3D from GarageGames
-
-
-id-Software/DOOM-3-BFG                     2417
-Doom 3 BFG Edition
-
-
-benvanik/xenia                             2408
-Xbox 360 Emulator Research Project 
-
-
-EmergingTechnologyAdvisors/node-serialport 2394
-Node.js package to access serial ports for reading and writing. Welcome your robotic JavaScript overlords. Better yet, program them!
-
-
-ricochet-im/ricochet                       2365
-Anonymous peer-to-peer instant messaging
-
-
-citra-emu/citra                            2360
-Nintendo 3DS Emulator
-
-
-bkaradzic/bgfx                             2343
-Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
-
-
-scylladb/scylla                            2342
-NoSQL data store using the seastar framework, compatible with Apache Cassandra
-
-
-cisco/openh264                             2330
-Open Source H.264 Codec 
-
-
-Croteam-official/Serious-Engine            2314
-An open source version of a game engine developed by Croteam for the classic Serious Sam games.
-
-
-ivansafrin/Polycode                        2310
-Polycode is a cross-platform framework for creative code.
-
-
-jasarien/Provenance                        2297
-An iOS/tvOS Frontend for multiple emulators, currently supporting Sega Genesis, Game Gear/Master System, Sega CD, SNES, NES, GB/GBC and GBA.
-
-
-Squirrel/Squirrel.Windows                  2286
-An installation and update framework for Windows desktop apps
-
-
-RPCS3/rpcs3                                2276
+RPCS3/rpcs3                                4163
 PS3 emulator/debugger
 
 
-minetest/minetest                          2259
-Minetest, an open source infinite-world block sandbox game with survival and crafting. [also https://github.com/minetest/minetest_game]
+TrinityCore/TrinityCore                    4093
+TrinityCore Open Source MMO Framework (master = 7.2.5.24742, 3.3.5 = 3.3.5a.12340)
 
 
-electronicarts/EASTL                       2251
-EASTL stands for Electronic Arts Standard Template Library.  It is an extensive and robust implementation that has an emphasis on high performance.
+visualfc/liteide                           4088
+LiteIDE is a simple, open source, cross-platform Go IDE. 
 
 
-ninja-build/ninja                          2247
-a small build system with a focus on speed
-
-
-googlesamples/android-ndk                  2239
+googlesamples/android-ndk                  3976
 Android NDK samples with Android Studio
 
 
-kelektiv/node.bcrypt.js                    2208
-bcrypt for NodeJs
+amzn/amazon-dsstne                         3966
+Deep Scalable Sparse Tensor Network Engine (DSSTNE) is an Amazon developed library for building Deep Learning (DL) machine learning (ML) models 
 
 
-ArduPilot/ardupilot                        2127
-ArduPlane, ArduCopter, ArduRover source
+phusion/passenger                          3943
+A fast and robust web server and application server for Ruby, Python and Node.js
 
 
-CtripMobile/DynamicAPK                     2123
-Solution to implement multi apk dynamic loading and hot fixing for Android App. (实现Android App多apk插件化和动态加载，支持资源分包和热修复)
+dolphin-emu/dolphin                        3900
+Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements.
 
 
-peterbraden/node-opencv                    2122
-OpenCV Bindings for node.js
+ceph/ceph                                  3880
+Ceph is a distributed object, block, and file storage platform 
 
 
-qbittorrent/qBittorrent                    2019
-qBittorrent BitTorrent client
-
-
-scylladb/seastar                           2018
-High performance server-side application framework
-
-
-codebutler/firesheep                       2012
-A Firefox extension that demonstrates HTTP session hijacking attacks.
-
-
-mapsme/omim                                2005
-MAPS.ME - Offline OpenStreetMap maps for iOS/Android/Mac/Linux/Windows
-
-
-fmtlib/fmt                                 1982
-Small, safe and fast formatting library
-
-
-mozilla/rr                                 1979
-Record and Replay Framework
-
-
-mamedev/mame                               1968
-MAME - Multiple Arcade Machine Emulator
-
-
-bulletphysics/bullet3                      1936
-Bullet 2.x official repository with optional experimental Bullet 3 GPU rigid body pipeline
-
-
-hioa-cs/IncludeOS                          1928
-A minimal, resource efficient unikernel for cloud services
-
-
-gameplay3d/GamePlay                        1921
-Open-source, cross-platform, C++ game framework/engine for creating 2D/3D mobile and desktop games.
-
-
-rovo89/Xposed                              1897
-The native part of the Xposed framework (mainly the modified app_process binary).
-
-
-shadowsocks/shadowsocks-qt5                1882
-A cross-platform shadowsocks GUI client
-
-
-ponylang/ponyc                             1871
-Pony is an open-source, object-oriented, actor-model, capabilities-secure, high performance programming language
-
-
-biometrics/openbr                          1851
-Open Source Biometrics, Face Recognition
-
-
-ledger/ledger                              1844
-Double-entry accounting system with a command-line reporting interface
-
-
-ValveSoftware/ToGL                         1819
-Direct3D to OpenGL abstraction layer
-
-
-Z3Prover/z3                                1800
-The Z3 Theorem Prover
-
-
-googlevr/gvr-android-sdk                   1775
-Google VR SDK for Android
-
-
-ValveSoftware/source-sdk-2013              1770
-The 2013 edition of the Source SDK
-
-
-Microsoft/GSL                              1745
-Guidelines Support Library
-
-
-iovisor/bcc                                1735
+iovisor/bcc                                3879
 BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more
 
 
-CppCon/CppCon2014                          1717
-Speaker materials from CppCon 2014
+SFML/SFML                                  3861
+Simple and Fast Multimedia Library
 
 
-AGWA/git-crypt                             1691
-Transparent file encryption in git
+zeromq/libzmq                              3844
+ZeroMQ core engine in C++, implements ZMTP/3.0
 
 
-runtimejs/runtime                          1688
-Lightweight JavaScript library operating system for the cloud
+tjanczuk/edge                              3837
+Run .NET and Node.js code in-process on Windows, MacOS, and Linux
 
 
-PixarAnimationStudios/OpenSubdiv           1687
-An Open-Source subdivision surface library.
+facebook/redex                             3835
+A bytecode optimizer for Android apps
 
 
-trevorlinton/webkit.js                     1683
-Pure JavaScript Port of WebKit
+bkaradzic/bgfx                             3825
+Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
 
 
-xicilion/fibjs                             1681
-JavaScript on Fiber (based on Chrome V8 engine)
+shadowsocks/shadowsocks-qt5                3817
+A cross-platform shadowsocks GUI client
 
 
-tomahawk-player/tomahawk                   1679
-Tomahawk, the multi-source music player
+chenshuo/muduo                             3794
+A C++ non-blocking network library for multi-threaded server in Linux
 
 
-cloudera/Impala                            1675
-Real-time Query for Hadoop
+CMU-Perceptual-Computing-Lab/openpose      3779
+OpenPose: Real-time multi-person keypoint detection library for body, face, and hands estimation
 
 
-SaschaWillems/Vulkan                       1650
-Examples and demos for the new Vulkan API
+ipkn/crow                                  3716
+Crow is very fast and easy to use C++ micro web framework (inspired by Python Flask)
 
 
-googlecartographer/cartographer            1645
-Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
+TTimo/doom3.gpl                            3706
+Doom 3 GPL source release
 
 
-farbrausch/fr_public                       1625
-Farbrausch demo tools 2001-2011
+Microsoft/AirSim                           3706
+Open source simulator based on Unreal Engine for autonomous vehicles from Microsoft AI & Research
 
 
-crosswalk-project/crosswalk                1620
+pagespeed/ngx_pagespeed                    3657
+Automatic PageSpeed optimization module for Nginx
 
 
+sass/libsass                               3643
+A C/C++ implementation of a Sass compiler
 
-yandex/ClickHouse                          1610
-ClickHouse is a free analytic DBMS for big data.
 
+kyleneideck/BackgroundMusic                3596
+Background Music, a macOS audio utility: automatically pause your music, set individual apps' volumes and record system audio.
 
-pavel-odintsov/fastnetmon                  1602
-FastNetMon - very fast DDoS analyzer with sflow/netflow/mirror support
 
+facebookarchive/scribe                     3584
+Scribe is a server for aggregating log data streamed in real time from a large number of servers.
 
-facebook/mcrouter                          1596
-Mcrouter is a memcached protocol router for scaling memcached deployments.
 
+scylladb/scylla                            3566
+NoSQL data store using the seastar framework, compatible with Apache Cassandra
 
-assimp/assimp                              1572
-Official Open Asset Import Library Repository. Loads 40+ 3D file formats into one unified and clean data structure. 
 
+abseil/abseil-cpp                          3548
+Abseil Common Libraries (C++)
 
-facebook/wdt                               1569
-Warp speed Data Transfer (WDT)  is an embeddedable library (and command line tool) aiming to transfer data between 2 systems as fast as possible over multiple TCP paths.
 
+tiny-dnn/tiny-dnn                          3547
+header only, dependency-free deep learning framework in C++14
 
-cuberite/cuberite                          1566
-A custom Minecraft compatible game server written in C++
 
+tekezo/Karabiner                           3528
+Karabiner (KeyRemap4MacBook) is a powerful utility for keyboard customization.
 
-runner365/LiveVideoCoreSDK                 1565
 
+keepassx/keepassx                          3498
+KeePassX is a cross platform port of the windows application “Keepass Password Safe”.
 
 
-open-source-parsers/jsoncpp                1557
-A C++ library for interacting with JSON.
+citra-emu/citra                            3481
+A Nintendo 3DS Emulator
 
 
-opentoonz/opentoonz                        1551
-OpenToonz - An open-source full-featured 2D animation creation software
+qbittorrent/qBittorrent                    3480
+qBittorrent BitTorrent client
 
 
-johang/btfs                                1538
-A bittorrent filesystem based on FUSE.
+appjs/appjs                                3457
+(Deprecated!) SDK on top of nodejs to build desktop apps using HTML5/CSS/JS
 
 
-twitter/mysql                              1524
-MySQL fork maintained and used at Twitter
+apache/mesos                               3447
+Mirror of Apache Mesos
 
 
-mapnik/mapnik                              1517
-Mapnik is an open source toolkit for developing mapping applications
+koekeishiya/kwm                            3425
+Tiling window manager with focus follows mouse for OSX
 
 
-lloyd/node-memwatch                        1513
-A NodeJS library to keep an eye on your memory usage, and discover and isolate leaks.
+Squirrel/Squirrel.Windows                  3386
+An installation and update framework for Windows desktop apps
 
 
-BYVoid/OpenCC                              1512
-A project for conversion between Traditional and Simplified Chinese
-
-
-pybind/pybind11                            1512
-Seamless operability between C++11 and Python
-
-
-nodejs/nan                                 1506
-Native Abstractions for Node.js
-
-
-gabime/spdlog                              1506
-Super fast C++ logging library.
-
-
-Mooophy/Cpp-Primer                         1504
-C++ Primer 5 answers
-
-
-mapbox/mapbox-gl-native                    1502
-Render Mapbox styles in mobile, desktop, and node applications using C++ and OpenGL
-
-
-oclint/oclint                              1496
-A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
-
-
-z3t0/Arduino-IRremote                      1493
-Infrared remote library for Arduino: send and receive infrared signals with multiple protocols
-
-
-spotify/annoy                              1481
-Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
-
-
-tekezo/Karabiner-Elements                  1480
-The next generation Karabiner prototyping for macOS Sierra
-
-
-cowboyd/therubyracer                       1466
-Embed the V8 Javascript Interpreter into Ruby
-
-
-Grive/grive                                1464
-an open source Linux client for Google Drive
-
-
-Sigil-Ebook/Sigil                          1459
-Sigil is a multi-platform EPUB ebook editor
-
-
-google/snappy                              1452
-A fast compressor/decompressor
-
-
-arrayfire/arrayfire                        1447
-ArrayFire: a general purpose GPU library.
-
-
-liuruoze/EasyPR                            1442
-An open source project for chinese plate recognition. It aims to be Easy, Flexible, and Accurate. Welcome to contribute your expertise !
-
-
-s3fs-fuse/s3fs-fuse                        1440
-FUSE-based file system backed by Amazon S3
-
-
-mumble-voip/mumble                         1436
-Mumble VoIP Client/Server
-
-
-rakshasa/rtorrent                          1435
-rTorrent BitTorrent client
-
-
-nghttp2/nghttp2                            1424
-nghttp2 - HTTP/2 C Library and tools
-
-
-zaphoyd/websocketpp                        1420
-C++ websocket client/server library
-
-
-facebook/wangle                            1414
-Wangle is a framework providing a set of common client/server abstractions for building services in a consistent, modular, and composable way.
-
-
-halide/Halide                              1413
-a language for image processing and computational photography
-
-
-x64dbg/x64dbg                              1408
-An open-source x64/x32 debugger for windows.
-
-
-PCSX2/pcsx2                                1407
-PCSX2 - The Playstation 2 Emulator
-
-
-MailCore/mailcore2                         1400
-MailCore 2 provide a simple and asynchronous API to work with e-mail protocols IMAP, POP and SMTP. The API has been redesigned from ground up.
-
-
-Project-OSRM/osrm-backend                  1390
-Open Source Routing Machine - C++ backend
-
-
-aseprite/aseprite                          1384
-Animated sprite editor & pixel art tool (Windows, Mac OS X, Linux)
-
-
-BearishSun/BansheeEngine                   1383
-Banshee Game Engine
-
-
-openscad/openscad                          1376
-OpenSCAD - The Programmers Solid 3D CAD Modeller  
-
-
-google/re2                                 1375
-RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.
-
-
-OpenMW/openmw                              1362
-OpenMW is an unofficial open source engine reimplementation of the game Morrowind.
-
-
-jrowberg/i2cdevlib                         1358
-I2C device library collection for AVR/Arduino or other C++-based MCUs
-
-
-urho3d/Urho3D                              1358
-Cross-platform 2D and 3D game engine
-
-
-tiny-dnn/tiny-dnn                          1351
-header only, dependency-free deep learning framework in C++11
-
-
-Y-Vladimir/SmartDeblur                     1345
-Restoration of defocused and blurred photos/images
-
-
-tdenniston/bish                            1336
-Bish is a language that compiles to Bash. It's designed to give shell scripting a more comfortable and modern feel.
-
-
-PointCloudLibrary/pcl                      1333
-Point Cloud Library (PCL)
-
-
-baldurk/renderdoc                          1333
-RenderDoc is a stand-alone graphics debugging tool.
-
-
-leethomason/tinyxml2                       1324
-TinyXML2 is a simple, small, efficient, C++ XML parser that can be easily integrating into other programs.
-
-
-zdevito/terra                              1323
-Terra is a low-level system programming language that is embedded in and meta-programmed by the Lua programming language.
-
-
-emcrisostomo/fswatch                       1321
-A cross-platform file change monitor with multiple backends: Apple OS X File System Events, *BSD kqueue, Solaris/Illumos File Events Notification, Linux inotify, Microsoft Windows and a stat()-based backend.
-
-
-cocos2d/cocos2d-js                         1305
-cocos2d-x for JS
-
-
-mysql/mysql-server                         1302
-MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database.
-
-
-tencent-wechat/phxsql                      1302
-A high availability MySQL cluster that guarantees data consistency between a master and slaves.
-
-
-thrust/thrust                              1297
-Thrust is a parallel algorithms library which resembles the C++ Standard Template Library (STL).
-
-
-MasteringOpenCV/code                       1294
-Code for the book "Mastering OpenCV with Practical Computer Vision Projects" by Packt Publishing 2012.
-
-
-google/or-tools                            1294
-Google's Operations Research tools
-
-
-bblanchon/ArduinoJson                      1294
-:bowtie: An elegant and efficient JSON library for embedded systems.
-
-
-chukong/quick-cocos2d-x                    1291
-quick-cocos2d-x is a quick framework, based on cocos2d-x. Make mobile games in Lua.
-
-
-dropbox/djinni                             1274
-A tool for generating cross-language type declarations and interface bindings.
-
-
-google/ion                                 1272
-Ion
-
-
-uncrustify/uncrustify                      1272
-Code beautifier
-
-
-google/zopfli                              1259
-Zopfli Compression Algorithm is a compression library programmed in C to perform very good, but slow, deflate or zlib compression.
-
-
-ValveSoftware/vogl                         1255
-OpenGL capture / playback debugger.
-
-
-mkeeter/antimony                           1254
-CAD from a parallel universe
-
-
-znc/znc                                    1251
-Official repository for the ZNC IRC bouncer
-
-
-fanout/pushpin                             1248
-Reverse proxy for realtime web services
-
-
-tjanczuk/iisnode                           1248
-Hosting node.js applications in IIS on Windows
-
-
-clementine-player/Clementine               1242
-:tangerine: Clementine Music Player
-
-
-wxWidgets/wxWidgets                        1240
-Cross-Platform GUI Library - Report issues here: http://trac.wxwidgets.org/
-
-
-swig/swig                                  1227
-SWIG is a software development tool that connects programs written in C and C++ with a variety of high-level programming languages.
-
-
-musescore/MuseScore                        1225
-MuseScore is an open source and free music notation software. For support, contribution, bug reports, visit MuseScore.org. Fork and make pull requests!
-
-
-facebook/Surround360                       1220
-Surround360 is Facebook's open source hardware and software for capturing stereoscopic 3D 360 video for VR. The repo contains hardware designs, as well as software for camera control and rendering.
-
-
-realm/realm-js                             1217
- Realm is a mobile database: an alternative to SQLite & key-value stores
-
-
-forhappy/Cplusplus-Concurrency-In-Practice 1212
-A Detailed Cplusplus Concurrency Tutorial 《C++ 并发编程指南》
-
-
-mozilla/rhino                              1210
-Rhino is an open-source implementation of JavaScript written entirely in Java
-
-
-mosra/magnum                               1210
-C++11/C++14 and OpenGL graphics engine
-
-
-matt-42/silicon                            1202
-A high performance, middleware oriented C++14 http web framework
-
-
-Benjamin-Dobell/Heimdall                   1199
-Heimdall is a cross-platform open-source tool suite used to flash firmware (aka ROMs) onto Samsung Galaxy S devices.
-
-
-recastnavigation/recastnavigation          1196
-Navigation-mesh Toolset for Games
-
-
-supercollider/supercollider                1192
-An audio server, programming language, and IDE for sound synthesis and algorithmic composition.
-
-
-jgh-/VideoCore                             1189
-An audio and video manipulation pipeline
-
-
-duilib/duilib                              1179
-
-
-
-CppCon/CppCon2015                          1175
-Presentation Materials from CppCon 2015
-
-
-netease-youdao/hex                         1173
-heX
-
-
-shaih/HElib                                1171
-An Implementation of homomorphic encryption
-
-
-zerotier/ZeroTierOne                       1168
-A Smart Ethernet Switch for Earth
-
-
-ripple/rippled                             1162
-Decentralized cryptocurrency blockchain daemon implementing the Ripple Consensus Ledger in C++
-
-
-gosu/gosu                                  1161
-2D game development library for the desktop (Ruby and C++) and iOS (C++ only). MIT licensed.
-
-
-mlpack/mlpack                              1159
-mlpack: a scalable C++ machine learning library
-
-
-shogun-toolbox/shogun                      1158
-The Shogun Machine Learning Toolbox (Source Code)
-
-
-tstack/lnav                                1157
-Log file navigator
-
-
-mawww/kakoune                              1157
-mawww's experiment for a better code editor
-
-
-dogecoin/dogecoin                          1151
-very currency
-
-
-miguelfreitas/twister-core                 1146
-twister core / daemon
-
-
-xtaci/algorithms                           1144
-Algorithms & data structures in C++.
-
-
-fatih/subvim                               1142
-Vim customized to be like SublimeText
-
-
-ry/v8worker                                1141
-Minimal golang binding to V8
-
-
-GarageGames/Torque2D                       1140
-MIT Licensed Open Source version of Torque 2D game engine from GarageGames
-
-
-google/benchmark                           1139
-A microbenchmark support library
-
-
-arturadib/node-qt                          1138
-C++ Qt bindings for Node.js
-
-
-qgis/QGIS                                  1132
-QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)
-
-
-FastLED/FastLED                            1131
-The main FastLED library (successor to FastSPI_LED).  Please direct questions/requests for advice to the g+ community - http://fastled.io/+ - we'd like to keep issues to just tracking bugs/enhancements/tasks.  
-
-
-rescrv/HyperDex                            1120
-HyperDex is a scalable, searchable key-value store
-
-
-LibreVR/Revive                             1119
-Play Oculus-exclusive games on the HTC Vive, scroll down for downloads and installation instructions. Please forward all donations to the EFF.
-
-
-facebook/xcbuild                           1117
-Xcode-compatible build tool.
-
-
-dropbox/json11                             1115
-A tiny JSON library for C++11.
-
-
-aspnet/dnx                                 1113
-OBSOLETE. See readme file.
-
-
-qTox/qTox                                  1109
-Powerful Tox chat client that follows the Tox design guidelines.
-
-
-Aloshi/EmulationStation                    1108
-A flexible emulator front-end supporting keyboardless navigation and custom system themes.
-
-
-CleverRaven/Cataclysm-DDA                  1108
-Cataclysm - Dark Days Ahead. A fork/variant of Cataclysm Roguelike by Whales.
-
-
-DeNA/HandlerSocket-Plugin-for-MySQL        1107
-HandlerSocket is a NoSQL plugin for MySQL, working as a daemon inside the mysqld process, to accept tcp connections, and execute requests from clients. HandlerSocket does not support SQL queries; instead it supports simple CRUD operations on tables.
-
-
-dotnet/llilc                               1105
-This repo contains LLILC, an LLVM based compiler for .NET Core. It includes a set of cross-platform .NET code generation tools that enables compilation of MSIL byte code to LLVM supported platforms.
-
-
-wuye9036/CppTemplateTutorial               1094
-中文的C++ Template的教学指南。与知名书籍C++ Templates不同，该系列教程将C++ Templates作为一门图灵完备的语言来讲授，以求帮助读者对Meta-Programming融会贯通。(正在施工中)
-
-
-google/skia                                1090
-Skia is a complete 2D graphic library for drawing Text, Geometries, and Images.
-
-
-torvalds/subsurface                        1087
-Advanced multi-platform divelog based on Qt
-
-
-gperftools/gperftools                      1086
-Main gperftools repository
-
-
-seenaburns/dex-ui                          1082
-A science fiction desktop running on Linux. Awesome.
-
-
-MariaDB/server                             1075
-MariaDB server is a community developed fork of MySQL server. Started by core members of the original MySQL team, MariaDB actively works with outside developers to deliver the most featureful, stable, and sanely licensed open SQL server in the industry.
-
-
-WizTeam/WizQTClient                        1075
-为知笔记跨平台客户端
-
-
-apitrace/apitrace                          1072
-Tools for tracing OpenGL, Direct3D, and other graphics APIs
-
-
-d5/node.native                             1072
-C++11 port for the Node: native performance and modern simplicity.
-
-
-zcash/zcash                                1068
-zcash
-
-
-doxygen/doxygen                            1066
-Official doxygen git repository
-
-
-opencog/opencog                            1065
-A framework for integrated Artificial Intelligence & Artificial General Intelligence (AGI)
-
-
-kaldi-asr/kaldi                            1051
-This is now the official location of the Kaldi project.
-
-
-baidu/sofa-pbrpc                           1044
-A light-weight RPC implement of google protobuf RPC framework.
-
-
-danmar/cppcheck                            1041
-static analysis of C/C++ code
-
-
-papyros/papyros-shell                      1041
-:shell: The desktop shell for Papyros, built using QtQuick and QtCompositor as a compositor for Wayland.
-
-
-brndnmtthws/conky                          1039
-Light-weight system monitor for X.
-
-
-wesm/feather                               1036
-Feather: fast, interoperable binary data frame storage for Python, R, and more powered by Apache Arrow
-
-
-pgmodeler/pgmodeler                        1028
-pgModeler - PostgreSQL Database Modeler - is an open source data modeling tool designed for PostgreSQL. No more DDL commands written by hand let pgModeler do the job for you! This software reunites the concepts of entity-relationship diagrams and the features that PostgreSQL implements as extensions of SQL standards. Support this project by donate on project's official web site link:
-
-
-NixOS/nix                                  1026
-Nix, the purely functional package manager
-
-
-mit-nlp/MITIE                              1024
-MITIE: library and tools for information extraction
-
-
-bnoordhuis/node-heapdump                   1023
-Make a dump of the V8 heap for later inspection.
-
-
-FreeCAD/FreeCAD                            1022
-This is the official code of FreeCAD ( http://www.freecadweb.org ). Clone this if you want to start FreeCAD development!  Please always announce your pull requests on http://forum.freecadweb.org otherwise they might go on unnoticed for a long time, thanks!
-
-
-gzc/CLRS                                   1021
-:notebook:Solutions to Introduction to Algorithms
-
-
-snowie2000/mactype                         1021
-A better font rasterizer for Windows.
-
-
-dmlc/cxxnet                                1020
-move forward to https://github.com/dmlc/mxnet
-
-
-Hawstein/cracking-the-coding-interview     1017
-Solutions for the book: Cracking the coding interview V4. Written in C++.
-
-
-OpenNI/OpenNI                              1011
-OpenNI
-
-
-zhihu/kids                                 1010
-Kids Is Data Stream
-
-
-Microsoft/cpprestsdk                       1010
-The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.
-
-
-llvm-mirror/clang                          1008
-Mirror of official clang git repository located at http://llvm.org/git/clang.  Updated every five minutes.
-
-
-ValveSoftware/halflife                     1007
-Half-Life 1 engine based games
-
-
-audreyt/node-webworker-threads             1007
-Lightweight Web Worker API implementation with native threads
-
-
-drmeister/clasp                            1007
-clasp Common Lisp environment
-
-
-spring/spring                              996
-A powerful free cross-platform RTS engine
-
-
-acaudwell/Logstalgia                       995
-replay or stream website access logs as a retro arcade game
-
-
-libmx3/mx3                                 992
-a sample project showcasing/collecting cross platform techniques on mobile
-
-
-openthread/openthread                      988
-OpenThread released by Nest is an open-source implementation of the Thread networking protocol
-
-
-BonzaiThePenguin/WikiSort                  986
-Fast and stable sort algorithm that uses O(1) memory. Public domain.
-
-
-goldendict/goldendict                      985
-A feature-rich dictionary lookup program, supporting multiple dictionary formats (StarDict/Babylon/Lingvo/Dictd) and online dictionaries, featuring perfect article rendering with the complete markup, illustrations and other content retained, and allowing you to type in words without any accents or correct case.
-
-
-opencv/opencv_contrib                      984
-Repository for OpenCV's extra modules
-
-
-ibaaj/dijkstra-cartography                 970
-Using Dijkstra's algorithm ("finding the shortest paths between nodes in a graph") to draw maps :earth_africa:.
-
-
-simtr/The-Powder-Toy                       968
-Written in C++ and using SDL, The Powder Toy is a desktop version of the classic 'falling sand' physics sandbox, it simulates air pressure and velocity as well as heat.
-
-
-doug/depthjs                               967
-DepthJS allows any web page to interact with the Microsoft Kinect using Javascript.
-
-
-asLody/TurboDex                            965
- fast load dex in memory.
-
-
-easylogging/easyloggingpp                  961
-Single header only C++ logging library. It is extremely light-weight, robust, fast performing, thread and type safe and consists of many built-in features. It provides ability to write logs in your own customized format. It also provide support for logging your classes, third-party libraries, STL and third-party containers etc.
-
-
-qdore/Mutate                               950
-A simple launcher inspired by Alfred for ubuntu and Fedora.
-
-
-google/glog                                948
-C++ implementation of the Google logging module
-
-
-actor-framework/actor-framework            947
-An Open Source Implementation of the Actor Model in C++
-
-
-seetaface/SeetaFaceEngine                  947
-
-
-
-wesnoth/wesnoth                            943
-Free, turn-based strategy game with a high fantasy theme, featuring both singleplayer and online/hotseat multiplayer combat.
-
-
-davisking/dlib                             942
+davisking/dlib                             3357
 A toolkit for making real world machine learning and data analysis applications in C++
 
 
-LMMS/lmms                                  939
-Cross-platform music production software
+baidu/mobile-deep-learning                 3283
+This research aims at simply deploying CNN(Convolutional Neural Network) on mobile devices, with low complexity and high speed. 
 
 
-EasyDarwin/EasyDarwin                      933
-OPEN：高性能开源流媒体服务器，支持RTSP、HLS、HTTP直播
+scylladb/seastar                           3257
+High performance server-side application framework
 
 
-JACoders/OpenJK                            933
-Community effort to maintain and improve Jedi Academy + Jedi Outcast released by Raven Software
+yandex/ClickHouse                          3256
+ClickHouse is a free analytic DBMS for big data.
 
 
-adafruit/Adafruit_NeoPixel                 931
-Neo Pixels!
+hrydgard/ppsspp                            3256
+A PSP emulator for Android, Windows, Mac and Linux, written in C++. Want to contribute? Join us in #ppsspp on freenode (IRC) or just send pull requests / issues. For discussion use the forums on ppsspp.org.
 
 
-me115/design_patterns                      930
-图说设计模式
-
-
-kripken/ammo.js                            927
-Direct port of the Bullet physics engine to JavaScript using Emscripten
-
-
-AnyRTC/AnyRTC-RTMP                         927
-RTMP 推流器，RTMP播放器（秒开），跨平台（Win,IOS,Android）开源代码
-
-
-sphinxsearch/sphinx                        926
-Sphinx search server
-
-
-wang-bin/QtAV                              923
-A cross-platform multimedia framework based on Qt and FFmpeg. High performance. User & developer friendly. Supports Android, iOS, Windows store and desktops. 基于Qt和FFmpeg的跨平台高性能音视频播放框架
-
-
-wjakob/nanogui                             923
-Minimalistic GUI library for OpenGL
-
-
-flutter/engine                             919
-The Flutter engine
-
-
-mltframework/shotcut                       919
-cross-platform (Qt), open-source (GPLv3) video editor
-
-
-Microsoft/Pyjion                           915
-Pyjion - A JIT for Python based upon CoreCLR
-
-
-vgvassilev/cling                           907
-The interactive C++ interpreter Cling
-
-
-ManuelSchneid3r/albert                     903
-Albert omnilauncher
-
-
-cocaine/cocaine-core                       901
-An open platform to build your own PaaS clouds.
-
-
-ShiqiYu/libfacedetection                   901
-A binary library for face detection in images. You can use it free of charge with any purpose.
-
-
-chengr28/Pcap_DNSProxy                     901
-A local DNS server based on WinPcap and LibPcap
-
-
-PixarAnimationStudios/USD                  891
-Universal Scene Description
-
-
-USCiLab/cereal                             890
-A C++11 library for serialization
-
-
-thestinger/termite                         881
-A keyboard-centric VTE-based terminal, aimed at use within a window manager with tiling and/or tabbing support.
-
-
-asmjit/asmjit                              880
-Complete x86/x64 JIT and Remote Assembler for C++
-
-
-cpvrlab/ImagePlay                          878
-ImagePlay is a rapid prototyping application for image processing
-
-
-joeferner/node-java                        871
-Bridge API to connect with existing Java APIs.
-
-
-MrKepzie/Natron                            871
-Open-source compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.
-
-
-knolleary/pubsubclient                     861
-A client library for the Arduino Ethernet Shield that provides support for MQTT.
-
-
-mcostalba/Stockfish                        858
-UCI chess engine
-
-
-aras-p/glsl-optimizer                      852
-GLSL optimizer based on Mesa's GLSL compiler. Used in Unity for mobile shader optimization.
-
-
-yahoo/CaffeOnSpark                         851
-
-
-
-wiseio/paratext                            849
-A library for reading text files over multiple cores.
-
-
-msgpack/msgpack-c                          846
-MessagePack implementation for C and C++ / msgpack.org[C/C++]
-
-
-simongog/sdsl-lite                         843
-Succinct Data Structure Library 2.0
-
-
-KhronosGroup/glTF                          841
-glTF - the runtime asset format for WebGL, OpenGL ES, and OpenGL.
-
-
-facebook/fbthrift                          840
-Facebook's branch of Apache Thrift, including a new C++ server.
-
-
-petuum/bosen                               837
-Petuum's Bosen project
-
-
-cameron314/concurrentqueue                 831
-A fast multi-producer, multi-consumer lock-free concurrent queue for C++11
-
-
-Lexikos/AutoHotkey_L                       827
-AutoHotkey - macro-creation and automation-oriented scripting utility for Windows.
-
-
-tencent-wechat/phxpaxos                    826
-C++ Paxos library that has been used in Wechat production environment.
-
-
-aerys/minko                                823
-3D framework for web, desktop and mobile devices.
-
-
-Microsoft/Win2D                            816
-Win2D is an easy-to-use Windows Runtime API for immediate mode 2D graphics rendering with GPU acceleration. It is available to C#, C++ and VB developers writing Windows apps for Windows 8.1, Windows Phone 8.1 and Windows 10. It utilizes the power of Direct2D, and integrates seamlessly with XAML and CoreWindow.
-
-
-TencentOpen/behaviac                       816
-behaviac is a framework of the game AI development, and it also can be used as a rapid game prototype design tool.   behaviac supports the behavior tree(BT), finite state machine(FSM) and hierarchical task network(HTN).  Behaviors can be designed and debugged in the designer, exported and executed by the game. The designer can only run on the Windows platforms.   The run time library is implemented with C++ and C#, and it supports all major platforms (Windows, Linux, Android, iOS, Unity etc.) and Unity. The C++ version is suitable for the client and server side.
-
-
-wheybags/freeablo                          815
-Modern reimplementation of the Diablo 1 game engine
-
-
-openMVG/openMVG                            815
-open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion.
-
-
-kylemcdonald/ofxFaceTracker                810
-CLM face tracking addon for openFrameworks based on Jason Saragih's FaceTracker.
-
-
-floooh/oryol                               806
-A small, portable and extensible C++ 3D coding framework
-
-
-beniz/deepdetect                           804
-Deep Learning API and Server in C++11 with Python bindings and support for Caffe and XGBoost
-
-
-manuelruder/artistic-videos                802
-Torch implementation for the paper "Artistic style transfer for videos"
-
-
-Yelp/MOE                                   802
-A global, black box optimization engine for real world metric optimization.
-
-
-ReadyTalk/avian                            800
-Avian is a lightweight virtual machine and class library designed to provide a useful subset of Java's features, suitable for building self-contained applications.
-
-
-whoshuu/cpr                                796
-C++ Requests: Curl for People, a spiritual port of Python Requests
-
-
-ccMSC/ckb                                  789
-RGB Driver for Linux and OS X
-
-
-4Lang/4                                    788
-A completely emoji-based programming language
-
-
-zrm/snow                                   787
-
-
-
-nmap/nmap                                  782
-Nmap - the Network Mapper. Github mirror of official SVN repository.
-
-
-phacility/libphutil                        778
-A collection of PHP utility classes
-
-
-PX4/Firmware                               777
-PX4 Pro Autopilot Software
-
-
-zeux/pugixml                               774
-Light-weight, simple and fast XML parser for C++ with XPath support
-
-
-Qihoo360/QConf                             772
-Qihoo Distributed Configuration Management System
-
-
-tum-vision/lsd_slam                        771
-LSD-SLAM
-
-
-Microsoft/DirectX-Graphics-Samples         770
-This repo contains the DirectX Graphics samples that demonstrate how to build graphics intensive applications on Windows.
-
-
-yinqiwen/ardb                              770
-A redis protocol compatible nosql,  it support multiple storage engines as backend like Google's LevelDB, Facebook's RocksDB, OpenLDAP's LMDB,  PerconaFT, WiredTiger, ForestDB.
-
-
-Samsung/veles                              768
-Distributed machine learning platform
-
-
-0ad/0ad                                    767
-Git mirror of the 0 A.D. source code (http://trac.wildfiregames.com/browser)
-
-
-davidgfnet/whatsapp-purple                 767
-WhatsApp protocol implementation for libpurple (pidgin)
-
-
-jwise/HoRNDIS                              767
-Android USB tethering driver for Mac OS X
-
-
-artoolkit/artoolkit5                       766
-ARToolKit v5.x
-
-
-kripken/BananaBread                        766
-BananaBread is a C++ 3D game engine that runs on the web using JavaScript+WebGL+HTML
-
-
-RuntimeCompiledCPlusPlus/RuntimeCompiledCPlusPlus 757
-Change C++ code at runtime
-
-
-rtbkit/rtbkit                              757
-RTBkit is a real-time bidder framework designed for use on advertising exchanges such as the Rubicon Project, Nexage, App Nexus, The Google Ad Exchange and others.
-
-
-alibaba/oceanbase                          755
-A distributed, shared-nothing relational database
-
-
-eventql/eventql                            753
-EventQL is a distributed, columnar database built for large-scale data collection and analytics workloads. It can handle a large volume of streaming writes and runs super-fast SQL and MapReduce queries.
-
-
-Microsoft/microsoft-pdb                    749
-Information from Microsoft about the PDB format.  We'll try to keep this up to date. Just trying to help the CLANG/LLVM community get onto Windows.
-
-
-owncloud/client                            748
-:computer: Desktop Syncing Client for ownCloud
-
-
-9miao/CrossApp                             748
-Cross-Platform Mobile APP Development Engine
-
-
-beark/ftl                                  748
-C++ template library for fans of functional programming
-
-
-vgough/encfs                               741
-EncFS: an Encrypted Filesystem for FUSE.
-
-
-wavii/darner                               739
-simple, lightweight message queue
-
-
-ethereum/cpp-ethereum                      738
-Ethereum C++ client
-
-
-solodon4/Mach7                             738
-Pattern-matching library for C++
-
-
-chriskohlhoff/asio                         735
-Asio C++ Library
-
-
-ericniebler/range-v3                       735
-Experimental range library for C++11/14/17
-
-
-moderngpu/moderngpu                        732
-Patterns and behaviors for GPU computing
-
-
-CopernicaMarketingSoftware/PHP-CPP         730
-Library to build PHP extensions with C++
-
-
-Andersbakken/rtags                         729
-A c/c++ client/server indexer for c/c++/objc[++] with integration for Emacs based on clang.
-
-
-endless-sky/endless-sky                    727
-Space exploration, trading, and combat game.
-
-
-google/butteraugli                         722
-butteraugli estimates the psychovisual difference between two images
-
-
-networkprotocol/libyojimbo                 721
-A library for creating secure client/server network protocols over UDP
-
-
-mmp/pbrt-v2                                720
-Source code for the version of pbrt described in the second edition of "Physically Based Rendering"
-
-
-andybarry/flight                           719
-Flight code for MIT CSAIL Robot Locomotion Group flying-through-forests project
-
-
-moai/moai-dev                              718
-This is the development repo of Moai SDK. Current, but not necessarily tested or stable.
-
-
-tensorflow/serving                         713
-A flexible, high-performance serving system for machine learning models
-
-
-iagox86/dnscat2                            711
-
-
-
-onqtam/doctest                             710
-The lightest feature-rich C++98/C++11 single-header testing framework for unit tests and TDD
-
-
-facebook/mysql-5.6                         710
-Facebook's branch of the Oracle MySQL v5.6 database. This includes MyRocks.
-
-
-Valloric/ycmd                              709
-A code-completion & code-comprehension server
-
-
-tzapu/WiFiManager                          704
-ESP8266 WiFi Connection manager with web captive portal
-
-
-ChaiScript/ChaiScript                      703
-Embedded Scripting Language Designed for C++
-
-
-logcabin/logcabin                          702
-LogCabin is a distributed storage system built on Raft that provides a small amount of highly replicated, consistent storage. It is a reliable place for other distributed systems to store their core metadata and is helpful in solving cluster management issues.
-
-
-tunabrain/tungsten                         701
-High performance physically based renderer in C++11
-
-
-CppCon/CppCon2016                          699
-Slides and other materials from CppCon 2016
-
-
-TMRh20/RF24                                694
-Optimized fork of nRF24L01 for Arduino and Raspberry Pi
-
-
-eranif/codelite                            692
-CodeLite, a cross platform C/C++/PHP and Node.js IDE written in C++
-
-
-couchbase/forestdb                         692
-A Fast Key-Value Storage Engine Based on Hierarchical B+-Tree Trie
-
-
-libxmljs/libxmljs                          690
-libxml bindings for v8 javascript engine
-
-
-spotify/echoprint-codegen                  690
-Codegen for Echoprint
-
-
-PowerDNS/pdns                              688
-PowerDNS
-
-
-simbody/simbody                            688
-High-performance C++ multibody dynamics/physics library for simulating articulated biomechanical and mechanical systems like vehicles, robots, and the human skeleton.
-
-
-SupSuper/OpenXcom                          685
-Open-source clone of the original X-Com
-
-
-dhewm/dhewm3                               685
-dhewm 3 main repository
-
-
-cloose/CuteMarkEd                          684
-Qt Markdown Editor
-
-
-libRocket/libRocket                        682
-libRocket - The HTML/CSS User Interface library
-
-
-alecthomas/entityx                         680
-EntityX - A fast, type-safe C++ Entity-Component system
-
-
-cgdb/cgdb                                  675
-Console front-end to the GNU debugger
-
-
-zerovm/zerovm                              673
-Open-source lightweight virtualization platform
-
-
-wetube/bitcloud                            672
-Bitcloud Project
-
-
-Microsoft/Windows-Driver-Frameworks        667
-WDF makes it easy to write high-quality Windows drivers
-
-
-OpenKinect/libfreenect2                    667
-Open source drivers for the Kinect for Windows v2 device
-
-
-BitFunnel/NativeJIT                        666
-A C++ expression -&gt: x86 JIT
-
-
-happynear/caffe-windows                    665
-Configure Caffe in one hour for Windows users.
-
-
-adafruit/DHT-sensor-library                665
-Arduino library for DHT11DHT22, etc Temp & Humidity Sensors
-
-
-hyperion-project/hyperion                  664
-Hyperion is an open source ambient light software.  Feel free to join us and contribute new features! Webpage: https://hyperion-project.org/
-
-
-ryanries/UniversalPauseButton              664
-A pause button that pauses the unpausable. Handy for video game cut scenes especially.
-
-
-scummvm/scummvm                            663
-ScummVM main repository
-
-
-google/jsonnet                             662
-Jsonnet - The data templating language
-
-
-miguelbalboa/rfid                          658
-Arduino RFID Library for MFRC522
-
-
-unknownworlds/decoda                       656
-Decoda Lua IDE and debugger
-
-
-raspberrypi/tools                          654
-
-
-
-libfann/fann                               648
-Official github repository for Fast Artificial Neural Network Library (FANN)
-
-
-js-platform/node-webrtc                    648
-WebRTC stack for node.js
-
-
-quarnster/SublimeClang                     648
-C/C++/ObjC/ObjC++ autocompletions and code navigation
-
-
-progschj/ThreadPool                        648
-A simple C++11 Thread Pool implementation
-
-
-apache/incubator-singa                     648
-Mirror of Apache Singa (Incubating)
-
-
-gigablast/open-source-search-engine        647
-A distributed open source search engine and spider/crawler written in C/C++ for Linux on Intel/AMD. From gigablast dot com, which has binaries for download. See the README.md file at the very bottom of this page for instructions.
-
-
-ispc/ispc                                  647
-Intel SPMD Program Compiler
-
-
-SequoiaDB/SequoiaDB                        646
-SequoiaDB is a document-oriented NoSQL Database
-
-
-OtterBrowser/otter-browser                 644
-Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI using Qt5
-
-
-QupZilla/qupzilla                          644
-Cross-platform Qt web browser
-
-
-emojicode/emojicode                        644
-The holy source for the Compiler and Real-Time Engine
-
-
-wichtounet/thor-os                         642
-Simple operating system in C++, written from scratch
-
-
-bloomberg/bde                              640
-Basic Development Environment - a set of foundational C++ libraries used at Bloomberg.
-
-
-rbock/sqlpp11                              637
-A type safe SQL template library for C++
-
-
-mmp/pbrt-v3                                637
-Source code for pbrt, the renderer described in the third edition of "Physically Based Rendering: From Theory To Implementation", by Matt Pharr, Wenzel Jakob, and Greg Humphreys.
-
-
-Tokutek/mongo                              635
-TokuMX is a high-performance, concurrent, compressing, drop-in replacement engine for MongoDB | Issue tracker: https://tokutek.atlassian.net/browse/MX/ |
-
-
-serge-sans-paille/pythran                  633
-a claimless python to c++ converter
-
-
-mfontanini/libtins                         632
-High-level, multiplatform C++ network packet sniffing and crafting library. 
-
-
-KhronosGroup/Vulkan-Hpp                    632
-Open-Source Vulkan C++ API
-
-
-turi-code/SFrame                           631
-SFrame: Scalable tabular and graph data-structures built for out-of-core data analysis and machine learning.
-
-
-sftrabbit/CppSamples-Samples               629
-A repository of modern C++ samples curated by the community.
-
-
-nodejs/node-addon-examples                 629
-Node.js C++ addon examples from http://nodejs.org/docs/latest/api/addons.html
-
-
-google/mathfu                              627
-C++ math library developed primarily for games focused on simplicity and efficiency.
-
-
-AlloyTeam/Rythem                           624
-a fiddler-like project using Qt
-
-
-syoyo/tinyobjloader                        623
-Tiny but powerful single file wavefront obj loader
-
-
-jcw/ethercard                              622
-EtherCard is a driver for the ENC28J60 chip, compatible with Arduino IDE
-
-
-tomlooman/EpicSurvivalGameSeries           621
-Third person survival game (tutorial) series for Unreal Engine 4.
-
-
-niwinz/phantompy                           619
-Phantompy is a headless WebKit engine with powerful pythonic api build on top of Qt5 Webkit
-
-
-google/kythe                               616
-Kythe is a pluggable, (mostly) language-agnostic ecosystem for building tools that work with code.
-
-
-Nevcairiel/LAVFilters                      613
-LAV Filters - Open-Source DirectShow Media Splitter and Decoders
-
-
-csete/gqrx                                 610
-Software defined radio receiver powered by GNU Radio and Qt.
-
-
-hugoam/kiui                                604
-Auto-layout Ui library, lightweight, skinnable and system agnostic, with an OpenGL backend
-
-
-tapir-dream/berserkJS                      603
-berserkJS 是新形态的前端测试自动化工具 + 页面性能分析工具 ，同时也是个使用 JS 语法控制的命令行浏览器。可用 JS 编写前端自动测试用例 + 页面性能分析用例。 想了解更多？看看连接中的文档吧~~
-
-
-akrennmair/newsbeuter                      600
-Newsbeuter is an open-source RSS/Atom feed reader for text terminals.
-
-
-denandz/KeeFarce                           599
-Extracts passwords from a KeePass 2.x database, directly from memory.
-
-
-boostorg/compute                           599
-A C++ GPU Computing Library for OpenCL
-
-
-devsisters/libquic                         598
-QUIC, a multiplexed stream transport over UDP
-
-
-mixxxdj/mixxx                              598
-Mixxx is Free DJ software that gives you everything you need to perform live mixes.
-
-
-zbackup/zbackup                            597
-ZBackup, a versatile deduplicating backup tool
-
-
-yanyiwu/cppjieba                           596
-"结巴"中文分词的C++版本
-
-
-lltcggie/waifu2x-caffe                     596
-waifu2xのCaffe版
-
-
-rakshasa/libtorrent                        595
-libTorrent BitTorrent library
-
-
-jubatus/jubatus                            595
-Framework and Library for Distributed Online Machine Learning
-
-
-vczh-libraries/GacUI                       593
-GPU Accelerated C++ User Interface, with WYSIWYG developing tools, XML supports, built-in data binding and MVVM features.
-
-
-Azure/node-sqlserver                       589
-
-
-
-zeroc-ice/ice                              587
-Comprehensive RPC framework with support for C++, C#, Java, JavaScript, Python and more.
-
-
-charto/nbind                               587
-Magical headers that make your C++ library accessible from JavaScript
-
-
-Microsoft/DirectXTK                        587
-The DirectX Tool Kit (aka DirectXTK) is a collection of helper classes for writing DirectX 11.x code in C++
-
-
-vczh/tinymoe                               586
-English-like dynamic typing programming language
-
-
-openscenegraph/OpenSceneGraph              584
-OpenSceneGraph git repository
-
-
-1000Memories/TMQuiltView                   584
-
-
-
-kkaefer/node-cpp-modules                   584
-Guide for writing C++ node.js extensions
-
-
-schlangster/cpp.react                      584
-C++React: A reactive programming library for C++11.
-
-
-REhints/HexRaysCodeXplorer                 582
-Hex-Rays Decompiler plugin for better code navigation
-
-
-simsong/tcpflow                            582
-TCP/IP packet demultiplexer
-
-
-node-inspector/v8-profiler                 581
-node bindings for the v8 profiler
-
-
-ldiqual/tesseract-ios                      579
-Tesseract OCR for iOS
-
-
-pje/WavTap                                 579
-globally capture whatever your mac is playing—as simply as a screenshot
-
-
-jbush001/NyuziProcessor                    578
-GPGPU processor architecture
-
-
-maidsafe-archive/MaidSafe                  578
-This is the super-project in which each MaidSafe library resides. Some information is common to all libraries, and is detailed here. Library-specific information can be found in each library's wiki.
-
-
-dmlc/mshadow                               578
-Matrix Shadow:Lightweight CPU/GPU Matrix and Tensor  Template Library in C++/CUDA for (Deep) Machine Learning
-
-
-scanlime/zenphoton                         578
-The "Zen photon garden", an HTML5 raytracing art-toy.
-
-
-hluk/CopyQ                                 577
-Clipboard manager with advanced features
-
-
-gree/lwf                                   577
-LWF - Lightweight SWF
-
-
-fritzing/fritzing-app                      577
-Fritzing desktop application
-
-
-eliben/llvm-clang-samples                  577
-Examples of using the LLVM and Clang compilation libraries and tools
-
-
-DFHack/dfhack                              577
-Memory hacking library for Dwarf Fortress and a set of tools that use it
-
-
-mtuomi/SecondReality                       576
-Source code and data of Second Reality by Future Crew in 1993
-
-
-XhmikosR/notepad2-mod                      574
-LOOKING FOR DEVELOPERS - Notepad2-mod, a Notepad2 fork, a fast and light-weight Notepad-like text editor with syntax highlighting
-
-
-bombela/backward-cpp                       573
-A beautiful stack trace pretty printer for C++
-
-
-socketio/socket.io-client-cpp              572
-C++11 implementation of Socket.IO client
-
-
-marcoschwartz/aREST                        569
-A RESTful environment for Arduino
-
-
-dmlc/minerva                               568
-Minerva: a fast and flexible tool for deep learning on multi-GPU. It provides ndarray programming interface, just like Numpy. Python bindings and C++ bindings are both available. The resulting code can be run on CPU or GPU. Multi-GPU support is very easy.
-
-
-SmingHub/Sming                             568
-Sming - Open Source framework for high efficiency native ESP8266 development
-
-
-MicrosoftEdge/WebGL                        567
-Microsoft Edge WebGL Implementation
-
-
-parro-it/libui-node                        566
-Node bindings for libui, an awesome native UI library for Unix, OSX and Windows
-
-
-esseks/monicelli                           565
-An esoteric programming language, come se fosse antani.
-
-
-horde3d/Horde3D                            563
-Horde3D is a small 3D rendering and animation engine. It is written in an effort to create an engine being as lightweight and conceptually clean as possible.
-
-
-laurolins/nanocube                         562
-
-
-
-raulmur/ORB_SLAM2                          558
-Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
-
-
-android/platform_system_core               557
-
-
-
-HIT-SCIR/ltp                               556
-Language Technology Platform
-
-
-felis/USB_Host_Shield_2.0                  556
-Revision 2.0 of USB Host Library for Arduino.
-
-
-pioneerspacesim/pioneer                    556
-A game of lonely space adventure
-
-
-panda3d/panda3d                            556
-Powerful, mature open-source cross-platform game engine for Python and C++, developed by Disney and CMU
-
-
-arvidn/libtorrent                          556
-an efficient feature complete C++ bittorrent implementation
-
-
-DrWhax/truecrypt-archive                   555
-Archive of (almost) all truecrypt releases - Please audit this repository!
-
-
-Reactive-Extensions/RxCpp                  555
-Reactive Extensions for C++
-
-
-toggl/toggldesktop                         553
-Toggl Desktop app
-
-
-OpenRTMFP/Cumulus                          552
-CumulusServer is a complete open source and cross-platform RTMFP server extensible by way of scripting
-
-
-TadasBaltrusaitis/OpenFace                 552
-OpenFace – a state-of-the art open source tool intended for facial landmark detection, head pose estimation, facial action unit recognition, and eye-gaze estimation.
-
-
-protobuf-c/protobuf-c                      550
-Protocol Buffers implementation in C
-
-
-bwapi/bwapi                                547
-Brood War API
-
-
-xuelangZF/CS_Offer                         547
-计算机学科基础知识和主流编程语言相关内容的总结
-
-
-Qihoo360/pika                              545
-Pika is a nosql compatible with redis protocol, it is developed by Qihoo's DBA and infrastructure team
-
-
-eunyoung14/mtcp                            545
-mTCP: A Highly Scalable User-level TCP Stack for Multicore Systems
-
-
-include-what-you-use/include-what-you-use  545
-A tool for use with clang to analyze #includes in C and C++ source files
-
-
-preshing/junction                          544
-Concurrent data structures in C++
-
-
-facebook/fatal                             544
-Fatal is a library for fast prototyping software in modern C++. It provides facilities to enhance the expressive power of C++. The library is heavily based on template meta-programming, while keeping the complexity under-the-hood.
-
-
-eigengo/akka-patterns                      544
-Demonstration of the common Akka patterns
-
-
-mariusmuja/flann                           544
-Fast Library for Approximate Nearest Neighbors
-
-
-matt-42/iod                                540
-Meta programming utilities for C++14
-
-
-greenheartgames/greenworks                 540
-a node.js/node-webkit plugin to integrate with steamworks
-
-
-iauns/cpm                                  540
-C++ Package Manager
-
-
-jeremyong/Selene                           540
-Simple C++11 friendly header-only bindings to Lua
-
-
-shurcooL/Conception                        539
-Conception was an experimental project, looking for ways to make software development more efficient.
-
-
-zddhub/opensse                             539
-Open Sketch Search Engine－ 3D object retrieval based on sketch image as input
-
-
-Microsoft/rDSN                             539
-Robust Distributed System Nucleus (rDSN) is an open framework for quickly building and managing high performance and robust distributed systems.
-
-
-jeaye/color_coded                          538
-A vim plugin for libclang-based highlighting in C, C++, ObjC
-
-
-Mogara/QSanguosha                          538
-An open source online version of the famous board game Sanguosha
-
-
-gflags/gflags                              535
-The gflags package contains a C++ library that implements commandline flags processing. It includes built-in support for standard types such as string and the ability to define flags in the source file in which they are used. Online documentation available at:
-
-
-jmoon018/PacVim                            535
-
-
-
-cloudera/kudu                              535
-Apache Kudu. Mirrored from https://github.com/apache/kudu
-
-
-chjj/pty.js                                534
-Bindings to forkpty(3) for node.js.
-
-
-firmata/arduino                            534
-Firmata firmware for Arduino
-
-
-wjakob/instant-meshes                      533
-Interactive field-aligned mesh generator
-
-
-gnuradio/gnuradio                          533
-GNU Radio
-
-
-andrewrk/zig                               531
-System programming language intended to replace C
-
-
-kristjankorjus/Replicating-DeepMind        531
-Reproducing the results of "Playing Atari with Deep Reinforcement Learning" by DeepMind
-
-
-AutoHotkey/AutoHotkey                      530
-AutoHotkey is a powerful and easy to use scripting language for desktop automation on Windows.
-
-
-StevenHickson/PiAUISuite                   530
-Raspberry PI AUI Suite
-
-
-freelan-developers/freelan                 524
-The main freelan repository.
-
-
-yedf/handy                                 524
-简洁易用的C++11网络库 / 支持单机千万并发连接 / a simple C++11 network server framework
-
-
-kostya/benchmarks                          523
-Some benchmarks of different languages
-
-
-OpenDroneMap/OpenDroneMap                  522
-OpenDroneMap is a tool to postprocess drone, balloon, kite, and street view data to geographic data including orthophotos, point clouds, & textured mesh. In the tradition of the Ship of Theseus, it was originally forked from qwesda/BundlerTools https://github.com/qwesda/BundlerTools.
-
-
-adobe/brackets-app                         521
-Deprecated CEF1-based app shell for Brackets. Use https://github.com/adobe/brackets-shell instead.
-
-
-tqchen/tinyflow                            521
-Tutorial code on how to build your own Deep Learning System in 2k Lines
-
-
-boostorg/hana                              519
-Your standard library for metaprogramming
-
-
-gioblu/PJON                                517
-Digital communication framework for IOT. Compatible with Arduino, ESP8266 and Teensy.
-
-
-etotheipi/BitcoinArmory                    517
-Python-Based Bitcoin Software
-
-
-TheCherno/Sparky                           517
-The Sparky engine!
-
-
-STEllAR-GROUP/hpx                          515
-The C++ Standards Library for Concurrency and Parallelism
-
-
-mysensors/MySensors                        515
-MySensors library and examples
-
-
-lballabio/quantlib-old                     513
-The QuantLib C++ library and extensions (warning: out of date)
-
-
-lyft/envoy                                 513
+envoyproxy/envoy                           3193
 C++ front/service proxy
 
 
-Microsoft/IEDiagnosticsAdapter             512
-IE Diagnostics Adapter is a standalone exe that enables tools to debug and diagnose IE11 using the Chrome remote debug protocol. 
+liuruoze/EasyPR                            3185
+An easy, flexible, and accurate plate recognition project for Chinese licenses in unconstrained situations. 
 
 
-twitter/BreakoutDetection                  511
-Breakout Detection via Robust E-Statistics
+fmtlib/fmt                                 3159
+Small, safe and fast formatting library
 
 
-paulhodge/EASTL                            509
-Obsolete repo, please go to: https://github.com/electronicarts/EASTL
+rovo89/Xposed                              3149
+The native part of the Xposed framework (mainly the modified app_process binary).
 
 
-uzh-rpg/rpg_svo                            507
-Semi-direct Visual Odometry
+kelektiv/node.bcrypt.js                    3145
+bcrypt for NodeJs
 
 
-google/rowhammer-test                      506
-Test DRAM for bit flips caused by the rowhammer problem
+fuchsia-mirror/magenta                     3143
+Magenta Kernel, Core Drivers, and Services
 
 
-driftyco/ionic-plugin-keyboard             504
-Ionic Keyboard Plugin for Cordova
+google/liquidfun                           3101
+2D physics engine for games
 
 
-rezaali/ofxUI                              504
-[DEPRECATED] UI Addon for openFrameworks
+jasarien/Provenance                        3088
+An iOS/tvOS Frontend for multiple emulators, currently supporting Sega Genesis, Game Gear/Master System, Sega CD, 32X, SNES, NES, GB/GBC, GBA, Atari 2600 and 7800.
 
 
-google/souper                              504
-A superoptimizer for LLVM IR
+peterbraden/node-opencv                    3081
+OpenCV Bindings for node.js
 
 
-dmlc/parameter_server                      503
-moved to https://github.com/dmlc/ps-lite
+google/lmctfy                              3078
+lmctfy is the open source version of Google’s container stack, which provides Linux application containers.
 
 
-Dobiasd/FunctionalPlus                     502
-helps you write concise and readable C++ code.
+zcash/zcash                                3058
+Zcash - Internet Money
 
 
-interactive-matter/aJson                   501
-aJson is an Arduino library to enable JSON processing with Arduino. It easily enables you to decode, create, manipulate and encode JSON directly from and to data structures.
+bulletphysics/bullet3                      3049
+Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.
 
 
-dmlc/nnvm                                  500
-Intermediate Computational Graph Representation  for Deep Learning Systems
+ossrs/srs                                  3045
+SRS's an industrial-strength live streaming cluster, with the simplest implementation and the best conceptual integrity.
 
 
-etexteditor/e                              500
-e text editor
+webscalesql/webscalesql-5.6                3036
+WebScaleSQL, Version 5.6, based upon the MySQL-5.6 community releases.
 
 
-fabianschuiki/OpenSkyscraper               499
-Open source tower simulation game inspired by SimTower.
+ninja-build/ninja                          3028
+a small build system with a focus on speed
 
 
-RobTillaart/Arduino                        498
-libs and code
+googlecartographer/cartographer            3023
+Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
 
 
-snap-stanford/snap                         498
-Stanford Network Analysis Platform (SNAP) is a general purpose network analysis and graph mining library.
+mawww/kakoune                              3005
+mawww's experiment for a better code editor
 
 
-br3ttb/Arduino-PID-Library                 498
+Tencent/ncnn                               2970
+ncnn is a high-performance neural network inference framework optimized for the mobile platform
 
 
+minetest/minetest                          2965
+Minetest, an open source infinite-world block sandbox game engine and game with survival and crafting. Also see https://github.com/minetest/minetest_game
 
-stepmania/stepmania                        496
-Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use.
 
+gzc/CLRS                                   2950
+:notebook:Solutions to Introduction to Algorithms
 
-GraphChi/graphchi-cpp                      493
-GraphChi's C++ version.  Big Data - small machine.
 
+mozilla/rr                                 2894
+Record and Replay Framework
 
-imageworks/OpenShadingLanguage             493
-Advanced shading language for production GI renderers
 
+id-Software/DOOM-3-BFG                     2893
+Doom 3 BFG Edition
 
-bittorrent/libutp                          491
-uTorrent Transport Protocol library
 
+electronicarts/EASTL                       2892
+EASTL stands for Electronic Arts Standard Template Library.  It is an extensive and robust implementation that has an emphasis on high performance.
 
-01org/hyperscan                            490
-High-performance regular expression matching library
 
+pybind/pybind11                            2885
+Seamless operability between C++11 and Python
 
-trailofbits/mcsema                         490
-x86 to machine code translation framework
 
+kaldi-asr/kaldi                            2884
+This is now the official location of the Kaldi project.
 
-cppit/jucipp                               488
-juCi++: a lightweight, cross-platform C++-IDE  supporting C++11, C++14, and experimental C++17 features
 
+FLIF-hub/FLIF                              2872
+Free Lossless Image Format
 
-pezy/CppPrimer                             484
-:books: C++ Primer 5  exercise answers.
 
+ArduPilot/ardupilot                        2871
+ArduPlane, ArduCopter, ArduRover source
 
-alibaba/AliSQL                             483
-AliSQL is a MySQL branch originated from Alibaba Group. Fetch document from Release Notes at bottom.
 
+ValveSoftware/openvr                       2852
+OpenVR SDK
 
-cameron314/readerwriterqueue               482
-A fast single-producer, single-consumer lock-free queue for C++
 
+spotify/annoy                              2833
+Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
 
-alibaba/tfs                                481
-TFS (Taobao File System) is a distributed file system similar to GFS.
 
+laverdet/node-fibers                       2829
+Fiber/coroutine support for v8 and node.
 
-richardghirst/PiBits                       481
 
+Tencent/Tars                               2821
+Tars is a highly performance rpc framework based on naming service using tars protocol and provides a semi-automatic operation platform.
 
 
-apple/swift-llvm                           481
+ricochet-im/ricochet                       2817
+Anonymous peer-to-peer instant messaging
 
 
+gabime/spdlog                              2813
+Super fast C++ logging library.
 
-zhangyuanwei/node-images                   481
-Cross-platform image decoder(png/jpeg/gif) and encoder(png/jpeg) for Nodejs
 
+cisco/openh264                             2792
+Open Source H.264 Codec 
 
-strukturag/libde265                        481
-Open h.265 video codec implementation.
 
+benvanik/xenia                             2762
+Xbox 360 Emulator Research Project 
 
-baidu/tera                                 480
-An Internet-Scale Database.
 
+breach/thrust                              2736
+Chromium-based cross-platform / cross-language application framework
 
-Kitware/VTK                                480
-Visualization Toolkit
 
+ponylang/ponyc                             2735
+:horse: Pony is an open-source, actor-model, capabilities-secure, high performance programming language
 
-chenshuo/recipes                           480
-Some code snippets for sharing
 
+keepassxreboot/keepassxc                   2727
+KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.
 
-Warzone2100/warzone2100                    478
-Warzone 2100 - a free and open source real time strategy game.  Please note, we prefer trac tickets over pull requests!  Read http://forums.wz2100.net/viewtopic.php?f=6&t=11570 for full information!
 
+GarageGames/Torque3D                       2711
+MIT Licensed Open Source version of Torque 3D from GarageGames
 
-quantcast/qfs                              476
-Quantcast File System
 
+oguzhaninan/Stacer                         2684
+Linux System Optimizer and Monitoring
 
-wisk/medusa                                475
-An open source interactive disassembler
 
+x64dbg/x64dbg                              2663
+An open-source x64/x32 debugger for windows.
 
-OpenImageIO/oiio                           475
-OpenImageIO
 
+CtripMobile/DynamicAPK                     2644
+Solution to implement multi apk dynamic loading and hot fixing for Android App. (实现Android App多apk插件化和动态加载，支持资源分包和热修复)
 
-leanprover/lean                            474
-Lean Theorem Prover
 
+Z3Prover/z3                                2635
+The Z3 Theorem Prover
 
-SuperTux/supertux                          474
-SuperTux source code
 
+googlevr/gvr-android-sdk                   2605
+Google VR SDK for Android
 
-jbeder/yaml-cpp                            471
-A YAML parser and emitter in C++
 
+AGWA/git-crypt                             2599
+Transparent file encryption in git
 
-JonathanSalwan/Triton                      471
-Triton is a Dynamic Binary Analysis (DBA) framework. It provides internal components like a Dynamic Symbolic Execution (DSE) engine, a Taint Engine, AST representations of the x86 and the x86-64 instructions set semantics, SMT simplification passes, a SMT Solver Interface and, the last but not least, Python bindings.
 
+hioa-cs/IncludeOS                          2582
+A minimal, resource efficient unikernel for cloud services
 
-inspircd/inspircd                          471
-A modular C++ IRC daemon (ircd).
 
+Mooophy/Cpp-Primer                         2574
+C++ Primer 5 answers
 
-JoeyDeVries/LearnOpenGL                    469
-Code repository of all tutorials found at http://learnopengl.com
 
+assimp/assimp                              2544
+Official Open Asset Import Library Repository. Loads 40+ 3D file formats into one unified and clean data structure. 
 
-vslavik/poedit                             469
-Gettext translations editor for OS X, Windows and Unix.
 
+mamedev/mame                               2539
+MAME
 
-rime/librime                               469
-Rime Input Method Engine, the core library
 
+facebookresearch/faiss                     2520
+A library for efficient similarity search and clustering of dense vectors.
 
-sysown/proxysql                            466
-High-performance MySQL proxy with a GPL license.
 
+facebook/conceal                           2519
+Conceal provides easy Android APIs for performing fast encryption and authentication of data.
 
-libigl/libigl                              464
-Simple C++ geometry processing library.
 
+SaschaWillems/Vulkan                       2517
+Examples and demos for the new Vulkan API
 
-Matsemann/oculus-fpv                       463
-Code for TPG4850 eksperter i team vr-landsbyen
 
+facebookincubator/beringei                 2510
+Beringei is a high performance, in-memory storage engine for time series data.
 
-apache/trafficserver                       463
-Mirror of Apache Traffic Server
 
-
-Overv/vramfs                               463
-VRAM based file system for Linux
-
-
-baidu-research/persistent-rnn              463
-Fast Recurrent Networks Library
-
-
-vinniefalco/DSPFilters                     462
-A Collection of Useful C++ Classes for Digital Signal Processing
-
-
-lukasmartinelli/py14                       462
- Python to C++ 14 transpiler
-
-
-jscheiny/Streams                           462
-Lazy evaluation in C++ - http://jscheiny.github.io/Streams/
-
-
-julianstorer/JUCE                          461
-The JUCE cross-platform C++ framework.
-
-
-nolanbrown/Tesseract-iPhone-Demo           460
-Demo iPhone app utilizing the tesseract library for OCR
-
-
-ragnraok/android-image-filter              460
-some android image filters
-
-
-kazuho/picojson                            460
-a header-file-only, JSON parser serializer in C++
-
-
-andrewssobral/bgslibrary                   458
-A Background Subtraction Library
-
-
-sddm/sddm                                  456
-QML based X11 and Wayland display manager
-
-
-TortoiseGit/TortoiseGit                    456
-Windows Explorer Extension to Operate Git; Mirror of official repository https://tortoisegit.org/sourcecode
-
-
-eidheim/Simple-Web-Server                  455
-A very simple, fast, multithreaded, platform independent HTTP and HTTPS server and client library implemented using C++11 and Boost.Asio. Created to be an easy way to make REST resources available from C++ applications.
-
-
-Icinga/icinga2                             454
-GIT Mirror & Releases for Icinga 2 (Developer Guidelines: https://wiki.icinga.org/display/Dev/Developer+Guidelines)
-
-
-puppetlabs/facter                          454
-Collect and display system facts
-
-
-zyq8709/DexHunter                          453
-General Automatic Unpacking Tool for Android Dex Files
-
-
-cinience/RedisStudio                       452
-RedisStudio Redis GUI client(tool) for windows
-
-
-Cockatrice/Cockatrice                      451
-A cross-platform virtual tabletop for multiplayer card games
-
-
-kmkolasinski/AwesomeBump                   450
-AwesomeBump is a free program written using Qt library designed to generate normal, height, specular or ambient occlusion textures from a single image. Since the image processing is done in 99% on GPU  the program runs very fast and all the parameters can be changed in real time. AB was made to be a new alternative to known gimp plugin called Insane Bump. 
-
-
-opentx/opentx                              449
-OpenTX custom firmware for Transmitters
-
-
-LibreCAD/LibreCAD                          447
-LibreCAD is a cross-platform 2D CAD program written in C++11 using the Qt framework. It can read DXF and DWG files and can write DXF, PDF and SVG files. The user interface is highly customizable, and has dozens of translations.
-
-
-yyzybb537/libgo                            444
-C++ coroutine library, CSP mode, likes golang
-
-
-firebreath/FireBreath                      443
-Browser Plugin framework (NPAPI and ActiveX on Windows, Mac, and Linux)
-
-
-DarthTon/Blackbone                         443
-Windows memory hacking library
-
-
-vaibhavpandeyvpz/apkstudio                 443
-Cross-platform Qt5 based IDE for reverse-engineering android applications
-
-
-acemod/ACE3                                441
-Open-source realism mod for Arma 3
-
-
-cztomczak/cef2go                           440
-CEF2go is an HTML 5 based GUI toolkit for the Go language.  ★ Forum:
-
-
-hughperkins/DeepCL                         440
-OpenCL library to train deep convolutional neural networks
-
-
-vslavik/winsparkle                         439
-App update framework for Windows, inspired by Sparkle for OS X
-
-
-namecoin/namecoin-legacy                   437
-Legacy client. New version here: https://github.com/namecoin/namecoin-core  Note the release branch! - Official website:
-
-
-blynkkk/blynk-library                      435
-Blynk library for embedded hardware. Works with Arduino, ESP8266, Raspberry Pi, Intel Edison/Galileo, LinkIt ONE, Particle Core/Photon, Energia, ARM mbed, etc.
-
-
-decaf-emu/decaf-emu                        435
-Researching Wii U emulation.
-
-
-vcmi/vcmi                                  435
-Open-source engine for Heroes of Might and Magic III
-
-
-highfidelity/hifi                          434
-Open source software for shared virtual worlds using HMDs and dynamically assigned devices as servers.  San Francisco based startup, we are hiring: http://highfidelity.com/jobs  Documentation at http://docs.highfidelity.com  Contribute by reporting bugs & doing jobs on http://worklist.net
-
-
-alibaba/tair                               434
-A distributed key-value storage system developed by Taobao.com
-
-
-nneonneo/2048-ai                           434
-AI for the 2048 game
-
-
-draios/falco                               434
-Behavioral Activity Monitoring With Container Support
-
-
-percona/tokudb-engine                      433
-Percona TokuDB is a high-performance, write optimized, compressing, transactional storage engine for Percona Server.  Issue tracker: https://tokutek.atlassian.net/browse/DB/ Wiki: https://github.com/Percona/tokudb-engine/wiki  Downloads:
-
-
-tojocky/node-printer                       433
-Native node.js printer
-
-
-PurpleI2P/i2pd                             431
-Full C++ implementation of I2P client
-
-
-taglib/taglib                              431
-TagLib Audio Meta-Data Library
-
-
-RSATom/WebChimera.js                       430
-libvlc binding for node.js/io.js/Node-Webkit/NW.js/Electron
-
-
-opentrack/opentrack                        429
-Head tracking software for MS Windows, Linux, and Apple OSX
-
-
-hsutter/gcpp                               429
-Experimental deferred and unordered destruction library for C++
-
-
-IntelRealSense/librealsense                429
- :camera: Cross-platform camera capture for Intel® RealSense™ F200, SR300 and R200
-
-
-mmackh/MAImagePickerController-of-InstaPDF 428
-Fully customizable UIImagePicker replacement with flexible cropping, filters, perspective correction, rotation etc.
-
-
-google/fruit                               426
-Fruit, a dependency injection framework for C++
-
-
-embree/embree                              424
-Embree ray tracing kernels repository.
-
-
-rdp/screen-capture-recorder-to-video-windows-free 423
-a free open source  windows "screen capture" device and recorder (also allows VLC/ffmpeg and others to capture/stream desktop/audio)
-
-
-p3/regal                                   422
-Regal for OpenGL
-
-
-micknoise/Maximilian                       421
-C++ Audio and Music DSP Library
-
-
-jackaudio/jack2                            421
-jack2 codebase
-
-
-jreese/znc-push                            421
-Push notification service module for ZNC
-
-
-0vercl0k/rp                                420
-rp++ is a full-cpp written tool that aims to find ROP sequences in PE/Elf/Mach-O x86/x64 binaries. It is open-source and has been tested on several OS: Debian / Windows 8.1 / Mac OSX Lion (10.7.3). Moreover, it is x64 compatible and supports Intel syntax. Standalone executables can also be directly downloaded.
-
-
-khizmax/libcds                             420
-A C++ library of Concurrent Data Structures
-
-
-mapbox/mapnik-vector-tile                  419
-Mapnik implemention of Mapbox Vector Tile specification
-
-
-tomhrr/dale                                418
-Lisp-flavoured C
-
-
-lvandeve/lodepng                           418
-PNG encoder and decoder in C and C++.
-
-
-MythTV/mythtv                              416
-The official MythTV repository
-
-
-ShortTailLab/ph-open                       415
-PuzzleHero
-
-
-notepadqq/notepadqq                        414
-Notepad++-like editor for Linux
-
-
-solarus-games/solarus                      414
-Zelda-like 2D game engine
-
-
-Microsoft/multiverso                       414
-Parameter server framework for distributed machine learning
-
-
-aws/aws-sdk-cpp                            413
-AWS SDK for C++
-
-
-ethereum/solidity                          413
+ethereum/solidity                          2489
 The Solidity Contract-Oriented Programming Language
 
 
-c-ares/c-ares                              413
-A C library for asynchronous DNS requests
+mapsme/omim                                2486
+🗺️ MAPS.ME — Offline OpenStreetMap maps for iOS and Android
 
 
-paypal/seifnode                            413
+wonderkiln/CameraKit-Android               2440
+One of the hardest Android APIs made into a high level and easy to use library that solves all of your problems.
 
 
+Microsoft/GSL                              2438
+Guidelines Support Library
 
-tpoechtrager/osxcross                      413
-OS X cross toolchain for Linux, FreeBSD and NetBSD
 
+BYVoid/OpenCC                              2437
+A project for conversion between Traditional and Simplified Chinese
 
-rocketscream/Low-Power                     412
-Low Power Library for Arduino
 
+bblanchon/ArduinoJson                      2428
+📟 C++ JSON library for IoT. Simple and efficient.
 
-randombit/botan                            412
-Crypto and TLS for C++11
 
+Tencent/libco                              2424
+libco is a coroutine library which is widely used in wechat  back-end service. It has been running on tens of thousands of machines since 2013.
 
-mirrorer/libbpg                            412
-libbpg (copy of the source code for easy access)
 
+seetaface/SeetaFaceEngine                  2424
 
-lyle-nel/siga                              411
-Population based metaheuristic for password cracking. Siga(Simple genetic algorithm)
 
 
-myang-git/QR-Code-Encoder-for-Objective-C  411
-An implementation of QR code encoder for Objective-C ported from Psytec library
+open-source-parsers/jsoncpp                2421
+A C++ library for interacting with JSON.
 
 
-mavlink/qgroundcontrol                     409
-QGroundControl Ground Control Station
+snowie2000/mactype                         2421
+A better font rasterizer for Windows.
 
 
-dannagle/PacketSender                      409
-A network test utility for sending / receiving TCP and UDP packets
+alibaba/AliSQL                             2415
+AliSQL is a MySQL branch originated from Alibaba Group. Fetch document from Release Notes at bottom.
 
 
-srendle/libfm                              409
-Library for factorization machines
+Croteam-official/Serious-Engine            2394
+An open source version of a game engine developed by Croteam for the classic Serious Sam games.
 
 
-openstreetmap/osm2pgsql                    408
-OpenStreetMap data to PostgreSQL converter
+google/snappy                              2341
+A fast compressor/decompressor
 
 
-MTG/essentia                               408
-C++ library of algorithms to extract features from audio files, including Python bindings.
+ivansafrin/Polycode                        2340
+Polycode is a cross-platform framework for creative code.
 
 
-tencent-wechat/phxrpc                      407
-A simple C++ based RPC framework.
+cameron314/concurrentqueue                 2333
+A fast multi-producer, multi-consumer lock-free concurrent queue for C++11
 
 
-stsievert/swix                             407
-Swift Matrix  Library
+mysql/mysql-server                         2285
+MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database.
 
 
-billmccord/OpenCV-Android                  407
-A project for porting and optimizing OpenCV for Google's Android OS
+mapbox/mapbox-gl-native                    2283
+Interactive, thoroughly customizable maps in native Android, iOS, macOS, Node.js, and Qt applications, powered by vector tiles and OpenGL
 
 
-phpv8/v8js                                 406
-V8 Javascript Engine for PHP — This PHP extension embeds the Google V8 Javascript Engine
+gameplay3d/GamePlay                        2276
+Open-source, cross-platform, C++ game engine for creating 2D/3D games.
 
 
-google/proto-quic                          406
+google/re2                                 2246
+RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.
 
 
+s3fs-fuse/s3fs-fuse                        2242
+FUSE-based file system backed by Amazon S3
 
-huceke/omxplayer                           405
-omxplayer
 
+Microsoft/cpprestsdk                       2234
+The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.
 
-leetcoders/LeetCode                        404
-Solve problems from LeetCode.
 
+gperftools/gperftools                      2228
+Main gperftools repository
 
-apple/swift-clang                          404
 
+baidu/bfs                                  2220
+The Baidu File System.
 
 
-woboq/woboq_codebrowser                    404
-Woboq CodeBrowser
+ledger/ledger                              2201
+Double-entry accounting system with a command-line reporting interface
 
 
-klee/klee                                  404
-KLEE Symbolic Virtual Machine
+biometrics/openbr                          2201
+Open Source Biometrics, Face Recognition
 
 
-tj/node-jscoverage                         403
-jscoverage modified to support SSJS 
+fibjs/fibjs                                2195
+JavaScript on Fiber (built on Chrome's V8 JavaScript engine)
 
 
-superpoweredSDK/Low-Latency-Android-Audio-iOS-Audio-Engine 403
-Superpowered Audio Engine for Games, Music and Interactive Audio Apps on Android, iOS & OSX. Low Latency Audio. Cross Platform. Free.
+catboost/catboost                          2188
+CatBoost is an open-source gradient boosting on decision trees library with categorical features support out of the box for Python, R
 
 
-Kurento/kurento-media-server               402
-Kurento media server
+opencv/opencv_contrib                      2133
+Repository for OpenCV's extra modules
 
 
-mapbox/tippecanoe                          402
-Build vector tilesets from large collections of GeoJSON features.
+cuberite/cuberite                          2124
+A lightweight, fast and extensible game server for Minecraft
 
 
-CyanogenMod/android_bootable_recovery      402
+codebutler/firesheep                       2124
+A Firefox extension that demonstrates HTTP session hijacking attacks.
 
 
+baldurk/renderdoc                          2118
+RenderDoc is a stand-alone graphics debugging tool.
 
-realm/realm-core                           402
-Core database component for the Realm Mobile Database SDKs
 
+PointCloudLibrary/pcl                      2112
+Point Cloud Library (PCL)
 
-GPUOpen-Tools/CodeXL                       402
-CodeXL is a comprehensive tool suite that enables developers to harness the benefits of CPUs, GPUs and APUs.
 
+oclint/oclint                              2109
+A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 
-Microsoft/FFmpegInterop                    401
- This is a code sample to make it easier to use FFmpeg in Windows applications.
 
+BearishSun/BansheeEngine                   2105
+Modern C++14 game engine with Vulkan support, fully featured editor and C# scripting
 
-tomdalling/opengl-series                   401
-Code to accompany a series of OpenGL articles on tomdalling.com
 
+google/or-tools                            2105
+Google's Operations Research tools
 
-Ultimaker/CuraEngine                       401
-CuraEngine is a powerful, fast and robust engine for processing 3D models into 3D printing instruction for Ultimaker and other GCode based 3D printers. It is part of the larger open source project called "Cura".
 
+nghttp2/nghttp2                            2103
+nghttp2 - HTTP/2 C Library and tools
 
-FellowTraveler/Open-Transactions-old       401
-Open-Transactions democratizes financial and monetary actions. You can use it for issuing currencies/stock, paying dividends, creating asset accounts, sending/receiving digital cash, writing/depositing cheques, cashier's cheques, creating basket currencies, trading on markets, scripting custom agreements, recurring payments, escrow, etc.  Open-Transactions uses strong crypto. The balances are unchangeable (even by a malicious server.) The receipt history is destructible. The transactions are unforgeable. The cash is unlinkable. The cheques are non-repudiable. Etc.
 
+aseprite/aseprite                          2101
+Animated sprite editor & pixel art tool (Windows, macOS, Linux)
 
-reverbrain/elliptics                       401
-Distributed storage for medium and large objects with streaming support
 
+ryanjay0/miles-deep                        2098
+Deep Learning Porn Video Classifier/Editor with Caffe
 
-tessel/node-usb                            399
-Improved USB library for Node.js
 
+butor/blackbird                            2098
+Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy
 
-Hotsotse/Hang-man                          399
-A small, simple hangman project.
 
+albertlauncher/albert                      2095
+A fast and flexible keyboard launcher
 
-dalboris/vpaint                            398
-Experimental vector graphics and 2D animation editor
 
+facebook/mcrouter                          2088
+Mcrouter is a memcached protocol router for scaling memcached deployments.
 
-docopt/docopt.cpp                          396
-C++11 port of docopt
 
+jaagr/polybar                              2079
+A fast and easy-to-use status bar
 
-cjcliffe/CubicSDR                          395
-Cross-Platform Software-Defined Radio Application
 
+pavel-odintsov/fastnetmon                  2076
+FastNetMon community - very fast DDoS analyzer with sflow/netflow/mirror support
 
-fabiensanglard/Another-World-Bytecode-Interpreter 395
-"Fabother World" an interpreter for Another World (Out of this world).
 
+Project-OSRM/osrm-backend                  2069
+Open Source Routing Machine - C++ backend
 
-zonyitoo/doubanfm-qt                       395
-A DoubanFM client
 
+google/benchmark                           2063
+A microbenchmark support library
 
-steveicarus/iverilog                       395
-Icarus Verilog
 
+zaphoyd/websocketpp                        2049
+C++ websocket client/server library
 
-gongminmin/KlayGE                          393
-KlayGE is a cross-platform open source game engine with plugin-based architecture.
 
+nodejs/nan                                 2037
+Native Abstractions for Node.js
 
-neolee/SCU                                 393
-SCU (Squirrel 配置工具)
 
+urho3d/Urho3D                              2033
+Cross-platform 2D and 3D game engine.
 
-ChenglongChen/Kaggle_CrowdFlower           392
-1st Place Solution for Search Results Relevance Competition on Kaggle (https://www.kaggle.com/c/crowdflower-search-relevance)
 
+google/zopfli                              2027
+Zopfli Compression Algorithm is a compression library programmed in C to perform very good, but slow, deflate or zlib compression.
 
-asb2m10/dexed                              392
-FM multi plaform/multi format plugin
 
+tomahawk-player/tomahawk                   2015
+Tomahawk, the multi-source music player
 
-scantailor/scantailor                      392
 
+ValveSoftware/source-sdk-2013              2005
+The 2013 edition of the Source SDK
 
 
-zouxiaohang/TinySTL                        392
-TinySTL is a subset of STL(cut some containers and algorithms) and also a superset of STL(add some other containers and algorithms)
+z3t0/Arduino-IRremote                      2001
+Infrared remote library for Arduino: send and receive infrared signals with multiple protocols
 
 
-SOCI/soci                                  391
-SOCI - The C++ Database Access Library. This is official repository the SOCI project.
+AnyRTC/anyRTC-RTMP-OpenSource              2000
+RTMP 推流器，RTMP(HLS)秒开播放器，跨平台（Win,IOS,Android）开源代码
 
 
-basho/leveldb                              390
-Clone of http://code.google.com/p/leveldb/
+facebook/wdt                               1984
+Warp speed Data Transfer (WDT)  is an embeddedable library (and command line tool) aiming to transfer data between 2 systems as fast as possible over multiple TCP paths.
 
 
-raboof/nethogs                             390
-Linux 'net top' tool
+ethereum/cpp-ethereum                      1969
+Ethereum C++ client
 
 
-jcw/jeelib                                 390
-JeeLib for Arduino IDE: Ports, RF12, and RF69 drivers from JeeLabs
+halide/Halide                              1967
+a language for image processing and computational photography
 
 
-niw/iphone_opencv_test                     389
-Test application for iPhone with OpenCV library
+Tencent/phxsql                             1965
+A high availability MySQL cluster that guarantees data consistency between a master and slaves.
 
 
-Polytonic/Chlorine                         388
-Dead Simple OpenCL (Compute)
+PCSX2/pcsx2                                1961
+PCSX2 - The Playstation 2 Emulator
 
 
-jerrymarino/cupertinojs                    388
-Cupertino.js - Compile Javascript to Cocoa
+crosswalk-project/crosswalk                1949
+A web runtime built on Chrome. This project is currently unmaintained. 
 
 
-progschj/OpenGL-Examples                   387
-A collection of simple single file OpenGL examples
+Sigil-Ebook/Sigil                          1948
+Sigil is a multi-platform EPUB ebook editor
 
 
-jselbie/stunserver                         387
-New version 1.2.  This is the source code to STUNTMAN - an open source STUN server and client code by john selbie.  Compliant with the latest RFCs including 5389, 5769, and 5780. Also includes backwards compatibility for RFC 3489. The stun server code is part of a larger personal project involving P2P file sharing and NAT traversal. Version 1.2 compiles on Linux, MacOS, BSD, and Solaris. Additional features are in development.
+clab/dynet                                 1945
+DyNet: The Dynamic Neural Network Toolkit
 
 
-Fluorohydride/ygopro                       387
-A script engine for "yu-gi-oh!" and sample gui
+arrayfire/arrayfire                        1942
+ArrayFire: a general purpose GPU library.
 
 
-google/pienoon                             386
-Multiplayer party game where you can throw pies at your friends.
+tzapu/WiFiManager                          1935
+ESP8266 WiFi Connection manager with web captive portal
 
 
-whoozle/android-file-transfer-linux        386
-Android File Transfer for Linux
+zerotier/ZeroTierOne                       1934
+A Smart Ethernet Switch for Earth
 
 
-clab/dynet                                 386
-Dynamic neural network library
+opentoonz/opentoonz                        1931
+OpenToonz - An open-source full-featured 2D animation creation software
 
 
-mesos/mesos                                386
-PLEASE NOTE: Mesos is now hosted in Apache git! Get it using git clone https://git-wip-us.apache.org/repos/asf/mesos.git
+PixarAnimationStudios/OpenSubdiv           1926
+An Open-Source subdivision surface library.
 
 
-kylemcdonald/ofxCv                         385
-Alternative approach to interfacing with OpenCv from openFrameworks.
+OpenMW/openmw                              1919
+OpenMW is an unofficial open source engine reimplementation of the game Morrowind.
 
 
-TooTallNate/node-lame                      385
-Node.js native bindings to libmp3lame & libmpg123
+mapnik/mapnik                              1918
+Mapnik is an open source toolkit for developing mapping applications
 
 
-xiangzhai/qwx                              385
-WeChat KDE frontend 微信 KDE 前端 http://xiangzhai.github.io/qwx
+farbrausch/fr_public                       1915
+Farbrausch demo tools 2001-2011
 
 
-ErisBlastar/cplusequality                  385
-Feminist Software Foundation C+=, a new language for us feminists
+cloudera/Impala                            1914
+Real-time Query for Hadoop; mirror of Apache Impala
 
 
-herumi/xbyak                               385
-a JIT assembler for x86(IA-32)/x64(AMD64, x86-64) MMX/SSE/SSE2/SSE3/SSSE3/SSE4/FPU/AVX/AVX2/AVX-512 by C++ header
+rakshasa/rtorrent                          1905
+rTorrent BitTorrent client
 
 
-snes9xgit/snes9x                           384
-Snes9x - Portable Super Nintendo Entertainment System (TM) emulator
+swig/swig                                  1900
+SWIG is a software development tool that connects programs written in C and C++ with a variety of high-level programming languages.
 
 
-sektioneins/SUIDGuard                      383
-SUIDGuard - a TrustedBSD Kernel Extension that adds mitigations to protect SUID/SGID processes a bit more
+xtaci/algorithms                           1896
+Algorithms & Data structures in C++.
 
 
-guestwalk/kaggle-2014-criteo               383
+emcrisostomo/fswatch                       1893
+A cross-platform file change monitor with multiple backends: Apple OS X File System Events, *BSD kqueue, Solaris/Illumos File Events Notification, Linux inotify, Microsoft Windows and a stat()-based backend.
 
 
+musescore/MuseScore                        1885
+MuseScore is an open source and free music notation software. For support, contribution, bug reports, visit MuseScore.org. Fork and make pull requests!
 
-unetbootin/unetbootin                      383
-UNetbootin installs Linux/BSD distributions to a partition or USB drive
 
+leethomason/tinyxml2                       1879
+TinyXML2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs.
 
-rcaelers/workrave                          383
-Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit.
 
+FreeCAD/FreeCAD                            1879
+This is the official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler
 
-mscdex/mmmagic                             383
-An async libmagic binding for node.js for detecting content types by data inspection
 
+openscad/openscad                          1876
+OpenSCAD - The Programmers Solid 3D CAD Modeller  
 
-Microsoft/vcpkg                            382
-VC++ Packaging Tool
 
+duilib/duilib                              1875
 
-erengy/taiga                               382
-A lightweight anime tracker for Windows
 
 
-EddyVerbruggen/Toast-PhoneGap-Plugin       380
-:beers: A Toast popup plugin for your fancy Cordova app
+FastLED/FastLED                            1863
+The main FastLED library (successor to FastSPI_LED).  Please direct questions/requests for advice to the g+ community - http://fastled.io/+ - we'd like to keep issues to just tracking bugs/enhancements/tasks.  *NOTE* library work is currently on hold - see https://plus.google.com/102282558639672545743/posts/JQKcujjaXXC for details.
 
 
-raulmur/ORB_SLAM                           379
-A Versatile and Accurate Monocular SLAM
+onnx/onnx                                  1862
+Open Neural Network Exchange
 
 
-boostcon/cppnow_presentations_2014         379
-Presentation materials presented at C++Now 2014
+ValveSoftware/ToGL                         1861
+Direct3D to OpenGL abstraction layer
 
 
-crossroads-io/libxs                        379
-Crossroads I/O core library
+sony/nnabla                                1857
+Neural Network Libraries
 
 
-stealth/sshttp                             379
-SSH/HTTP(S) multiplexer. Run a webserver and a sshd on the same port w/o changes.
+pmq20/node-packer                          1852
+Packing your Node.js application into a single executable.
 
 
-openframeworks/ofBook                      377
-openFrameworks community book
+google/draco                               1848
+Draco is a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to improve the storage and transmission of 3D graphics.
 
 
-elad/node-imagemagick-native               377
-ImageMagick's Magick++ bindings for NodeJS
+CppCon/CppCon2014                          1841
+Speaker materials from CppCon 2014
 
 
-clintbellanger/flare-engine                377
-Free/Libre Action Roleplaying Engine (engine only)
+MasteringOpenCV/code                       1838
+Code for the book "Mastering OpenCV with Practical Computer Vision Projects" by Packt Publishing 2012.
 
 
-nem0/LumixEngine                           377
-3D Game Engine
+LibreVR/Revive                             1836
+Play Oculus-exclusive games on the HTC Vive, scroll down for downloads and installation instructions. If you'd like to make a donation you can do so on my Patreon.
 
 
-thewtex/tmux-mem-cpu-load                  377
-CPU, RAM, and load monitor for use with tmux
+AtomicGameEngine/AtomicGameEngine          1836
+The Atomic Game Engine is a multi-platform 2D and 3D engine with a consistent API in C++, C#, JavaScript, and TypeScript
 
 
-Razor-qt/razor-qt                          376
-Razor is now LXQt:
+runtimejs/runtime                          1815
+[not maintained] Lightweight JavaScript library operating system for the cloud
 
 
-KhronosGroup/glslang                       376
-Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
+runner365/LiveVideoCoreSDK                 1815
 
 
-kylemcdonald/FaceTracker                   376
-Real time deformable face tracking in C++ with OpenCV 2.
 
+mumble-voip/mumble                         1802
+Mumble VoIP Client/Server
 
-solvespace/solvespace                      376
-Parametric 2d/3d CAD
 
+TadasBaltrusaitis/OpenFace                 1793
+OpenFace – a state-of-the art tool intended for facial landmark detection, head pose estimation, facial action unit recognition, and eye-gaze estimation.
 
-Smoothieware/Smoothieware                  375
-Modular, opensource, high performance G-code interpreter and CNC controller written in Object-Oriented C++
 
+raulmur/ORB_SLAM2                          1793
+Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
 
-zeromq/zeromq2-x                           374
-ØMQ/2.x distribution
 
+mlpack/mlpack                              1789
+mlpack: a scalable C++ machine learning library -- 
 
-opengl-tutorials/ogl                       373
 
+facebook/wangle                            1788
+Wangle is a framework providing a set of common client/server abstractions for building services in a consistent, modular, and composable way.
 
 
-google/angle                               372
-A conformant OpenGL ES implementation for Windows, Mac and Linux.
+google/glog                                1782
+C++ implementation of the Google logging module
 
 
-mrtazz/restclient-cpp                      372
-C++ client for making HTTP/REST requests
+google/skia                                1780
+Skia is a complete 2D graphic library for drawing Text, Geometries, and Images.
 
 
-4ian/GD                                    372
-:video_game: GDevelop is an open source HTML5 and native game creator requiring no coding skills.
+jrowberg/i2cdevlib                         1766
+I2C device library collection for AVR/Arduino or other C++-based MCUs
 
 
-justinlatimer/node-midi                    371
-A node.js wrapper for RtMidi providing MIDI I/O
+brndnmtthws/conky                          1765
+Light-weight system monitor for X.
 
 
-CPFL/Autoware                              371
-Open-source software for urban autonomous driving
+me115/design_patterns                      1760
+图说设计模式
 
 
-weidai11/cryptopp                          370
+EasyDarwin/EasyDarwin                      1756
+open source、high performance、industrial rtsp streaming server based on Darwin Streaming Server,a lot of optimization on streaming relay,KeyFrame cache,RESTful,and web management,also EasyDarwin support distributed load balancing,a simple streaming media cloud platform architecture.高性能开源RTSP流媒体服务器，基于Darwin Streaming Server 维护和优化：RTSP转发、关键帧缓存、秒开画面、RESTful接口、WEB后台管理、分布式负载均衡，基于EasyDarwin构建出了一套简单基础的流媒体云平台架构！
 
 
+trevorlinton/webkit.js                     1749
+Pure JavaScript Port of WebKit
 
-loarabia/Clang-tutorial                    370
-A collection of code samples showing usage of clang and llvm as a library
 
+facebook/Surround360                       1738
+Surround360 is Facebook's open source hardware and software for capturing stereoscopic 3D 360 video for VR. The repo contains hardware designs, as well as software for camera control and rendering.
 
-indutny/heartbleed                         370
-Extracting server private key using Heartbleed OpenSSL vulnerability.
 
+dropbox/djinni                             1735
+A tool for generating cross-language type declarations and interface bindings.
 
-kliment/Sprinter                           369
-Firmware for RepRap printers and similar devices
 
+XProger/OpenLara                           1731
+Classic Tomb Raider open-source engine
 
-otland/forgottenserver                     369
-A free and open-source MMORPG server emulator written in C++
 
+lloyd/node-memwatch                        1727
+A NodeJS library to keep an eye on your memory usage, and discover and isolate leaks.
 
-csmith-project/creduce                     369
-C-Reduce, a C program reducer
 
+tstack/lnav                                1726
+Log file navigator
 
-percona/PerconaFT                          368
-PerconaFT is a high-performance, transactional key-value store
 
+wxWidgets/wxWidgets                        1724
+Cross-Platform GUI Library - Report issues here: http://trac.wxwidgets.org/
 
-zccrs/QQStars                              368
-基于webqq协议的qq客户端，qt开发，可跨平台
 
+ripple/rippled                             1710
+Decentralized cryptocurrency blockchain daemon implementing the XRP Ledger in C++
 
-quickfix/quickfix                          368
-QuickFIX C++ Fix Engine Library
 
+qgis/QGIS                                  1708
+QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)
 
-UE4-OceanProject/OceanProject              368
-An Ocean Simulation project for Unreal Engine 4
 
+MariaDB/server                             1701
+MariaDB server is a community developed fork of MySQL server. Started by core members of the original MySQL team, MariaDB actively works with outside developers to deliver the most featureful, stable, and sanely licensed open SQL server in the industry.
 
-stevschmid/track-o-bot                     365
-The friendly Hearthstone Tracker
 
+shogun-toolbox/shogun                      1698
+The Shogun Machine Learning Toolbox (Source Code)
 
-MCGallaspy/dr_strangetemplate              365
-A guide for the rest of us on using C++ templates.
 
+supercollider/supercollider                1697
+An audio server, programming language, and IDE for sound synthesis and algorithmic composition.
 
-mongodb/mongo-snippets                     364
-snippets of code that might be useful
 
+recastnavigation/recastnavigation          1697
+Navigation-mesh Toolset for Games
 
-topcpporg/cinatra                          364
-A sinatra inspired modern c++ web framework
 
+thrust/thrust                              1685
+Thrust is a parallel algorithms library which resembles the C++ Standard Template Library (STL).
 
-apple/swift-lldb                           364
-This is the version of LLDB that supports the Swift programming language & REPL.
 
+MailCore/mailcore2                         1681
+MailCore 2 provide a simple and asynchronous API to work with e-mail protocols IMAP, POP and SMTP. The API has been redesigned from ground up.
 
-shadowsocks/libQtShadowsocks               362
-A lightweight and ultra-fast shadowsocks library written in C++/Qt
 
+clementine-player/Clementine               1663
+:tangerine: Clementine Music Player
 
-mscdex/node-ncurses                        362
-An ncurses binding for node.js
 
+Microsoft/bond                             1658
+Bond is a cross-platform framework for working with schematized data. It supports cross-language de/serialization and powerful generic mechanisms for efficiently manipulating data. Bond is broadly used at Microsoft in high scale services. 
 
-haxenme/nme                                362
-A cross-platform native backend for Haxe projects
 
+doxygen/doxygen                            1651
+Official doxygen git repository
 
-plv8/plv8                                  362
- V8 Engine Javascript Procedural Language add-on for PostgreSQL
 
+alexrj/Slic3r                              1646
+Open Source toolpath generator for 3D printers
 
-Visu4link/pastec                           361
-Image recognition open source index and search engine
 
+forhappy/Cplusplus-Concurrency-In-Practice 1643
+A Detailed Cplusplus Concurrency Tutorial 《C++ 并发编程指南》
 
-ryanhaining/cppitertools                   361
-Implementation of python itertools and builtin iteration functions for C++14
 
+hteso/iaito                                1631
+This project has been moved to:
 
-cebix/macemu                               360
-Basilisk II and SheepShaver Macintosh emulators
 
+johang/btfs                                1630
+A bittorrent filesystem based on FUSE.
 
-lsegal/my_toy_compiler                     360
-My Toy Compiler. Read about how I did it at the homepage URL
 
+tensorflow/serving                         1626
+A flexible, high-performance serving system for machine learning models
 
-FWGS/cs16-client                           359
-Counter-Strike 1.6 rewritten client.dll. Without VGUI, ParticleMan and ecology friendy.
 
+wjakob/nanogui                             1626
+Minimalistic GUI library for OpenGL
 
-arturoc/FaceSubstitution                   359
-Face substitution experiments using ofxFacetracker
 
+Microsoft/ELL                              1626
+Embedded Learning Library
 
-gdbinit/MachOView                          357
-MachOView fork
 
+koth/kcws                                  1621
+Deep Learning Chinese Word Segment 
 
-webcoyote/coho                             356
-Base libraries for C++ development
 
+twitter/mysql                              1603
+MySQL fork maintained and used at Twitter
 
-emoon/ProDBG                               356
-Debugging the way it's meant to be done
 
+CleverRaven/Cataclysm-DDA                  1603
+Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.
 
-ddemidov/vexcl                             355
-VexCL is a C++ vector expression template library for OpenCL/CUDA
 
+maciejczyzewski/libchaos                   1602
+Advanced library for randomization, hashing and statistical analysis (devoted to chaos machines). :microscope:
 
-behdad/harfbuzz                            355
-HarfBuzz OpenType text shaping engine
 
-
-rwengine/openrw                            353
-OpenRW "Open ReWrite" is an un-official open source recreation of the classic Grand Theft Auto III game executable
-
-
-rime/weasel                                353
-【小狼毫】Rime Input Method Engine for Windows
-
-
-tony2001/pinba_engine                      353
-Pinba - MySQL plugin and storage engine
-
-
-keystone-engine/keystone                   352
-Keystone assembler framework: Core (Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) + bindings
-
-
-SkyFireArchives/SkyFireEMU_406a            352
-SkyFireEMU is a full featured F/OSS World of Warcraft: Cataclysm emulator written in C++. || Compatible with World of Warcraft client 4.0.6a (Build:13623)  ||  Public DB is located on forum
-
-
-loot/loot                                  352
-A load order optimisation tool for Oblivion, Skyrim, Fallout 3, Fallout: New Vegas and Fallout 4. This repository holds the source code and documentation.
-
-
-Overv/VulkanTutorial                       351
-Tutorial for the Vulkan graphics and compute API
-
-
-TanninOne/modorganizer                     351
-Mod manager for various PC games (currently: Skyrim, Oblivion, Fallout 3, Fallout NV)
-
-
-cginternals/glbinding                      351
-A C++ binding for the OpenGL API, generated using the gl.xml specification. 
-
-
-cpputest/cpputest                          350
-CppUTest unit testing and mocking framework for C/C++
-
-
-stellar/stellar-core                       350
-stellar-core is the backbone of the Stellar network. It maintains a local copy of the ledger, communicating and staying in sync with other instances of stellar-core on the network. Optionally, stellar-core can store historical records of the ledger and participate in consensus.
-
-
-KDAB/GammaRay                              349
-GammaRay is a tool to poke around in a Qt-application and also to manipulate the application to some extent.
-
-
-dreamworksanimation/openvdb                349
-OpenVDB Development Repository
-
-
-badaix/snapcast                            349
-Synchronous multi-room audio player
-
-
-cysmith/neural-style-tf                    349
-TensorFlow implementation of Neural Style
-
-
-cms-sw/cmssw                               348
-CMS Offline Software
-
-
-vrtadmin/clamav-devel                      347
-ClamAV Development
-
-
-Level/leveldown                            347
-Pure C++ Node.js LevelDB binding serving as the back-end to LevelUP
-
-
-meganz/sdk                                 346
-MEGA C++ SDK
-
-
-weicao/cascadb                             346
-Yet another write-optimized storage engine, using buffered B-tree algorithm inspired by TokuDB
-
-
-xoreos/xoreos                              346
-A reimplementation of BioWare's Aurora engine (and derivatives). Pre-pre-alpha :P
-
-
-iryoku/smaa                                346
-SMAA is a very efficient GPU-based MLAA implementation (DX9, DX10, DX11 and OpenGL), capable of handling subpixel features seamlessly, and featuring an improved and advanced pattern detection & handling mechanism.
-
-
-Oxford-PTAM/PTAM-GPL                       345
-PTAM (Parallel Tracking and Mapping) re-released under GPLv3.
-
-
-ThePhD/sol2                                344
-Sol v2.0 - a C++ &lt:-&gt: Lua API wrapper with advanced features and top notch performance - is here, and it's great! Documentation:
-
-
-qtproject/qt-creator                       343
-
-
-
-bytefish/opencv                            343
-OpenCV projects: Face Recognition, Machine Learning, Colormaps, Local Binary Patterns, Examples...
-
-
-sui77/rc-switch                            342
-Arduino lib to operate 433/315Mhz devices like power outlet sockets.
-
-
-Ableton/atria                              342
-A toolkit for modern C++ development
-
-
-lightspark/lightspark                      341
-An open source flash player implementation
-
-
-junhyukoh/caffe-lstm                       341
-LSTM implementation on Caffe
-
-
-wdas/brdf                                  341
-BRDF Viewer
-
-
-matt-42/vpp                                341
-Video++, a C++14 high performance video and image processing library.
-
-
-google/highwayhash                         341
-Fast strong hash functions: SipHash/HighwayHash
-
-
-phoboslab/JavaScriptCore-iOS               341
-Apple's JavaScript Engine, with modified project files for iOS
-
-
-project64/project64                        341
-N64 Emulator
-
-
-haikarainen/kit                            341
-C++ framework for game development.
-
-
-mlabbe/nativefiledialog                    341
-A tiny, neat C library that portably invokes native file open and save dialogs.
-
-
-xiaojiaqi/C1000kPracticeGuide              340
-A C1000k demo with detailed description
-
-
-stefanocasazza/ULib                        340
-C++ application development framework, to help developers create and deploy applications very fast and more simple
-
-
-fruxo/turbobadger                          340
-Small footprint UI library for hardware accelerated games & applications
-
-
-douban/libmc                               340
-Fast and light-weight memcached client for C++ / #python / #golang #libmc
-
-
-reinterpretcat/utymap                      340
-Highly customizable library for procedural world generation based on real map data
-
-
-MultiMC/MultiMC5                           339
-MultiMC is a free, open source launcher that helps you manage multiple, cleanly separated, instances of Minecraft.
-
-
-vczh/vczh_toys                             339
-This repository contains vczh's toys for black magic codes or experiments
-
-
-picotorrent/picotorrent                    338
-A tiny, hackable BitTorrent client.
-
-
-HowardHinnant/date                         338
-A date and time library based on the C++11 (and beyond) &lt:chrono&gt: header
-
-
-adafruit/Adafruit_SSD1306                  337
-SSD1306 oled driver library for 'monochrome' 128x64 and 128x32 OLEDs!
-
-
-p0sixspwn/p0sixspwn                        337
-Released in accordance with GPL licensing.
-
-
-mscdex/node-mariasql                       336
-A node.js binding to MariaDB's non-blocking (MySQL-compatible) client library
-
-
-uber/pyflame                               336
-Pyflame: A Ptracing Profiler For Python
-
-
-crawl/crawl                                336
-Dungeon Crawl: Stone Soup official repository
-
-
-matus-chochlik/oglplus                     334
-OGLplus is a collection of open-source, cross-platform libraries which implement an object-oriented facade over the OpenGL® (version 3 and higher) and also OpenAL® (version 1.1) and EGL (version 1.4) C-language APIs. It provides wrappers which automate resource and object management and make the use of these libraries in C++ safer and more convenient.
-
-
-aoapc-book/aoapc-bac2nd                    333
-Source codes for book &lt:&lt:&lt:BeginningAlgorithmContests&gt:&gt: Second edition
-
-
-Ardour/ardour                              333
-Mirror of Ardour Source Code
-
-
-haptork/easyLambda                         333
-distributed dataflows with functional list operations for data processing with C++14
-
-
-tcpexmachina/remy                          333
-
-
-
-apiaryio/snowcrash                         332
-API Blueprint Parser
-
-
-pgRouting/pgrouting                        332
-Repository contains pgRouting library. Development branch is "develop", stable branch is "master"
-
-
-Microsoft/msphpsql                         332
-msphpsql
-
-
-CGAL/cgal                                  331
-The public CGAL repository, see the README below
-
-
-bwall/HashPump                             331
-A tool to exploit the hash length extension attack in various hashing algorithms
-
-
-splintermind/Dwarf-Therapist               330
-Maintained branch of the original Dwarf Therapist for Dwarf Fortress.
-
-
-bitcoinxt/bitcoinxt                        330
-
-
-
-Microsoft/lightLDA                         328
-Scalable, fast, and lightweight system for large-scale topic modeling
-
-
-quassel/quassel                            328
-Quassel IRC
-
-
-trishume/eyeLike                           328
-A webcam based pupil tracking implementation.
-
-
-jckarter/clay                              327
-The Clay programming language
-
-
-clMathLibraries/clFFT                      327
-a software library containing FFT functions written in OpenCL
-
-
-jpd002/Play-                               327
-Play! - PlayStation 2 Emulator
-
-
-GoogleChrome/ADBPlugin                     326
-Google Chrome Extension with ADB Daemon
-
-
-pbhogan/Signals                            326
-A lightweight signals and slots implementation.
-
-
-LunarG/VulkanSamples                       326
-Vulkan Samples
-
-
-mozilla/mozilla-central                    325
-Note: this repo has been shut down, see http://bit.ly/17U3eMC
-
-
-chukong/SampleGame-FantasyWarrior3D        325
-A 3D sample game powered by Cocos2d-x v3.8
-
-
-efficient/cuckoofilter                     325
-
-
-
-dirkvranckaert/AndroidDecompiler           325
-Decompile any APK
-
-
-rescrv/HyperLevelDB                        324
-A fork of LevelDB intended to meet the needs of HyperDex while remaining compatible with LevelDB.
-
-
-alexkay/spek                               324
-Acoustic spectrum analyser
-
-
-rjpower/falcon                             324
-C Python, made faster.
-
-
-Corvusoft/restbed                          323
-Corvusoft's Restbed framework brings asynchronous RESTful functionality to C++11 applications.
-
-
-samyk/opensesame                           323
-OpenSesame attacks wireless garages and can open most fixed-code garages and gates in seconds using a Mattel toy
-
-
-AlwaysGeeky/Vox                            323
-Voxel Engine and Voxel Game Development
-
-
-ofZach/inkSpace                            323
-android drawing tool
-
-
-node-hid/node-hid                          322
-Access HID devices through Node.JS
-
-
-spmallick/learnopencv                      322
-Learn OpenCV  : C++ and Python Examples
-
-
-unrealcv/unrealcv                          321
-UnrealCV: Connecting Computer Vision to Unreal Engine
-
-
-BloodAxe/OpenCV-Tutorial                   321
-A sample project demonstrating use of OpenCV library in iOS platform
-
-
-appleseedhq/appleseed                      320
-appleseed is a modern, physically-based production renderer
-
-
-richgel999/lzham_codec                     320
-Lossless data compression codec with LZMA-like ratios but 1.5x-8x faster decompression speed, C/C++
-
-
-aappleby/smhasher                          319
-Automatically exported from code.google.com/p/smhasher
-
-
-apple/swift-llbuild                        319
-A low-level build system, used by the Swift Package Manager
-
-
-eteran/edb-debugger                        318
-edb is a cross platform x86/x86-64 debugger.
-
-
-klmr/named-operator                        318
-Named operators for C++
-
-
-JavascriptNet/Javascript.Net               318
-.Net bindings to the V8 JavaScript engine
-
-
-mailru/icqdesktop                          318
-
-
-
-stanleyhuangyc/ArduinoOBD                  317
-OBD-II library and sketches for Arduino
-
-
-frogermcs/FlatBuffs                        317
-Example app showing FlatBuffers implementation in Android
-
-
-01org/idlf                                 317
-Intel® Deep Learning Framework
-
-
-plexinc/plex-media-player                  316
-Next generation Plex Desktop/Embedded Client
-
-
-cliffordwolf/yosys                         316
-Yosys Open SYnthesis Suite
-
-
-intel-iot-devkit/upm                       315
-UPM* is a high level repository that provides software drivers for a wide variety of commonly used sensors and actuators. These software drivers interact with the underlying hardware platform through calls to MRAA* APIs.
-
-
-dmlc/wormhole                              314
-Deprecated
-
-
-pfultz2/Fit                                314
-C++ function utility library
-
-
-google/omaha                               313
-Google Update for Windows
-
-
-equalsraf/neovim-qt                        312
-Neovim client library and GUI, in Qt5.
-
-
-colobot/colobot                            311
-Source code of open-source Colobot: Gold Edition project developed by Epsitec and TerranovaTeam
-
-
-GPUOpen-LibrariesAndSDKs/RadeonRays_SDK    311
-Radeon Rays is ray intersection acceleration library for hardware and software multiplatforms using CPU and GPU
-
-
-openexr/openexr                            311
-OpenEXR is a high dynamic-range (HDR) image file format developed by Industrial Light & Magic for use in computer imaging applications
-
-
-sudar/Yahoo_LDA                            310
-Yahoo!'s topic modelling framework using Latent Dirichlet Allocation
-
-
-oxygine/oxygine-framework                  309
-Oxygine is C++ engine and framework for 2D games on iOS, Android, Windows, Linux and Mac
-
-
-graphql/libgraphqlparser                   309
-A GraphQL query parser in C++ with C and C++ APIs
-
-
-Instrument/oculus-bridge                   309
-A utility and javascript library to link the Oculus Rift with the web
-
-
-lizardfs/lizardfs                          309
-LizardFS is an Open Source Distributed File System licenced under GPLv3.
-
-
-gto76/comp-cpp                             308
-Simple 4-bit virtual computer
-
-
-monero-project/monero                      308
+monero-project/monero                      1601
 Monero: the secure, private, untraceable cryptocurrency
 
 
-chukong/SampleGame-EarthWarrior3D          308
+mit-nlp/MITIE                              1589
+MITIE: library and tools for information extraction
 
 
+goldendict/goldendict                      1589
+A feature-rich dictionary lookup program, supporting multiple dictionary formats (StarDict/Babylon/Lingvo/Dictd) and online dictionaries, featuring perfect article rendering with the complete markup, illustrations and other content retained, and allowing you to type in words without any accents or correct case.
 
-OSGeo/gdal                                 308
-GDAL is an open source X/MIT licensed translator library for raster and vector geospatial data formats. This is a mirror of the GDAL Subversion repository.
 
+LMMS/lmms                                  1584
+Cross-platform music production software
 
-haiku/haiku                                307
-The Haiku operating system. (Pull requests will be ignored; patches may be sent to https://dev.haiku-os.org).
 
+zdevito/terra                              1584
+Terra is a low-level system programming language that is embedded in and meta-programmed by the Lua programming language.
 
-dmlc/dmlc-core                             307
-A common bricks library  for building scalable and portable distributed machine learning.
 
+ShiqiYu/libfacedetection                   1579
+A fast binary library for face detection and face landmark detection in images. The face detection speed can reach 1500FPS. You can use it free of charge with any purpose.
 
-mongodb/mongo-cxx-driver                   306
-C++ Driver for MongoDB
 
+mozilla/rhino                              1578
+Rhino is an open-source implementation of JavaScript written entirely in Java
 
-thomwolf/Magic-Sand                        306
-Magic Sand is a software for operating an augmented reality sandbox
 
+Tencent/phxpaxos                           1577
+C++ Paxos library that has been used in Wechat production environment.
 
-facebook/Stack-RNN                         306
-This is the code used for the paper "Inferring algorithmic patterns with a stack augmented recurrent network", by Armand Joulin and Tomas Mikolov.
 
+qTox/qTox                                  1572
+The most feature-rich Tox client; P2P instant messaging, audio and video calls.
 
-Amanieu/asyncplusplus                      305
-Async++ concurrency framework for C++11
 
+llvm-mirror/clang                          1567
+Mirror of official clang git repository located at http://llvm.org/git/clang.  Updated every five minutes.
 
-hadley/readxl                              304
-Read excel files (.xls and .xlsx) into R
 
+Grive/grive                                1566
+an open source Linux client for Google Drive
 
-SkyFireArchives/SkyFireEMU_old             304
-No longer supported. Use. https://github.com/ProjectSkyfire/SkyFireEMU The DB for this is located here. https://github.com/ProjectSkyfire/SkyFireDB/tags
 
+cowboyd/therubyracer                       1554
+Embed the V8 Javascript Interpreter into Ruby
 
-amd/OpenCL-caffe                           304
-This  is a  Experimental version of OpenCL by AMD Research, we now recommend you to use The official BVLC Caffe OpenCL branch is over at Caffe branch now at https://github.com/BVLC/caffe/tree/opencl
 
+baidu/sofa-pbrpc                           1548
+A light-weight RPC implement of google protobuf RPC framework.
 
-stealth/opmsg                              304
-opmsg message encryption
 
+wuye9036/CppTemplateTutorial               1543
+中文的C++ Template的教学指南。与知名书籍C++ Templates不同，该系列教程将C++ Templates作为一门图灵完备的语言来讲授，以求帮助读者对Meta-Programming融会贯通。(正在施工中)
 
-greg7mdp/sparsepp                          304
-A fast, memory efficient hash map for C++
 
+uncrustify/uncrustify                      1543
+Code beautifier
 
-POV-Ray/povray                             303
-The Persistence of Vision Raytracer: http://www.povray.org/
 
+Y-Vladimir/SmartDeblur                     1541
+Restoration of defocused and blurred photos/images
 
-simit-lang/simit                           303
-A language for computing on sparse systems
 
+audreyt/node-webworker-threads             1536
+Lightweight Web Worker API implementation with native threads
 
-philogb/v8-gl                              303
-A Toolkit for creating Desktop Hardware Accelerated Graphics with JS.
 
+fanout/pushpin                             1535
+Reverse proxy for realtime web services
 
-sourcey/libsourcey                         303
-C++11 evented IO for realtime video streaming and high performance networking applications
 
+dripcap/dripcap                            1528
+☕️ Caffeinated Packet Analyzer
 
-bolero-MURAKAMI/Sprout                     303
-C++11/14 constexpr based Containers, Algorithms, Random numbers, Parsing, Ray tracing, Synthesizer, and others.
 
+baidu/tera                                 1522
+An Internet-Scale Database.
 
-iphkwan/leetcode                           302
-No voice but big deal.
 
+NixOS/nix                                  1512
+Nix, the purely functional package manager
 
-zrax/pycdc                                 302
-C++ python bytecode disassembler and decompiler
 
+tjanczuk/iisnode                           1507
+Hosting node.js applications in IIS on Windows
 
-itead/ITEADLIB_Arduino_WeeESP8266          301
-An easy-to-use Arduino ESP8266 library besed on AT firmware.
 
+Qihoo360/pika                              1505
+Pika is a nosql compatible with redis, it is developed by Qihoo's DBA and infrastructure team
 
-2shou/TextGrocery                          301
-A simple short-text classification tool based on LibLinear
 
+sysown/proxysql                            1505
+High-performance MySQL proxy with a GPL license.
 
-milesburton/Arduino-Temperature-Control-Library 301
-Arduino plug and go library for the Maxim (previously Dallas) DS18B20 (and similar) temperature ICs
 
+lltcggie/waifu2x-caffe                     1499
+waifu2xのCaffe版
 
-liudong1983/mybus                          300
-MySQL数据库同redis以及hbase高速全量，增量同步工具
 
+wesm/feather                               1497
+Feather: fast, interoperable binary data frame storage for Python, R, and more powered by Apache Arrow
 
-google/certificate-transparency            300
-Auditing for TLS certificates.
 
+muflihun/easyloggingpp                     1487
+Single header C++ logging library. It is extremely powerful, extendable, light-weight, fast performing, thread and type safe and consists of many built-in features. It provides ability to write logs in your own customized format. It also provide support for logging your classes, third-party libraries, STL and third-party containers etc.
 
-devosoft/avida                             300
 
+chengr28/Pcap_DNSProxy                     1484
+Pcap_DNSProxy, a local DNS server based on WinPcap and LibPcap
 
 
-arq5x/bedtools2                            300
-A powerful toolset for genome arithmetic.
+wheybags/freeablo                          1478
+Modern reimplementation of the Diablo 1 game engine
 
 
-aardappel/lobster                          299
-The Lobster Programming Language
+mosra/magnum                               1476
+C++11/C++14 and OpenGL graphics engine
 
 
-cruppstahl/upscaledb                       299
-A very fast lightweight embedded database engine with a built-in query language.
+danmar/cppcheck                            1470
+static analysis of C/C++ code
 
 
-fanout/zurl                                299
-HTTP and WebSocket client worker with ZeroMQ interface
+thestinger/termite                         1465
+A keyboard-centric VTE-based terminal, aimed at use within a window manager with tiling and/or tabbing support.
 
 
-Liniarc/regexProgram                       298
-A simple regular app for solving problem
+dropbox/json11                             1461
+A tiny JSON library for C++11.
 
 
-PrincetonVision/marvin                     298
-Marvin: A Minimalist GPU-only N-Dimensional ConvNets Framework
+matt-42/silicon                            1460
+A high performance, middleware oriented C++14 http web framework
 
 
-mtytel/helm                                298
-Helm - a free polyphonic synth with lots of modulation
+lynckia/licode                             1457
+Open Source Communication Provider based on WebRTC and Cloud technologies
 
 
-tuanpmt/espduino                           297
-ESP8266 network client (mqtt, restful) for Arduino
+Benjamin-Dobell/Heimdall                   1451
+Heimdall is a cross-platform open-source tool suite used to flash firmware (aka ROMs) onto Samsung Galaxy S devices.
 
 
-AaronShea/BLUI                             296
-Rich HTML UI engine for UE4
+znc/znc                                    1446
+Official repository for the ZNC IRC bouncer
 
 
-desura/Desurium                            296
-LGPL repo for Desura client. Potentially out of date. See https://github.com/desura/desura-app for newest (LGPL) client.
+cocos2d/cocos2d-js                         1442
+cocos2d-x for JS
 
 
-zyantific/zyan-disassembler-engine         296
-Fast and lightweight x86/x86-64 disassembler library.
+PX4/Firmware                               1440
+PX4 Pro Autopilot Software
 
 
-YCAMInterlab/Duration                      296
-Duration is an application for designing change over time
+dogecoin/dogecoin                          1436
+very currency
 
 
-demi6od/Smashing_The_Browser               295
-Smashing The Browser: From Vulnerability Discovery To Exploit
+Lexikos/AutoHotkey_L                       1436
+AutoHotkey - macro-creation and automation-oriented scripting utility for Windows.
 
 
-FidoProject/Fido                           295
-A lightweight C++ machine learning library for embedded electronics and robotics.
+knolleary/pubsubclient                     1418
+A client library for the Arduino Ethernet Shield that provides support for MQTT.
 
 
-mapnik/node-mapnik                         294
-Bindings to mapnik for node.js
+apache/arrow                               1417
+Apache Arrow is a cross-language development platform for in-memory data. It specifies a standardized language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware. It also provides computational libraries and zero-copy streaming messaging and interprocess communication. Languages currently supported include C, C++, Java, JavaScript, Python, and Ruby.
 
 
-QuantBox/QuantBox_XAPI                     293
-正在升级XAPI2，请关注新版，老版不再维护
+jarulraj/sqlcheck                          1414
+Automatically identify anti-patterns in SQL queries
 
 
-MaddTheSane/perian                         293
-QuickTime plug-in for multiple codecs by using ffmpeg.
+mbasso/asm-dom                             1411
+A minimal WebAssembly virtual DOM to build C++ SPA (Single page applications)
 
 
-pmoulon/CMVS-PMVS                          293
-This software (CMVS) takes the output of a structure-from-motion (SfM) software as input, then decomposes the input images into a set of image clusters of managable size. An MVS software can be used to process each cluster independently and in parallel, where the union of reconstructions from all the clusters should not miss any details that can be otherwise obtained from the whole image set. CMVS should be used in conjunction with an SfM software Bundler and an MVS software PMVS2 (PMVS version 2).
+mkeeter/antimony                           1408
+CAD from a parallel universe
 
 
-idmillington/aicore                        293
-The artificial intelligence code accompanying the book "Artificial Intelligence for Games"
+arendst/Sonoff-Tasmota                     1406
+Provide ESP8266 based itead Sonoff with Web, MQTT and OTA firmware using Arduino IDE or PlatformIO
 
 
-ptrkrysik/gr-gsm                           292
-Gnuradio blocks and tools for receiving GSM transmissions
+jgh-/VideoCore-Inactive                    1406
+*No longer in development* At some point I will be publishing a new system
 
 
-Microsoft/WindowsUIDevLabs                 292
-Windows UI Dev Labs the place for getting the latest code samples and demos using Windows.UI.Xaml and Windows.UI.Composition to make beautiful Universal Windows Platform applications.
+whoshuu/cpr                                1398
+C++ Requests: Curl for People, a spiritual port of Python Requests
 
 
-lballabio/QuantLib                         291
+tdenniston/bish                            1391
+Bish is a language that compiles to Bash. It's designed to give shell scripting a more comfortable and modern feel.
+
+
+facebook/xcbuild                           1390
+Xcode-compatible build tool.
+
+
+beniz/deepdetect                           1389
+Deep Learning API and Server in C++11 with Python bindings and support for Caffe, Tensorflow, XGBoost and TSNE
+
+
+shaih/HElib                                1387
+An Implementation of homomorphic encryption
+
+
+wang-bin/QtAV                              1385
+A cross-platform multimedia framework based on Qt and FFmpeg. High performance. User & developer friendly. Supports Android, iOS, Windows store and desktops. 基于Qt和FFmpeg的跨平台高性能音视频播放框架
+
+
+openthread/openthread                      1379
+OpenThread released by Nest is an open-source implementation of the Thread networking protocol
+
+
+CPFL/Autoware                              1377
+Open-source software for urban self-driving mobility
+
+
+ShapeLab/SwarmUI                           1376
+
+
+
+chukong/quick-cocos2d-x                    1374
+quick-cocos2d-x is a quick framework, based on cocos2d-x. Make mobile games in Lua.
+
+
+openMVG/openMVG                            1370
+open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion.
+
+
+CppCon/CppCon2015                          1370
+Presentation Materials from CppCon 2015
+
+
+bnoordhuis/node-heapdump                   1365
+Make a dump of the V8 heap for later inspection.
+
+
+facebookresearch/StarSpace                 1364
+Learning embeddings for classification, retrieval and ranking.
+
+
+netease-youdao/hex                         1363
+heX
+
+
+haseebr/competitive-programming            1361
+my foray into the world of competitive programming
+
+
+wangyu-/UDPspeeder                         1353
+A Tunnel which Improves your Network Quality on a High-latency Lossy Link by using Forward Error Correction,for All Traffics(TCP/UDP/ICMP)
+
+
+gosu/gosu                                  1352
+2D game development library for Ruby and C++
+
+
+ericniebler/range-v3                       1347
+Experimental range library for C++11/14/17
+
+
+actor-framework/actor-framework            1347
+An Open Source Implementation of the Actor Model in C++
+
+
+CppCon/CppCon2016                          1346
+Slides and other materials from CppCon 2016
+
+
+gcp/leela-zero                             1343
+Go engine with no human-provided knowledge, modeled after the AlphaGo Zero paper.
+
+
+mltframework/shotcut                       1331
+cross-platform (Qt), open-source (GPLv3) video editor
+
+
+apitrace/apitrace                          1326
+Tools for tracing OpenGL, Direct3D, and other graphics APIs
+
+
+USCiLab/cereal                             1320
+A C++11 library for serialization
+
+
+spring/spring                              1316
+A powerful free cross-platform RTS game engine
+
+
+ValveSoftware/vogl                         1315
+OpenGL capture / playback debugger.
+
+
+artoolkit/artoolkit5                       1314
+ARToolKit v5.x
+
+
+milostosic/MTuner                          1314
+MTuner is a C/C++ memory profiler and memory leak finder for Windows, PlayStation 4, PlayStation 3, etc.
+
+
+koekeishiya/chunkwm                        1310
+Tiling window manager for macOS based on plugin architecture
+
+
+seenaburns/dex-ui                          1309
+A science fiction desktop running on Linux. Awesome.
+
+
+Aloshi/EmulationStation                    1309
+A flexible emulator front-end supporting keyboardless navigation and custom system themes.
+
+
+JoeyDeVries/LearnOpenGL                    1308
+Code repository of all tutorials found at http://learnopengl.com
+
+
+GarageGames/Torque2D                       1304
+MIT Licensed Open Source version of Torque 2D game engine from GarageGames
+
+
+Subsurface-divelog/subsurface              1301
+This is the official upstream of the Subsurface divelog program
+
+
+google/ion                                 1300
+Ion
+
+
+ry/v8worker                                1299
+Minimal golang binding to V8
+
+
+Tencent/phxqueue                           1295
+A high-availability, high-throughput and highly reliable distributed queue based on the Paxos algorithm.
+
+
+mapd/mapd-core                             1293
+The MapD Core database
+
+
+aksnzhy/xlearn                             1288
+High Performance, Easy-to-use, and Scalable Machine Learning Package
+
+
+Microsoft/DirectX-Graphics-Samples         1283
+This repo contains the DirectX Graphics samples that demonstrate how to build graphics intensive applications on Windows.
+
+
+arturadib/node-qt                          1282
+C++ Qt bindings for Node.js
+
+
+ideawu/icomet                              1277
+A C1000K comet/push server built with C++, for web and mobile app
+
+
+clangen/musikcube                          1275
+a cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++
+
+
+wesnoth/wesnoth                            1268
+An open source, turn-based strategy game with a high fantasy theme. It features both singleplayer and online/hotseat multiplayer combat.
+
+
+adafruit/Adafruit_NeoPixel                 1268
+Neo Pixels!
+
+
+kripken/ammo.js                            1268
+Direct port of the Bullet physics engine to JavaScript using Emscripten
+
+
+sphinxsearch/sphinx                        1264
+Sphinx search server
+
+
+floooh/oryol                               1259
+A small, portable and extensible C++ 3D coding framework
+
+
+miguelfreitas/twister-core                 1257
+twister core / daemon
+
+
+pgmodeler/pgmodeler                        1253
+pgModeler - PostgreSQL Database Modeler - is an open source data modeling tool designed for PostgreSQL. No more DDL commands written by hand let pgModeler do the job for you! This software reunites the concepts of entity-relationship diagrams and the features that PostgreSQL implements as extensions of SQL standards. Support this project by donate on project's official web site link:
+
+
+espressif/arduino-esp32                    1249
+Arduino core for the ESP32
+
+
+wangyu-/udp2raw-tunnel                     1248
+A Tunnel which Turns UDP Traffic into Encrypted UDP/FakeTCP/ICMP Traffic by using Raw Socket,helps you Bypass UDP FireWalls(or Unstable UDP Environment),Anti-Replay-Attack
+
+
+nem0/LumixEngine                           1247
+3D Game Engine
+
+
+google/bloaty                              1237
+Bloaty McBloatface: a size profiler for binaries
+
+
+tum-vision/lsd_slam                        1234
+LSD-SLAM
+
+
+rescrv/HyperDex                            1229
+HyperDex is a scalable, searchable key-value store
+
+
+google/butteraugli                         1225
+butteraugli estimates the psychovisual difference between two images
+
+
+asmjit/asmjit                              1225
+Complete x86/x64 JIT and Remote Assembler for C++
+
+
+facebookresearch/ELF                       1224
+An End-To-End, Lightweight and Flexible Platform for Game Research
+
+
+PixarAnimationStudios/USD                  1221
+Universal Scene Description
+
+
+vgvassilev/cling                           1221
+The interactive C++ interpreter Cling
+
+
+ue4plugins/StreetMap                       1216
+Import OpenStreetMap data into Unreal Engine 4
+
+
+dotnet/llilc                               1214
+This repo contains LLILC, an LLVM based compiler for .NET Core. It includes a set of cross-platform .NET code generation tools that enables compilation of MSIL byte code to LLVM supported platforms.
+
+
+rexdex/recompiler                          1213
+Xbox360 -&gt: Windows executable converter
+
+
+dmlc/nnvm                                  1210
+Bring deep learning to bare metal
+
+
+endless-sky/endless-sky                    1204
+Space exploration, trading, and combat game.
+
+
+facebook/fbthrift                          1200
+Facebook's branch of Apache Thrift, including a new C++ server.
+
+
+ThePowderToy/The-Powder-Toy                1199
+Written in C++ and using SDL, The Powder Toy is a desktop version of the classic 'falling sand' physics sandbox, it simulates air pressure and velocity as well as heat.
+
+
+qdore/Mutate                               1197
+A simple launcher inspired by Alfred for ubuntu and Fedora.
+
+
+MrKepzie/Natron                            1196
+Open-source compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.
+
+
+Qihoo360/QConf                             1196
+Qihoo Distributed Configuration Management System
+
+
+chriskohlhoff/asio                         1194
+Asio C++ Library
+
+
+Hawstein/cracking-the-coding-interview     1187
+Solutions for the book: Cracking the coding interview V4. Written in C++.
+
+
+joeferner/node-java                        1187
+Bridge API to connect with existing Java APIs.
+
+
+ValveSoftware/halflife                     1185
+Half-Life 1 engine based games
+
+
+asLody/TurboDex                            1184
+ fast load dex in memory.
+
+
+zeux/pugixml                               1183
+Light-weight, simple and fast XML parser for C++ with XPath support
+
+
+msgpack/msgpack-c                          1178
+MessagePack implementation for C and C++ / msgpack.org[C/C++]
+
+
+blynkkk/blynk-library                      1171
+Blynk library for embedded hardware. Works with Arduino, ESP8266, Raspberry Pi, Intel Edison/Galileo, LinkIt ONE, Particle Core/Photon, Energia, ARM mbed, etc.
+
+
+acaudwell/Logstalgia                       1171
+replay or stream website access logs as a retro arcade game
+
+
+peterrudenko/helio-workstation             1169
+One music sequencer for all major platforms, both desktop and mobile
+
+
+ethereum-mining/ethminer                   1168
+Ethereum miner with OpenCL, CUDA and stratum support
+
+
+progschj/ThreadPool                        1165
+A simple C++11 Thread Pool implementation
+
+
+rainmeter/rainmeter                        1163
+Desktop customization tool for Windows
+
+
+mmp/pbrt-v3                                1163
+Source code for pbrt, the renderer described in the third edition of "Physically Based Rendering: From Theory To Implementation", by Matt Pharr, Wenzel Jakob, and Greg Humphreys.
+
+
+OpenDroneMap/OpenDroneMap                  1163
+OpenDroneMap is a tool to postprocess drone, balloon, kite, and street view data to geographic data including orthophotos, point clouds, & textured mesh. In the tradition of the Ship of Theseus, it was originally forked from qwesda/BundlerTools https://github.com/qwesda/BundlerTools.
+
+
+fatih/subvim                               1160
+Vim customized to be like SublimeText
+
+
+drmeister/clasp                            1154
+clasp Common Lisp environment
+
+
+TranslucentTB/TranslucentTB                1153
+A lightweight utility that makes the Windows taskbar translucent/transparent.
+
+
+yedf/handy                                 1149
+简洁易用的C++11网络库 / 支持单机千万并发连接 / a simple C++11 network server framework
+
+
+facebook/mysql-5.6                         1147
+Facebook's branch of the Oracle MySQL v5.6 database. This includes MyRocks.
+
+
+zhihu/kids                                 1147
+Kids Is Data Stream
+
+
+google/sling                               1142
+SLING - A natural language frame semantics parser
+
+
+charto/nbind                               1142
+:sparkles: Magical headers that make your C++ library accessible from JavaScript :rocket:
+
+
+Microsoft/Pyjion                           1137
+Pyjion - A JIT for Python based upon CoreCLR
+
+
+HIT-SCIR/ltp                               1131
+Language Technology Platform
+
+
+TangXiaoLv/TelegramGallery                 1130
+world level Gallery , from Telegram，Photo album selector，QQ style
+
+
+apache/incubator-singa                     1129
+Mirror of Apache Singa (Incubating)
+
+
+DeNA/HandlerSocket-Plugin-for-MySQL        1127
+HandlerSocket is a NoSQL plugin for MySQL, working as a daemon inside the mysqld process, to accept tcp connections, and execute requests from clients. HandlerSocket does not support SQL queries; instead it supports simple CRUD operations on tables.
+
+
+Blizzard/s2client-api                      1124
+StarCraft II Client - C++ library supported on Windows, Linux and Mac designed for building scripted bots and research using the SC2API.
+
+
+simbody/simbody                            1123
+High-performance C++ multibody dynamics/physics library for simulating articulated biomechanical and mechanical systems like vehicles, robots, and the human skeleton.
+
+
+emojicode/emojicode                        1120
+😀😜🔂 World’s only programming language that’s bursting with emojis
+
+
+OpenNI/OpenNI                              1117
+OpenNI
+
+
+d5/node.native                             1113
+C++11 port for the Node: native performance and modern simplicity.
+
+
+ccMSC/ckb                                  1111
+RGB Driver for Linux and OS X
+
+
+JACoders/OpenJK                            1110
+Community effort to maintain and improve Jedi Academy + Jedi Outcast released by Raven Software
+
+
+alibaba/oceanbase                          1108
+A distributed, shared-nothing relational database
+
+
+Andersbakken/rtags                         1106
+A c/c++ client/server indexer for c/c++/objc[++] with integration for Emacs based on clang.
+
+
+libmx3/mx3                                 1104
+a sample project showcasing/collecting cross platform techniques on mobile
+
+
+ChaiScript/ChaiScript                      1102
+Embedded Scripting Language Designed for C++
+
+
+simongog/sdsl-lite                         1102
+Succinct Data Structure Library 2.0
+
+
+audiorouterdev/audio-router                1100
+Routes audio from programs to different audio devices.
+
+
+vgough/encfs                               1098
+EncFS: an Encrypted Filesystem for FUSE.
+
+
+iagox86/dnscat2                            1097
+
+
+
+Reactive-Extensions/RxCpp                  1085
+Reactive Extensions for C++
+
+
+uber/horovod                               1085
+Distributed training framework for TensorFlow.
+
+
+manuelruder/artistic-videos                1083
+Torch implementation for the paper "Artistic style transfer for videos"
+
+
+PowerDNS/pdns                              1074
+PowerDNS
+
+
+miguelbalboa/rfid                          1074
+Arduino RFID Library for MFRC522
+
+
+AndreaOrru/LaiNES                          1072
+Cycle-accurate NES emulator in ~1000 lines of code
+
+
+flutter/engine                             1067
+The Flutter engine
+
+
+Nevcairiel/LAVFilters                      1057
+LAV Filters - Open-Source DirectShow Media Splitter and Decoders
+
+
+eidheim/Simple-Web-Server                  1054
+A very simple, fast, multithreaded, platform independent HTTP and HTTPS server and client library implemented using C++11 and Boost.Asio. Created to be an easy way to make REST resources available from C++ applications.
+
+
+uber/pyflame                               1054
+🔥 Pyflame: A Ptracing Profiler For Python
+
+
+aspnet/dnx                                 1045
+OBSOLETE. See readme file.
+
+
+arvidn/libtorrent                          1044
+an efficient feature complete C++ bittorrent implementation
+
+
+bwapi/bwapi                                1030
+Brood War API
+
+
+gnuradio/gnuradio                          1029
+GNU Radio
+
+
+boostorg/beast                             1029
+HTTP and WebSocket built on Boost.Asio in C++11
+
+
+dmlc/cxxnet                                1029
+move forward to https://github.com/dmlc/mxnet
+
+
+aras-p/glsl-optimizer                      1028
+GLSL optimizer based on Mesa's GLSL compiler. Used in Unity for mobile shader optimization.
+
+
+hluk/CopyQ                                 1027
+Clipboard manager with advanced features
+
+
+BonzaiThePenguin/WikiSort                  1026
+Fast and stable sort algorithm that uses O(1) memory. Public domain.
+
+
+onqtam/doctest                             1026
+The fastest feature-rich C++98/C++11 single-header testing framework for unit tests and TDD
+
+
+ReadyTalk/avian                            1024
+Avian is a lightweight virtual machine and class library designed to provide a useful subset of Java's features, suitable for building self-contained applications.
+
+
+kylemcdonald/ofxFaceTracker                1023
+CLM face tracking addon for openFrameworks based on Jason Saragih's FaceTracker.
+
+
+papyros/papyros-shell                      1023
+:shell: The desktop shell for Papyros, built using QtQuick and QtCompositor as a compositor for Wayland.
+
+
+Property404/fetlang                        1018
+Fetish-themed programming language
+
+
+TorchCraft/TorchCraft                      1012
+Connecting Torch to StarCraft
+
+
+jwise/HoRNDIS                              1012
+Android USB tethering driver for Mac OS X
+
+
+OpenKinect/libfreenect2                    1010
+Open source drivers for the Kinect for Windows v2 device
+
+
+nRF24/RF24                                 1010
+Optimized fork of nRF24L01 for Arduino & Raspberry Pi/Linux Devices
+
+
+ROCm-Developer-Tools/HIP                   1010
+HIP : Convert CUDA to Portable C++ Code
+
+
+0ad/0ad                                    1006
+Git mirror of the 0 A.D. source code (http://trac.wildfiregames.com/browser)
+
+
+Valloric/ycmd                              1002
+A code-completion & code-comprehension server
+
+
+ibaaj/dijkstra-cartography                 1002
+Using Dijkstra's algorithm ("finding the shortest paths between nodes in a graph") to draw maps :earth_africa:.
+
+
+mfontanini/libtins                         1002
+High-level, multiplatform C++ network packet sniffing and crafting library. 
+
+
+mcostalba/Stockfish                        1002
+UCI chess engine
+
+
+Microsoft/Win2D                            994
+Win2D is an easy-to-use Windows Runtime API for immediate mode 2D graphics rendering with GPU acceleration. It is available to C#, C++ and VB developers writing Windows apps for Windows 8.1, Windows Phone 8.1 and Windows 10. It utilizes the power of Direct2D, and integrates seamlessly with XAML and CoreWindow.
+
+
+yinqiwen/ardb                              993
+A redis protocol compatible nosql,  it support multiple storage engines as backend like Google's LevelDB, Facebook's RocksDB, OpenLDAP's LMDB,  PerconaFT, WiredTiger, ForestDB.
+
+
+doug/depthjs                               992
+DepthJS allows any web page to interact with the Microsoft Kinect using Javascript.
+
+
+Yelp/MOE                                   990
+A global, black box optimization engine for real world metric optimization.
+
+
+alecthomas/entityx                         989
+EntityX - A fast, type-safe C++ Entity-Component system
+
+
+google/jsonnet                             988
+Jsonnet - The data templating language
+
+
+vczh-libraries/GacUI                       982
+GPU Accelerated C++ User Interface, with WYSIWYG developing tools, XML supports, built-in data binding and MVVM features.
+
+
+zeroc-ice/ice                              981
+Comprehensive RPC framework with support for C++, C#, Java, JavaScript, Python and more.
+
+
+wiseio/paratext                            978
+A library for reading text files over multiple cores.
+
+
+aguinet/wannakey                           978
+Wannacry in-memory key recovery
+
+
+cmu-db/peloton                             977
+The Self-Driving Database Management System
+
+
+cocaine/cocaine-core                       970
+An open platform to build your own PaaS clouds.
+
+
+zig-lang/zig                               969
+robust, optimal, and clear programming language
+
+
+yanyiwu/cppjieba                           966
+"结巴"中文分词的C++版本
+
+
+csete/gqrx                                 963
+Software defined radio receiver powered by GNU Radio and Qt.
+
+
+DarthTon/Blackbone                         949
+Windows memory hacking library
+
+
+CopernicaMarketingSoftware/PHP-CPP         949
+Library to build PHP extensions with C++
+
+
+tqchen/tinyflow                            948
+Tutorial code on how to build your own Deep Learning System in 2k Lines
+
+
+RuntimeCompiledCPlusPlus/RuntimeCompiledCPlusPlus 948
+Change C++ code at runtime
+
+
+MaartenBaert/ssr                           946
+SimpleScreenRecorder, a screen recorder for Linux
+
+
+happynear/caffe-windows                    945
+Configure Caffe in one hour for Windows users.
+
+
+eventql/eventql                            944
+Distributed "massively parallel" SQL query engine
+
+
+panda3d/panda3d                            944
+Powerful, mature open-source cross-platform game engine for Python and C++, developed by Disney and CMU
+
+
+tunabrain/tungsten                         941
+High performance physically based renderer in C++11
+
+
+rbock/sqlpp11                              941
+A type safe SQL template library for C++
+
+
+syoyo/tinyobjloader                        936
+Tiny but powerful single file wavefront obj loader
+
+
+Microsoft/microsoft-pdb                    935
+Information from Microsoft about the PDB format.  We'll try to keep this up to date. Just trying to help the CLANG/LLVM community get onto Windows.
+
+
+baidu/Familia                              934
+A Toolkit for Industrial Topic Modeling
+
+
+cpvrlab/ImagePlay                          926
+ImagePlay is a rapid prototyping application for image processing
+
+
+eranif/codelite                            924
+CodeLite, a cross platform C/C++/PHP and Node.js IDE written in C++
+
+
+WeAreROLI/JUCE                             924
+The JUCE cross-platform C++ framework.
+
+
+dmlc/tvm                                   922
+End to end Tensor IR/DSL stack for deploying deep learning workloads to hardwares
+
+
+IntelRealSense/librealsense                921
+Intel® RealSense™ SDK
+
+
+gaoxiang12/slambook                        921
+
+
+
+pezy/CppPrimer                             914
+:books: Solutions for C++ Primer 5th exercise answers.
+
+
+wjakob/instant-meshes                      909
+Interactive field-aligned mesh generator
+
+
+libigl/libigl                              906
+Simple C++ geometry processing library.
+
+
+owncloud/client                            906
+:computer: Desktop Syncing Client for ownCloud
+
+
+nidium/Nidium                              906
+nidium is an ongoing effort for a mobile hw-accelerated rendering engine to create apps and games. Embedding Mozilla JavaScript VM, Google Skia, Facebook Yoga.  https://twitter.com/nidiumproject for updates
+
+
+tomlooman/EpicSurvivalGameSeries           904
+Third person survival game (tutorial) series for Unreal Engine 4.
+
+
+adafruit/DHT-sensor-library                904
+Arduino library for DHT11DHT22, etc Temp & Humidity Sensors
+
+
+rtbkit/rtbkit                              904
+RTBkit is a real-time bidder framework designed for use on advertising exchanges such as the Rubicon Project, Nexage, App Nexus, The Google Ad Exchange and others.
+
+
+kripken/BananaBread                        899
+BananaBread is a C++ 3D game engine that runs on the web using JavaScript+WebGL+HTML
+
+
+fritzing/fritzing-app                      898
+Fritzing desktop application
+
+
+gflags/gflags                              894
+The gflags package contains a C++ library that implements commandline flags processing. It includes built-in support for standard types such as string and the ability to define flags in the source file in which they are used. Online documentation available at:
+
+
+intel/hyperscan                            894
+High-performance regular expression matching library
+
+
+raspberrypi/tools                          893
+
+
+
+socketio/socket.io-client-cpp              890
+C++11 implementation of Socket.IO client
+
+
+KhronosGroup/Vulkan-Hpp                    885
+Open-Source Vulkan C++ API
+
+
+naelstrof/maim                             884
+maim (make image) takes screenshots of your desktop. It has options to take only a region, and relies on slop to query for regions. maim is supposed to be an improved scrot.
+
+
+sailing-pmls/bosen                         884
+Parallel ML System - Bosen project
+
+
+ChenglongChen/Kaggle_CrowdFlower           882
+1st Place Solution for Search Results Relevance Competition on Kaggle (https://www.kaggle.com/c/crowdflower-search-relevance)
+
+
+QupZilla/qupzilla                          880
+Cross-platform Qt web browser
+
+
+google/fruit                               879
+Fruit, a dependency injection framework for C++
+
+
+openscenegraph/OpenSceneGraph              876
+OpenSceneGraph git repository
+
+
+libfann/fann                               875
+Official github repository for Fast Artificial Neural Network Library (FANN)
+
+
+nodejs/node-addon-examples                 872
+Node.js C++ addon examples from http://nodejs.org/docs/latest/api/addons.html
+
+
+aerys/minko                                870
+3D framework for web, desktop and mobile devices.
+
+
+toggl/toggldesktop                         868
+Toggl Desktop app for Windows, Mac and Linux
+
+
+google/kythe                               868
+Kythe is a pluggable, (mostly) language-agnostic ecosystem for building tools that work with code.
+
+
+mixxxdj/mixxx                              865
+Mixxx is Free DJ software that gives you everything you need to perform live mixes.
+
+
+cgdb/cgdb                                  864
+Console front-end to the GNU debugger
+
+
+logcabin/logcabin                          862
+LogCabin is a distributed storage system built on Raft that provides a small amount of highly replicated, consistent storage. It is a reliable place for other distributed systems to store their core metadata and is helpful in solving cluster management issues.
+
+
+orlp/pdqsort                               861
+Pattern-defeating quicksort.
+
+
+Microsoft/DirectXTK                        861
+The DirectX Tool Kit (aka DirectXTK) is a collection of helper classes for writing DirectX 11.x code in C++
+
+
+weidai11/cryptopp                          860
+free C++ class library of cryptographic schemes
+
+
+solodon4/Mach7                             859
+Pattern-matching library for C++
+
+
+js-platform/node-webrtc                    857
+WebRTC stack for node.js
+
+
+xuelangZF/CS_Offer                         855
+计算机学科基础知识和主流编程语言相关内容的总结
+
+
+dbartolini/crown                           852
+The flexible game engine.
+
+
+beark/ftl                                  852
+C++ template library for fans of functional programming
+
+
+cloose/CuteMarkEd                          851
+Qt Markdown Editor
+
+
+include-what-you-use/include-what-you-use  847
+A tool for use with clang to analyze #includes in C and C++ source files
+
+
+moderngpu/moderngpu                        847
+Patterns and behaviors for GPU computing
+
+
+phaistos-networks/TANK                     846
+A very high performance distributed log service
+
+
+ThePhD/sol2                                845
+Sol v2.0 - a C++ &lt:-&gt: Lua API wrapper with advanced features and top notch performance - is here, and it's great! Documentation:
+
+
+Samsung/veles                              844
+Distributed machine learning platform
+
+
+kostya/benchmarks                          843
+Some benchmarks of different languages
+
+
+Hopson97/MineCraft-One-Week-Challenge      842
+I challenged myself to see if I could create Minecraft in just one week... So lets go!
+
+
+cameron314/readerwriterqueue               841
+A fast single-producer, single-consumer lock-free queue for C++
+
+
+hyperion-project/hyperion                  836
+Hyperion is an open source ambient light software.  Feel free to join us and contribute new features! Webpage: https://hyperion-project.org/
+
+
+appleseedhq/appleseed                      836
+A modern open source rendering engine for animation and visual effects
+
+
+bombela/backward-cpp                       835
+A beautiful stack trace pretty printer for C++
+
+
+uzh-rpg/rpg_svo                            833
+Semi-direct Visual Odometry
+
+
+Tencent/phxrpc                             832
+A simple C++ based RPC framework.
+
+
+khizmax/libcds                             832
+A C++ library of Concurrent Data Structures
+
+
+SmingHub/Sming                             829
+Sming - Open Source framework for high efficiency native ESP8266 development
+
+
+opengl-tutorials/ogl                       829
+
+
+
+gigablast/open-source-search-engine        828
+Nov 20 2017 -- A distributed open source search engine and spider/crawler written in C/C++ for Linux on Intel/AMD. From gigablast dot com, which has binaries for download. See the README.md file at the very bottom of this page for instructions.
+
+
+devsisters/libquic                         828
+QUIC, a multiplexed stream transport over UDP
+
+
+4Lang/4                                    827
+A completely emoji-based programming language
+
+
+yyzybb537/libgo                            824
+Go-style concurrency in C++11
+
+
+jbeder/yaml-cpp                            822
+A YAML parser and emitter in C++
+
+
+bloomberg/bde                              821
+Basic Development Environment - a set of foundational C++ libraries used at Bloomberg.
+
+
+Qihoo360/evpp                              819
+A modern C++ network library for developing high performance network services in TCP/UDP/HTTP protocols.
+
+
+yuanming-hu/taichi                         819
+A Computer Graphics Library
+
+
+SupSuper/OpenXcom                          817
+Open-source clone of the original X-Com 👽
+
+
+couchbase/forestdb                         817
+A Fast Key-Value Storage Engine Based on Hierarchical B+-Tree Trie
+
+
+fireice-uk/xmr-stak-cpu                    815
+Monero CPU miner
+
+
+andrewssobral/bgslibrary                   814
+A background subtraction library
+
+
+kripken/speak.js                           812
+Text-to-Speech in JavaScript using eSpeak
+
+
+ispc/ispc                                  810
+Intel SPMD Program Compiler
+
+
+JonathanSalwan/Triton                      809
+Triton is a Dynamic Binary Analysis (DBA) framework. It provides internal components like a Dynamic Symbolic Execution (DSE) engine, a Taint Engine, AST representations of the x86 and the x86-64 instructions set semantics, SMT simplification passes, an SMT Solver Interface and, the last but not least, Python bindings.
+
+
+tomhrr/dale                                807
+Lisp-flavoured C
+
+
+phacility/libphutil                        803
+A collection of PHP utility classes
+
+
+XhmikosR/notepad2-mod                      802
+LOOKING FOR DEVELOPERS - Notepad2-mod, a Notepad2 fork, a fast and light-weight Notepad-like text editor with syntax highlighting
+
+
+scummvm/scummvm                            801
+ScummVM main repository
+
+
+mmp/pbrt-v2                                800
+Source code for the version of pbrt described in the second edition of "Physically Based Rendering"
+
+
+turi-code/SFrame                           799
+SFrame: Scalable tabular and graph data-structures built for out-of-core data analysis and machine learning.
+
+
+raboof/nethogs                             799
+Linux 'net top' tool
+
+
+OtterBrowser/otter-browser                 799
+Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI using Qt5
+
+
+REhints/HexRaysCodeXplorer                 797
+Hex-Rays Decompiler plugin for better code navigation
+
+
+discordapp/lilliput                        795
+Resize images and animated GIFs in Go
+
+
+davidgfnet/whatsapp-purple                 794
+WhatsApp protocol implementation for libpurple (pidgin)
+
+
+weolar/miniblink49                         793
+一个小巧、轻量的浏览器内核，用来取代wke和libcef
+
+
+wavii/darner                               793
+simple, lightweight message queue
+
+
+gongminmin/KlayGE                          792
+KlayGE is a cross-platform open source game engine with plugin-based architecture.
+
+
+Icinga/icinga2                             790
+Monitoring core with features and REST API
+
+
+PurpleI2P/i2pd                             787
+ 🛡 I2P: End-to-End encrypted and anonymous Internet
+
+
+protobuf-c/protobuf-c                      787
+Protocol Buffers implementation in C
+
+
+gioblu/PJON                                785
+PJON™ is an open-source network protocol stack compatible with Arduino, ESP8266, Teensy, Raspberry Pi, Linux and Windows. It is a valid tool to quickly build a network of devices.
+
+
+radareorg/cutter                           785
+A Qt and C++ GUI for radare2 reverse engineering framework
+
+
+zrm/snow                                   783
+
+
+
+trailofbits/mcsema                         783
+Framework for lifting x86, amd64, and aarch64 program binaries to LLVM bitcode
+
+
+badaix/snapcast                            782
+Synchronous multi-room audio player
+
+
+dmlc/mshadow                               782
+Matrix Shadow:Lightweight CPU/GPU Matrix and Tensor  Template Library in C++/CUDA for (Deep) Machine Learning
+
+
+libxmljs/libxmljs                          781
+libxml bindings for v8 javascript engine
+
+
+google/proto-quic                          781
+
+
+
+9miao/CrossApp                             780
+Cross-Platform Mobile APP Development Engine
+
+
+spotify/echoprint-codegen                  780
+Codegen for Echoprint
+
+
+Microsoft/Windows-Driver-Frameworks        779
+WDF makes it easy to write high-quality Windows drivers
+
+
+google/mathfu                              778
+C++ math library developed primarily for games focused on simplicity and efficiency.
+
+
+VCVRack/Rack                               777
+Open-source virtual Eurorack DAW
+
+
+BitFunnel/NativeJIT                        776
+A C++ expression -&gt: x64 JIT
+
+
+marcoschwartz/aREST                        775
+A RESTful environment for Arduino
+
+
+boostorg/compute                           774
+A C++ GPU Computing Library for OpenCL
+
+
+LordNoteworthy/al-khaser                   772
+Public malware techniques used in the wild: Virtual Machine, Emulation, Debuggers, Sandbox detection. 
+
+
+phpv8/v8js                                 772
+V8 Javascript Engine for PHP — This PHP extension embeds the Google V8 Javascript Engine
+
+
+yue/yue                                    772
+A library for creating native cross-platform GUI apps.
+
+
+mariusmuja/flann                           769
+Fast Library for Approximate Nearest Neighbors
+
+
+salestock/fastText.py                      766
+A Python interface for Facebook fastText
+
+
+libRocket/libRocket                        765
+libRocket - The HTML/CSS User Interface library
+
+
+lballabio/QuantLib                         765
 The QuantLib C++ library
 
 
-rprichard/winpty                           291
-A Windows software package providing an interface similar to a Unix pty-master for communicating with Windows console programs.
+boostorg/hana                              764
+Your standard library for metaprogramming
 
 
-Gladdy/EasyOpenCL                          290
-The easiest way to get started with OpenCL!
+STEllAR-GROUP/hpx                          762
+The C++ Standard Library for Parallelism and Concurrency
 
 
-hpcc-systems/HPCC-Platform                 290
-HPCC Systems (High Performance Computing Cluster) is an open source, massive parallel-processing computing platform for big data processing and analytics.
+akrennmair/newsbeuter                      762
+Newsbeuter is an open-source RSS/Atom feed reader for text terminals.
 
 
-Marqt/ViZDoom                              290
-Doom-based AI Research Platform for Reinforcement Learning from Raw Visual Information.
+leanprover/lean                            760
+Lean Theorem Prover
 
 
-HeliumProject/Helium                       289
-C++ Frameworks and Game Engine
+moai/moai-dev                              757
+This is the development repo of Moai SDK. Current, but not necessarily tested or stable.
 
 
-efficient/libcuckoo                        289
-A high-performance, concurrent hash table
+simsong/tcpflow                            757
+TCP/IP packet demultiplexer
 
 
-genodelabs/genode                          288
-Genode OS Framework
+google/angle                               756
+A conformant OpenGL ES implementation for Windows, Mac and Linux.
 
 
-yangyangwithgnu/autoshadower               288
-autoshadower is so sweet, she will find many free shadowsoks accounts for you, do her best! 
+HowardHinnant/date                         753
+A date and time library based on the C++11/14/17 &lt:chrono&gt: header
 
 
-LowPowerLab/RFM69                          288
-RFM69 library for RFM69W, RFM69HW, RFM69CW, RFM69HCW (semtech SX1231, SX1231H)
+mtytel/helm                                750
+Helm - a free polyphonic synth with lots of modulation
 
 
-lavv17/lftp                                288
-sophisticated command line file transfer program (ftp, http, sftp, fish, torrent)
+google/sentencepiece                       750
+Unsupervised text tokenizer for Neural Network-based text generation.
 
 
-OpenZWave/open-zwave                       288
-a C++ and DotNet library to control Z-Wave Networks via a Z-Wave Controller. 
+dhewm/dhewm3                               750
+dhewm 3 main repository
 
 
-fador/mineserver                           287
-Custom Minecraft server software written in C++ for Windows and Linux
+razimantv/mazegenerator                    749
+Generate mazes of different shapes and arbitrary sizes
+
+
+leozide/leocad                             747
+A CAD program for creating virtual LEGO models
+
+
+eliben/llvm-clang-samples                  747
+Examples of using the LLVM and Clang compilation libraries and tools
+
+
+firmata/arduino                            745
+Firmata firmware for Arduino
+
+
+begla/Intrinsic                            744
+Intrinsic is a Vulkan based cross-platform game and rendering engine. The project is currently in an early stage of development.
+
+
+Kitware/VTK                                741
+Mirror of Visualization Toolkit repository
+
+
+LongSoft/UEFITool                          741
+UEFI firmware image viewer and editor
+
+
+zhangyuanwei/node-images                   740
+Cross-platform image decoder(png/jpeg/gif) and encoder(png/jpeg) for Nodejs
+
+
+RobotLocomotion/drake                      737
+A planning, control, and analysis toolbox for nonlinear dynamical systems.  More info at
+
+
+jcw/ethercard                              733
+EtherCard is a driver for the ENC28J60 chip, compatible with Arduino IDE
+
+
+msracver/Deep-Image-Analogy                733
+The source code of 'Visual Attribute Transfer through Deep Image Analogy'.
+
+
+snap-stanford/snap                         733
+Stanford Network Analysis Platform (SNAP) is a general purpose network analysis and graph mining library.
+
+
+sftrabbit/CppSamples-Samples               732
+A repository of modern C++ samples curated by the community.
+
+
+Microsoft/DirectXShaderCompiler            731
+This repo hosts the source for the DirectX Shader Compiler which is based on LLVM/Clang.
+
+
+wichtounet/thor-os                         731
+Simple operating system in C++, written from scratch
+
+
+SequoiaDB/SequoiaDB                        730
+SequoiaDB is a document-oriented NoSQL Database
+
+
+unknownworlds/decoda                       730
+Decoda Lua IDE and debugger
+
+
+node-inspector/v8-profiler                 729
+node bindings for the v8 profiler
+
+
+cppit/jucipp                               728
+juCi++: a lightweight, cross-platform C++-IDE  supporting C++11, C++14, and experimental C++17 features
+
+
+hzeller/rpi-rgb-led-matrix                 725
+Controlling up to three chains of 32x32 or 16x32 RGB LED displays using Raspberry Pi GPIO
+
+
+dwavesystems/qbsolv                        724
+Qbsolv,a decomposing solver, finds a minimum value of a large quadratic unconstrained binary optimization (QUBO) problem by splitting it into pieces solved either via a D-Wave system or a classical tabu solver.   (Note that qbsolv by default uses its internal classical solver.  Access to a D-Wave system must be arranged separately.)
+
+
+mysensors/MySensors                        722
+MySensors library and examples
+
+
+vcmi/vcmi                                  722
+Open-source engine for Heroes of Might and Magic III
+
+
+preshing/junction                          720
+Concurrent data structures in C++
+
+
+node-tensorflow/node-tensorflow            720
+Node-tensorflow is a NodeJS API for utilizing Google's machine learning library TensorFlow.
+
+
+yse/easy_profiler                          719
+Lightweight profiler library for c++
+
+
+cztomczak/cefpython                        718
+Chrome browser control, a HTML 5 based Python GUI framework.      :speech_balloon: Forum:
+
+
+zerovm/zerovm                              717
+Open-source lightweight virtualization platform
+
+
+plaidml/plaidml                            716
+PlaidML is a framework for making deep learning work everywhere.
+
+
+aosp-mirror/platform_system_core           716
+
+
+
+AlloyTeam/Rythem                           715
+a fiddler-like project using Qt
+
+
+DFHack/dfhack                              715
+Memory hacking library for Dwarf Fortress and a set of tools that use it
+
+
+a16z/ai                                    714
+Repo for work for AI Survey
+
+
+Kurento/kurento-media-server               714
+Kurento media server
+
+
+aappleby/smhasher                          711
+Automatically exported from code.google.com/p/smhasher
+
+
+zyq8709/DexHunter                          709
+General Automatic Unpacking Tool for Android Dex Files
+
+
+wangyu-/tinyFecVPN                         708
+A VPN Designed for Lossy Links, with Build-in Forward Error Correction Support. Improves your Network Quality on a High-latency Lossy Link.
+
+
+unetbootin/unetbootin                      706
+UNetbootin installs Linux/BSD distributions to a partition or USB drive
+
+
+shamadee/web-dsp                           706
+A client-side signal processing library utilizing the power of WebAssembly (.wasm)
+
+
+felis/USB_Host_Shield_2.0                  706
+Revision 2.0 of USB Host Library for Arduino.
+
+
+kmkolasinski/AwesomeBump                   704
+AwesomeBump is a free program written using Qt library designed to generate normal, height, specular or ambient occlusion textures from a single image. Since the image processing is done in 99% on GPU  the program runs very fast and all the parameters can be changed in real time. AB was made to be a new alternative to known gimp plugin called Insane Bump. 
+
+
+CGAL/cgal                                  701
+The public CGAL repository, see the README below
+
+
+jbush001/NyuziProcessor                    701
+GPGPU processor architecture
+
+
+pezy/LeetCode                              700
+:pencil2: LeetCode solutions in C++ 11
+
+
+notepadqq/notepadqq                        698
+Notepad++-like editor for Linux
+
+
+crawl/crawl                                697
+Dungeon Crawl: Stone Soup official repository
+
+
+Microsoft/rDSN                             697
+Robust Distributed System Nucleus (rDSN) is an open framework for quickly building and managing high performance and robust distributed systems.
+
+
+srendle/libfm                              696
+Library for factorization machines
+
+
+sui77/rc-switch                            695
+Arduino lib to operate 433/315Mhz devices like power outlet sockets.
+
+
+greenheartgames/greenworks                 693
+a node.js plugin to integrate nw.js/electron games with steamworks
+
+
+Warzone2100/warzone2100                    693
+Warzone 2100 - a free and open source real time strategy game.  Please note, we prefer trac tickets over pull requests!  Read http://forums.wz2100.net/viewtopic.php?f=6&t=11570 for full information!
+
+
+steemit/steem                              692
+The blockchain for Smart Media Tokens (SMTs) and decentralized applications.
+
+
+stepmania/stepmania                        692
+Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use.
+
+
+HostsTools/Windows                         692
+Hosts tool for googlehosts/hosts
+
+
+MTG/essentia                               692
+C++ library for audio and music analysis, description and synthesis, including Python bindings
+
+
+vczh/tinymoe                               691
+English-like dynamic typing programming language
+
+
+schlangster/cpp.react                      690
+C++React: A reactive programming library for C++11.
+
+
+google/souper                              690
+A superoptimizer for LLVM IR
+
+
+tojocky/node-printer                       689
+Native node.js printer
+
+
+cinience/RedisStudio                       688
+RedisStudio Redis GUI client(tool) for windows
+
+
+mapbox/tippecanoe                          688
+Build vector tilesets from large collections of GeoJSON features.
+
+
+tapir-dream/berserkJS                      687
+berserkJS 是新形态的前端测试自动化工具 + 页面性能分析工具 ，同时也是个使用 JS 语法控制的命令行浏览器。可用 JS 编写前端自动测试用例 + 页面性能分析用例。 想了解更多？看看连接中的文档吧~~
+
+
+freelan-developers/freelan                 687
+The main freelan repository.
+
+
+arximboldi/immer                           687
+Postmodern immutable and persistent data structures for C++
+
+
+facebook/fatal                             685
+Fatal is a library for fast prototyping software in modern C++. It provides facilities to enhance the expressive power of C++. The library is heavily based on template meta-programming, while keeping the complexity under-the-hood.
+
+
+TheCherno/Sparky                           685
+Cross-Platform High Performance 2D/3D game engine for people like me who like to write code.
+
+
+jubatus/jubatus                            680
+Framework and Library for Distributed Online Machine Learning
+
+
+parro-it/libui-node                        680
+Node bindings for libui, an awesome native UI library for Unix, OSX and Windows
+
+
+fastio/pedis                               679
+NoSQL data store using the SEASTAR framework, compatible with Redis
+
+
+esseks/monicelli                           679
+An esoteric programming language, come se fosse antani.
+
+
+embree/embree                              679
+Embree ray tracing kernels repository.
+
+
+google/lullaby                             678
+A collection of C++ libraries designed to help teams develop virtual and augmented reality experiences
+
+
+jeremyong/Selene                           678
+Simple C++11 friendly header-only bindings to Lua
+
+
+ryanries/UniversalPauseButton              677
+A pause button that pauses the unpausable. Handy for video game cut scenes especially.
+
+
+zbackup/zbackup                            677
+ZBackup, a versatile deduplicating backup tool
+
+
+rime/librime                               677
+Rime Input Method Engine, the core library
+
+
+denandz/KeeFarce                           676
+Extracts passwords from a KeePass 2.x database, directly from memory.
+
+
+mavlink/qgroundcontrol                     674
+Cross-platform ground control station for drones (Android, iOS, Mac OS, Linux, Windows)
+
+
+randombit/botan                            673
+Crypto and TLS for C++11
+
+
+rakshasa/libtorrent                        671
+libTorrent BitTorrent library
+
+
+klee/klee                                  671
+KLEE Symbolic Execution Engine
+
+
+Tokutek/mongo                              671
+TokuMX is a high-performance, concurrent, compressing, drop-in replacement engine for MongoDB | Issue tracker: https://tokutek.atlassian.net/browse/MX/ |
+
+
+LibreCAD/LibreCAD                          670
+LibreCAD is a cross-platform 2D CAD program written in C++11 using the Qt framework. It can read DXF and DWG files and can write DXF, PDF and SVG files. The user interface is highly customizable, and has dozens of translations.
+
+
+aoapc-book/aoapc-bac2nd                    669
+Source codes for book &lt:&lt:&lt:BeginningAlgorithmContests&gt:&gt: Second edition
+
+
+cloudera/kudu                              669
+Apache Kudu. Mirrored from https://github.com/apache/kudu
+
+
+draios/falco                               669
+Sysdig Falco: Behavioral Activity Monitoring With Container Support
+
+
+guestwalk/kaggle-2014-criteo               668
+
+
+
+cryfs/cryfs                                667
+Cryptographic filesystem for the cloud
+
+
+hugoam/kiui                                667
+Auto-layout Ui library, lightweight, skinnable and system agnostic, with an OpenGL backend
+
+
+alibaba/tfs                                667
+TFS (Taobao File System) is a distributed file system similar to GFS.
+
+
+gdbinit/MachOView                          666
+MachOView fork
+
+
+br3ttb/Arduino-PID-Library                 666
+
+
+
+superpoweredSDK/Low-Latency-Android-Audio-iOS-Audio-Engine 666
+Superpowered Audio Engine for Games, Virtual Reality, Music and Interactive Audio Apps. Cross Platform on Android, iOS, Mac OSX, tvOS and Linux. Real-time, low-Latency. Free.
+
+
+xiangzhai/qwx                              665
+WeChat KDE frontend 微信 KDE 前端
+
+
+secrary/InjectProc                         665
+InjectProc - Process Injection Techniques
+
+
+RobTillaart/Arduino                        664
+libs and code
+
+
+mgbellemare/Arcade-Learning-Environment    664
+The Arcade Learning Environment (ALE) -- a platform for AI research.
+
+
+horde3d/Horde3D                            663
+Horde3D is a small 3D rendering and animation engine. It is written in an effort to create an engine being as lightweight and conceptually clean as possible.
+
+
+wetube/bitcloud                            662
+Bitcloud Project
+
+
+hzeller/timg                               662
+A terminal image viewer
+
+
+quarnster/SublimeClang                     661
+C/C++/ObjC/ObjC++ autocompletions and code navigation
+
+
+imageworks/OpenShadingLanguage             659
+Advanced shading language for production GI renderers
+
+
+eteran/edb-debugger                        658
+edb is a cross platform x86/x86-64 debugger.
+
+
+zddhub/opensse                             658
+Open Sketch Search Engine－ 3D object retrieval based on sketch image as input
+
+
+mtuomi/SecondReality                       658
+Source code and data of Second Reality by Future Crew in 1993
+
+
+wisk/medusa                                658
+An open source interactive disassembler
+
+
+vinniefalco/DSPFilters                     655
+A Collection of Useful C++ Classes for Digital Signal Processing
+
+
+JakobEngel/dso                             655
+Direct Sparse Odometry
+
+
+OpenImageIO/oiio                           655
+OpenImageIO
+
+
+chenshuo/recipes                           654
+Some code snippets for sharing
+
+
+hsutter/gcpp                               654
+Experimental deferred and unordered destruction library for C++
+
+
+shadowsocks/libQtShadowsocks               654
+A lightweight and ultra-fast shadowsocks library written in C++14 with Qt framework
+
+
+KhronosGroup/glslang                       653
+Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
+
+
+chjj/pty.js                                652
+Bindings to forkpty(3) for node.js.
+
+
+opentrack/opentrack                        651
+Head tracking software for MS Windows, Linux, and Apple OSX
+
+
+securesocketfunneling/ssf                  648
+Secure Socket Funneling - Network tool and toolkit - TCP and UDP port forwarding, SOCKS proxy, remote shell, standalone and cross platform
+
+
+google/rowhammer-test                      648
+Test DRAM for bit flips caused by the rowhammer problem
+
+
+Ardour/ardour                              646
+Mirror of Ardour Source Code
+
+
+opentx/opentx                              646
+OpenTX custom firmware for Transmitters
+
+
+solvespace/solvespace                      646
+Parametric 2d/3d CAD
+
+
+vaibhavpandeyvpz/apkstudio                 646
+Cross-platform Qt5 based IDE for reverse-engineering android applications.
+
+
+pje/WavTap                                 643
+globally capture whatever your mac is playing—as simply as a screenshot
+
+
+kkaefer/node-cpp-modules                   643
+Guide for writing C++ node.js extensions
+
+
+Microsoft/cppwinrt                         639
+C++/WinRT is a standard C++ language projection for the Windows Runtime.
+
+
+cnjinhao/nana                              639
+a modern C++ GUI library
+
+
+jeaye/color_coded                          636
+A vim plugin for libclang-based highlighting in C, C++, ObjC
+
+
+stellar/stellar-core                       636
+stellar-core is the backbone of the Stellar network. It maintains a local copy of the ledger, communicating and staying in sync with other instances of stellar-core on the network. Optionally, stellar-core can store historical records of the ledger and participate in consensus.
+
+
+keystone-engine/keystone                   635
+Keystone assembler framework: Core (Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) + bindings
+
+
+hughperkins/DeepCL                         635
+OpenCL library to train deep convolutional neural networks
+
+
+GPUOpen-Tools/CodeXL                       634
+CodeXL is a comprehensive tool suite that enables developers to harness the benefits of CPUs, GPUs and APUs.
+
+
+tpoechtrager/osxcross                      634
+OS X cross toolchain for Linux, *BSD and Windows (Cygwin)
+
+
+qt-creator/qt-creator                      633
+A cross-platform Qt IDE
+
+
+rocketscream/Low-Power                     632
+Low Power Library for Arduino
+
+
+apache/trafficserver                       631
+Mirror of Apache Traffic Server
+
+
+decaf-emu/decaf-emu                        631
+Researching Wii U emulation.
+
+
+c-ares/c-ares                              630
+A C library for asynchronous DNS requests
+
+
+srsLTE/srsLTE                              629
+Open source SDR LTE software suite 
+
+
+kristjankorjus/Replicating-DeepMind        629
+Reproducing the results of "Playing Atari with Deep Reinforcement Learning" by DeepMind
+
+
+pioneerspacesim/pioneer                    628
+A game of lonely space adventure
+
+
+Azure/node-sqlserver                       627
+
+
+
+davisp/jiffy                               627
+JSON NIFs for Erlang
+
+
+rdp/screen-capture-recorder-to-video-windows-free 626
+a free open source  windows "screen capture" device and recorder (also allows VLC/ffmpeg and others to capture/stream desktop/audio)
+
+
+Mogara/QSanguosha                          626
+An open source online version of the famous board game Sanguosha
+
+
+mattanger/ckb-next                         626
+RGB Driver for Linux and OS X
+
+
+scanlime/zenphoton                         624
+The "Zen photon garden", an HTML5 raytracing art-toy.
+
+
+niwinz/phantompy                           624
+Phantompy is a headless WebKit engine with powerful pythonic api build on top of Qt5 Webkit
+
+
+AutoHotkey/AutoHotkey                      624
+AutoHotkey is a powerful and easy to use scripting language for desktop automation on Windows.
+
+
+dannagle/PacketSender                      622
+Network utility for sending / receiving TCP, UDP, SSL
+
+
+uNetworking/uTT                            622
+Lightweight and efficient MQTT broker prototype
+
+
+StevenHickson/PiAUISuite                   621
+Raspberry PI AUI Suite
+
+
+dmlc/minerva                               620
+Minerva: a fast and flexible tool for deep learning on multi-GPU. It provides ndarray programming interface, just like Numpy. Python bindings and C++ bindings are both available. The resulting code can be run on CPU or GPU. Multi-GPU support is very easy.
+
+
+matt-42/iod                                620
+Meta programming utilities for C++14
+
+
+Corvusoft/restbed                          620
+Corvusoft's Restbed framework brings asynchronous RESTful functionality to C++11 applications.
+
+
+unrealcv/unrealcv                          618
+UnrealCV: Connecting Computer Vision to Unreal Engine
+
+
+bittorrent/libutp                          617
+uTorrent Transport Protocol library
+
+
+chuyangliu/Snake                           617
+AI version of the snake game.
+
+
+lvandeve/lodepng                           616
+PNG encoder and decoder in C and C++.
+
+
+Dobiasd/FunctionalPlus                     615
+Functional Programming Library for C++. Write concise and readable C++ code.
+
+
+kazuho/picojson                            615
+a header-file-only, JSON parser serializer in C++
+
+
+kylemcdonald/FaceTracker                   614
+Real time deformable face tracking in C++ with OpenCV 3.
+
+
+ionescu007/lxss                            613
+Fun with the Windows Subsystem for Linux (WSL/LXSS)
+
+
+ErisBlastar/cplusequality                  612
+Feminist Software Foundation C+=, a new language for us feminists
+
+
+google/omaha                               612
+Google Update for Windows
+
+
+aws/aws-sdk-cpp                            612
+AWS SDK for C++
+
+
+ml4a/ml4a-ofx                              611
+A collection of openFrameworks apps for working with machine learning
+
+
+asb2m10/dexed                              611
+FM multi plaform/multi format plugin
+
+
+realm/realm-core                           610
+Core database component for the Realm Mobile Database SDKs
+
+
+dusty-nv/jetson-inference                  609
+Guide to deploying deep-learning inference networks and deep vision primitives with TensorRT and Jetson TX1/TX2.
+
+
+Cockatrice/Cockatrice                      609
+A cross-platform virtual tabletop for multiplayer card games
+
+
+mrtazz/restclient-cpp                      608
+C++ client for making HTTP/REST requests
+
+
+jmoon018/PacVim                            608
+
+
+
+twitter/BreakoutDetection                  607
+Breakout Detection via Robust E-Statistics
+
+
+jackaudio/jack2                            607
+jack2 codebase
+
+
+wysaid/android-gpuimage-plus               607
+Android Image & Camera Filters Based on OpenGL. 
+
+
+strukturag/libde265                        606
+Open h.265 video codec implementation.
+
+
+ionic-team/ionic-plugin-keyboard           605
+Ionic Keyboard Plugin for Cordova
+
+
+MicrosoftEdge/WebGL                        605
+Microsoft Edge WebGL Implementation
+
+
+4ian/GD                                    605
+:video_game: GDevelop is an open source HTML5 and native game creator requiring no coding skills.
+
+
+jarro2783/cxxopts                          605
+Lightweight C++ command line option parser
+
+
+alibaba/tair                               605
+A distributed key-value storage system developed by Taobao.com
+
+
+raulmur/ORB_SLAM                           604
+A Versatile and Accurate Monocular SLAM
+
+
+opentomb/OpenTomb                          604
+An open-source Tomb Raider 1-5 engine remake
+
+
+richardghirst/PiBits                       600
+
+
+
+vslavik/poedit                             599
+Gettext translations editor for OS X, Windows and Unix.
+
+
+RainerKuemmerle/g2o                        599
+g2o: A General Framework for Graph Optimization
+
+
+rathena/rathena                            599
+rAthena is an open-source cross-platform MMORPG server.
+
+
+erengy/taiga                               598
+A lightweight anime tracker for Windows
+
+
+nokiatech/heif                             597
+High Efficiency Image File Format
+
+
+guestwalk/libffm                           596
+A Library for Field-aware Factorization Machines
+
+
+gree/lwf                                   596
+LWF - Lightweight SWF
+
+
+sddm/sddm                                  596
+QML based X11 and Wayland display manager
+
+
+solarus-games/solarus                      595
+Zelda-like 2D game engine
+
+
+cjcliffe/CubicSDR                          594
+Cross-Platform Software-Defined Radio Application
+
+
+alexgkendall/caffe-segnet                  593
+Implementation of SegNet: A Deep Convolutional Encoder-Decoder Architecture for Semantic Pixel-Wise Labelling
+
+
+plv8/plv8                                  593
+ V8 Engine Javascript Procedural Language add-on for PostgreSQL
+
+
+Microsoft/FFmpegInterop                    592
+ This is a code sample to make it easier to use FFmpeg in Windows applications.
+
+
+maidsafe-archive/MaidSafe                  591
+This is the super-project in which each MaidSafe library resides. Some information is common to all libraries, and is detailed here. Library-specific information can be found in each library's wiki.
+
+
+scantailor/scantailor                      590
+
+
+
+Smoothieware/Smoothieware                  589
+Modular, opensource, high performance G-code interpreter and CNC controller written in Object-Oriented C++
+
+
+KDE/krita                                  587
+Krita is a free digital painting application. Digital Painting, Creative Freedom!
+
+
+pbek/QOwnNotes                             587
+QOwnNotes is a plain-text file notepad and todo-list manager with markdown support and ownCloud / Nextcloud integration.
+
+
+greg7mdp/sparsepp                          586
+A fast, memory efficient hash map for C++
+
+
+wereturtle/ghostwriter                     586
+ghostwriter is a cross-platform, aesthetic, distraction-free Markdown editor.
+
+
+ldiqual/tesseract-ios                      585
+Tesseract OCR for iOS
+
+
+oktal/pistache                             585
+A high-performance REST Toolkit written in C++
+
+
+miao1007/Openwrt-NetKeeper                 585
+[C/C++] Run Netkeeper on OpenWrt Device
+
+
+SuperTux/supertux                          585
+SuperTux source code
+
+
+vslavik/winsparkle                         584
+App update framework for Windows, inspired by Sparkle for OS X
+
+
+GraphChi/graphchi-cpp                      584
+GraphChi's C++ version.  Big Data - small machine.
+
+
+Microsoft/Multiverso                       583
+Parameter server framework for distributed machine learning
+
+
+google/clif                                583
+Wrapper generator foundation to wrap C++ for Python and other languages using LLVM.
+
+
+OpenRTMFP/Cumulus                          581
+CumulusServer is a complete open source and cross-platform RTMFP server extensible by way of scripting
+
+
+UE4-OceanProject/OceanProject              581
+An Ocean Simulation project for Unreal Engine 4
+
+
+ARM-software/ComputeLibrary                580
+The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs using SIMD technologies.
+
+
+snes9xgit/snes9x                           580
+Snes9x - Portable Super Nintendo Entertainment System (TM) emulator
+
+
+DrWhax/truecrypt-archive                   580
+Archive of (almost) all truecrypt releases - Please audit this repository!
+
+
+stealth/sshttp                             580
+SSH/HTTP(S) multiplexer. Run a webserver and a sshd on the same port w/o changes.
+
+
+nneonneo/2048-ai                           579
+AI for the 2048 game
+
+
+PolySync/oscc                              579
+Open Source Car Control 💻🚗🙌
+
+
+sourcey/libsourcey                         579
+C++14 evented IO libraries for high performance networking and media based applications
+
+
+patriciogonzalezvivo/glslViewer            578
+Live GLSL coding render for MacOS and Linux
+
+
+Ultimaker/CuraEngine                       578
+CuraEngine is a powerful, fast and robust engine for processing 3D models into 3D printing instruction for Ultimaker and other GCode based 3D printers. It is part of the larger open source project called "Cura".
+
+
+etotheipi/BitcoinArmory                    578
+Python-Based Bitcoin Software
+
+
+micknoise/Maximilian                       575
+C++ Audio and Music DSP Library
+
+
+clMathLibraries/clBLAS                     574
+a software library containing BLAS functions written in OpenCL
+
+
+sparsehash/sparsehash                      574
+C++ associative containers
+
+
+stefanocasazza/ULib                        573
+C++ application development framework, to help developers create and deploy applications quickly and simply
+
+
+dpayne/cli-visualizer                      573
+CLI based audio visualizer
+
+
+tessel/node-usb                            571
+Improved USB library for Node.js
+
+
+searchivarius/nmslib                       571
+Non-Metric Space Library (NMSLIB): A similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.
+
+
+quickfix/quickfix                          570
+QuickFIX C++ Fix Engine Library
+
+
+TortoiseGit/TortoiseGit                    570
+Windows Explorer Extension to Operate Git; Mirror of official repository https://tortoisegit.org/sourcecode
+
+
+Fluorohydride/ygopro                       570
+A script engine for "yu-gi-oh!" and sample gui
+
+
+eigengo/akka-patterns                      569
+Demonstration of the common Akka patterns
+
+
+cztomczak/phpdesktop                       568
+PHP desktop GUI framework with HTML5 Chrome/IE engine.       :speech_balloon: Forum:
+
+
+tensorflow/deepmath                        567
+Experiments towards neural network theorem proving
+
+
+miek/inspectrum                            566
+Offline radio signal analyser
+
+
+highfidelity/hifi                          565
+Open source client/server software for creating shared VR environments.  Docs at http://docs.highfidelity.com  We are hiring: http://highfidelity.com/jobs  Also, PT work available at http://worklist.net
+
+
+openstreetmap/osm2pgsql                    565
+OpenStreetMap data to PostgreSQL converter
+
+
+inspircd/inspircd                          563
+A modular C++ IRC daemon (ircd).
+
+
+kw-udon/constexpr-8cc                      562
+Compile-time C Compiler implemented as C++14 constant expressions
+
+
+adafruit/Adafruit_SSD1306                  560
+SSD1306 oled driver library for 'monochrome' 128x64 and 128x32 OLEDs!
+
+
+Overv/VulkanTutorial                       559
+Tutorial for the Vulkan graphics and compute API
+
+
+steveicarus/iverilog                       559
+Icarus Verilog
+
+
+vit9696/AppleALC                           557
+Native macOS HD audio for not officially supported codecs
+
+
+RetroShare/RetroShare                      555
+RetroShare is a Free and Open Source cross-platform, Friend-2-Friend and secure decentralised communication platform. (upstream Repository)
+
+
+alexkay/spek                               554
+Acoustic spectrum analyser
+
+
+acemod/ACE3                                554
+Open-source realism mod for Arma 3
+
+
+DmitryUlyanov/Multicore-TSNE               553
+Parallel t-SNE implementation with Python and Torch wrappers.
+
+
+dmlc/parameter_server                      553
+moved to https://github.com/dmlc/ps-lite
+
+
+shurcooL-legacy/Conception                 552
+Conception was an experimental project, looking for ways to make software development more efficient.
+
+
+zouxiaohang/TinySTL                        552
+TinySTL is a subset of STL(cut some containers and algorithms) and also a superset of STL(add some other containers and algorithms)
+
+
+wdas/brdf                                  552
+BRDF Explorer
+
+
+tamlok/vnote                               552
+A Vim-inspired note-taking application, especially for Markdown.
+
+
+illera88/Ponce                             552
+IDA 2016 plugin contest winner! Symbolic Execution just one-click away!
+
+
+unity3d-jp/FrameCapturer                   551
+export framebuffer, GBuffer or any RenderTextures from Unity to file. supported format: png, exr, gif, webm, mp4
+
+
+ceres-solver/ceres-solver                  551
+A large scale non-linear optimization library
+
+
+HKUST-Aerial-Robotics/VINS-Mobile          551
+Monocular Visual-Inertial State Estimator on Mobile Phones
+
+
+NathanCastle/BootShellCredentialProvider   549
+Windows 10 Credential Provider intended to simplify the process of logging directly into alternative shells to Windows Explorer.
+
+
+baidu/palo                                 548
+Palo，the MPP data warehouse
+
+
+vinniefalco/LuaBridge                      548
+A lightweight, dependency-free library for binding Lua to C++
+
+
+xiaojiaqi/C1000kPracticeGuide              546
+A C1000k demo with detailed description
+
+
+MisterTea/EternalTCP                       545
+Re-Connectable TCP connection
+
+
+equalsraf/neovim-qt                        545
+Neovim client library and GUI, in Qt5.
+
+
+ragnraok/android-image-filter              542
+some android image filters
+
+
+interactive-matter/aJson                   541
+aJson is an Arduino library to enable JSON processing with Arduino. It easily enables you to decode, create, manipulate and encode JSON directly from and to data structures.
+
+
+0vercl0k/rp                                540
+rp++ is a full-cpp written tool that aims to find ROP sequences in PE/Elf/Mach-O x86/x64 binaries. It is open-source and has been tested on several OS: Debian / Windows 8.1 / Mac OSX Lion (10.7.3). Moreover, it is x64 compatible and supports Intel syntax. Standalone executables can also be directly downloaded.
+
+
+loot/loot                                  540
+A load order optimisation tool for Oblivion, Skyrim, Skyrim SE, Fallout 3, Fallout: New Vegas and Fallout 4.
+
+
+Microsoft/IEDiagnosticsAdapter             539
+IE Diagnostics Adapter is a standalone exe that enables tools to debug and diagnose IE11 using the Chrome remote debug protocol. 
+
+
+harfbuzz/harfbuzz                          539
+HarfBuzz OpenType text shaping engine
+
+
+project64/project64                        538
+N64 Emulator
+
+
+quantcast/qfs                              537
+Quantcast File System
+
+
+carla-simulator/carla                      537
+Open-source simulator for autonomous driving research.
+
+
+rwengine/openrw                            536
+OpenRW "Open ReWrite" is an un-official open source recreation of the classic Grand Theft Auto III game executable
+
+
+ryanhaining/cppitertools                   535
+Implementation of python itertools and builtin iteration functions for C++14
+
+
+jscheiny/Streams                           535
+Lazy evaluation in C++ - http://jscheiny.github.io/Streams/
+
+
+matzman666/OpenVR-AdvancedSettings         534
+OpenVR Advanced Settings Dashboard Overlay
+
+
+docopt/docopt.cpp                          533
+C++11 port of docopt
+
+
+HKUST-Aerial-Robotics/VINS-Mono            533
+A Robust and Versatile Monocular Visual-Inertial State Estimator
+
+
+stsievert/swix                             532
+Swift Matrix  Library
+
+
+mwydmuch/ViZDoom                           532
+Doom-based AI Research Platform for Reinforcement Learning from Raw Visual Information. :godmode:
+
+
+herumi/xbyak                               532
+a JIT assembler for x86(IA-32)/x64(AMD64, x86-64) MMX/SSE/SSE2/SSE3/SSSE3/SSE4/FPU/AVX/AVX2/AVX-512 by C++ header
+
+
+google/gemmlowp                            530
+Low-precision matrix multiplication
+
+
+s9xie/hed                                  530
+code for Holistically-Nested Edge Detection
+
+
+xmrig/xmrig                                530
+Monero (XMR) CPU miner
+
+
+woboq/woboq_codebrowser                    528
+Woboq CodeBrowser
+
+
+jselbie/stunserver                         527
+Version 1.2. This is the source code to STUNTMAN - an open source STUN server and client code by john selbie.  Compliant with the latest RFCs including 5389, 5769, and 5780. Also includes backwards compatibility for RFC 3489. Compiles on Linux, MacOS, BSD, Solaris, and Win32 with Cygwin. Windows binaries avaialble from www.stunprotocol.org.
+
+
+baidu-research/persistent-rnn              526
+Fast Recurrent Networks Library
+
+
+rust-lang-nursery/rust-bindgen             523
+Automatically generates Rust FFI bindings to C (and some C++) libraries.
+
+
+OSGeo/gdal                                 520
+GDAL is an open source X/MIT licensed translator library for raster and vector geospatial data formats. This is a mirror of the GDAL Subversion repository.
+
+
+baumgarr/nixnote2                          520
+Nixnote - A clone of Evernote for Linux
+
+
+lief-project/LIEF                          520
+LIEF - Library to Instrument Executable Formats
+
+
+LunarG/VulkanSamples                       520
+Vulkan Samples
+
+
+SOCI/soci                                  520
+SOCI - The C++ Database Access Library. This is official repository the SOCI project.
+
+
+ctubio/Krypto-trading-bot                  518
+Self-hosted crypto trading bot (automated high frequency market making) in node.js, angular, typescript and c++
+
+
+fabianschuiki/OpenSkyscraper               517
+Open source tower simulation game inspired by SimTower.
+
+
+vygr/ChrysaLisp                            517
+Parallel OS, with GUI, Terminal, OO Assembler, Class libraries, C-Script compiler, Lisp interpreter and more...
+
+
+rime/weasel                                517
+【小狼毫】Rime for Windows
+
+
+XiaoMi/pegasus                             516
+
+
+
+Microsoft/LightLDA                         516
+Scalable, fast, and lightweight system for large-scale topic modeling
+
+
+tomdalling/opengl-series                   516
+Code to accompany a series of OpenGL articles on tomdalling.com
+
+
+taglib/taglib                              516
+TagLib Audio Meta-Data Library
+
+
+Overv/vramfs                               516
+VRAM based file system for Linux
+
+
+RSATom/WebChimera.js                       516
+[SUSPENDED] libvlc binding for node.js/io.js/Node-Webkit/NW.js/Electron
+
+
+rezaali/ofxUI                              515
+[DEPRECATED] UI Addon for openFrameworks
+
+
+etexteditor/e                              514
+e text editor
+
+
+apple/swift-llbuild                        514
+A low-level build system, used by Xcode 9 and the Swift Package Manager
+
+
+WebAssembly/wabt                           513
+The WebAssembly Binary Toolkit
+
+
+otland/forgottenserver                     512
+A free and open-source MMORPG server emulator written in C++
+
+
+paulhodge/EASTL                            512
+Obsolete repo, please go to: https://github.com/electronicarts/EASTL
+
+
+xelatihy/yocto-gl                          511
+Yocto/GL: Single File Libraries for Physically-Based Graphics
+
+
+paypal/seifnode                            511
+
+
+
+adobe/brackets-app                         511
+Deprecated CEF1-based app shell for Brackets. Use https://github.com/adobe/brackets-shell instead.
+
+
+google/pik                                 510
+
+
+
+rcaelers/workrave                          510
+Workrave is a program that assists in the recovery and prevention of Repetitive Strain Injury (RSI). The program frequently alerts you to take micro-pauses, rest breaks and restricts you to your daily limit.
+
+
+mirrorer/libbpg                            509
+libbpg (copy of the source code for easy access)
+
+
+hszhao/PSPNet                              508
+Pyramid Scene Parsing Network
+
+
+whoozle/android-file-transfer-linux        507
+Android File Transfer for Linux
+
+
+reinterpretcat/utymap                      507
+Highly customizable library for procedural world generation based on real map data
+
+
+bwall/HashPump                             506
+A tool to exploit the hash length extension attack in various hashing algorithms
+
+
+GoldenCheetah/GoldenCheetah                506
+Performance Software for Cyclists, Runners and Triathletes
+
+
+baidu-research/DeepBench                   505
+Benchmarking Deep Learning operations on different hardware
+
+
+GameTechDev/IntroductionToVulkan           502
+Source code examples for "API without Secrets: Introduction to Vulkan" tutorial
+
+
+01org/mkl-dnn                              502
+Intel(R) Math Kernel Library for Deep Neural Networks (Intel(R) MKL-DNN)
+
+
+nicehash/nheqminer                         501
+Equihash miner for NiceHash
+
+
+google/highwayhash                         500
+Fast strong hash functions: SipHash/HighwayHash
+
+
+mp3guy/ElasticFusion                       499
+Real-time dense visual SLAM system
+
+
+dreamworksanimation/openvdb                498
+OpenVDB - Sparse volume data structure and tools
+
+
+firebreath/FireBreath                      496
+Browser Plugin framework (NPAPI and ActiveX on Windows, Mac, and Linux)
+
+
+vrtadmin/clamav-devel                      495
+ClamAV Development
+
+
+percona/tokudb-engine                      495
+Percona TokuDB is a high-performance, write optimized, compressing, transactional storage engine for Percona Server.  Issue tracker: https://tokutek.atlassian.net/browse/DB/ Wiki: https://github.com/Percona/tokudb-engine/wiki  Downloads:
+
+
+plexinc/plex-media-player                  495
+Next generation Plex Desktop/Embedded Client
+
+
+apple/swift-clang                          495
+
+
+
+magwyz/pastec                              494
+Image recognition open source index and search engine
+
+
+2shou/TextGrocery                          494
+A simple short-text classification tool based on LibLinear
+
+
+ptrkrysik/gr-gsm                           494
+Gnuradio blocks and tools for receiving GSM transmissions
+
+
+POV-Ray/povray                             493
+The Persistence of Vision Raytracer: http://www.povray.org/
+
+
+google/UIforETW                            493
+User interface for recording and managing ETW traces
+
+
+grame-cncm/faust                           492
+Functional programming language for signal processing and sound synthesis
+
+
+OpenZWave/open-zwave                       492
+a C++ library to control Z-Wave Networks via a USB Z-Wave Controller. 
+
+
+Oxford-PTAM/PTAM-GPL                       492
+PTAM (Parallel Tracking and Mapping) re-released under GPLv3.
+
+
+csmith-project/creduce                     491
+C-Reduce, a C program reducer
+
+
+puppetlabs/facter                          491
+Collect and display system facts
+
+
+markszabo/IRremoteESP8266                  491
+Infrared remote library for ESP8266: send and receive infrared signals with multiple protocols. Based on: https://github.com/shirriff/Arduino-IRremote/
+
+
+lballabio/quantlib-old                     490
+The QuantLib C++ library and extensions (warning: out of date)
 
 
 </pre>
