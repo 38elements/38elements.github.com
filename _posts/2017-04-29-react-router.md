@@ -94,6 +94,15 @@ const FooRoute = ({ component, ...props }) => (
 
 ## location [\*](https://reacttraining.com/react-router/web/api/location)
 
+* locationは下記のようにすることで書き換えることができる  
+設定したlocationが適用される  
+https://reacttraining.com/react-router/web/example/modal-gallery  
+
+```
+<Router location={location}/>
+<Switch location={location}/>
+```
+
 ## match [\*](https://reacttraining.com/react-router/web/api/match)
 
 * match.urlは自分自身が紐づいている部分url  
