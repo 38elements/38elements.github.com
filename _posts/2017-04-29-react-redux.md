@@ -6,6 +6,7 @@ title: React Reduxメモ
 [react-redux github](https://github.com/reactjs/react-redux)  
 [redux document](http://redux.js.org/)  
 [history](https://github.com/reacttraining/history)  
+[用語集](https://redux.js.org/glossary)
 
 ### Redux
 
