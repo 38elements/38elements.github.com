@@ -132,3 +132,6 @@ actionCreatorsはdispatch, getStateを引数にとる関数を返す
 
 <br>
 
+<hr/>
+
+[redux-actionsメモ](/2018/09/08/redux-actions.html)
