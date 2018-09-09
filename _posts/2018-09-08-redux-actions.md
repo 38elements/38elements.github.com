@@ -46,3 +46,8 @@ const reducer = handleActions(
   initialState
 )
 ```
+
+<hr/>
+
+[React Routerメモ](/2017/04/29/react-router.html)  
+[React Reduxメモ](/2017/04/29/react-redux.html)  
