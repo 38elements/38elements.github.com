@@ -51,6 +51,10 @@ const FooRoute = ({ component, ...props }) => (
 )
 ```
 
+* 再帰的にRouteを設定する方法 [\*](https://reacttraining.com/react-router/web/example/recursive-paths)  
+pathに現在のurlとさらにpathを付与したものを追加している  
+componentにはRouteを内包するコンポーネントを指定している  
+
 ### component prop [\*](https://reacttraining.com/react-router/web/api/Route/component)
 
 * component propにインライン関数を渡してはいけない [\*](https://reacttraining.com/react-router/web/guides/basic-components/route-rendering-props)  
