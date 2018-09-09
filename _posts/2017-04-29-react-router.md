@@ -122,3 +122,6 @@ match.urlは/foo/bar
 * Routerのpropsにセットする [\*](https://reacttraining.com/react-router/web/api/Router/history-object)
 
 * `history.location.state`は`history.push(path [,state])`の`state`
+
+<hr/>
+[redux-actionsメモ](/2018/09/08/redux-actions.html)
