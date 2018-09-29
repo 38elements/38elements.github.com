@@ -31,7 +31,7 @@ Linkにstyleの設定を加えたもの
 * [Route](https://reacttraining.com/react-router/web/api/Route)で子コンポーネントを表す
 
 * 子コンポーネント(Route)は[match](https://reacttraining.com/react-router/web/api/match), [location](https://reacttraining.com/react-router/web/api/location), [history](https://reacttraining.com/react-router/web/api/history)をpropsに持つ [\*](https://reacttraining.com/react-router/web/api/Route/route-props)  
-これらはcomponent、render、childrenの3つのrender関数に渡される [\*](https://reacttraining.com/react-router/web/api/Route/route-render-methods)  
+これらはcomponent、render、childrenの3つのrender関数に引数として渡される [\*](https://reacttraining.com/react-router/web/api/Route/route-render-methods)  
 [component](https://reacttraining.com/react-router/web/api/Route/component) propに渡されたコンポーネントにも渡される
 
 * `path`がないものがデフォルト
