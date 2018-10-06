@@ -8,9 +8,9 @@ title: React Reduxメモ
 [history](https://github.com/reacttraining/history)  
 [用語集](https://redux.js.org/glossary)
 
-### Redux
+## Redux
 
-#### Action
+### Action
 
 * Actionの規約 [\*](https://github.com/acdlite/flux-standard-action)  
 
@@ -20,15 +20,26 @@ title: React Reduxメモ
 
 <br>
 
-#### ActionCreator
+### ActionCreator
 
 * ActionCreatorはActionを返す関数  
 
-* bindActionCreators(actionCreators, dispatch)はactionCreatorsをdispatchでラップする [\*](https://redux.js.org/api/bindactioncreators)  
+### bindActionCreators(actionCreators, dispatch)
+
+actionCreatorをdispatchでラップする [\*](https://redux.js.org/api/bindactioncreators)  
+mapDispatchToProps()内で使用する。  
+actionCreatorsはFunctionかObjectをしているする。  
+Objectの場合は以下の形式にする  
+
+```
+{
+  actionCreator名: actionCreator
+}
+```
 
 <br>
 
-#### Reducer
+### Reducer
 
 ```
 // reducerは変更がある場合新しいstateを返す
@@ -73,7 +84,7 @@ const store = Redux.createStore(
 
 <br>
 
-#### Middleware
+### Middleware
 
 * Middlewareはdispatch(action)を実行した前の処理と後の処理を定義することができる  
 applyMiddlewareはdispachを上書きする  
@@ -85,17 +96,17 @@ C後->B後->A後で一つ前のmiddlewareの戻り値をdispatch(action)の戻�
 
 <br>
 
-### react-redux
+## react-redux
 
-#### connect(mapStateToProps, mapDispatchToProps, mergeProps, options) [\*](https://github.com/reduxjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options)
+### connect(mapStateToProps, mapDispatchToProps, mergeProps, options) [\*](https://github.com/reduxjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options)
 
 `connect(mapStateToProps, mapDispatchToProps, mergeProps, options)(Component)`でstoreとcomponentが接続される
 
-* mapStateToProps(state, [ownProps])  
+#### mapStateToProps(state, [ownProps])  
 storeのstateをstoreに接続しているcomponentに渡されたpropsを引数として受け取ってるcomponentにpropsとして渡すstateを返す。  
 storeのstateを使用しない場合はnullまたはundefinedを指定する。
 
-* mapDispatchToProps(dispatch, [ownProps])  
+#### mapDispatchToProps(dispatch, [ownProps])  
 dispatchを実行する関数を接続しているcomponentとして渡す。  
 
 [bindActionCreators](https://redux.js.org/api/bindactioncreators)を使用した例   
@@ -124,7 +135,7 @@ export default withRouter(connect(mapStateToProps, mapDispatchToProps, mergeProp
 
 <br>
 
-### Redux Thunk
+## Redux Thunk
 
 非同期処理は[Redux Thunk](https://github.com/gaearon/redux-thunk)を使用する。  
 thunkをmiddlewareの先頭に置く。  
