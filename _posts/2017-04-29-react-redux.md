@@ -102,12 +102,14 @@ C後->B後->A後で一つ前のmiddlewareの戻り値をdispatch(action)の戻�
 
 `connect(mapStateToProps, mapDispatchToProps, mergeProps, options)(Component)`でstoreとcomponentが接続される
 
-#### mapStateToProps(state, [ownProps])  
+#### mapStateToProps(state, [ownProps])
+
 storeのstateをstoreに接続しているcomponentに渡されたpropsにマージするstateを返す。  
 storeのstateを使用しない場合はnullまたはundefinedを指定する。  
 storeのstateからpropsにマージするデータを抽出する処理をselectorと言う。
 
-#### mapDispatchToProps(dispatch, [ownProps])  
+#### mapDispatchToProps(dispatch, [ownProps])
+
 dispatchを実行する関数を接続しているcomponentとして渡す。  
 
 [bindActionCreators](https://redux.js.org/api/bindactioncreators)を使用した例   
