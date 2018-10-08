@@ -49,9 +49,12 @@ let reducer =  function (state, action) {
     let changedState = {};
     return changedState;
   }
+  // 戻り値はマージされないので該当するデータ全体を返す必要がある
   return state;
 };
 ```
+
+* 戻り値はマージされないので該当するデータ全体を返す必要がある
 
 * storeのstateはconnect()のmapStateToPropsを通じてコンポーネントに渡される
 
