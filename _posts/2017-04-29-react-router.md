@@ -123,6 +123,8 @@ match.urlは/foo/bar
 
 * `history.location.state`は`history.push(path [,state])`の`state`
 
+* `history.push(path, [state])`や`hisotry.go(n)`でプログラムから遷移を制御することができる。 
+
 <hr/>
 
 [redux-actionsメモ](/2018/09/08/redux-actions.html)
