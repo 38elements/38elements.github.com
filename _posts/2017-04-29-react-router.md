@@ -10,6 +10,8 @@ title: React Routerメモ
 
 * Applicationのroot要素は[Rooter](https://reacttraining.com/react-router/web/api/Router)系の要素にする
 
+* configファイルでroute構造を定義する例 [\*](https://reacttraining.com/react-router/web/example/route-config)
+
 ## Link [\*](https://reacttraining.com/react-router/web/api/Link)
 
 * [Link](https://reacttraining.com/react-router/web/api/Link)でrender()内で遷移処理を作成する
