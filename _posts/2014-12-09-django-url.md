@@ -2,8 +2,10 @@
 layout: posts
 title: DjangoのURLメモ 
 ---
-* URLconf [\*](https://docs.djangoproject.com/en/stable/topics/http/urls/#example)   
-404や500等のエラーハンドラの指定方法 [\*](https://docs.djangoproject.com/en/1.10/topics/http/views/#customizing-error-views)    
+* URLconf [\*](https://docs.djangoproject.com/en/stable/topics/http/urls/#example)
+
+* 404や500等のエラーハンドラの指定方法 [\*](https://docs.djangoproject.com/en/stable/topics/http/views/#customizing-error-views)  
+urls.pyにhandler404やhandler500をセットする。
 
 * urlのpattern  r'^foo/?(?P<bar_id>\d+)?/?$'
    
