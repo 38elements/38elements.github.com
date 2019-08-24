@@ -16,15 +16,18 @@ title: DjangoのURLメモ
 
 * ResolverMatch.view_nameはnamespaceとnameが:で結合されたものが入っている    
 
-* slugとかintとか [\*](https://docs.djangoproject.com/en/2.0/topics/http/urls/#path-converters)  
+* slugとかintとか [\*](https://docs.djangoproject.com/en/stable/topics/http/urls/#path-converters)  
 
-* pathとかre_pathとか [\*](https://docs.djangoproject.com/en/2.0/ref/urls/#module-django.urls.conf)
+* pathとかre_pathとか [\*](https://docs.djangoproject.com/en/stable/ref/urls/#module-django.urls.conf)
 
-* include()の例 [\*](https://docs.djangoproject.com/en/2.0/topics/http/urls/#including-other-urlconfs)
+* include()の例 [\*](https://docs.djangoproject.com/en/stable/topics/http/urls/#including-other-urlconfs)
 
-* include()はnamespace、path()はname
+* [include()](https://docs.djangoproject.com/en/stable/ref/urls/#include)はnamespaceをセットする
 
-* namespaceを設定するにはapp_nameを設定する必要がある [\*](https://docs.djangoproject.com/en/2.0/topics/http/urls/#namespaces-and-include)  
+* [re_path()](https://docs.djangoproject.com/en/stable/ref/urls/#re-path)はnameをセットする  
+url()は将来非推奨になるのでre_path()を使う
+
+* namespaceを設定するにはapp_nameを設定する必要がある [\*](https://docs.djangoproject.com/en/stable/topics/http/urls/#namespaces-and-include)  
 * [APPEND_SLASH](https://docs.djangoproject.com/en/stable/ref/settings/#append-slash)がTrue(defaultはTrue)の場合、urlの最後に/がない場合でマッチしない場合はurlの最後に/を付けてリダイレクトする
 
 <br>
