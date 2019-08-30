@@ -2,6 +2,8 @@
 layout: posts
 title: DjangoのModelメモ 
 ---
+* models.pyをディレクトリにする場合はmodels/__init__.pyにModelクラスをimportする。
+
 * テーブル名     
 デフォルトでは\<アプリケーション名\>_\<Model名\>になる。   
 Metaクラスの [db_table](https://docs.djangoproject.com/en/stable/ref/models/options/#db-table) にテーブル名を指定することができる。
