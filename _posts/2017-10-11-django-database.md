@@ -37,3 +37,6 @@ DATABASE_ROUTERSのマイクレーションの設定をmigrateで反映するに
 指定されたキーのDBのみが書き込まれる  
 指定しなかった場合はdefaultが反映される。それ以外のキーは書き込まれない。  
 
+<hr>
+
+[Djangoメモ](/2014/12/04/django.html)
