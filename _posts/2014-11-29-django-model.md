@@ -147,7 +147,9 @@ transaction.atomic() [\*](https://docs.djangoproject.com/ja/1.10/topics/db/trans
 select_for_update() [\*](https://docs.djangoproject.com/ja/1.10/ref/models/querysets/#select-for-update)  
   
 <br/>
+
 ModelをFormに利用したいときは[ModelForm](https://docs.djangoproject.com/en/stable/topics/forms/modelforms/)を使用する
 <hr/>
+
 [Djangoメモ](/2014/12/04/django.html)
 
