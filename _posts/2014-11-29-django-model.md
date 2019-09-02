@@ -79,6 +79,9 @@ foo.save()
 `'Foo'`: そのアプリケーションのFooモデル   
 `'A.Bar'`: AアプリケーションのBarモデル   
 
+* 参照しているレコードが削除された時、それを参照しているレコードも削除したい場合は  
+ForeignKeyのon_deleteに[models.CASCADE](https://docs.djangoproject.com/en/stable/ref/models/fields/#django.db.models.CASCADE)を指定する。
+
 <br/>
    
 #### SQL
