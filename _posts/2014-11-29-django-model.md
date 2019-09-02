@@ -2,6 +2,8 @@
 layout: posts
 title: DjangoのModelメモ 
 ---
+* 全てのFieldで共通にセットすることができるoption [\*](https://docs.djangoproject.com/en/stable/ref/models/fields/#field-options)
+
 * models.pyをディレクトリにする場合はmodels/__init__.pyにModelクラスをimportする。
 
 * テーブル名     
