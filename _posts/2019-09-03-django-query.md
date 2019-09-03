@@ -8,7 +8,8 @@ title: DjangoのQueryメモ
 * [filter(**kwargs)](https://docs.djangoproject.com/en/stable/ref/models/querysets/#django.db.models.query.QuerySet.filter)は複数の条件を指定することができる。   
 * querysetを実行する方法 [\*](https://docs.djangoproject.com/en/stable/ref/models/querysets/#when-querysets-are-evaluated)    
 
-* １つだけ取得したい場合は[get()](https://docs.djangoproject.com/en/stable/ref/models/querysets/#django.db.models.query.QuerySet.get)
+* １つだけ取得したい場合は[get()](https://docs.djangoproject.com/en/stable/ref/models/querysets/#django.db.models.query.QuerySet.get)  
+レコードが存在しない場合はModel.DoesNotExistが発生する。
 
 * offset limit [\*](https://docs.djangoproject.com/en/stable/ref/models/querysets/#django.db.models.query.QuerySet.get)   
  Foo.objects.all()[5:10]
