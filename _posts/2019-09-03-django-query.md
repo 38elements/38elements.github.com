@@ -69,3 +69,7 @@ awareはtzinfoを持つdatetime
 * トランザクション  
 transaction.atomic() [\*](https://docs.djangoproject.com/ja/1.10/topics/db/transactions/#django.db.transaction.atomic)  
 select_for_update() [\*](https://docs.djangoproject.com/ja/1.10/ref/models/querysets/#select-for-update)  
+
+<hr/>
+
+[Djangoメモ](/2014/12/04/django.html)
