@@ -30,8 +30,10 @@ Metaクラスの [db_table](https://docs.djangoproject.com/en/stable/ref/models/
 
 * Meta [\*](https://docs.djangoproject.com/en/stable/ref/models/options/)
 
-* related_nameは多対多の関係になっているオブジェクトを参照する際に利用する。    
-継承する際の[注意点](https://docs.djangoproject.com/en/stable/topics/db/models/#be-careful-with-related-name)
+* [related_name](https://docs.djangoproject.com/en/2.2/ref/models/fields/#django.db.models.ForeignKey.related_name)は外部参照しているレコードをを参照する属性名を指定する。    
+継承する際の[注意点](https://docs.djangoproject.com/en/2.2/topics/db/models/#be-careful-with-related-name-and-related-query-name)
+
+* [related_query_name](https://docs.djangoproject.com/en/2.2/ref/models/fields/#django.db.models.ForeignKey.related_query_name)は外部参照しているレコードのカラムでフィルターする際の外部参照しているレコードの名前を指定する。
 
 * 接続するDBを振り分ける [\*](https://docs.djangoproject.com/en/stable/topics/db/multi-db/#using-routers)   
 
