@@ -53,6 +53,8 @@ Formのerror_messagesを属性を使って動的に生成 [\*](/2016/07/03/djang
 
 ### Form Class [\*](https://docs.djangoproject.com/en/stable/ref/forms/api/#module-django.forms)
 
+* 初期値をセットする場合はinitialに指定する [\*](https://docs.djangoproject.com/en/stable/ref/forms/api/#dynamic-initial-values)
+
 * form.non_field_errorsはfieldに紐づいていないclean()とかのValidationErrorを返す [\*](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.non_field_errors)
 
 * 入力コントロールのidは[auto_id](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.auto_id)
