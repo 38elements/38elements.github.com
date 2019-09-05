@@ -51,7 +51,7 @@ self.fields = copy.deepcopy(self.base_fields)
 
 Formのerror_messagesを属性を使って動的に生成 [\*](/2016/07/03/django-form-error_messages-format-field-label-attributes.html)  
 
-### Form Class
+### Form Class [\*](https://docs.djangoproject.com/en/stable/ref/forms/api/#module-django.forms)
 
 * form.non_field_errorsはfieldに紐づいていないclean()とかのValidationErrorを返す [\*](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.non_field_errors)
 
@@ -63,15 +63,15 @@ Formのerror_messagesを属性を使って動的に生成 [\*](/2016/07/03/djang
 
 * バリデーションは[is_valid](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.is_valid)で行う
 
-* バリデーション後のフォームのデータは[cleaned_data](https://docs.djangoproject.com/ja/1.10/ref/forms/api/#django.forms.Form.cleaned_data )  
+* バリデーション後のフォームのデータは[cleaned_data](https://docs.djangoproject.com/ja/stable/ref/forms/api/#django.forms.Form.cleaned_data )  
 
 * デフォルトのエラーメッセージは[error_messages](https://docs.djangoproject.com/en/stable/ref/forms/fields/#django.forms.Field.error_messages)に定義する
 
-* フィールドに指定する変数一覧 [*](https://docs.djangoproject.com/en/stable/ref/forms/fields/#core-field-arguments)
+* フィールドに指定する変数一覧 [\*](https://docs.djangoproject.com/en/stable/ref/forms/fields/#core-field-arguments)
 
 * テンプレートでform.foo.valueで値を表示することができる
 
-* コントロールの属性の指定方法 [*](https://docs.djangoproject.com/en/stable/ref/forms/widgets/#django.forms.Widget.attrs)
+* コントロールの属性の指定方法 [\*](https://docs.djangoproject.com/en/stable/ref/forms/widgets/#django.forms.Widget.attrs)
 
 * wigetの一覧 [*](https://docs.djangoproject.com/en/stable/ref/forms/widgets/)
 
