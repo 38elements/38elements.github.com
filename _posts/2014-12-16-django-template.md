@@ -7,9 +7,7 @@ title: DjangoのTemplateメモ
 
 *  render() [\*](https://docs.djangoproject.com/en/stable/topics/http/shortcuts/#render)  
 
-[extends](https://docs.djangoproject.com/en/stable/ref/templates/builtins/#extends)   
-[block](https://docs.djangoproject.com/en/stable/ref/templates/builtins/#block)   
-<br>
+* [extends](https://docs.djangoproject.com/en/stable/ref/templates/builtins/#extends)と[block](https://docs.djangoproject.com/en/stable/ref/templates/builtins/#block)の使い方 [\*](https://docs.djangoproject.com/en/stable/ref/templates/language/#template-inheritance)
 
 * settings.pyの[TEMPLATES](https://docs.djangoproject.com/en/stable/ref/settings/#std:setting-TEMPLATES)の設定    
 [DIRS](https://docs.djangoproject.com/en/stable/ref/settings/#dirs)にテンプレートのディレクトリを格納する(templatesディレクトリの場所)     
