@@ -50,10 +50,8 @@ self.fields = copy.deepcopy(self.base_fields)
 ```
 
 Formのerror_messagesを属性を使って動的に生成 [\*](/2016/07/03/django-form-error_messages-format-field-label-attributes.html)  
-<br>
 
-<hr>
-<br>
+### Form Class
 
 * form.non_field_errorsはfieldに紐づいていないclean()とかのValidationErrorを返す [\*](https://docs.djangoproject.com/en/stable/ref/forms/api/#django.forms.Form.non_field_errors)
 
