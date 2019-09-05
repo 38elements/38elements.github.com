@@ -101,7 +101,7 @@ class Foo(ModelForm):
 
 * RegexField パターンにマッチした入力のみ有効な入力とする [\*](https://docs.djangoproject.com/en/stable/ref/forms/fields/#regexfield)  
 [regex](https://docs.djangoproject.com/en/stable/ref/forms/fields/#django.forms.RegexField.regex)にマッチした場合、有効な入力である  
-<br>
-<br/>
+
 <hr/>
+
 [Djangoメモ](/2014/12/04/django.html)
