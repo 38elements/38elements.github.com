@@ -143,7 +143,7 @@ export default withRouter(connect(mapStateToProps, mapDispatchToProps, mergeProp
 
 ## Redux Thunk
 
-非同期処理は[Redux Thunk](https://github.com/gaearon/redux-thunk)を使用する。  
+非同期処理は[Redux Thunk](https://japanese-document.github.io/redux-thunk/)を使用する。  
 thunkをmiddlewareの先頭に置く。  
 actionCreatorsはdispatch, getStateを引数にとる関数を返す
 
