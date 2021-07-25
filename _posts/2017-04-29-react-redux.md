@@ -26,7 +26,7 @@ title: React Reduxメモ
 
 ### bindActionCreators(actionCreators, dispatch)
 
-actionCreatorをdispatchでラップする [\*](https://redux.js.org/api/bindactioncreators)  
+actionCreatorをdispatchでラップする [\*](https://japanese-document.github.io/redux/bindActionCreators.html)  
 mapDispatchToProps()内で使用する。  
 actionCreatorsはFunctionかObjectをしているする。  
 Objectの場合は以下の形式にする  
@@ -71,7 +71,7 @@ stateにデフォルトの値を設定する。
 
 stateがundefinedの場合、combineReducersに登録されている各reducerが呼ばれる  
 だから、最初にinitalStateがundefinedの場合、combineReducersに登録されている各reducerが呼ばれる  
-[createStore(reducer, preloadedState, enhancer)](https://redux.js.org/api/createstore)のreducerには[combineReducers(reducers)](http://redux.js.org/docs/api/combineReducers.html)の戻り値が渡されることが多い。  
+[createStore(reducer, preloadedState, enhancer)](https://redux.js.org/api/createstore)のreducerには[combineReducers(reducers)](https://japanese-document.github.io/redux/combinereducers.html)の戻り値が渡されることが多い。  
 
 ```
 const store = Redux.createStore(
