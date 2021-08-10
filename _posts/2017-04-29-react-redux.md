@@ -101,21 +101,21 @@ C後->B後->A後で一つ前のmiddlewareの戻り値をdispatch(action)の戻�
 
 ## react-redux
 
-### connect(mapStateToProps, mapDispatchToProps, mergeProps, options) [\*](https://github.com/reduxjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options)
+### connect(mapStateToProps, mapDispatchToProps, mergeProps, options) [\*](https://japanese-document.github.io/react-redux/connect.html)
 
 `connect(mapStateToProps, mapDispatchToProps, mergeProps, options)(Component)`でstoreとcomponentが接続される
 
-#### mapStateToProps(state, [ownProps])
+#### mapStateToProps(state, [ownProps])[\*](https://japanese-document.github.io/react-redux/connect.html#mapstatetoprops-state-ownprops--object)  
 
 storeのstateをstoreに接続しているcomponentに渡されたpropsにマージするstateを返す。  
 storeのstateを使用しない場合はnullまたはundefinedを指定する。  
 storeのstateからpropsにマージするデータを抽出する処理をselectorと言う。
 
-#### mapDispatchToProps(dispatch, [ownProps])
+#### mapDispatchToProps(dispatch, [ownProps])[\*](https://japanese-document.github.io/react-redux/connect.html#mapdispatchtoprops-object--dispatch-ownprops--object)  
 
 dispatchを実行する関数を接続しているcomponentとして渡す。  
 
-[bindActionCreators](https://redux.js.org/api/bindactioncreators)を使用した例   
+[bindActionCreators](https://japanese-document.github.io/redux/bindActionCreators.html)を使用した例   
 
 ```
 function mapDispatchToProps(dispatch) {
@@ -125,12 +125,12 @@ function mapDispatchToProps(dispatch) {
 }
 ```
 
-* mergeProps(stateProps, dispatchProps, ownProps)  
+* mergeProps(stateProps, dispatchProps, ownProps)[\*](https://japanese-document.github.io/react-redux/connect.html#mapdispatchtoprops-object--dispatch-ownprops--object)  
 mapStateToProps()の戻り値とmapDispatchToProps()の戻り値と接続しているcomponentに渡されたpropsを引数に取る。  
 そして、それらを処理してcomponentに渡すpropsを生成する。  
 指定しなかった場合、`Object.assign({}, ownProps, stateProps, dispatchProps)`を実行する関数になる。
 
-* options
+* options[\*](https://japanese-document.github.io/react-redux/connect.html#options-object)
 
 routerと一緒に使うときは[withRouter](https://reacttraining.com/react-router/web/api/withRouter)でラップする
 
