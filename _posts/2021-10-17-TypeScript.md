@@ -8,3 +8,5 @@ title: TypeScriptメモ
 ```ts
 type Item = Items[number]
 ```
+
+* [Parameter Properties](https://www.typescriptlang.org/docs/handbook/2/classes.html#parameter-properties)
