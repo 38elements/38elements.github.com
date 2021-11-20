@@ -4,7 +4,9 @@ title: VSCode Extension
 ---
 # VSCode Extension
 
-User Interfaceの各部位の名称 [\*](https://code.visualstudio.com/docs/getstarted/userinterface)
+## User Interface
+
+* 各部位の名称 [\*](https://code.visualstudio.com/docs/getstarted/userinterface)
 
 ## Contribution
 
