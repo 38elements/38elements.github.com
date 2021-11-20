@@ -14,4 +14,4 @@ User Interfaceの各部位の名称 [\*](https://code.visualstudio.com/docs/gets
 
 * `contributes.viewsContainers.activitybar`は一番左のコントロール
 
-* 
+* `contributes.views.explorer`はExplorerのSide Bar
