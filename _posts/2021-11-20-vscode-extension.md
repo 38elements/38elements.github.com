@@ -15,3 +15,14 @@ title: VSCode Extension
 * `contributes.viewsContainers.activitybar`は一番左のコントロール
 
 * `contributes.views.explorer`はExplorerのSide Bar
+
+## Utils
+
+### EventEmitterの使い方
+
+```ts
+const onDidChangeFoo = new vscode.EventEmitter<Foo>()
+const onDidChangeFooEvent = onDidChangeFoo.event
+onDidChangeFooEvent(listener)
+onDidChangeFoo.fire(data)
+```
