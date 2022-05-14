@@ -13,6 +13,8 @@ type Item = Items[number]
 
 * [Function Overloads](https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads)
 
+* [Indexed Access Types](https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html)
+
 * `ReadonlyArray`と`as const` [\*](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-func.html#readonly-and-const)
 
 ```
